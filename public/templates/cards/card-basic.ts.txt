@@ -189,7 +189,7 @@ async function main() {
 		family: "Proxima Nova",
 		style: "Semibold"
 	}
-		text_2_2722.characters = "Seeking the perfect gift?"
+		text_2_2722.characters = "Seeking the perfect gifts?"
 	text_2_2722.fontSize = 48
 	text_2_2722.listSpacing = 0
 	text_2_2722.lineHeight = {"unit":"PERCENT","value":100}
