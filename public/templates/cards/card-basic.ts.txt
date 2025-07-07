@@ -23,7 +23,7 @@ async function ensureImageInCache(imageUrl) {
 async function main() {
   console.log('=== INICIANDO DEBUG VISUAL ===');
   
-  const imageUrl = "https://adjust-form-88601821.figma.site/_assets/v10/2c442eba75b7af048dddded262ee21170f446307.png";
+  const imageUrl = "https://raw.githubusercontent.com/gustavocabraltv/templates-imgs/main/imagem.png";
   const imageHash = await ensureImageInCache(imageUrl);
   
   if (imageHash) {
