@@ -22,35 +22,24 @@ async function main() {
 	await loadFonts()
 
 	// Create FRAME
-	var frame_2_2577 = figma.createFrame()
-	figma.currentPage.appendChild(frame_2_2577)
-	frame_2_2577.resize(1440.0000000000, 688.0000000000)
-	frame_2_2577.counterAxisSizingMode = "AUTO"
-	frame_2_2577.name = "Banner"
-	frame_2_2577.relativeTransform = [[1,0,8864],[0,1,1183]]
-	frame_2_2577.x = 8864
-	frame_2_2577.y = 1183
-	frame_2_2577.layoutAlign = "STRETCH"
-	frame_2_2577.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.9529411792755127,"g":0.9529411792755127,"b":0.9647058844566345},"boundVariables":{}}]
-	frame_2_2577.paddingLeft = 111
-	frame_2_2577.paddingRight = 111
-	frame_2_2577.paddingTop = 48
-	frame_2_2577.paddingBottom = 64
-	frame_2_2577.primaryAxisAlignItems = "CENTER"
-	frame_2_2577.counterAxisAlignItems = "CENTER"
-	frame_2_2577.primaryAxisSizingMode = "FIXED"
-	frame_2_2577.strokeTopWeight = 1
-	frame_2_2577.strokeBottomWeight = 1
-	frame_2_2577.strokeLeftWeight = 1
-	frame_2_2577.strokeRightWeight = 1
-	frame_2_2577.layoutMode = "HORIZONTAL"
-	frame_2_2577.counterAxisSizingMode = "AUTO"
-	frame_2_2577.itemSpacing = 29
+	var frame_2_2659 = figma.createFrame()
+	figma.currentPage.appendChild(frame_2_2659)
+	frame_2_2659.resize(1440.0000000000, 743.0000000000)
+	frame_2_2659.primaryAxisSizingMode = "AUTO"
+	frame_2_2659.name = "ss"
+	frame_2_2659.relativeTransform = [[1,0,9510],[0,1,2104]]
+	frame_2_2659.x = 9510
+	frame_2_2659.y = 2104
+	frame_2_2659.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.9529411792755127,"g":0.9529411792755127,"b":0.9647058844566345},"boundVariables":{}}]
+	frame_2_2659.strokeTopWeight = 1
+	frame_2_2659.strokeBottomWeight = 1
+	frame_2_2659.strokeLeftWeight = 1
+	frame_2_2659.strokeRightWeight = 1
 	
 
 	// Create FRAME
 	var frame_2_2578 = figma.createFrame()
-	frame_2_2577.appendChild(frame_2_2578)
+	frame_2_2659.appendChild(frame_2_2578)
 	frame_2_2578.resize(595.0000000000, 573.0000000000)
 	frame_2_2578.primaryAxisSizingMode = "AUTO"
 	frame_2_2578.name = "test"
@@ -872,7 +861,7 @@ async function main() {
 
 	// Create FRAME
 	var frame_2_2624 = figma.createFrame()
-	frame_2_2577.appendChild(frame_2_2624)
+	frame_2_2659.appendChild(frame_2_2624)
 	frame_2_2624.resize(594.0000000000, 576.0000000000)
 	frame_2_2624.name = "gift"
 	frame_2_2624.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
@@ -882,7 +871,6 @@ async function main() {
 	frame_2_2624.strokeBottomWeight = 1
 	frame_2_2624.strokeLeftWeight = 1
 	frame_2_2624.strokeRightWeight = 1
-	frame_2_2624.expanded = false
 	
 
 	// Create RECTANGLE
@@ -943,7 +931,6 @@ async function main() {
 	frame_2_2629.strokeLeftWeight = 1
 	frame_2_2629.strokeRightWeight = 1
 	frame_2_2629.clipsContent = false
-	frame_2_2629.expanded = false
 	frame_2_2629.layoutMode = "VERTICAL"
 	frame_2_2629.itemSpacing = 17
 	
@@ -961,7 +948,6 @@ async function main() {
 	frame_2_2630.strokeLeftWeight = 1
 	frame_2_2630.strokeRightWeight = 1
 	frame_2_2630.clipsContent = false
-	frame_2_2630.expanded = false
 	frame_2_2630.layoutMode = "VERTICAL"
 	frame_2_2630.itemSpacing = 51
 	
@@ -978,7 +964,6 @@ async function main() {
 	frame_2_2631.strokeLeftWeight = 1
 	frame_2_2631.strokeRightWeight = 1
 	frame_2_2631.clipsContent = false
-	frame_2_2631.expanded = false
 	frame_2_2631.layoutMode = "VERTICAL"
 	frame_2_2631.itemSpacing = 20
 	
@@ -1412,14 +1397,32 @@ async function main() {
 	group_2_2628.layoutPositioning = "AUTO"
 	group_2_2628.exportSettings = []
 	group_2_2628.reactions = []
-	group_2_2628.expanded = false
+	group_2_2628.expanded = true
+	
+
+	// Create GROUP
+	var group_2_2660 = figma.group([frame_2_2578, frame_2_2624], frame_2_2659)
+	group_2_2660.name = "Group 1000003001"
+	group_2_2660.visible = true
+	group_2_2660.locked = false
+	group_2_2660.opacity = 1
+	group_2_2660.blendMode = "PASS_THROUGH"
+	group_2_2660.isMask = false
+	group_2_2660.effects = []
+	group_2_2660.layoutAlign = "INHERIT"
+	group_2_2660.constrainProportions = false
+	group_2_2660.layoutGrow = 0
+	group_2_2660.layoutPositioning = "AUTO"
+	group_2_2660.exportSettings = []
+	group_2_2660.reactions = []
+	group_2_2660.expanded = true
 	
 
 	// 🎯 CENTRALIZAR FRAME PRINCIPAL NA VIEWPORT
 	const viewportCenter = figma.viewport.center;
-	frame_2_2577.x = viewportCenter.x - frame_2_2577.width / 2;
-	frame_2_2577.y = viewportCenter.y - frame_2_2577.height / 2;
-	figma.viewport.scrollAndZoomIntoView([frame_2_2577]);
+	frame_2_2659.x = viewportCenter.x - frame_2_2659.width / 2;
+	frame_2_2659.y = viewportCenter.y - frame_2_2659.height / 2;
+	figma.viewport.scrollAndZoomIntoView([frame_2_2659]);
 	figma.notify("✅ Frame adicionado e centralizado com sucesso!");
 	
 }
