@@ -1,34 +1,45 @@
-// Função helper para garantir que a imagem está em cache
+// card-basic.ts.txt com GitHub
 async function ensureImageInCache(imageUrl) {
   try {
+    console.log('Fazendo fetch da imagem:', imageUrl);
     const response = await fetch(imageUrl);
+    console.log('Response status:', response.status);
+    
     if (response.ok) {
       const arrayBuffer = await response.arrayBuffer();
       const imageBytes = new Uint8Array(arrayBuffer);
+      console.log('Imagem baixada, tamanho:', imageBytes.length, 'bytes');
+      
       const image = figma.createImage(imageBytes);
+      console.log('Imagem criada, hash:', image.hash);
       return image.hash;
+    } else {
+      console.log('Erro na resposta:', response.statusText);
     }
   } catch (error) {
-    console.log('Falha ao cachear imagem:', error);
+    console.log('Erro ao cachear imagem:', error);
   }
   return null;
 }
 
 async function main() {
-  // URLs e hashes das suas imagens
+  // URL correta do GitHub (raw)
   const imageConfig = {
-    url: "https://adjust-form-88601821.figma.site/_assets/v10/2c442eba75b7af048dddded262ee21170f446307.png?h=2560",
+    url: "https://raw.githubusercontent.com/gustavocabraltv/templates-imgs/main/imagem.png",
     fallbackHash: "fb8941a46766160ef7dce5fcc76d4409f4f378fa"
   };
 
-  // Garantir que a imagem está em cache
+  console.log('=== Iniciando carregamento da imagem ===');
   const imageHash = await ensureImageInCache(imageConfig.url) || imageConfig.fallbackHash;
+  console.log('Hash final da imagem:', imageHash);
 
-  // Criar retângulo (seu código original, só mudando o hash)
+  // Criar retângulo
   const rectangle_3_23 = figma.createRectangle();
   figma.currentPage.appendChild(rectangle_3_23);
   rectangle_3_23.resize(2038.0000000000, 2560.0000000000);
   rectangle_3_23.name = "imagem";
+  
+  console.log('Aplicando imagem ao retângulo...');
   rectangle_3_23.fills = [{
     "type": "IMAGE",
     "visible": true,
@@ -58,6 +69,8 @@ async function main() {
   rectangle_3_23.strokeBottomWeight = 1;
   rectangle_3_23.strokeLeftWeight = 1;
   rectangle_3_23.strokeRightWeight = 1;
+  
+  console.log('=== Template finalizado ===');
 }
 
 main();
