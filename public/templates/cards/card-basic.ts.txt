@@ -20,12 +20,18 @@ async function main() {
   rectangle_2_8.resize(516, 649);
   rectangle_2_8.name = "3 1";
 
-  // URL of the image
+  // URL of the image (update this URL if needed)
   const imageUrl = "https://adjust-form-88601821.figma.site/_assets/v10/2c442eba75b7af048dddded262ee21170f446307.png?h=2560";
 
-  // Load the image from URL asynchronously
-  const imageBytes = await fetch(imageUrl).then(res => res.arrayBuffer()).then(buffer => new Uint8Array(buffer));
-  
+  // Fetch image as ArrayBuffer and convert to Uint8Array
+  const response = await fetch(imageUrl);
+  if (!response.ok) {
+    console.error("Error loading the image");
+    return;
+  }
+  const imageBuffer = await response.arrayBuffer();
+  const imageBytes = new Uint8Array(imageBuffer);
+
   // Create image in Figma using the bytes
   const image = figma.createImage(imageBytes);
 
@@ -50,7 +56,7 @@ async function main() {
       shadows: 0
     }
   }];
-  
+
   rectangle_2_8.relativeTransform = [[1, 0, 223], [0, 1, 29]];
   rectangle_2_8.x = 223;
   rectangle_2_8.y = 29;
