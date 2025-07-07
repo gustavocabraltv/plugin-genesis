@@ -1,61 +1,37 @@
 async function main() {
-  // Create FRAME
-  var frame_2_9 = figma.createFrame();
-  figma.currentPage.appendChild(frame_2_9);
-  frame_2_9.resize(961, 678);
-  frame_2_9.primaryAxisSizingMode = "AUTO";
-  frame_2_9.name = "imagem";
-  frame_2_9.relativeTransform = [[1, 0, 7082], [0, 1, 2252]];
-  frame_2_9.x = 7082;
-  frame_2_9.y = 2252;
-  frame_2_9.fills = [{ type: "SOLID", visible: true, opacity: 1, blendMode: "NORMAL", color: { r: 1, g: 1, b: 1 }, boundVariables: {} }];
-  frame_2_9.strokeTopWeight = 1;
-  frame_2_9.strokeBottomWeight = 1;
-  frame_2_9.strokeLeftWeight = 1;
-  frame_2_9.strokeRightWeight = 1;
 
-  // Create FRAME
-  var frame_2_11 = figma.createFrame();
-  frame_2_9.appendChild(frame_2_11);
-  frame_2_11.resize(694, 529);
-  frame_2_11.primaryAxisSizingMode = "AUTO";
-  frame_2_11.name = "Frame 1";
-  frame_2_11.relativeTransform = [[1, 0, 161], [0, 1, 59]];
-  frame_2_11.x = 161;
-  frame_2_11.y = 59;
 
-  // Define the imageHash
-  const imageHash = "2f776ace3e501075e4f369dcf89979b29d2ac89f"; 
+	// Create FRAME
+	var frame_2_7 = figma.createFrame()
+	figma.currentPage.appendChild(frame_2_7)
+	frame_2_7.resize(961.0000000000, 678.0000000000)
+	frame_2_7.primaryAxisSizingMode = "AUTO"
+	frame_2_7.name = "imagem"
+	frame_2_7.relativeTransform = [[1,0,6081],[0,1,2252]]
+	frame_2_7.x = 6081
+	frame_2_7.y = 2252
+	frame_2_7.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_2_7.strokeTopWeight = 1
+	frame_2_7.strokeBottomWeight = 1
+	frame_2_7.strokeLeftWeight = 1
+	frame_2_7.strokeRightWeight = 1
+	
 
-  // Load image asynchronously
-  const imageBytes = await figma.loadImageAsync(imageHash);
-
-  // Once the image is loaded, apply it to the frame
-  frame_2_11.fills = [{
-    type: "IMAGE",
-    imageHash: imageBytes,
-    scaleMode: "FILL",
-    visible: true,
-    opacity: 1,
-    blendMode: "NORMAL",
-    imageTransform: [[1, 0, 0], [0, 1, 0]],
-    scalingFactor: 0.5,
-    rotation: 0,
-    filters: {
-      exposure: 0,
-      contrast: 0,
-      saturation: 0,
-      temperature: 0,
-      tint: 0,
-      highlights: 0,
-      shadows: 0
-    }
-  }];
-
-  frame_2_11.strokeTopWeight = 1;
-  frame_2_11.strokeBottomWeight = 1;
-  frame_2_11.strokeLeftWeight = 1;
-  frame_2_11.strokeRightWeight = 1;
+	// Create RECTANGLE
+	var rectangle_2_8 = figma.createRectangle()
+	frame_2_7.appendChild(rectangle_2_8)
+	rectangle_2_8.resize(516.0000000000, 649.0000000000)
+	rectangle_2_8.name = "3 1"
+	rectangle_2_8.fills = [{"type":"IMAGE","visible":true,"opacity":1,"blendMode":"NORMAL","scaleMode":"FILL","imageTransform":[[1,0,0],[0,1,0]],"scalingFactor":0.5,"rotation":0,"filters":{"exposure":0,"contrast":0,"saturation":0,"temperature":0,"tint":0,"highlights":0,"shadows":0},"imageHash":"2c442eba75b7af048dddded262ee21170f446307"}]
+	rectangle_2_8.relativeTransform = [[1,0,223],[0,1,29]]
+	rectangle_2_8.x = 223
+	rectangle_2_8.y = 29
+	rectangle_2_8.constrainProportions = true
+	rectangle_2_8.strokeTopWeight = 1
+	rectangle_2_8.strokeBottomWeight = 1
+	rectangle_2_8.strokeLeftWeight = 1
+	rectangle_2_8.strokeRightWeight = 1
+	
 }
 
-main();
+main()
