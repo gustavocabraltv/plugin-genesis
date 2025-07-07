@@ -13,44 +13,80 @@ async function main() {
 	await loadFonts()
 
 	// Create FRAME
-	var frame_2_3 = figma.createFrame()
-	figma.currentPage.appendChild(frame_2_3)
-	frame_2_3.resize(350.0000000000, 158.0000000000)
-	frame_2_3.primaryAxisSizingMode = "AUTO"
-	frame_2_3.name = "Frame 9"
-	frame_2_3.relativeTransform = [[1,0,529],[0,1,791]]
-	frame_2_3.x = 529
-	frame_2_3.y = 791
-	frame_2_3.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_2_3.strokeTopWeight = 1
-	frame_2_3.strokeBottomWeight = 1
-	frame_2_3.strokeLeftWeight = 1
-	frame_2_3.strokeRightWeight = 1
+	var frame_2_9 = figma.createFrame()
+	figma.currentPage.appendChild(frame_2_9)
+	frame_2_9.resize(496.0000000000, 304.0000000000)
+	frame_2_9.primaryAxisSizingMode = "AUTO"
+	frame_2_9.name = "Frame 9"
+	frame_2_9.relativeTransform = [[1,0,1280],[0,1,458]]
+	frame_2_9.x = 1280
+	frame_2_9.y = 458
+	frame_2_9.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_2_9.strokeTopWeight = 1
+	frame_2_9.strokeBottomWeight = 1
+	frame_2_9.strokeLeftWeight = 1
+	frame_2_9.strokeRightWeight = 1
 	
 
 	// Create TEXT
-	var text_2_4 = figma.createText()
-	frame_2_3.appendChild(text_2_4)
-	text_2_4.resize(44.0000000000, 15.0000000000)
-	text_2_4.name = "Testizin"
-	text_2_4.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	var text_2_11 = figma.createText()
+	frame_2_9.appendChild(text_2_11)
+	text_2_11.resize(46.0000000000, 15.0000000000)
+	text_2_11.name = "Testeee"
+	text_2_11.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
 	
 	// Font properties
-	text_2_4.fontName = {
+	text_2_11.fontName = {
 		family: "Inter",
 		style: "Regular"
 	}
-		text_2_4.characters = "Testizin"
-	text_2_4.listSpacing = 0
-	text_2_4.fontName = {"family":"Inter","style":"Regular"}
-	text_2_4.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_2_11.characters = "Testeee"
+	text_2_11.listSpacing = 0
+	text_2_11.fontName = {"family":"Inter","style":"Regular"}
+	text_2_11.textAutoResize = "WIDTH_AND_HEIGHT"
+
+
+	// Create TEXT
+	var text_2_13 = figma.createText()
+	frame_2_9.appendChild(text_2_13)
+	text_2_13.resize(46.0000000000, 15.0000000000)
+	text_2_13.name = "Testeee"
+	text_2_13.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	
+	// Font properties
+	text_2_13.fontName = {
+		family: "Inter",
+		style: "Regular"
+	}
+		text_2_13.characters = "Testeee"
+	text_2_13.listSpacing = 0
+	text_2_13.fontName = {"family":"Inter","style":"Regular"}
+	text_2_13.textAutoResize = "WIDTH_AND_HEIGHT"
+
+
+	// Create TEXT
+	var text_2_14 = figma.createText()
+	frame_2_9.appendChild(text_2_14)
+	text_2_14.resize(46.0000000000, 15.0000000000)
+	text_2_14.name = "Testeee"
+	text_2_14.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	
+	// Font properties
+	text_2_14.fontName = {
+		family: "Inter",
+		style: "Regular"
+	}
+		text_2_14.characters = "Testeee"
+	text_2_14.listSpacing = 0
+	text_2_14.fontName = {"family":"Inter","style":"Regular"}
+	text_2_14.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// 🎯 CENTRALIZAR FRAME PRINCIPAL NA VIEWPORT
 	const viewportCenter = figma.viewport.center;
-	frame_2_3.x = viewportCenter.x - frame_2_3.width / 2;
-	frame_2_3.y = viewportCenter.y - frame_2_3.height / 2;
-	figma.viewport.scrollAndZoomIntoView([frame_2_3]);
+	frame_2_9.x = viewportCenter.x - frame_2_9.width / 2;
+	frame_2_9.y = viewportCenter.y - frame_2_9.height / 2;
+	figma.viewport.scrollAndZoomIntoView([frame_2_9]);
 	figma.notify("✅ Frame adicionado e centralizado com sucesso!");
 	
 }
