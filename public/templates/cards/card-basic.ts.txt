@@ -1,6 +1,6 @@
 async function main() {
   // Create FRAME
-  var frame_2_7 = figma.createFrame();
+  const frame_2_7 = figma.createFrame();
   figma.currentPage.appendChild(frame_2_7);
   frame_2_7.resize(961, 678);
   frame_2_7.primaryAxisSizingMode = "AUTO";
@@ -15,24 +15,28 @@ async function main() {
   frame_2_7.strokeRightWeight = 1;
 
   // Create RECTANGLE
-  var rectangle_2_8 = figma.createRectangle();
+  const rectangle_2_8 = figma.createRectangle();
   frame_2_7.appendChild(rectangle_2_8);
   rectangle_2_8.resize(516, 649);
   rectangle_2_8.name = "3 1";
 
-  // URL of the image (update this URL if needed)
+  // URL of the image
   const imageUrl = "https://adjust-form-88601821.figma.site/_assets/v10/2c442eba75b7af048dddded262ee21170f446307.png?h=2560";
 
-  // Fetch image as ArrayBuffer and convert to Uint8Array
+  // Fetch image from URL and load it into Figma
   const response = await fetch(imageUrl);
+  
+  // Handle potential fetch errors
   if (!response.ok) {
-    console.error("Error loading the image");
+    console.error("Error loading the image from URL:", response.status);
     return;
   }
+
+  // Convert the image to ArrayBuffer (for use with Figma's API)
   const imageBuffer = await response.arrayBuffer();
   const imageBytes = new Uint8Array(imageBuffer);
 
-  // Create image in Figma using the bytes
+  // Create the image in Figma using the image bytes
   const image = figma.createImage(imageBytes);
 
   // Apply the image to the rectangle
