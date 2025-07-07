@@ -5,7 +5,10 @@ async function main() {
 		await Promise.all([
 			figma.loadFontAsync({
 				family: "Inter",
-				style: "Medium"
+				style: "Semi Bold"
+				}),figma.loadFontAsync({
+				family: "Inter",
+				style: "Regular"
 				})
 		])
 	}
@@ -13,52 +16,322 @@ async function main() {
 	await loadFonts()
 
 	// Create FRAME
-	var frame_7_210 = figma.createFrame()
-	figma.currentPage.appendChild(frame_7_210)
-	frame_7_210.resize(102.0000000000, 35.0000000000)
-	frame_7_210.counterAxisSizingMode = "AUTO"
-	frame_7_210.name = "Frame 2"
-	frame_7_210.relativeTransform = [[1,0,4002],[0,1,-3084]]
-	frame_7_210.x = 4002
-	frame_7_210.y = -3084
-	frame_7_210.fills = []
-	frame_7_210.paddingLeft = 10
-	frame_7_210.paddingRight = 10
-	frame_7_210.paddingTop = 10
-	frame_7_210.paddingBottom = 10
-	frame_7_210.primaryAxisAlignItems = "CENTER"
-	frame_7_210.counterAxisAlignItems = "CENTER"
-	frame_7_210.primaryAxisSizingMode = "FIXED"
-	frame_7_210.strokeTopWeight = 1
-	frame_7_210.strokeBottomWeight = 1
-	frame_7_210.strokeLeftWeight = 1
-	frame_7_210.strokeRightWeight = 1
-	frame_7_210.clipsContent = false
-	frame_7_210.expanded = false
-	frame_7_210.layoutMode = "HORIZONTAL"
-	frame_7_210.counterAxisSizingMode = "AUTO"
-	frame_7_210.itemSpacing = 10
+	var frame_7_255 = figma.createFrame()
+	figma.currentPage.appendChild(frame_7_255)
+	frame_7_255.resize(320.0000000000, 118.0000000000)
+	frame_7_255.primaryAxisSizingMode = "AUTO"
+	frame_7_255.counterAxisSizingMode = "AUTO"
+	frame_7_255.name = "hover card"
+	frame_7_255.effects = [{"type":"DROP_SHADOW","visible":true,"radius":4,"boundVariables":{},"color":{"r":0.6833333373069763,"g":0.6833333373069763,"b":0.6833333373069763,"a":0.25},"offset":{"x":0,"y":4},"spread":0,"blendMode":"NORMAL","showShadowBehindNode":false}]
+	frame_7_255.relativeTransform = [[1,0,3805],[0,1,-2899]]
+	frame_7_255.x = 3805
+	frame_7_255.y = -2899
+	frame_7_255.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_7_255.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.8980392217636108,"g":0.9058823585510254,"b":0.9215686321258545},"boundVariables":{}}]
+	frame_7_255.cornerRadius = 6
+	frame_7_255.paddingLeft = 17
+	frame_7_255.paddingRight = 17
+	frame_7_255.paddingTop = 17
+	frame_7_255.paddingBottom = 17
+	frame_7_255.strokeTopWeight = 1
+	frame_7_255.strokeBottomWeight = 1
+	frame_7_255.strokeLeftWeight = 1
+	frame_7_255.strokeRightWeight = 1
+	frame_7_255.clipsContent = false
+	frame_7_255.layoutMode = "HORIZONTAL"
+	frame_7_255.counterAxisSizingMode = "AUTO"
+	frame_7_255.itemSpacing = 16
+	
+
+	// Create ELLIPSE
+	var ellipse_7_256 = figma.createEllipse()
+	frame_7_255.appendChild(ellipse_7_256)
+	ellipse_7_256.resize(40.0000000000, 40.0000000000)
+	ellipse_7_256.name = "Ellipse 1"
+	ellipse_7_256.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	ellipse_7_256.relativeTransform = [[1,0,17],[0,1,17]]
+	ellipse_7_256.x = 17
+	ellipse_7_256.y = 17
+	
+
+	// Create FRAME
+	var frame_7_257 = figma.createFrame()
+	frame_7_255.appendChild(frame_7_257)
+	frame_7_257.resize(230.0000000000, 84.0000000000)
+	frame_7_257.primaryAxisSizingMode = "AUTO"
+	frame_7_257.counterAxisSizingMode = "AUTO"
+	frame_7_257.name = "Frame 7"
+	frame_7_257.relativeTransform = [[1,0,73],[0,1,17]]
+	frame_7_257.x = 73
+	frame_7_257.y = 17
+	frame_7_257.fills = []
+	frame_7_257.strokeTopWeight = 1
+	frame_7_257.strokeBottomWeight = 1
+	frame_7_257.strokeLeftWeight = 1
+	frame_7_257.strokeRightWeight = 1
+	frame_7_257.clipsContent = false
+	frame_7_257.layoutMode = "VERTICAL"
+	frame_7_257.counterAxisSizingMode = "AUTO"
+	frame_7_257.itemSpacing = 4
 	
 
 	// Create TEXT
-	var text_7_209 = figma.createText()
-	frame_7_210.appendChild(text_7_209)
-	text_7_209.resize(54.0000000000, 15.0000000000)
-	text_7_209.name = "Cardssss"
-	text_7_209.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	text_7_209.relativeTransform = [[1,0,24],[0,1,10]]
-	text_7_209.x = 24
-	text_7_209.y = 10
+	var text_7_258 = figma.createText()
+	frame_7_257.appendChild(text_7_258)
+	text_7_258.resize(56.0000000000, 20.0000000000)
+	text_7_258.name = "@nextjs"
+	text_7_258.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
 	
 	// Font properties
-	text_7_209.fontName = {
+	text_7_258.fontName = {
 		family: "Inter",
-		style: "Medium"
+		style: "Semi Bold"
 	}
-		text_7_209.characters = "Cardssss"
-	text_7_209.listSpacing = 0
-	text_7_209.fontName = {"family":"Inter","style":"Medium"}
-	text_7_209.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_7_258.characters = "@nextjs"
+	text_7_258.fontSize = 14
+	text_7_258.listSpacing = 0
+	text_7_258.lineHeight = {"unit":"PIXELS","value":20}
+	text_7_258.fontName = {"family":"Inter","style":"Semi Bold"}
+	text_7_258.textAutoResize = "WIDTH_AND_HEIGHT"
+
+
+	// Create TEXT
+	var text_7_259 = figma.createText()
+	frame_7_257.appendChild(text_7_259)
+	text_7_259.resize(230.0000000000, 40.0000000000)
+	text_7_259.name = "The React Framework - created and maintained by @vercel"
+	text_7_259.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
+	text_7_259.relativeTransform = [[1,0,0],[0,1,24]]
+	text_7_259.y = 24
+	
+	// Font properties
+	text_7_259.fontName = {
+		family: "Inter",
+		style: "Regular"
+	}
+		text_7_259.characters = "The React Framework - created and maintained by @vercel"
+	text_7_259.fontSize = 14
+	text_7_259.listSpacing = 0
+	text_7_259.lineHeight = {"unit":"PIXELS","value":20}
+	text_7_259.fontName = {"family":"Inter","style":"Regular"}
+	text_7_259.textAutoResize = "HEIGHT"
+
+
+	// Create FRAME
+	var frame_7_260 = figma.createFrame()
+	frame_7_257.appendChild(frame_7_260)
+	frame_7_260.resize(230.0000000000, 16.0000000000)
+	frame_7_260.counterAxisSizingMode = "AUTO"
+	frame_7_260.name = "Frame 2"
+	frame_7_260.relativeTransform = [[1,0,0],[0,1,68]]
+	frame_7_260.y = 68
+	frame_7_260.fills = []
+	frame_7_260.counterAxisAlignItems = "CENTER"
+	frame_7_260.primaryAxisSizingMode = "FIXED"
+	frame_7_260.strokeTopWeight = 1
+	frame_7_260.strokeBottomWeight = 1
+	frame_7_260.strokeLeftWeight = 1
+	frame_7_260.strokeRightWeight = 1
+	frame_7_260.clipsContent = false
+	frame_7_260.layoutMode = "HORIZONTAL"
+	frame_7_260.counterAxisSizingMode = "AUTO"
+	frame_7_260.itemSpacing = 4
+	
+
+	// Create FRAME
+	var frame_7_261 = figma.createFrame()
+	frame_7_260.appendChild(frame_7_261)
+	frame_7_261.resize(16.0000000000, 16.0000000000)
+	frame_7_261.primaryAxisSizingMode = "AUTO"
+	frame_7_261.name = "calendar"
+	frame_7_261.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_7_261.strokeWeight = 0.6666666269302368
+	frame_7_261.strokeTopWeight = 0.6666666269302368
+	frame_7_261.strokeBottomWeight = 0.6666666269302368
+	frame_7_261.strokeLeftWeight = 0.6666666269302368
+	frame_7_261.strokeRightWeight = 0.6666666269302368
+	frame_7_261.expanded = false
+	
+
+	// Create VECTOR
+	var vector_7_262 = figma.createVector()
+	frame_7_261.appendChild(vector_7_262)
+	vector_7_262.resize(12.0000000000, 12.0000000000)
+	vector_7_262.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.3921568691730499,"g":0.45490196347236633,"b":0.545098066329956},"boundVariables":{}}]
+	vector_7_262.strokeWeight = 1.3333332538604736
+	vector_7_262.strokeJoin = "ROUND"
+	vector_7_262.strokeCap = "ROUND"
+	vector_7_262.relativeTransform = [[1,0,2.0000107288],[0,1,2.6667766571]]
+	vector_7_262.x = 2.0000107288360596
+	vector_7_262.y = 2.666776657104492
+	vector_7_262.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_7_262.vectorNetwork = {"vertices":[{"x":1.3333333333333333,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":10.666666666666666,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":12,"y":1.3333333333333333,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":12,"y":10.666666666666666,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":10.666666666666666,"y":12,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.3333333333333333,"y":12,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":10.666666666666666,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":1.3333333333333333,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":0.7363797028859456,"y":0},"tangentEnd":{"x":0,"y":-0.7363797028859456}},{"start":2,"end":3,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":3,"end":4,"tangentStart":{"x":0,"y":0.7363797028859456},"tangentEnd":{"x":0.7363797028859456,"y":0}},{"start":4,"end":5,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":5,"end":6,"tangentStart":{"x":-0.7363797028859456,"y":0},"tangentEnd":{"x":0,"y":0.7363797028859456}},{"start":6,"end":7,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":7,"end":0,"tangentStart":{"x":0,"y":-0.7363797028859456},"tangentEnd":{"x":-0.7363797028859456,"y":0}}],"regions":[]}
+	vector_7_262.vectorPaths = [{"windingRule":"NONE","data":"M 1.3333333333333333 0 L 10.666666666666666 0 C 11.403046369552612 0 12 0.5969536304473877 12 1.3333333333333333 L 12 10.666666666666666 C 12 11.403046369552612 11.403046369552612 12 10.666666666666666 12 L 1.3333333333333333 12 C 0.5969536304473877 12 0 11.403046369552612 0 10.666666666666666 L 0 1.3333333333333333 C 0 0.5969536304473877 0.5969536304473877 0 1.3333333333333333 0 Z"}]
+	
+
+	// Create VECTOR
+	var vector_7_263 = figma.createVector()
+	frame_7_261.appendChild(vector_7_263)
+	vector_7_263.resize(0.0000000000, 2.6666660309)
+	vector_7_263.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.3921568691730499,"g":0.45490196347236633,"b":0.545098066329956},"boundVariables":{}}]
+	vector_7_263.strokeWeight = 1.3333332538604736
+	vector_7_263.strokeJoin = "ROUND"
+	vector_7_263.strokeCap = "ROUND"
+	vector_7_263.relativeTransform = [[1,0,10.6666584015],[0,1,1.3332519531]]
+	vector_7_263.x = 10.666658401489258
+	vector_7_263.y = 1.333251953125
+	vector_7_263.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_7_263.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":2.666666030883789,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[]}
+	vector_7_263.vectorPaths = [{"windingRule":"NONE","data":"M 0 0 L 0 2.666666030883789"}]
+	
+
+	// Create VECTOR
+	var vector_7_264 = figma.createVector()
+	frame_7_261.appendChild(vector_7_264)
+	vector_7_264.resize(0.0000000000, 2.6666660309)
+	vector_7_264.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.3921568691730499,"g":0.45490196347236633,"b":0.545098066329956},"boundVariables":{}}]
+	vector_7_264.strokeWeight = 1.3333332538604736
+	vector_7_264.strokeJoin = "ROUND"
+	vector_7_264.strokeCap = "ROUND"
+	vector_7_264.relativeTransform = [[1,0,5.3333058357],[0,1,1.3332519531]]
+	vector_7_264.x = 5.333305835723877
+	vector_7_264.y = 1.333251953125
+	vector_7_264.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_7_264.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":2.666666030883789,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[]}
+	vector_7_264.vectorPaths = [{"windingRule":"NONE","data":"M 0 0 L 0 2.666666030883789"}]
+	
+
+	// Create VECTOR
+	var vector_7_265 = figma.createVector()
+	frame_7_261.appendChild(vector_7_265)
+	vector_7_265.resizeWithoutConstraints(12.0000000000, 0.0000000000)
+	vector_7_265.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.3921568691730499,"g":0.45490196347236633,"b":0.545098066329956},"boundVariables":{}}]
+	vector_7_265.strokeWeight = 1.3333332538604736
+	vector_7_265.strokeJoin = "ROUND"
+	vector_7_265.strokeCap = "ROUND"
+	vector_7_265.relativeTransform = [[1,0,2.0000107288],[0,1,6.6667766571]]
+	vector_7_265.x = 2.0000107288360596
+	vector_7_265.y = 6.666776657104492
+	vector_7_265.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_7_265.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":12,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[]}
+	vector_7_265.vectorPaths = [{"windingRule":"NONE","data":"M 0 0 L 12 0"}]
+	
+
+	// Create VECTOR
+	var vector_7_266 = figma.createVector()
+	frame_7_261.appendChild(vector_7_266)
+	vector_7_266.resizeWithoutConstraints(0.0100002289, 0.0000000000)
+	vector_7_266.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.3921568691730499,"g":0.45490196347236633,"b":0.545098066329956},"boundVariables":{}}]
+	vector_7_266.strokeWeight = 1.3333332538604736
+	vector_7_266.strokeJoin = "ROUND"
+	vector_7_266.strokeCap = "ROUND"
+	vector_7_266.relativeTransform = [[1,0,5.3333058357],[0,1,9.3332519531]]
+	vector_7_266.x = 5.333305835723877
+	vector_7_266.y = 9.333251953125
+	vector_7_266.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_7_266.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.010000228881835937,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0]],"fillStyleId":"","fills":[]}]}
+	vector_7_266.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 0.010000228881835938 0"}]
+	
+
+	// Create VECTOR
+	var vector_7_267 = figma.createVector()
+	frame_7_261.appendChild(vector_7_267)
+	vector_7_267.resizeWithoutConstraints(0.0100002289, 0.0000000000)
+	vector_7_267.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.3921568691730499,"g":0.45490196347236633,"b":0.545098066329956},"boundVariables":{}}]
+	vector_7_267.strokeWeight = 1.3333332538604736
+	vector_7_267.strokeJoin = "ROUND"
+	vector_7_267.strokeCap = "ROUND"
+	vector_7_267.relativeTransform = [[1,0,8.0000104904],[0,1,9.3332519531]]
+	vector_7_267.x = 8.00001049041748
+	vector_7_267.y = 9.333251953125
+	vector_7_267.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_7_267.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.010000228881835937,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0]],"fillStyleId":"","fills":[]}]}
+	vector_7_267.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 0.010000228881835938 0"}]
+	
+
+	// Create VECTOR
+	var vector_7_268 = figma.createVector()
+	frame_7_261.appendChild(vector_7_268)
+	vector_7_268.resizeWithoutConstraints(0.0100002289, 0.0000000000)
+	vector_7_268.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.3921568691730499,"g":0.45490196347236633,"b":0.545098066329956},"boundVariables":{}}]
+	vector_7_268.strokeWeight = 1.3333332538604736
+	vector_7_268.strokeJoin = "ROUND"
+	vector_7_268.strokeCap = "ROUND"
+	vector_7_268.relativeTransform = [[1,0,10.6666584015],[0,1,9.3332519531]]
+	vector_7_268.x = 10.666658401489258
+	vector_7_268.y = 9.333251953125
+	vector_7_268.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_7_268.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.010000228881835937,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0]],"fillStyleId":"","fills":[]}]}
+	vector_7_268.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 0.010000228881835938 0"}]
+	
+
+	// Create VECTOR
+	var vector_7_269 = figma.createVector()
+	frame_7_261.appendChild(vector_7_269)
+	vector_7_269.resizeWithoutConstraints(0.0100002289, 0.0000000000)
+	vector_7_269.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.3921568691730499,"g":0.45490196347236633,"b":0.545098066329956},"boundVariables":{}}]
+	vector_7_269.strokeWeight = 1.3333332538604736
+	vector_7_269.strokeJoin = "ROUND"
+	vector_7_269.strokeCap = "ROUND"
+	vector_7_269.relativeTransform = [[1,0,5.3333058357],[0,1,11.9999570847]]
+	vector_7_269.x = 5.333305835723877
+	vector_7_269.y = 11.999957084655762
+	vector_7_269.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_7_269.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.010000228881835937,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0]],"fillStyleId":"","fills":[]}]}
+	vector_7_269.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 0.010000228881835938 0"}]
+	
+
+	// Create VECTOR
+	var vector_7_270 = figma.createVector()
+	frame_7_261.appendChild(vector_7_270)
+	vector_7_270.resizeWithoutConstraints(0.0100002289, 0.0000000000)
+	vector_7_270.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.3921568691730499,"g":0.45490196347236633,"b":0.545098066329956},"boundVariables":{}}]
+	vector_7_270.strokeWeight = 1.3333332538604736
+	vector_7_270.strokeJoin = "ROUND"
+	vector_7_270.strokeCap = "ROUND"
+	vector_7_270.relativeTransform = [[1,0,8.0000104904],[0,1,11.9999570847]]
+	vector_7_270.x = 8.00001049041748
+	vector_7_270.y = 11.999957084655762
+	vector_7_270.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_7_270.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.010000228881835937,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0]],"fillStyleId":"","fills":[]}]}
+	vector_7_270.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 0.010000228881835938 0"}]
+	
+
+	// Create VECTOR
+	var vector_7_271 = figma.createVector()
+	frame_7_261.appendChild(vector_7_271)
+	vector_7_271.resizeWithoutConstraints(0.0100002289, 0.0000000000)
+	vector_7_271.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.3921568691730499,"g":0.45490196347236633,"b":0.545098066329956},"boundVariables":{}}]
+	vector_7_271.strokeWeight = 1.3333332538604736
+	vector_7_271.strokeJoin = "ROUND"
+	vector_7_271.strokeCap = "ROUND"
+	vector_7_271.relativeTransform = [[1,0,10.6666584015],[0,1,11.9999570847]]
+	vector_7_271.x = 10.666658401489258
+	vector_7_271.y = 11.999957084655762
+	vector_7_271.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_7_271.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.010000228881835937,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0]],"fillStyleId":"","fills":[]}]}
+	vector_7_271.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 0.010000228881835938 0"}]
+	
+
+	// Create TEXT
+	var text_7_272 = figma.createText()
+	frame_7_260.appendChild(text_7_272)
+	text_7_272.resize(223.0000000000, 16.0000000000)
+	text_7_272.name = "Joined December 2021"
+	text_7_272.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.3921568691730499,"g":0.45490196347236633,"b":0.545098066329956},"boundVariables":{}}]
+	text_7_272.relativeTransform = [[1,0,20],[0,1,0]]
+	text_7_272.x = 20
+	
+	// Font properties
+	text_7_272.fontName = {
+		family: "Inter",
+		style: "Regular"
+	}
+		text_7_272.characters = "Joined December 2021"
+	text_7_272.listSpacing = 0
+	text_7_272.lineHeight = {"unit":"PIXELS","value":16}
+	text_7_272.fontName = {"family":"Inter","style":"Regular"}
+	text_7_272.textAutoResize = "HEIGHT"
 }
 
 main()
