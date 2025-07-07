@@ -62,8 +62,17 @@ async function main() {
 	frame_2_527.counterAxisSizingMode = "AUTO"
 	frame_2_527.name = "Inout"
 	frame_2_527.relativeTransform = [[1,0,3691],[0,1,-2795]]
-	frame_2_527.x = 3691
-	frame_2_527.y = -2795
+
+	//frame_2_527.x = 3691
+	//frame_2_527.y = -2795
+
+
+	const viewportCenter = figma.viewport.center;
+	frame_2_527.x = viewportCenter.x - frame_2_527.width / 2;
+	frame_2_527.y = viewportCenter.y - frame_2_527.height / 2;
+	figma.viewport.scrollAndZoomIntoView([frame_2_527]);
+	figma.notify("Elemento criado e centralizado!");
+
 	frame_2_527.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
 	frame_2_527.paddingLeft = 32
 	frame_2_527.paddingRight = 32
