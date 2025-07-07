@@ -1,82 +1,63 @@
-async function main() {
-  // URL da imagem que gera o hash específico
-  const imageUrl = "https://adjust-form-88601821.figma.site/_assets/v10/2c442eba75b7af048dddded262ee21170f446307.png?h=2560";
-  const expectedHash = "fb8941a46766160ef7dce5fcc76d4409f4f378fa";
-
+// Função helper para garantir que a imagem está em cache
+async function ensureImageInCache(imageUrl) {
   try {
-    // 1. Primeiro, tentar usar o hash direto (se estiver em cache)
-    let imageHash = expectedHash;
-    
-    // 2. Se não funcionar, fazer download para garantir que está em cache
-    try {
-      // Fazer download silencioso da imagem
-      const response = await fetch(imageUrl);
-      if (response.ok) {
-        const arrayBuffer = await response.arrayBuffer();
-        const imageBytes = new Uint8Array(arrayBuffer);
-        
-        // Criar a imagem no Figma (isso vai cachear automaticamente)
-        const image = figma.createImage(imageBytes);
-        imageHash = image.hash; // Usar o hash real
-        
-        console.log('Imagem baixada e cacheada. Hash:', imageHash);
-      }
-    } catch (downloadError) {
-      console.log('Falha no download, usando hash esperado:', expectedHash);
-      // Continua com o hash esperado mesmo se o download falhar
+    const response = await fetch(imageUrl);
+    if (response.ok) {
+      const arrayBuffer = await response.arrayBuffer();
+      const imageBytes = new Uint8Array(arrayBuffer);
+      const image = figma.createImage(imageBytes);
+      return image.hash;
     }
-
-    // 3. Criar o retângulo com a imagem
-    const rectangle_3_23 = figma.createRectangle();
-    figma.currentPage.appendChild(rectangle_3_23);
-    rectangle_3_23.resize(2038.0000000000, 2560.0000000000);
-    rectangle_3_23.name = "imagem";
-    
-    rectangle_3_23.fills = [{
-      "type": "IMAGE",
-      "visible": true,
-      "opacity": 1,
-      "blendMode": "NORMAL",
-      "scaleMode": "FILL",
-      "imageTransform": [[1,0,0],[0,1,0]],
-      "scalingFactor": 0.5,
-      "rotation": 0,
-      "filters": {
-        "exposure": 0,
-        "contrast": 0,
-        "saturation": 0,
-        "temperature": 0,
-        "tint": 0,
-        "highlights": 0,
-        "shadows": 0
-      },
-      "imageHash": imageHash // Usar o hash (cacheado ou esperado)
-    }];
-    
-    rectangle_3_23.relativeTransform = [[1,0,-1355],[0,1,-3879]];
-    rectangle_3_23.x = -1355;
-    rectangle_3_23.y = -3879;
-    rectangle_3_23.constrainProportions = true;
-    rectangle_3_23.strokeTopWeight = 1;
-    rectangle_3_23.strokeBottomWeight = 1;
-    rectangle_3_23.strokeLeftWeight = 1;
-    rectangle_3_23.strokeRightWeight = 1;
-    
-    console.log('Retângulo criado com sucesso!');
-    
   } catch (error) {
-    console.error("Erro ao processar imagem:", error);
-    
-    // Fallback: criar retângulo sem imagem
-    const rectangle_3_23 = figma.createRectangle();
-    figma.currentPage.appendChild(rectangle_3_23);
-    rectangle_3_23.resize(2038.0000000000, 2560.0000000000);
-    rectangle_3_23.name = "imagem (sem imagem)";
-    rectangle_3_23.fills = [{
-      "type": "SOLID",
-      "color": { r: 0.9, g: 0.9, b: 0.9 }
-    }];
+    console.log('Falha ao cachear imagem:', error);
   }
+  return null;
+}
+
+async function main() {
+  // URLs e hashes das suas imagens
+  const imageConfig = {
+    url: "https://adjust-form-88601821.figma.site/_assets/v10/2c442eba75b7af048dddded262ee21170f446307.png?h=2560",
+    fallbackHash: "fb8941a46766160ef7dce5fcc76d4409f4f378fa"
+  };
+
+  // Garantir que a imagem está em cache
+  const imageHash = await ensureImageInCache(imageConfig.url) || imageConfig.fallbackHash;
+
+  // Criar retângulo (seu código original, só mudando o hash)
+  const rectangle_3_23 = figma.createRectangle();
+  figma.currentPage.appendChild(rectangle_3_23);
+  rectangle_3_23.resize(2038.0000000000, 2560.0000000000);
+  rectangle_3_23.name = "imagem";
+  rectangle_3_23.fills = [{
+    "type": "IMAGE",
+    "visible": true,
+    "opacity": 1,
+    "blendMode": "NORMAL",
+    "scaleMode": "FILL",
+    "imageTransform": [[1,0,0],[0,1,0]],
+    "scalingFactor": 0.5,
+    "rotation": 0,
+    "filters": {
+      "exposure": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "temperature": 0,
+      "tint": 0,
+      "highlights": 0,
+      "shadows": 0
+    },
+    "imageHash": imageHash
+  }];
+  
+  rectangle_3_23.relativeTransform = [[1,0,-1355],[0,1,-3879]];
+  rectangle_3_23.x = -1355;
+  rectangle_3_23.y = -3879;
+  rectangle_3_23.constrainProportions = true;
+  rectangle_3_23.strokeTopWeight = 1;
+  rectangle_3_23.strokeBottomWeight = 1;
+  rectangle_3_23.strokeLeftWeight = 1;
+  rectangle_3_23.strokeRightWeight = 1;
 }
 
 main();
