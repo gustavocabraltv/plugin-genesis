@@ -5,13 +5,16 @@ async function main() {
 		await Promise.all([
 			figma.loadFontAsync({
 				family: "Proxima Nova",
-				style: "Semibold"
+				style: "Regular"
 				}),figma.loadFontAsync({
 				family: "Proxima Nova",
-				style: "Regular"
+				style: "Semibold"
 				}),figma.loadFontAsync({
 				family: "Inter",
 				style: "Regular"
+				}),figma.loadFontAsync({
+				family: "Proxima Nova",
+				style: "Bold"
 				})
 		])
 	}
@@ -19,231 +22,1487 @@ async function main() {
 	await loadFonts()
 
 	// Create FRAME
-	var frame_2_2075 = figma.createFrame()
-	figma.currentPage.appendChild(frame_2_2075)
-	frame_2_2075.resize(587.0000000000, 492.0000000000)
-	frame_2_2075.primaryAxisSizingMode = "AUTO"
-	frame_2_2075.name = "own"
-	frame_2_2075.relativeTransform = [[1,0,7635],[0,1,293]]
-	frame_2_2075.x = 7635
-	frame_2_2075.y = 293
-	frame_2_2075.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_2_2075.paddingLeft = 118
-	frame_2_2075.paddingRight = 118
-	frame_2_2075.paddingTop = 44
-	frame_2_2075.paddingBottom = 44
-	frame_2_2075.counterAxisAlignItems = "CENTER"
-	frame_2_2075.strokeTopWeight = 1
-	frame_2_2075.strokeBottomWeight = 1
-	frame_2_2075.strokeLeftWeight = 1
-	frame_2_2075.strokeRightWeight = 1
-	frame_2_2075.layoutMode = "VERTICAL"
-	frame_2_2075.itemSpacing = 33
+	var frame_2_3558 = figma.createFrame()
+	figma.currentPage.appendChild(frame_2_3558)
+	frame_2_3558.resize(1544.0000000000, 782.0000000000)
+	frame_2_3558.counterAxisSizingMode = "AUTO"
+	frame_2_3558.name = "Frame 1000003781"
+	frame_2_3558.relativeTransform = [[1,0,10867],[0,1,682]]
+	frame_2_3558.x = 10867
+	frame_2_3558.y = 682
+	frame_2_3558.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.9529411792755127,"g":0.9529411792755127,"b":0.9647058844566345},"boundVariables":{}}]
+	frame_2_3558.paddingLeft = 122
+	frame_2_3558.paddingRight = 122
+	frame_2_3558.paddingTop = 103
+	frame_2_3558.paddingBottom = 103
+	frame_2_3558.primaryAxisAlignItems = "CENTER"
+	frame_2_3558.counterAxisAlignItems = "CENTER"
+	frame_2_3558.primaryAxisSizingMode = "FIXED"
+	frame_2_3558.strokeTopWeight = 1
+	frame_2_3558.strokeBottomWeight = 1
+	frame_2_3558.strokeLeftWeight = 1
+	frame_2_3558.strokeRightWeight = 1
+	frame_2_3558.layoutMode = "HORIZONTAL"
+	frame_2_3558.counterAxisSizingMode = "AUTO"
+	frame_2_3558.itemSpacing = 38
 	
 
 	// Create FRAME
-	var frame_2_2078 = figma.createFrame()
-	frame_2_2075.appendChild(frame_2_2078)
-	frame_2_2078.resize(351.0000000000, 106.0000000000)
-	frame_2_2078.primaryAxisSizingMode = "AUTO"
-	frame_2_2078.name = "Frame 1000003774"
-	frame_2_2078.layoutAlign = "STRETCH"
-	frame_2_2078.fills = []
-	frame_2_2078.counterAxisAlignItems = "CENTER"
-	frame_2_2078.strokeTopWeight = 1
-	frame_2_2078.strokeBottomWeight = 1
-	frame_2_2078.strokeLeftWeight = 1
-	frame_2_2078.strokeRightWeight = 1
-	frame_2_2078.clipsContent = false
-	frame_2_2078.layoutMode = "VERTICAL"
-	frame_2_2078.itemSpacing = 22
+	var frame_2_3559 = figma.createFrame()
+	frame_2_3558.appendChild(frame_2_3559)
+	frame_2_3559.resize(650.0000000000, 576.0000000000)
+	frame_2_3559.name = "gift"
+	frame_2_3559.relativeTransform = [[1,0,130.5],[0,1,103]]
+	frame_2_3559.x = 130.5
+	frame_2_3559.y = 103
+	frame_2_3559.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	frame_2_3559.cornerRadius = 12
+	frame_2_3559.primaryAxisSizingMode = "FIXED"
+	frame_2_3559.strokeTopWeight = 1
+	frame_2_3559.strokeBottomWeight = 1
+	frame_2_3559.strokeLeftWeight = 1
+	frame_2_3559.strokeRightWeight = 1
+	frame_2_3559.expanded = false
+	
+
+	// Create RECTANGLE
+	var rectangle_2_3560 = figma.createRectangle()
+	frame_2_3559.appendChild(rectangle_2_3560)
+	rectangle_2_3560.resize(524.0000000000, 413.0000000000)
+	rectangle_2_3560.name = "image 357"
+	rectangle_2_3560.fills = [{"type":"IMAGE","visible":true,"opacity":1,"blendMode":"NORMAL","scaleMode":"CROP","imageTransform":[[0.8469462394714355,0,-1.4710455076283324e-15],[0,1,0]],"scalingFactor":0.5,"filters":{"exposure":0.2800000011920929,"contrast":0,"saturation":0,"temperature":0,"tint":0,"highlights":0,"shadows":0},"imageHash":"8cd6861800cd6ee1ae6e25fed3b78946b518d0fd"},{"type":"GRADIENT_LINEAR","visible":true,"opacity":0.6299999952316284,"blendMode":"NORMAL","gradientStops":[{"color":{"r":0,"g":0,"b":0,"a":0},"position":0,"boundVariables":{}},{"color":{"r":0,"g":0,"b":0,"a":1},"position":1,"boundVariables":{}}],"gradientTransform":[[-1.639628291130066,-0.6965921521186829,1.2932860851287842],[0.6965921521186829,-0.7302883267402649,0.5832846760749817]]}]
+	rectangle_2_3560.strokeWeight = 0.6639871001243591
+	rectangle_2_3560.relativeTransform = [[1,0,70],[0,1,0]]
+	rectangle_2_3560.x = 70
+	rectangle_2_3560.constrainProportions = true
+	rectangle_2_3560.strokeTopWeight = 0.6639871001243591
+	rectangle_2_3560.strokeBottomWeight = 0.6639871001243591
+	rectangle_2_3560.strokeLeftWeight = 0.6639871001243591
+	rectangle_2_3560.strokeRightWeight = 0.6639871001243591
+	
+
+	// Create VECTOR
+	var vector_2_3561 = figma.createVector()
+	frame_2_3559.appendChild(vector_2_3561)
+	vector_2_3561.resize(316.6667175293, 141.2067260742)
+	vector_2_3561.fills = [{"type":"GRADIENT_LINEAR","visible":true,"opacity":0.4099999964237213,"blendMode":"NORMAL","gradientStops":[{"color":{"r":0.5578192472457886,"g":0.5578192472457886,"b":0.5647059082984924,"a":0.28999999165534973},"position":0,"boundVariables":{}},{"color":{"r":0.7482362389564514,"g":0.7482362389564514,"b":0.7574737071990967,"a":0.632162868976593},"position":0.481919527053833,"boundVariables":{}},{"color":{"r":0.9529411792755127,"g":0.9529411792755127,"b":0.9647058844566345,"a":0},"position":1,"boundVariables":{}}],"gradientTransform":[[0.8469662070274353,0.041877422481775284,0.07574588060379028],[-0.041877422481775284,0.1684117615222931,0.44575434923171997]]}]
+	vector_2_3561.strokes = [{"type":"GRADIENT_LINEAR","visible":true,"opacity":1,"blendMode":"NORMAL","gradientStops":[{"color":{"r":1,"g":1,"b":1,"a":1},"position":0,"boundVariables":{}},{"color":{"r":1,"g":1,"b":1,"a":0},"position":1,"boundVariables":{}}],"gradientTransform":[[6.459065914154053,-1.8481956720352173,0.998357355594635],[1.8481957912445068,1.2843281030654907,-0.2885587811470032]]}]
+	vector_2_3561.strokeWeight = 0.7357879281044006
+	vector_2_3561.strokeAlign = "INSIDE"
+	vector_2_3561.relativeTransform = [[0.9748234749,-0.4180826545,329.2265625],[-0.2229780108,-0.9084089994,227.1843261719]]
+	vector_2_3561.x = 329.2265625
+	vector_2_3561.y = 227.184326171875
+	vector_2_3561.rotation = 12.884006352888173
+	vector_2_3561.vectorNetwork = {"vertices":[{"x":267.48345947265625,"y":141.14456176757812,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":250.34194946289062,"y":137.97817993164062,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":209.40650939941406,"y":117.97997283935547,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":178.0801544189453,"y":99.89825439453125,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":128.5387725830078,"y":81.41657257080078,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":108.475830078125,"y":81.18325805664062,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":78.46941375732422,"y":80.58331298828125,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":23.560300827026367,"y":69.25099182128906,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.7695023417472839,"y":43.8532600402832,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.2974745035171509,"y":26.338159561157227,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":20.4804630279541,"y":4.273467063903809,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":37.42837142944336,"y":0.09050736576318741,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":65.79808044433594,"y":4.690096378326416,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":89.29283905029297,"y":14.18924617767334,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":100.73223876953125,"y":19.188798904418945,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":148.42572021484375,"y":30.271141052246094,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":163.73690795898438,"y":29.187904357910156,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":219.6139678955078,"y":24.98828125,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":276.21258544921875,"y":35.52067184448242,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":309.1932678222656,"y":69.18433380126953,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":316.444091796875,"y":92.015625,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":316.3560791015625,"y":104.2645263671875,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":292.10455322265625,"y":136.16168212890625,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":286.930419921875,"y":138.32814025878906,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":257.6279602050781,"y":119.84646606445312,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":272.72796630859375,"y":115.38020324707031,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":287.1416015625,"y":96.59854888916016,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":287.2296142578125,"y":87.51602935791016,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":240.8384552001953,"y":40.186920166015625,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":217.00930786132812,"y":37.43716812133789,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":168.38307189941406,"y":41.170166015625,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":146.4898223876953,"y":42.553375244140625,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":123.15345764160156,"y":39.203678131103516,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":97.03643035888672,"y":29.10457992553711,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":82.60519409179688,"y":22.855138778686523,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":59.55040740966797,"y":16.955665588378906,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":26.37615394592285,"y":38.75371551513672,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":26.076969146728516,"y":47.18629455566406,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":40.719398498535156,"y":63.93479919433594,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":81.02127838134766,"y":71.28414154052734,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":115.16348266601562,"y":71.28414154052734,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":134.39926147460938,"y":71.68411254882812,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":173.59239196777344,"y":84.79960632324219,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":196.47119140625,"y":97.14849853515625,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":222.27142333984375,"y":110.93060302734375,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":247.33250427246094,"y":119.42984008789062,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":255.0760955810547,"y":119.9964599609375,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":-5.561306953430176,"y":-0.2833079993724823},"tangentEnd":{"x":6.036481857299805,"y":1.8664997816085815}},{"start":1,"end":2,"tangentStart":{"x":-10.893826484680176,"y":-3.349700450897217},"tangentEnd":{"x":18.690216064453125,"y":11.099007606506348}},{"start":2,"end":3,"tangentStart":{"x":-20.2037353515625,"y":-11.998927116394043},"tangentEnd":{"x":7.831587314605713,"y":4.199624538421631}},{"start":3,"end":4,"tangentStart":{"x":-22.75560188293457,"y":-12.165578842163086},"tangentEnd":{"x":14.572032928466797,"y":1.76650869846344}},{"start":4,"end":5,"tangentStart":{"x":-1.3199304342269897,"y":-0.16665177047252655},"tangentEnd":{"x":13.727276802062988,"y":0.016665177419781685}},{"start":5,"end":6,"tangentStart":{"x":-17.370285034179688,"y":-0.016665177419781685},"tangentEnd":{"x":8.13077163696289,"y":0.4832901060581207}},{"start":6,"end":7,"tangentStart":{"x":-23.95233917236328,"y":-1.4165400266647339},"tangentEnd":{"x":13.216903686523438,"y":6.266106605529785}},{"start":7,"end":8,"tangentStart":{"x":-12.864922523498535,"y":-6.099454402923584},"tangentEnd":{"x":2.287879467010498,"y":10.799034118652344}},{"start":8,"end":9,"tangentStart":{"x":-1.179137945175171,"y":-5.599499225616455},"tangentEnd":{"x":-1.5311193466186523,"y":5.649494647979736}},{"start":9,"end":10,"tangentStart":{"x":2.6222620010375977,"y":-9.699132919311523},"tangentEnd":{"x":-9.714688301086426,"y":4.4829325675964355}},{"start":10,"end":11,"tangentStart":{"x":5.508509635925293,"y":-2.549772024154663},"tangentEnd":{"x":-6.722846031188965,"y":0.4666249454021454}},{"start":11,"end":12,"tangentStart":{"x":7.409209728240967,"y":-0.5166204571723938},"tangentEnd":{"x":-10.48904800415039,"y":-3.399696111679077}},{"start":12,"end":13,"tangentStart":{"x":6.0892791748046875,"y":1.9831559658050537},"tangentEnd":{"x":-12.671332359313965,"y":-5.599499225616455}},{"start":13,"end":14,"tangentStart":{"x":5.033334732055664,"y":2.216468572616577},"tangentEnd":{"x":-1.2495341300964355,"y":-0.5332856774330139}},{"start":14,"end":15,"tangentStart":{"x":18.303035736083984,"y":7.665981292724609},"tangentEnd":{"x":-14.660027503967285,"y":0}},{"start":15,"end":16,"tangentStart":{"x":4.593358039855957,"y":0},"tangentEnd":{"x":-8.077974319458008,"y":0.8999195098876953}},{"start":16,"end":17,"tangentStart":{"x":26.680194854736328,"y":-2.9497363567352295},"tangentEnd":{"x":-15.152801513671875,"y":0.18331694602966309}},{"start":17,"end":18,"tangentStart":{"x":25.571453094482422,"y":-0.31663835048675537},"tangentEnd":{"x":-14.220050811767578,"y":-7.715976715087891}},{"start":18,"end":19,"tangentStart":{"x":13.973664283752441,"y":7.599320411682129},"tangentEnd":{"x":-7.303615093231201,"y":-14.11540412902832}},{"start":19,"end":20,"tangentStart":{"x":3.959791421890259,"y":7.64931583404541},"tangentEnd":{"x":-1.0383453369140625,"y":-8.132606506347656}},{"start":20,"end":21,"tangentStart":{"x":0.33438238501548767,"y":2.5831024646759033},"tangentEnd":{"x":0.36958053708076477,"y":-2.516441583633423}},{"start":21,"end":22,"tangentStart":{"x":-2.1470868587493896,"y":14.498703956604004},"tangentEnd":{"x":13.850470542907715,"y":-6.532749176025391}},{"start":22,"end":23,"tangentStart":{"x":-1.6015156507492065,"y":0.7499329447746277},"tangentEnd":{"x":1.2495341300964355,"y":-0.4332945942878723}},{"start":23,"end":0,"tangentStart":{"x":-6.106878280639648,"y":2.1331427097320557},"tangentEnd":{"x":6.335666179656982,"y":0.3333035409450531}},{"start":24,"end":25,"tangentStart":{"x":4.610957145690918,"y":-0.2333124727010727},"tangentEnd":{"x":-4.698952674865723,"y":2.533106803894043}},{"start":25,"end":26,"tangentStart":{"x":8.13077163696289,"y":-4.349611282348633},"tangentEnd":{"x":-1.49592125415802,"y":8.165936470031738}},{"start":26,"end":27,"tangentStart":{"x":0.36958053708076477,"y":-1.9664908647537231},"tangentEnd":{"x":0.3167833089828491,"y":2.1331427097320557}},{"start":27,"end":28,"tangentStart":{"x":-3.0798377990722656,"y":-20.498167037963867},"tangentEnd":{"x":23.19557762145996,"y":6.299436569213867}},{"start":28,"end":29,"tangentStart":{"x":-7.022030353546143,"y":-1.8998301029205322},"tangentEnd":{"x":9.485899925231934,"y":0}},{"start":29,"end":30,"tangentStart":{"x":-9.679490089416504,"y":0},"tangentEnd":{"x":31.132761001586914,"y":-3.1330533027648926}},{"start":30,"end":31,"tangentStart":{"x":-12.477743148803711,"y":1.2665534019470215},"tangentEnd":{"x":5.350118160247803,"y":0.13332141935825348}},{"start":31,"end":32,"tangentStart":{"x":-8.324361801147461,"y":-0.21664729714393616},"tangentEnd":{"x":7.602799415588379,"y":2.066481828689575}},{"start":32,"end":33,"tangentStart":{"x":-7.444407939910889,"y":-2.033151626586914},"tangentEnd":{"x":12.618535041809082,"y":5.716155529022217}},{"start":33,"end":34,"tangentStart":{"x":-7.4796061515808105,"y":-3.383030891418457},"tangentEnd":{"x":3.8189988136291504,"y":1.4998658895492554}},{"start":34,"end":35,"tangentStart":{"x":-8.62354564666748,"y":-3.399696111679077},"tangentEnd":{"x":6.054080963134766,"y":0.34996870160102844}},{"start":35,"end":36,"tangentStart":{"x":-16.314340591430664,"y":-0.9499150514602661},"tangentEnd":{"x":3.0446395874023438,"y":-13.665444374084473}},{"start":36,"end":37,"tangentStart":{"x":-0.5103731155395508,"y":2.2664639949798584},"tangentEnd":{"x":-0.3519814610481262,"y":-2.183138132095337}},{"start":37,"end":38,"tangentStart":{"x":1.1967369318008423,"y":7.299347400665283},"tangentEnd":{"x":-8.641144752502441,"y":-3.9496469497680664}},{"start":38,"end":39,"tangentStart":{"x":9.169116973876953,"y":4.199624538421631},"tangentEnd":{"x":-18.954200744628906,"y":-0.9165847301483154}},{"start":39,"end":40,"tangentStart":{"x":5.385316371917725,"y":0.26664283871650696},"tangentEnd":{"x":-12.847323417663574,"y":0.26664283871650696}},{"start":40,"end":41,"tangentStart":{"x":10.841029167175293,"y":-0.21664729714393616},"tangentEnd":{"x":-4.505362510681152,"y":-0.5499508380889893}},{"start":41,"end":42,"tangentStart":{"x":11.386600494384766,"y":1.3832097053527832},"tangentEnd":{"x":-14.730423927307129,"y":-7.3660078048706055}},{"start":42,"end":43,"tangentStart":{"x":6.687647819519043,"y":3.349700450897217},"tangentEnd":{"x":-11.738581657409668,"y":-6.599410057067871}},{"start":43,"end":44,"tangentStart":{"x":13.95606517791748,"y":7.849298000335693},"tangentEnd":{"x":-6.423661708831787,"y":-3.033062219619751}},{"start":44,"end":45,"tangentStart":{"x":9.996273040771484,"y":4.749575138092041},"tangentEnd":{"x":-7.550002574920654,"y":-1.1998927593231201}},{"start":45,"end":46,"tangentStart":{"x":2.1998841762542725,"y":0.34996870160102844},"tangentEnd":{"x":-1.3727277517318726,"y":0.08332588523626328}},{"start":46,"end":24,"tangentStart":{"x":0.3871796131134033,"y":-0.03333035483956337},"tangentEnd":{"x":-1.0207462310791016,"y":0.049995530396699905}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23],[24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46]],"fillStyleId":"","fills":[{"type":"GRADIENT_LINEAR","visible":true,"opacity":0.4099999964237213,"blendMode":"NORMAL","gradientStops":[{"color":{"r":0.5578192472457886,"g":0.5578192472457886,"b":0.5647059082984924,"a":0.28999999165534973},"position":0,"boundVariables":{}},{"color":{"r":0.7482362389564514,"g":0.7482362389564514,"b":0.7574737071990967,"a":0.632162868976593},"position":0.481919527053833,"boundVariables":{}},{"color":{"r":0.9529411792755127,"g":0.9529411792755127,"b":0.9647058844566345,"a":0},"position":1,"boundVariables":{}}],"gradientTransform":[[0.8469662070274353,0.041877422481775284,0.07574588060379028],[-0.041877422481775284,0.1684117615222931,0.44575434923171997]]}]}]}
+	vector_2_3561.vectorPaths = [{"windingRule":"NONZERO","data":"M 267.48345947265625 141.14456176757812 C 261.9221525192261 140.86125376820564 256.37843132019043 139.8446797132492 250.34194946289062 137.97817993164062 C 239.44812297821045 134.6284794807434 228.0967254638672 129.07898044586182 209.40650939941406 117.97997283935547 C 189.20277404785156 105.98104572296143 185.91174173355103 104.09787893295288 178.0801544189453 99.89825439453125 C 155.32455253601074 87.73267555236816 143.1108055114746 83.18308126926422 128.5387725830078 81.41657257080078 C 127.21884214878082 81.24992080032825 122.20310688018799 81.1999232340604 108.475830078125 81.18325805664062 C 91.10554504394531 81.16659287922084 86.60018539428711 81.06660309433937 78.46941375732422 80.58331298828125 C 54.51707458496094 79.16677296161652 36.777204513549805 75.51709842681885 23.560300827026367 69.25099182128906 C 10.695378303527832 63.15153741836548 3.057381808757782 54.65229415893555 0.7695023417472839 43.8532600402832 C -0.40963560342788696 38.25376081466675 -0.23364484310150146 31.987654209136963 1.2974745035171509 26.338159561157227 C 3.9197365045547485 16.639026641845703 10.765774726867676 8.756399631500244 20.4804630279541 4.273467063903809 C 25.988972663879395 1.7236950397491455 30.705525398254395 0.5571323111653328 37.42837142944336 0.09050736576318741 C 44.837581157684326 -0.4261130914092064 55.30903244018555 1.2904002666473389 65.79808044433594 4.690096378326416 C 71.88735961914062 6.67325234413147 76.621506690979 8.589746952056885 89.29283905029297 14.18924617767334 C 94.32617378234863 16.405714750289917 99.48270463943481 18.65551322698593 100.73223876953125 19.188798904418945 C 119.03527450561523 26.854780197143555 133.76569271087646 30.271141052246094 148.42572021484375 30.271141052246094 C 153.0190782546997 30.271141052246094 155.65893363952637 30.08782386779785 163.73690795898438 29.187904357910156 C 190.4171028137207 26.238168001174927 204.46116638183594 25.171598196029663 219.6139678955078 24.98828125 C 245.18542098999023 24.671642899513245 261.9925346374512 27.80469512939453 276.21258544921875 35.52067184448242 C 290.1862497329712 43.11999225616455 301.8896527290344 55.06892967224121 309.1932678222656 69.18433380126953 C 313.1530592441559 76.83364963531494 315.40574645996094 83.88301849365234 316.444091796875 92.015625 C 316.7784741818905 94.5987274646759 316.72565963864326 101.74808478355408 316.3560791015625 104.2645263671875 C 314.2089922428131 118.7632303237915 305.95502376556396 129.62893295288086 292.10455322265625 136.16168212890625 C 290.50303757190704 136.91161507368088 288.17995405197144 137.8948456645012 286.930419921875 138.32814025878906 C 280.82354164123535 140.46128296852112 273.81912565231323 141.47786530852318 267.48345947265625 141.14456176757812 Z M 257.6279602050781 119.84646606445312 C 262.23891735076904 119.61315359175205 268.029013633728 117.91331005096436 272.72796630859375 115.38020324707031 C 280.85873794555664 111.03059196472168 285.645680308342 104.7644853591919 287.1416015625 96.59854888916016 C 287.51118209958076 94.63205802440643 287.54639756679535 89.64917206764221 287.2296142578125 87.51602935791016 C 284.14977645874023 67.01786231994629 264.0340328216553 46.48635673522949 240.8384552001953 40.186920166015625 C 233.81642484664917 38.28709006309509 226.49520778656006 37.43716812133789 217.00930786132812 37.43716812133789 C 207.32981777191162 37.43716812133789 199.51583290100098 38.03711271286011 168.38307189941406 41.170166015625 C 155.90532875061035 42.43671941757202 151.83994054794312 42.68669666349888 146.4898223876953 42.553375244140625 C 138.16546058654785 42.33672794699669 130.75625705718994 41.27015995979309 123.15345764160156 39.203678131103516 C 115.70904970169067 37.1705265045166 109.6549654006958 34.820735454559326 97.03643035888672 29.10457992553711 C 89.55682420730591 25.721549034118652 86.42419290542603 24.35500466823578 82.60519409179688 22.855138778686523 C 73.9816484451294 19.455442667007446 65.60448837280273 17.305634289979935 59.55040740966797 16.955665588378906 C 43.236066818237305 16.00575053691864 29.420793533325195 25.088271141052246 26.37615394592285 38.75371551513672 C 25.8657808303833 41.02017951011658 25.72498768568039 45.003156423568726 26.076969146728516 47.18629455566406 C 27.273706078529358 54.485641956329346 32.078253746032715 59.98515224456787 40.719398498535156 63.93479919433594 C 49.88851547241211 68.13442373275757 62.06707763671875 70.36755681037903 81.02127838134766 71.28414154052734 C 86.40659475326538 71.55078437924385 102.31615924835205 71.55078437924385 115.16348266601562 71.28414154052734 C 126.00451183319092 71.06749424338341 129.89389896392822 71.13416171073914 134.39926147460938 71.68411254882812 C 145.78586196899414 73.06732225418091 158.8619680404663 77.43359851837158 173.59239196777344 84.79960632324219 C 180.28003978729248 88.1493067741394 184.73260974884033 90.54908847808838 196.47119140625 97.14849853515625 C 210.42725658416748 104.99779653549194 215.84776163101196 107.897540807724 222.27142333984375 110.93060302734375 C 232.26769638061523 115.68017816543579 239.78250169754028 118.2299473285675 247.33250427246094 119.42984008789062 C 249.5323884487152 119.77980878949165 253.70336782932281 120.07978584617376 255.0760955810547 119.9964599609375 C 255.4632751941681 119.96312960609794 256.607213973999 119.89646159484982 257.6279602050781 119.84646606445312 Z"}]
+	
+
+	// Create GROUP
+	var group_2_3562 = figma.group([rectangle_2_3560, vector_2_3561], frame_2_3559)
+	group_2_3562.name = "Group 1000002995"
+	group_2_3562.visible = true
+	group_2_3562.locked = false
+	group_2_3562.opacity = 1
+	group_2_3562.blendMode = "PASS_THROUGH"
+	group_2_3562.isMask = false
+	group_2_3562.effects = []
+	group_2_3562.layoutAlign = "INHERIT"
+	group_2_3562.constrainProportions = false
+	group_2_3562.layoutGrow = 0
+	group_2_3562.layoutPositioning = "AUTO"
+	group_2_3562.exportSettings = []
+	group_2_3562.reactions = []
+	group_2_3562.expanded = false
 	
 
 	// Create FRAME
-	var frame_2_2079 = figma.createFrame()
-	frame_2_2078.appendChild(frame_2_2079)
-	frame_2_2079.resize(351.0000000000, 48.0000000000)
-	frame_2_2079.primaryAxisSizingMode = "AUTO"
-	frame_2_2079.name = "Frame 1000003771"
-	frame_2_2079.layoutAlign = "STRETCH"
-	frame_2_2079.fills = []
-	frame_2_2079.counterAxisAlignItems = "CENTER"
-	frame_2_2079.strokeTopWeight = 1
-	frame_2_2079.strokeBottomWeight = 1
-	frame_2_2079.strokeLeftWeight = 1
-	frame_2_2079.strokeRightWeight = 1
-	frame_2_2079.clipsContent = false
-	frame_2_2079.expanded = false
-	frame_2_2079.layoutMode = "VERTICAL"
-	frame_2_2079.itemSpacing = 20
+	var frame_2_3563 = figma.createFrame()
+	frame_2_3559.appendChild(frame_2_3563)
+	frame_2_3563.resize(549.0000000000, 311.0000000000)
+	frame_2_3563.primaryAxisSizingMode = "AUTO"
+	frame_2_3563.name = "Frame 1000003778"
+	frame_2_3563.relativeTransform = [[1,0,23],[0,1,241]]
+	frame_2_3563.x = 23
+	frame_2_3563.y = 241
+	frame_2_3563.fills = []
+	frame_2_3563.counterAxisAlignItems = "CENTER"
+	frame_2_3563.strokeTopWeight = 1
+	frame_2_3563.strokeBottomWeight = 1
+	frame_2_3563.strokeLeftWeight = 1
+	frame_2_3563.strokeRightWeight = 1
+	frame_2_3563.clipsContent = false
+	frame_2_3563.expanded = false
+	frame_2_3563.layoutMode = "VERTICAL"
+	frame_2_3563.itemSpacing = 17
 	
 
 	// Create FRAME
-	var frame_2_2080 = figma.createFrame()
-	frame_2_2079.appendChild(frame_2_2080)
-	frame_2_2080.resize(351.0000000000, 48.0000000000)
-	frame_2_2080.primaryAxisSizingMode = "AUTO"
-	frame_2_2080.name = "Frame 1000003773"
-	frame_2_2080.layoutAlign = "STRETCH"
-	frame_2_2080.fills = []
-	frame_2_2080.primaryAxisAlignItems = "CENTER"
-	frame_2_2080.counterAxisAlignItems = "CENTER"
-	frame_2_2080.strokeTopWeight = 1
-	frame_2_2080.strokeBottomWeight = 1
-	frame_2_2080.strokeLeftWeight = 1
-	frame_2_2080.strokeRightWeight = 1
-	frame_2_2080.clipsContent = false
-	frame_2_2080.expanded = false
-	frame_2_2080.layoutMode = "VERTICAL"
-	frame_2_2080.itemSpacing = 8
+	var frame_2_3564 = figma.createFrame()
+	frame_2_3563.appendChild(frame_2_3564)
+	frame_2_3564.resize(549.0000000000, 250.0000000000)
+	frame_2_3564.primaryAxisSizingMode = "AUTO"
+	frame_2_3564.name = "Frame 1000003777"
+	frame_2_3564.layoutAlign = "STRETCH"
+	frame_2_3564.fills = []
+	frame_2_3564.strokeTopWeight = 1
+	frame_2_3564.strokeBottomWeight = 1
+	frame_2_3564.strokeLeftWeight = 1
+	frame_2_3564.strokeRightWeight = 1
+	frame_2_3564.clipsContent = false
+	frame_2_3564.expanded = false
+	frame_2_3564.layoutMode = "VERTICAL"
+	frame_2_3564.itemSpacing = 51
+	
+
+	// Create FRAME
+	var frame_2_3565 = figma.createFrame()
+	frame_2_3564.appendChild(frame_2_3565)
+	frame_2_3565.resize(415.0000000000, 199.0000000000)
+	frame_2_3565.primaryAxisSizingMode = "AUTO"
+	frame_2_3565.name = "Frame 1000003775"
+	frame_2_3565.fills = []
+	frame_2_3565.strokeTopWeight = 1
+	frame_2_3565.strokeBottomWeight = 1
+	frame_2_3565.strokeLeftWeight = 1
+	frame_2_3565.strokeRightWeight = 1
+	frame_2_3565.clipsContent = false
+	frame_2_3565.expanded = false
+	frame_2_3565.layoutMode = "VERTICAL"
+	frame_2_3565.itemSpacing = 20
 	
 
 	// Create TEXT
-	var text_2_2081 = figma.createText()
-	frame_2_2080.appendChild(text_2_2081)
-	text_2_2081.resize(254.0000000000, 24.0000000000)
-	text_2_2081.name = "The Everyday, by Groov"
-	text_2_2081.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	var text_2_3566 = figma.createText()
+	frame_2_3565.appendChild(text_2_3566)
+	text_2_3566.resize(415.0000000000, 24.0000000000)
+	text_2_3566.name = "Fully custom. Fully effortless."
+	text_2_3566.fills = [{"type":"SOLID","visible":true,"opacity":0.9900000095367432,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	text_2_3566.layoutAlign = "STRETCH"
+	text_2_3566.autoRename = false
 	
 	// Font properties
-	text_2_2081.fontName = {
-		family: "Proxima Nova",
-		style: "Semibold"
-	}
-		text_2_2081.characters = "The Everyday, by Groov"
-	text_2_2081.fontSize = 24
-	text_2_2081.listSpacing = 0
-	text_2_2081.lineHeight = {"unit":"PIXELS","value":24}
-	text_2_2081.fontName = {"family":"Proxima Nova","style":"Semibold"}
-	text_2_2081.textAutoResize = "WIDTH_AND_HEIGHT"
-
-
-	// Create TEXT
-	var text_2_2082 = figma.createText()
-	frame_2_2080.appendChild(text_2_2082)
-	text_2_2082.resize(235.0000000000, 16.0000000000)
-	text_2_2082.name = "Plush. Cushy. A Hug for Your Feet"
-	text_2_2082.fills = [{"type":"SOLID","visible":true,"opacity":0.9900000095367432,"blendMode":"NORMAL","color":{"r":0.2727409303188324,"g":0.31109553575515747,"b":0.3501352071762085},"boundVariables":{}}]
-	
-	// Font properties
-	text_2_2082.fontName = {
+	text_2_3566.fontName = {
 		family: "Proxima Nova",
 		style: "Regular"
 	}
-		text_2_2082.characters = "Plush. Cushy. A Hug for Your Feet"
-	text_2_2082.fontSize = 16
-	text_2_2082.listSpacing = 0
-	text_2_2082.lineHeight = {"unit":"PERCENT","value":100}
-	text_2_2082.fontName = {"family":"Proxima Nova","style":"Regular"}
-	text_2_2082.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_2_3566.characters = "Fully custom. Fully effortless."
+	text_2_3566.fontSize = 18
+	text_2_3566.listSpacing = 0
+	text_2_3566.lineHeight = {"unit":"PIXELS","value":24}
+	text_2_3566.fontName = {"family":"Proxima Nova","style":"Regular"}
+	text_2_3566.textAutoResize = "HEIGHT"
 
-
-	// Create FRAME
-	var frame_2_2083 = figma.createFrame()
-	frame_2_2078.appendChild(frame_2_2083)
-	frame_2_2083.resize(168.0000000000, 36.0000000000)
-	frame_2_2083.primaryAxisSizingMode = "AUTO"
-	frame_2_2083.counterAxisSizingMode = "AUTO"
-	frame_2_2083.name = "Frame 1000003765"
-	frame_2_2083.fills = []
-	frame_2_2083.counterAxisAlignItems = "CENTER"
-	frame_2_2083.strokeTopWeight = 1
-	frame_2_2083.strokeBottomWeight = 1
-	frame_2_2083.strokeLeftWeight = 1
-	frame_2_2083.strokeRightWeight = 1
-	frame_2_2083.clipsContent = false
-	frame_2_2083.expanded = false
-	frame_2_2083.layoutMode = "HORIZONTAL"
-	frame_2_2083.counterAxisSizingMode = "AUTO"
-	frame_2_2083.itemSpacing = 19
-	
 
 	// Create TEXT
-	var text_2_2084 = figma.createText()
-	frame_2_2083.appendChild(text_2_2084)
-	text_2_2084.resize(39.0000000000, 22.0000000000)
-	text_2_2084.name = "$149"
-	text_2_2084.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	text_2_2084.strokeWeight = 1.0952380895614624
+	var text_2_3567 = figma.createText()
+	frame_2_3565.appendChild(text_2_3567)
+	text_2_3567.resize(415.0000000000, 96.0000000000)
+	text_2_3567.name = "Seeking the perfect gift?"
+	text_2_3567.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	text_2_3567.relativeTransform = [[1,0,0],[0,1,44]]
+	text_2_3567.y = 44
+	text_2_3567.layoutAlign = "STRETCH"
+	text_2_3567.autoRename = false
 	
 	// Font properties
-	text_2_2084.fontName = {
+	text_2_3567.fontName = {
 		family: "Proxima Nova",
 		style: "Semibold"
 	}
-		text_2_2084.characters = "$149"
-	text_2_2084.fontSize = 18
-	text_2_2084.listSpacing = 0
-	text_2_2084.lineHeight = {"unit":"PERCENT","value":120.00000476837158}
-	text_2_2084.fontName = {"family":"Proxima Nova","style":"Semibold"}
-	text_2_2084.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_2_3567.characters = "Seeking the perfect gifts?"
+	text_2_3567.fontSize = 48
+	text_2_3567.listSpacing = 0
+	text_2_3567.lineHeight = {"unit":"PERCENT","value":100}
+	text_2_3567.fontName = {"family":"Proxima Nova","style":"Semibold"}
+	text_2_3567.textAutoResize = "HEIGHT"
 
 
 	// Create FRAME
-	var frame_2_2085 = figma.createFrame()
-	frame_2_2083.appendChild(frame_2_2085)
-	frame_2_2085.resize(110.0000000000, 36.0000000000)
-	frame_2_2085.name = "Frame 1000003037"
-	frame_2_2085.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.10980392247438431,"g":0.40392157435417175,"b":0.9529411792755127},"boundVariables":{}}]
-	frame_2_2085.cornerRadius = 50
-	frame_2_2085.paddingLeft = 32
-	frame_2_2085.paddingRight = 32
-	frame_2_2085.paddingTop = 12
-	frame_2_2085.paddingBottom = 12
-	frame_2_2085.primaryAxisAlignItems = "CENTER"
-	frame_2_2085.counterAxisAlignItems = "CENTER"
-	frame_2_2085.primaryAxisSizingMode = "FIXED"
-	frame_2_2085.strokeTopWeight = 1
-	frame_2_2085.strokeBottomWeight = 1
-	frame_2_2085.strokeLeftWeight = 1
-	frame_2_2085.strokeRightWeight = 1
-	frame_2_2085.clipsContent = false
-	frame_2_2085.expanded = false
-	frame_2_2085.layoutMode = "HORIZONTAL"
-	frame_2_2085.itemSpacing = 10
+	var frame_2_3568 = figma.createFrame()
+	frame_2_3565.appendChild(frame_2_3568)
+	frame_2_3568.resize(158.0000000000, 39.0000000000)
+	frame_2_3568.primaryAxisSizingMode = "AUTO"
+	frame_2_3568.counterAxisSizingMode = "AUTO"
+	frame_2_3568.name = "Frame 1000003037"
+	frame_2_3568.relativeTransform = [[1,0,0],[0,1,160]]
+	frame_2_3568.y = 160
+	frame_2_3568.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.10980392247438431,"g":0.40392157435417175,"b":0.9529411792755127},"boundVariables":{}}]
+	frame_2_3568.cornerRadius = 50
+	frame_2_3568.paddingLeft = 32
+	frame_2_3568.paddingRight = 32
+	frame_2_3568.paddingTop = 11
+	frame_2_3568.paddingBottom = 11
+	frame_2_3568.primaryAxisAlignItems = "CENTER"
+	frame_2_3568.counterAxisAlignItems = "CENTER"
+	frame_2_3568.strokeTopWeight = 1
+	frame_2_3568.strokeBottomWeight = 1
+	frame_2_3568.strokeLeftWeight = 1
+	frame_2_3568.strokeRightWeight = 1
+	frame_2_3568.clipsContent = false
+	frame_2_3568.expanded = false
+	frame_2_3568.layoutMode = "HORIZONTAL"
+	frame_2_3568.counterAxisSizingMode = "AUTO"
+	frame_2_3568.itemSpacing = 10
 	
 
 	// Create TEXT
-	var text_2_2086 = figma.createText()
-	frame_2_2085.appendChild(text_2_2086)
-	text_2_2086.resize(59.0000000000, 17.0000000000)
-	text_2_2086.name = "Buy Now"
-	text_2_2086.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	var text_2_3569 = figma.createText()
+	frame_2_3568.appendChild(text_2_3569)
+	text_2_3569.resize(94.0000000000, 17.0000000000)
+	text_2_3569.name = "Send as a Gift"
+	text_2_3569.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	text_2_3569.relativeTransform = [[1,0,32],[0,1,11]]
+	text_2_3569.x = 32
+	text_2_3569.y = 11
+	text_2_3569.autoRename = false
 	
 	// Font properties
-	text_2_2086.fontName = {
+	text_2_3569.fontName = {
 		family: "Inter",
 		style: "Regular"
 	}
-		text_2_2086.characters = "Buy Now"
-	text_2_2086.fontSize = 14
-	text_2_2086.listSpacing = 0
-	text_2_2086.lineHeight = {"unit":"PERCENT","value":120.00000476837158}
-	text_2_2086.fontName = {"family":"Inter","style":"Regular"}
-	text_2_2086.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_2_3569.characters = "Send as a Gift"
+	text_2_3569.fontSize = 14
+	text_2_3569.listSpacing = 0
+	text_2_3569.lineHeight = {"unit":"PERCENT","value":120.00000476837158}
+	text_2_3569.fontName = {"family":"Inter","style":"Regular"}
+	text_2_3569.textAutoResize = "WIDTH_AND_HEIGHT"
+
+
+	// Create VECTOR
+	var vector_2_3570 = figma.createVector()
+	frame_2_3564.appendChild(vector_2_3570)
+	vector_2_3570.resizeWithoutConstraints(549.0000000000, 0.0000000000)
+	vector_2_3570.name = "Vector 6298"
+	vector_2_3570.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.11764705926179886,"g":0.11764705926179886,"b":0.11764705926179886},"boundVariables":{}}]
+	vector_2_3570.relativeTransform = [[1,-8.74e-8,0],[8.74e-8,1,250]]
+	vector_2_3570.y = 250
+	vector_2_3570.rotation = -0.000005008956538086317
+	vector_2_3570.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":549,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[]}
+	vector_2_3570.vectorPaths = [{"windingRule":"NONE","data":"M 0 0 L 549 0"}]
+	
+
+	// Create FRAME
+	var frame_2_3571 = figma.createFrame()
+	frame_2_3563.appendChild(frame_2_3571)
+	frame_2_3571.resize(434.0000000000, 44.0000000000)
+	frame_2_3571.primaryAxisSizingMode = "AUTO"
+	frame_2_3571.counterAxisSizingMode = "AUTO"
+	frame_2_3571.name = "Frame 1000003776"
+	frame_2_3571.relativeTransform = [[1,0,57.5],[0,1,267]]
+	frame_2_3571.x = 57.5
+	frame_2_3571.y = 267
+	frame_2_3571.fills = []
+	frame_2_3571.counterAxisAlignItems = "CENTER"
+	frame_2_3571.strokeTopWeight = 1
+	frame_2_3571.strokeBottomWeight = 1
+	frame_2_3571.strokeLeftWeight = 1
+	frame_2_3571.strokeRightWeight = 1
+	frame_2_3571.clipsContent = false
+	frame_2_3571.expanded = false
+	frame_2_3571.layoutMode = "HORIZONTAL"
+	frame_2_3571.counterAxisSizingMode = "AUTO"
+	frame_2_3571.itemSpacing = 58
+	
+
+	// Create FRAME
+	var frame_2_3572 = figma.createFrame()
+	frame_2_3571.appendChild(frame_2_3572)
+	frame_2_3572.resize(164.0000000000, 34.0000000000)
+	frame_2_3572.primaryAxisSizingMode = "AUTO"
+	frame_2_3572.counterAxisSizingMode = "AUTO"
+	frame_2_3572.name = "Frame 1000003029"
+	frame_2_3572.relativeTransform = [[1,0,0],[0,1,5]]
+	frame_2_3572.y = 5
+	frame_2_3572.fills = []
+	frame_2_3572.counterAxisAlignItems = "CENTER"
+	frame_2_3572.strokeTopWeight = 1
+	frame_2_3572.strokeBottomWeight = 1
+	frame_2_3572.strokeLeftWeight = 1
+	frame_2_3572.strokeRightWeight = 1
+	frame_2_3572.clipsContent = false
+	frame_2_3572.expanded = false
+	frame_2_3572.layoutMode = "HORIZONTAL"
+	frame_2_3572.counterAxisSizingMode = "AUTO"
+	frame_2_3572.itemSpacing = 20
+	
+
+	// Create FRAME
+	var frame_2_3573 = figma.createFrame()
+	frame_2_3572.appendChild(frame_2_3573)
+	frame_2_3573.resize(34.0000000000, 34.0000000000)
+	frame_2_3573.primaryAxisSizingMode = "AUTO"
+	frame_2_3573.name = "Signature-Sign--Streamline-Ultimate"
+	frame_2_3573.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_2_3573.strokeWeight = 2.125
+	frame_2_3573.strokeTopWeight = 2.125
+	frame_2_3573.strokeBottomWeight = 2.125
+	frame_2_3573.strokeLeftWeight = 2.125
+	frame_2_3573.strokeRightWeight = 2.125
+	frame_2_3573.expanded = false
+	
+
+	// Create VECTOR
+	var vector_2_3574 = figma.createVector()
+	frame_2_3573.appendChild(vector_2_3574)
+	vector_2_3574.resizeWithoutConstraints(18.0656890869, 0.0000000000)
+	vector_2_3574.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	vector_2_3574.strokeWeight = 2.125
+	vector_2_3574.relativeTransform = [[1,0,12.9326171875],[0,1,29.7690925598]]
+	vector_2_3574.x = 12.9326171875
+	vector_2_3574.y = 29.769092559814453
+	vector_2_3574.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_2_3574.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":18.065689086914062,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0]],"fillStyleId":"","fills":[]}]}
+	vector_2_3574.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 18.065689086914062 0"}]
+	
+
+	// Create VECTOR
+	var vector_2_3575 = figma.createVector()
+	frame_2_3573.appendChild(vector_2_3575)
+	vector_2_3575.resize(27.6416034698, 25.2343482971)
+	vector_2_3575.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	vector_2_3575.strokeWeight = 2.125
+	vector_2_3575.relativeTransform = [[1,0,2.390625],[0,1,4.2309083939]]
+	vector_2_3575.x = 2.390625
+	vector_2_3575.y = 4.230908393859863
+	vector_2_3575.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_2_3575.vectorNetwork = {"vertices":[{"x":2.5527918338775635,"y":9.716885566711426,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.027747325599193573,"y":5.481188774108887,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":2.0510129928588867,"y":0.5862911939620972,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":7.342262268066406,"y":2.3626718521118164,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":9.920485496520996,"y":12.700080871582031,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":8.37272834777832,"y":20.5782527923584,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":4.755101680755615,"y":24.937292098999023,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.4358253479003906,"y":23.2511043548584,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":3.1420810222625732,"y":16.1456356048584,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":8.876208305358887,"y":9.716885566711426,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":16.020511627197266,"y":21.250017166137695,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":21.665040969848633,"y":14.345760345458984,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":27.641603469848633,"y":18.662166595458984,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":-1.609169602394104,"y":-1.3757117986679077},"tangentEnd":{"x":0.20956484973430634,"y":2.0192148685455322}},{"start":1,"end":2,"tangentStart":{"x":-0.19860780239105225,"y":-1.9137086868286133},"tangentEnd":{"x":-1.3343539237976074,"y":1.0079805850982666}},{"start":2,"end":3,"tangentStart":{"x":1.8556163311004639,"y":-1.4017164707183838},"tangentEnd":{"x":-1.2321679592132568,"y":-1.85928213596344}},{"start":3,"end":4,"tangentStart":{"x":1.3352702856063843,"y":2.014845371246338},"tangentEnd":{"x":-0.08833359181880951,"y":-2.4979376792907715}},{"start":4,"end":5,"tangentStart":{"x":0.10030000656843185,"y":2.8362109661102295},"tangentEnd":{"x":1.1868125200271606,"y":-2.4652657508850098}},{"start":5,"end":6,"tangentStart":{"x":-0.8140078186988831,"y":1.6907031536102295},"tangentEnd":{"x":1.600868821144104,"y":-0.6750860214233398}},{"start":6,"end":7,"tangentStart":{"x":-1.4507640600204468,"y":0.6118671894073486},"tangentEnd":{"x":0.2919882833957672,"y":2.0700159072875977}},{"start":7,"end":8,"tangentStart":{"x":-0.35787656903266907,"y":-2.536984443664551},"tangentEnd":{"x":-1.0780390501022339,"y":2.0967109203338623}},{"start":8,"end":9,"tangentStart":{"x":1.4293280839920044,"y":-2.7798986434936523},"tangentEnd":{"x":-2.499783515930176,"y":1.347210168838501}},{"start":9,"end":10,"tangentStart":{"x":9.639451026916504,"y":-5.195173740386963},"tangentEnd":{"x":-3.196929454803467,"y":0}},{"start":10,"end":11,"tangentStart":{"x":3.196929454803467,"y":0},"tangentEnd":{"x":-2.2412109375,"y":-1.3136484622955322}},{"start":11,"end":12,"tangentStart":{"x":2.2412109375,"y":1.3136484622955322},"tangentEnd":{"x":-8.020148277282715,"y":5.1557817459106445}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1,2,3,4,5,6,7,8,9,10,11]],"fillStyleId":"","fills":[]}]}
+	vector_2_3575.vectorPaths = [{"windingRule":"NONZERO","data":"M 2.5527918338775635 9.716885566711426 C 0.9436222314834595 8.341173768043518 0.2373121753334999 7.500403642654419 0.027747325599193573 5.481188774108887 C -0.17086047679185867 3.5674800872802734 0.7166590690612793 1.5942717790603638 2.0510129928588867 0.5862911939620972 C 3.9066293239593506 -0.8154252767562866 6.110094308853149 0.5033897161483765 7.342262268066406 2.3626718521118164 C 8.67753255367279 4.377517223358154 9.832151904702187 10.20214319229126 9.920485496520996 12.700080871582031 C 10.020785503089428 15.53629183769226 9.559540867805481 18.11298704147339 8.37272834777832 20.5782527923584 C 7.558720529079437 22.268955945968628 6.355970501899719 24.262206077575684 4.755101680755615 24.937292098999023 C 3.3043376207351685 25.549159288406372 1.7278136312961578 25.321120262145996 1.4358253479003906 23.2511043548584 C 1.0779487788677216 20.714119911193848 2.0640419721603394 18.24234652519226 3.1420810222625732 16.1456356048584 C 4.571409106254578 13.365736961364746 6.376424789428711 11.064095735549927 8.876208305358887 9.716885566711426 C 18.51565933227539 4.521711826324463 12.823582172393799 21.250017166137695 16.020511627197266 21.250017166137695 C 19.217441082000732 21.250017166137695 19.423830032348633 13.032111883163452 21.665040969848633 14.345760345458984 C 23.906251907348633 15.659408807754517 19.621455192565918 23.81794834136963 27.641603469848633 18.662166595458984"}]
+	
+
+	// Create FRAME
+	var frame_2_3576 = figma.createFrame()
+	frame_2_3572.appendChild(frame_2_3576)
+	frame_2_3576.resize(110.0000000000, 29.0000000000)
+	frame_2_3576.primaryAxisSizingMode = "AUTO"
+	frame_2_3576.name = "Frame 1000003028"
+	frame_2_3576.relativeTransform = [[1,0,54],[0,1,2.5]]
+	frame_2_3576.x = 54
+	frame_2_3576.y = 2.5
+	frame_2_3576.fills = []
+	frame_2_3576.strokeTopWeight = 1
+	frame_2_3576.strokeBottomWeight = 1
+	frame_2_3576.strokeLeftWeight = 1
+	frame_2_3576.strokeRightWeight = 1
+	frame_2_3576.clipsContent = false
+	frame_2_3576.expanded = false
+	frame_2_3576.layoutMode = "VERTICAL"
+	frame_2_3576.itemSpacing = 2
+	
+
+	// Create TEXT
+	var text_2_3577 = figma.createText()
+	frame_2_3576.appendChild(text_2_3577)
+	text_2_3577.resize(110.0000000000, 14.0000000000)
+	text_2_3577.name = "Free Engraving"
+	text_2_3577.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	text_2_3577.layoutAlign = "STRETCH"
+	text_2_3577.autoRename = false
+	
+	// Font properties
+	text_2_3577.fontName = {
+		family: "Proxima Nova",
+		style: "Semibold"
+	}
+		text_2_3577.characters = "Free Engraving"
+	text_2_3577.fontSize = 14
+	text_2_3577.listSpacing = 0
+	text_2_3577.lineHeight = {"unit":"PERCENT","value":100}
+	text_2_3577.fontName = {"family":"Proxima Nova","style":"Semibold"}
+	text_2_3577.textAutoResize = "HEIGHT"
+
+
+	// Create TEXT
+	var text_2_3578 = figma.createText()
+	frame_2_3576.appendChild(text_2_3578)
+	text_2_3578.resize(98.0000000000, 13.0000000000)
+	text_2_3578.name = "Make it yours"
+	text_2_3578.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.5215782523155212,"g":0.5215782523155212,"b":0.5215782523155212},"boundVariables":{}}]
+	text_2_3578.relativeTransform = [[1,0,0],[0,1,16]]
+	text_2_3578.y = 16
+	text_2_3578.autoRename = false
+	
+	// Font properties
+	text_2_3578.fontName = {
+		family: "Proxima Nova",
+		style: "Regular"
+	}
+		text_2_3578.characters = "Make it yours"
+	text_2_3578.fontSize = 13
+	text_2_3578.listSpacing = 0
+	text_2_3578.lineHeight = {"unit":"PERCENT","value":100}
+	text_2_3578.fontName = {"family":"Proxima Nova","style":"Regular"}
+	text_2_3578.textAutoResize = "HEIGHT"
+
+
+	// Create VECTOR
+	var vector_2_3579 = figma.createVector()
+	frame_2_3571.appendChild(vector_2_3579)
+	vector_2_3579.resize(0.0000000000, 44.0000000000)
+	vector_2_3579.name = "Vector 6271"
+	vector_2_3579.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.11764705926179886,"g":0.11764705926179886,"b":0.11764705926179886},"boundVariables":{}}]
+	vector_2_3579.relativeTransform = [[1,0,222],[0,1,0]]
+	vector_2_3579.x = 222
+	vector_2_3579.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":44,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[]}
+	vector_2_3579.vectorPaths = [{"windingRule":"NONE","data":"M 0 0 L 0 44"}]
+	
+
+	// Create FRAME
+	var frame_2_3580 = figma.createFrame()
+	frame_2_3571.appendChild(frame_2_3580)
+	frame_2_3580.resize(154.0000000000, 30.0000000000)
+	frame_2_3580.primaryAxisSizingMode = "AUTO"
+	frame_2_3580.counterAxisSizingMode = "AUTO"
+	frame_2_3580.name = "Frame 1000003028"
+	frame_2_3580.relativeTransform = [[1,0,280],[0,1,7]]
+	frame_2_3580.x = 280
+	frame_2_3580.y = 7
+	frame_2_3580.fills = []
+	frame_2_3580.counterAxisAlignItems = "CENTER"
+	frame_2_3580.strokeTopWeight = 1
+	frame_2_3580.strokeBottomWeight = 1
+	frame_2_3580.strokeLeftWeight = 1
+	frame_2_3580.strokeRightWeight = 1
+	frame_2_3580.clipsContent = false
+	frame_2_3580.expanded = false
+	frame_2_3580.layoutMode = "HORIZONTAL"
+	frame_2_3580.counterAxisSizingMode = "AUTO"
+	frame_2_3580.itemSpacing = 15
+	
+
+	// Create FRAME
+	var frame_2_3581 = figma.createFrame()
+	frame_2_3580.appendChild(frame_2_3581)
+	frame_2_3581.resize(30.0000000000, 30.0000000000)
+	frame_2_3581.primaryAxisSizingMode = "AUTO"
+	frame_2_3581.name = "Mobile-Ai-Spark--Streamline-Core"
+	frame_2_3581.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_2_3581.strokeWeight = 0.5357142686843872
+	frame_2_3581.strokeTopWeight = 0.5357142686843872
+	frame_2_3581.strokeBottomWeight = 0.5357142686843872
+	frame_2_3581.strokeLeftWeight = 0.5357142686843872
+	frame_2_3581.strokeRightWeight = 0.5357142686843872
+	frame_2_3581.expanded = false
+	
+
+	// Create VECTOR
+	var vector_2_3582 = figma.createVector()
+	frame_2_3581.appendChild(vector_2_3582)
+	vector_2_3582.resize(17.9081630707, 25.8673458099)
+	vector_2_3582.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	vector_2_3582.strokeWeight = 1.5
+	vector_2_3582.relativeTransform = [[1,0,2.0673828125],[0,1,2.06640625]]
+	vector_2_3582.x = 2.0673828125
+	vector_2_3582.y = 2.06640625
+	vector_2_3582.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_2_3582.vectorNetwork = {"vertices":[{"x":13.928571701049805,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.9897960424423218,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":1.9897959232330322,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":23.87755012512207,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.9897960424423218,"y":25.867345809936523,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":15.918367385864258,"y":25.867345809936523,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":17.90816307067871,"y":23.87755012512207,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":17.90816307067871,"y":16.91326332092285,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":-1.098934531211853,"y":0},"tangentEnd":{"x":0,"y":-1.098934531211853}},{"start":2,"end":3,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":3,"end":4,"tangentStart":{"x":0,"y":1.0989642143249512},"tangentEnd":{"x":-1.098934531211853,"y":0}},{"start":4,"end":5,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":5,"end":6,"tangentStart":{"x":1.0989245176315308,"y":0},"tangentEnd":{"x":0,"y":1.0989642143249512}},{"start":6,"end":7,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1,2,3,4,5,6]],"fillStyleId":"","fills":[]}]}
+	vector_2_3582.vectorPaths = [{"windingRule":"NONZERO","data":"M 13.928571701049805 0 L 1.9897960424423218 0 C 0.8908615112304688 0 0 0.8908613920211792 0 1.9897959232330322 L 0 23.87755012512207 C 0 24.97651433944702 0.8908615112304688 25.867345809936523 1.9897960424423218 25.867345809936523 L 15.918367385864258 25.867345809936523 C 17.01729190349579 25.867345809936523 17.90816307067871 24.97651433944702 17.90816307067871 23.87755012512207 L 17.90816307067871 16.91326332092285"}]
+	
+
+	// Create VECTOR
+	var vector_2_3583 = figma.createVector()
+	frame_2_3581.appendChild(vector_2_3583)
+	vector_2_3583.resizeWithoutConstraints(1.9897964001, 0.0000000000)
+	vector_2_3583.name = "Vector_2"
+	vector_2_3583.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	vector_2_3583.strokeWeight = 1.5
+	vector_2_3583.relativeTransform = [[1,0,10.0263671875],[0,1,22.958984375]]
+	vector_2_3583.x = 10.0263671875
+	vector_2_3583.y = 22.958984375
+	vector_2_3583.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_2_3583.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.9897964000701904,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0]],"fillStyleId":"","fills":[]}]}
+	vector_2_3583.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 1.9897964000701904 0"}]
+	
+
+	// Create VECTOR
+	var vector_2_3584 = figma.createVector()
+	frame_2_3581.appendChild(vector_2_3584)
+	vector_2_3584.resize(12.4362239838, 12.4362239838)
+	vector_2_3584.name = "Vector 6269_2"
+	vector_2_3584.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	vector_2_3584.strokeWeight = 1.5
+	vector_2_3584.relativeTransform = [[1,0,15.4990234375],[0,1,2.06640625]]
+	vector_2_3584.x = 15.4990234375
+	vector_2_3584.y = 2.06640625
+	vector_2_3584.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_2_3584.vectorNetwork = {"vertices":[{"x":4.859659194946289,"y":2.6950392723083496,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":5.874674320220947,"y":0.22999054193496704,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.218111515045166,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.561550617218018,"y":0.22999054193496704,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":7.576545715332031,"y":2.6950392723083496,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":9.741244316101074,"y":4.859659194946289,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":12.20620346069336,"y":5.874693870544434,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":12.436223983764648,"y":6.218112468719482,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":12.20620346069336,"y":6.561531066894531,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":9.741244316101074,"y":7.576565742492676,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":7.576545715332031,"y":9.741185188293457,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.561550617218018,"y":12.206243515014648,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.218111515045166,"y":12.436223983764648,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":5.874674320220947,"y":12.206243515014648,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":4.859659194946289,"y":9.741185188293457,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":2.6950385570526123,"y":7.576565742492676,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.2299802601337433,"y":6.561531066894531,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":6.218112468719482,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.2299802601337433,"y":5.874693870544434,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":2.6950385570526123,"y":4.859659194946289,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":0.05730612203478813,"y":-0.13916434347629547},"tangentEnd":{"x":-0.15042857825756073,"y":0}},{"start":2,"end":3,"tangentStart":{"x":0.15042857825756073,"y":0},"tangentEnd":{"x":-0.05730612203478813,"y":-0.13916434347629547}},{"start":3,"end":4,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":4,"end":5,"tangentStart":{"x":0.4041275382041931,"y":0.9813076257705688},"tangentEnd":{"x":-0.9813673496246338,"y":-0.40406784415245056}},{"start":5,"end":6,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":6,"end":7,"tangentStart":{"x":0.13928571343421936,"y":0.05728622525930405},"tangentEnd":{"x":0,"y":-0.15050816535949707}},{"start":7,"end":8,"tangentStart":{"x":0,"y":0.15050816535949707},"tangentEnd":{"x":0.13928571343421936,"y":-0.05728622525930405}},{"start":8,"end":9,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":9,"end":10,"tangentStart":{"x":-0.9813673496246338,"y":0.40406784415245056},"tangentEnd":{"x":0.4041275382041931,"y":-0.9813076257705688}},{"start":10,"end":11,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":11,"end":12,"tangentStart":{"x":-0.05730612203478813,"y":0.13914643228054047},"tangentEnd":{"x":0.15042857825756073,"y":0}},{"start":12,"end":13,"tangentStart":{"x":-0.15042857825756073,"y":0},"tangentEnd":{"x":0.05730612203478813,"y":0.13914643228054047}},{"start":13,"end":14,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":14,"end":15,"tangentStart":{"x":-0.40406784415245056,"y":-0.9813076257705688},"tangentEnd":{"x":0.9813076257705688,"y":0.40406784415245056}},{"start":15,"end":16,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":16,"end":17,"tangentStart":{"x":-0.13914643228054047,"y":-0.05728622525930405},"tangentEnd":{"x":0,"y":0.15050816535949707}},{"start":17,"end":18,"tangentStart":{"x":0,"y":-0.15050816535949707},"tangentEnd":{"x":-0.13914643228054047,"y":0.05728622525930405}},{"start":18,"end":19,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":19,"end":0,"tangentStart":{"x":0.9813076257705688,"y":-0.40406784415245056},"tangentEnd":{"x":-0.40406784415245056,"y":0.9813076257705688}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]],"fillStyleId":"","fills":[]}]}
+	vector_2_3584.vectorPaths = [{"windingRule":"NONZERO","data":"M 4.859659194946289 2.6950392723083496 L 5.874674320220947 0.22999054193496704 C 5.931980442255735 0.09082619845867157 6.067682936787605 0 6.218111515045166 0 C 6.368540093302727 0 6.5042444951832294 0.09082619845867157 6.561550617218018 0.22999054193496704 L 7.576545715332031 2.6950392723083496 C 7.980673253536224 3.6763468980789185 8.75987696647644 4.4555913507938385 9.741244316101074 4.859659194946289 L 12.20620346069336 5.874693870544434 C 12.345489174127579 5.931980095803738 12.436223983764648 6.067604303359985 12.436223983764648 6.218112468719482 C 12.436223983764648 6.3686206340789795 12.345489174127579 6.504244841635227 12.20620346069336 6.561531066894531 L 9.741244316101074 7.576565742492676 C 8.75987696647644 7.980633586645126 7.980673253536224 8.759877562522888 7.576545715332031 9.741185188293457 L 6.561550617218018 12.206243515014648 C 6.5042444951832294 12.345389947295189 6.368540093302727 12.436223983764648 6.218111515045166 12.436223983764648 C 6.067682936787605 12.436223983764648 5.931980442255735 12.345389947295189 5.874674320220947 12.206243515014648 L 4.859659194946289 9.741185188293457 C 4.4555913507938385 8.759877562522888 3.676346182823181 7.980633586645126 2.6950385570526123 7.576565742492676 L 0.2299802601337433 6.561531066894531 C 0.09083382785320282 6.504244841635227 0 6.3686206340789795 0 6.218112468719482 C 0 6.067604303359985 0.09083382785320282 5.931980095803738 0.2299802601337433 5.874693870544434 L 2.6950385570526123 4.859659194946289 C 3.676346182823181 4.4555913507938385 4.4555913507938385 3.6763468980789185 4.859659194946289 2.6950392723083496 Z"}]
+	
+
+	// Create GROUP
+	var group_2_3585 = figma.group([vector_2_3584], frame_2_3581)
+	group_2_3585.name = "Vector 6269"
+	group_2_3585.visible = true
+	group_2_3585.locked = false
+	group_2_3585.opacity = 1
+	group_2_3585.blendMode = "PASS_THROUGH"
+	group_2_3585.isMask = false
+	group_2_3585.effects = []
+	group_2_3585.layoutAlign = "INHERIT"
+	group_2_3585.constrainProportions = false
+	group_2_3585.layoutGrow = 0
+	group_2_3585.layoutPositioning = "AUTO"
+	group_2_3585.exportSettings = []
+	group_2_3585.reactions = []
+	group_2_3585.expanded = false
+	
+
+	// Create GROUP
+	var group_2_3586 = figma.group([vector_2_3582, vector_2_3583, group_2_3585], frame_2_3581)
+	group_2_3586.name = "mobile-ai-spark--android-phone-mobile-device-smartphone-artificial-intelligence-ai"
+	group_2_3586.visible = true
+	group_2_3586.locked = false
+	group_2_3586.opacity = 1
+	group_2_3586.blendMode = "PASS_THROUGH"
+	group_2_3586.isMask = false
+	group_2_3586.effects = []
+	group_2_3586.layoutAlign = "INHERIT"
+	group_2_3586.constrainProportions = false
+	group_2_3586.layoutGrow = 0
+	group_2_3586.layoutPositioning = "AUTO"
+	group_2_3586.exportSettings = []
+	group_2_3586.reactions = []
+	group_2_3586.expanded = false
+	
+
+	// Create FRAME
+	var frame_2_3587 = figma.createFrame()
+	frame_2_3580.appendChild(frame_2_3587)
+	frame_2_3587.resize(109.0000000000, 27.0000000000)
+	frame_2_3587.primaryAxisSizingMode = "AUTO"
+	frame_2_3587.name = "Frame 1000003027"
+	frame_2_3587.relativeTransform = [[1,0,45],[0,1,1.5]]
+	frame_2_3587.x = 45
+	frame_2_3587.y = 1.5
+	frame_2_3587.fills = []
+	frame_2_3587.strokeTopWeight = 1
+	frame_2_3587.strokeBottomWeight = 1
+	frame_2_3587.strokeLeftWeight = 1
+	frame_2_3587.strokeRightWeight = 1
+	frame_2_3587.clipsContent = false
+	frame_2_3587.expanded = false
+	frame_2_3587.layoutMode = "VERTICAL"
+	
+
+	// Create TEXT
+	var text_2_3588 = figma.createText()
+	frame_2_3587.appendChild(text_2_3588)
+	text_2_3588.resize(104.0000000000, 14.0000000000)
+	text_2_3588.name = "AI Powered"
+	text_2_3588.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	text_2_3588.autoRename = false
+	
+	// Font properties
+	text_2_3588.fontName = {
+		family: "Proxima Nova",
+		style: "Semibold"
+	}
+		text_2_3588.characters = "AI Powered"
+	text_2_3588.fontSize = 14
+	text_2_3588.listSpacing = 0
+	text_2_3588.lineHeight = {"unit":"PERCENT","value":100}
+	text_2_3588.fontName = {"family":"Proxima Nova","style":"Semibold"}
+	text_2_3588.textAutoResize = "HEIGHT"
+
+
+	// Create TEXT
+	var text_2_3589 = figma.createText()
+	frame_2_3587.appendChild(text_2_3589)
+	text_2_3589.resize(109.0000000000, 13.0000000000)
+	text_2_3589.name = "3D iPhone Scan"
+	text_2_3589.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.5215782523155212,"g":0.5215782523155212,"b":0.5215782523155212},"boundVariables":{}}]
+	text_2_3589.relativeTransform = [[1,0,0],[0,1,14]]
+	text_2_3589.y = 14
+	text_2_3589.layoutAlign = "STRETCH"
+	text_2_3589.autoRename = false
+	
+	// Font properties
+	text_2_3589.fontName = {
+		family: "Proxima Nova",
+		style: "Regular"
+	}
+		text_2_3589.characters = "3D iPhone Scan"
+	text_2_3589.fontSize = 13
+	text_2_3589.listSpacing = 0
+	text_2_3589.lineHeight = {"unit":"PERCENT","value":100}
+	text_2_3589.fontName = {"family":"Proxima Nova","style":"Regular"}
+	text_2_3589.textAutoResize = "HEIGHT"
+
+
+	// Create GROUP
+	var group_2_3590 = figma.group([frame_2_3563], frame_2_3559)
+	group_2_3590.name = "Group 1000002996"
+	group_2_3590.visible = true
+	group_2_3590.locked = false
+	group_2_3590.opacity = 1
+	group_2_3590.blendMode = "PASS_THROUGH"
+	group_2_3590.isMask = false
+	group_2_3590.effects = []
+	group_2_3590.layoutAlign = "INHERIT"
+	group_2_3590.constrainProportions = false
+	group_2_3590.layoutGrow = 0
+	group_2_3590.layoutPositioning = "AUTO"
+	group_2_3590.exportSettings = []
+	group_2_3590.reactions = []
+	group_2_3590.expanded = false
+	
+
+	// Create FRAME
+	var frame_4_2 = figma.createFrame()
+	frame_2_3558.appendChild(frame_4_2)
+	frame_4_2.resize(595.0000000000, 574.0000000000)
+	frame_4_2.primaryAxisSizingMode = "AUTO"
+	frame_4_2.name = "Frame 1000003579"
+	frame_4_2.effects = [{"type":"DROP_SHADOW","visible":true,"radius":18,"boundVariables":{},"color":{"r":0.3773617446422577,"g":0.3773617446422577,"b":0.46961843967437744,"a":0.10000000149011612},"offset":{"x":0,"y":4},"spread":0,"blendMode":"NORMAL","showShadowBehindNode":false}]
+	frame_4_2.relativeTransform = [[1,0,818.5],[0,1,104]]
+	frame_4_2.x = 818.5
+	frame_4_2.y = 104
+	frame_4_2.fills = []
+	frame_4_2.strokes = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	frame_4_2.strokeAlign = "OUTSIDE"
+	frame_4_2.cornerRadius = 12
+	frame_4_2.strokeTopWeight = 1
+	frame_4_2.strokeBottomWeight = 1
+	frame_4_2.strokeLeftWeight = 1
+	frame_4_2.strokeRightWeight = 1
+	frame_4_2.expanded = false
+	frame_4_2.layoutMode = "VERTICAL"
+	frame_4_2.itemSpacing = 1
+	
+
+	// Create FRAME
+	var frame_4_3 = figma.createFrame()
+	frame_4_2.appendChild(frame_4_3)
+	frame_4_3.resize(595.0000000000, 502.0000000000)
+	frame_4_3.name = "Frame 1000003032"
+	frame_4_3.layoutAlign = "STRETCH"
+	frame_4_3.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_4_3.strokeWeight = undefined
+	frame_4_3.topLeftRadius = 12
+	frame_4_3.topRightRadius = 12
+	frame_4_3.paddingLeft = 17
+	frame_4_3.paddingRight = 17
+	frame_4_3.paddingTop = 18
+	frame_4_3.paddingBottom = 24
+	frame_4_3.counterAxisAlignItems = "CENTER"
+	frame_4_3.primaryAxisSizingMode = "FIXED"
+	frame_4_3.strokeTopWeight = 0
+	frame_4_3.strokeBottomWeight = 1
+	frame_4_3.strokeLeftWeight = 0
+	frame_4_3.strokeRightWeight = 0
+	frame_4_3.expanded = false
+	frame_4_3.itemSpacing = 38
+	
+
+	// Create FRAME
+	var frame_4_4 = figma.createFrame()
+	frame_4_3.appendChild(frame_4_4)
+	frame_4_4.resize(351.0000000000, 106.0000000000)
+	frame_4_4.primaryAxisSizingMode = "AUTO"
+	frame_4_4.name = "Frame 1000003774"
+	frame_4_4.relativeTransform = [[1,0,129],[0,1,67.48828125]]
+	frame_4_4.x = 129
+	frame_4_4.y = 67.48828125
+	frame_4_4.fills = []
+	frame_4_4.counterAxisAlignItems = "CENTER"
+	frame_4_4.strokeTopWeight = 1
+	frame_4_4.strokeBottomWeight = 1
+	frame_4_4.strokeLeftWeight = 1
+	frame_4_4.strokeRightWeight = 1
+	frame_4_4.clipsContent = false
+	frame_4_4.expanded = false
+	frame_4_4.layoutMode = "VERTICAL"
+	frame_4_4.itemSpacing = 22
+	
+
+	// Create FRAME
+	var frame_4_5 = figma.createFrame()
+	frame_4_4.appendChild(frame_4_5)
+	frame_4_5.resize(351.0000000000, 48.0000000000)
+	frame_4_5.primaryAxisSizingMode = "AUTO"
+	frame_4_5.name = "Frame 1000003771"
+	frame_4_5.layoutAlign = "STRETCH"
+	frame_4_5.fills = []
+	frame_4_5.counterAxisAlignItems = "CENTER"
+	frame_4_5.strokeTopWeight = 1
+	frame_4_5.strokeBottomWeight = 1
+	frame_4_5.strokeLeftWeight = 1
+	frame_4_5.strokeRightWeight = 1
+	frame_4_5.clipsContent = false
+	frame_4_5.expanded = false
+	frame_4_5.layoutMode = "VERTICAL"
+	frame_4_5.itemSpacing = 20
+	
+
+	// Create FRAME
+	var frame_4_6 = figma.createFrame()
+	frame_4_5.appendChild(frame_4_6)
+	frame_4_6.resize(351.0000000000, 48.0000000000)
+	frame_4_6.primaryAxisSizingMode = "AUTO"
+	frame_4_6.name = "Frame 1000003773"
+	frame_4_6.layoutAlign = "STRETCH"
+	frame_4_6.fills = []
+	frame_4_6.primaryAxisAlignItems = "CENTER"
+	frame_4_6.counterAxisAlignItems = "CENTER"
+	frame_4_6.strokeTopWeight = 1
+	frame_4_6.strokeBottomWeight = 1
+	frame_4_6.strokeLeftWeight = 1
+	frame_4_6.strokeRightWeight = 1
+	frame_4_6.clipsContent = false
+	frame_4_6.expanded = false
+	frame_4_6.layoutMode = "VERTICAL"
+	frame_4_6.itemSpacing = 8
+	
+
+	// Create TEXT
+	var text_4_7 = figma.createText()
+	frame_4_6.appendChild(text_4_7)
+	text_4_7.resize(254.0000000000, 24.0000000000)
+	text_4_7.name = "The Everyday, by Groov"
+	text_4_7.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	text_4_7.relativeTransform = [[1,0,48.5],[0,1,0]]
+	text_4_7.x = 48.5
+	
+	// Font properties
+	text_4_7.fontName = {
+		family: "Proxima Nova",
+		style: "Semibold"
+	}
+		text_4_7.characters = "The Everyday, by Groov"
+	text_4_7.fontSize = 24
+	text_4_7.listSpacing = 0
+	text_4_7.lineHeight = {"unit":"PIXELS","value":24}
+	text_4_7.fontName = {"family":"Proxima Nova","style":"Semibold"}
+	text_4_7.textAutoResize = "WIDTH_AND_HEIGHT"
+
+
+	// Create TEXT
+	var text_4_8 = figma.createText()
+	frame_4_6.appendChild(text_4_8)
+	text_4_8.resize(235.0000000000, 16.0000000000)
+	text_4_8.name = "Plush. Cushy. A Hug for Your Feet"
+	text_4_8.fills = [{"type":"SOLID","visible":true,"opacity":0.9900000095367432,"blendMode":"NORMAL","color":{"r":0.2727409303188324,"g":0.31109553575515747,"b":0.3501352071762085},"boundVariables":{}}]
+	text_4_8.relativeTransform = [[1,0,58],[0,1,32]]
+	text_4_8.x = 58
+	text_4_8.y = 32
+	
+	// Font properties
+	text_4_8.fontName = {
+		family: "Proxima Nova",
+		style: "Regular"
+	}
+		text_4_8.characters = "Plush. Cushy. A Hug for Your Feet"
+	text_4_8.fontSize = 16
+	text_4_8.listSpacing = 0
+	text_4_8.lineHeight = {"unit":"PERCENT","value":100}
+	text_4_8.fontName = {"family":"Proxima Nova","style":"Regular"}
+	text_4_8.textAutoResize = "WIDTH_AND_HEIGHT"
+
+
+	// Create FRAME
+	var frame_4_9 = figma.createFrame()
+	frame_4_4.appendChild(frame_4_9)
+	frame_4_9.resize(168.0000000000, 36.0000000000)
+	frame_4_9.primaryAxisSizingMode = "AUTO"
+	frame_4_9.counterAxisSizingMode = "AUTO"
+	frame_4_9.name = "Frame 1000003765"
+	frame_4_9.relativeTransform = [[1,0,91.5],[0,1,70]]
+	frame_4_9.x = 91.5
+	frame_4_9.y = 70
+	frame_4_9.fills = []
+	frame_4_9.counterAxisAlignItems = "CENTER"
+	frame_4_9.strokeTopWeight = 1
+	frame_4_9.strokeBottomWeight = 1
+	frame_4_9.strokeLeftWeight = 1
+	frame_4_9.strokeRightWeight = 1
+	frame_4_9.clipsContent = false
+	frame_4_9.expanded = false
+	frame_4_9.layoutMode = "HORIZONTAL"
+	frame_4_9.counterAxisSizingMode = "AUTO"
+	frame_4_9.itemSpacing = 19
+	
+
+	// Create TEXT
+	var text_4_10 = figma.createText()
+	frame_4_9.appendChild(text_4_10)
+	text_4_10.resize(39.0000000000, 22.0000000000)
+	text_4_10.name = "$149"
+	text_4_10.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	text_4_10.strokeWeight = 1.0952380895614624
+	text_4_10.relativeTransform = [[1,0,0],[0,1,7]]
+	text_4_10.y = 7
+	
+	// Font properties
+	text_4_10.fontName = {
+		family: "Proxima Nova",
+		style: "Semibold"
+	}
+		text_4_10.characters = "$149"
+	text_4_10.fontSize = 18
+	text_4_10.listSpacing = 0
+	text_4_10.lineHeight = {"unit":"PERCENT","value":120.00000476837158}
+	text_4_10.fontName = {"family":"Proxima Nova","style":"Semibold"}
+	text_4_10.textAutoResize = "WIDTH_AND_HEIGHT"
+
+
+	// Create FRAME
+	var frame_4_11 = figma.createFrame()
+	frame_4_9.appendChild(frame_4_11)
+	frame_4_11.resize(110.0000000000, 36.0000000000)
+	frame_4_11.name = "Frame 1000003037"
+	frame_4_11.relativeTransform = [[1,0,58],[0,1,0]]
+	frame_4_11.x = 58
+	frame_4_11.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.10980392247438431,"g":0.40392157435417175,"b":0.9529411792755127},"boundVariables":{}}]
+	frame_4_11.cornerRadius = 50
+	frame_4_11.paddingLeft = 32
+	frame_4_11.paddingRight = 32
+	frame_4_11.paddingTop = 12
+	frame_4_11.paddingBottom = 12
+	frame_4_11.primaryAxisAlignItems = "CENTER"
+	frame_4_11.counterAxisAlignItems = "CENTER"
+	frame_4_11.primaryAxisSizingMode = "FIXED"
+	frame_4_11.strokeTopWeight = 1
+	frame_4_11.strokeBottomWeight = 1
+	frame_4_11.strokeLeftWeight = 1
+	frame_4_11.strokeRightWeight = 1
+	frame_4_11.clipsContent = false
+	frame_4_11.expanded = false
+	frame_4_11.layoutMode = "HORIZONTAL"
+	frame_4_11.itemSpacing = 10
+	
+
+	// Create TEXT
+	var text_4_12 = figma.createText()
+	frame_4_11.appendChild(text_4_12)
+	text_4_12.resize(59.0000000000, 17.0000000000)
+	text_4_12.name = "Buy Now"
+	text_4_12.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	text_4_12.relativeTransform = [[1,0,25.5],[0,1,9.5]]
+	text_4_12.x = 25.5
+	text_4_12.y = 9.5
+	
+	// Font properties
+	text_4_12.fontName = {
+		family: "Inter",
+		style: "Regular"
+	}
+		text_4_12.characters = "Buy Now"
+	text_4_12.fontSize = 14
+	text_4_12.listSpacing = 0
+	text_4_12.lineHeight = {"unit":"PERCENT","value":120.00000476837158}
+	text_4_12.fontName = {"family":"Inter","style":"Regular"}
+	text_4_12.textAutoResize = "WIDTH_AND_HEIGHT"
+
+
+	// Create FRAME
+	var frame_4_13 = figma.createFrame()
+	frame_4_3.appendChild(frame_4_13)
+	frame_4_13.resize(126.0000000000, 28.0000000000)
+	frame_4_13.primaryAxisSizingMode = "AUTO"
+	frame_4_13.counterAxisSizingMode = "AUTO"
+	frame_4_13.name = "Frame 1000003537"
+	frame_4_13.relativeTransform = [[1,0,24],[0,1,18.48828125]]
+	frame_4_13.x = 24
+	frame_4_13.y = 18.48828125
+	frame_4_13.fills = [{"type":"SOLID","visible":true,"opacity":0.07000000029802322,"blendMode":"NORMAL","color":{"r":0.10980392247438431,"g":0.40392157435417175,"b":0.9529411792755127},"boundVariables":{}}]
+	frame_4_13.strokes = [{"type":"SOLID","visible":false,"opacity":0.3100000023841858,"blendMode":"NORMAL","color":{"r":0.10980392247438431,"g":0.40392157435417175,"b":0.9529411792755127},"boundVariables":{}}]
+	frame_4_13.cornerRadius = 100
+	frame_4_13.paddingLeft = 14
+	frame_4_13.paddingRight = 14
+	frame_4_13.paddingTop = 2
+	frame_4_13.paddingBottom = 2
+	frame_4_13.primaryAxisAlignItems = "CENTER"
+	frame_4_13.counterAxisAlignItems = "CENTER"
+	frame_4_13.strokeTopWeight = 1
+	frame_4_13.strokeBottomWeight = 1
+	frame_4_13.strokeLeftWeight = 1
+	frame_4_13.strokeRightWeight = 1
+	frame_4_13.clipsContent = false
+	frame_4_13.expanded = false
+	frame_4_13.layoutMode = "HORIZONTAL"
+	frame_4_13.counterAxisSizingMode = "AUTO"
+	frame_4_13.itemSpacing = 10
+	
+
+	// Create FRAME
+	var frame_4_14 = figma.createFrame()
+	frame_4_13.appendChild(frame_4_14)
+	frame_4_14.resize(16.0000000000, 16.0000000000)
+	frame_4_14.primaryAxisSizingMode = "AUTO"
+	frame_4_14.name = "Star-Medal-1--Streamline-Plump"
+	frame_4_14.relativeTransform = [[1,0,14],[0,1,6]]
+	frame_4_14.x = 14
+	frame_4_14.y = 6
+	frame_4_14.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_4_14.strokeTopWeight = 1
+	frame_4_14.strokeBottomWeight = 1
+	frame_4_14.strokeLeftWeight = 1
+	frame_4_14.strokeRightWeight = 1
+	frame_4_14.expanded = false
+	
+
+	// Create VECTOR
+	var vector_4_16 = figma.createVector()
+	frame_4_14.appendChild(vector_4_16)
+	vector_4_16.resize(13.0687541962, 15.6666660309)
+	vector_4_16.name = "Union"
+	vector_4_16.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.10980392247438431,"g":0.40392157435417175,"b":0.9529411792755127},"boundVariables":{}}]
+	vector_4_16.strokes = []
+	vector_4_16.strokeAlign = "INSIDE"
+	vector_4_16.relativeTransform = [[1,0,1.4654952288],[0,1,0.1666666716]]
+	vector_4_16.x = 1.465495228767395
+	vector_4_16.y = 0.1666666716337204
+	vector_4_16.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_4_16.vectorNetwork = {"vertices":[{"x":10.19843864440918,"y":0.21322332322597504,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":10.179405212402344,"y":0.2430233210325241,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":9.680871963500977,"y":1.0149834156036377,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":7.91773796081543,"y":3.6526999473571777,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":7.873437881469727,"y":3.7172999382019043,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.534305095672607,"y":3.6666665077209473,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":5.195204734802246,"y":3.7172999382019043,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":5.150904655456543,"y":3.6526999473571777,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":3.3878047466278076,"y":1.0149834156036377,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":2.889238119125366,"y":0.2430233210325241,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":2.8702046871185303,"y":0.2132166475057602,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.534305095672607,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.18070800602436066,"y":5.361733436584473,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.08799810707569122,"y":4.257266998291016,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.8677080869674683,"y":0.5,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":5.0069050788879395,"y":5.202000141143799,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.683358073234558,"y":7.592533588409424,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":11.385371208190918,"y":7.592566967010498,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":12.888038635253906,"y":5.361733436584473,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":12.980738639831543,"y":4.257266998291016,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":11.201038360595703,"y":0.5,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":8.061838150024414,"y":5.202033519744873,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.534337997436523,"y":6,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.7010082006454468,"y":10.833333015441895,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.534337997436523,"y":15.666666030883789,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":11.367671966552734,"y":10.833333015441895,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.904205322265625,"y":8.213099479675293,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":7.51700496673584,"y":9.394566535949707,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":8.814371109008789,"y":9.650032997131348,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":9.043704986572266,"y":10.337432861328125,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":8.124338150024414,"y":11.359932899475098,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":8.29333782196045,"y":12.729433059692383,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":7.693737983703613,"y":13.153265953063965,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.534337997436523,"y":12.574565887451172,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":5.374938011169434,"y":13.153265953063965,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":4.775338172912598,"y":12.729433059692383,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":4.944338321685791,"y":11.359932899475098,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":4.0249714851379395,"y":10.337432861328125,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":4.254304885864258,"y":9.650032997131348,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":5.551671504974365,"y":9.394566535949707,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.164471626281738,"y":8.213099479675293,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":-0.11513333022594452,"y":0.18007667362689972},"tangentEnd":{"x":0.21439999341964722,"y":-0.3290966749191284}},{"start":2,"end":3,"tangentStart":{"x":-0.4289666712284088,"y":0.6583600044250488},"tangentEnd":{"x":0.7239333391189575,"y":-1.0564733743667603}},{"start":3,"end":4,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":4,"end":5,"tangentStart":{"x":-0.39910000562667847,"y":-0.030400000512599945},"tangentEnd":{"x":0.4902999997138977,"y":0}},{"start":5,"end":6,"tangentStart":{"x":-0.49026668071746826,"y":0},"tangentEnd":{"x":0.39910000562667847,"y":-0.030400000512599945}},{"start":6,"end":7,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":7,"end":8,"tangentStart":{"x":-0.7239333391189575,"y":-1.0564733743667603},"tangentEnd":{"x":0.4289666712284088,"y":0.6583600044250488}},{"start":8,"end":9,"tangentStart":{"x":-0.21443332731723785,"y":-0.3290966749191284},"tangentEnd":{"x":0.11513333022594452,"y":0.18007667362689972}},{"start":9,"end":10,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":10,"end":11,"tangentStart":{"x":0.6857333183288574,"y":-0.09636266529560089},"tangentEnd":{"x":-1.7798999547958374,"y":0}},{"start":11,"end":0,"tangentStart":{"x":1.7799333333969116,"y":0},"tangentEnd":{"x":-0.685699999332428,"y":-0.09636466950178146}},{"start":12,"end":13,"tangentStart":{"x":-0.2039533406496048,"y":-0.33346667885780334},"tangentEnd":{"x":-0.14314332604408264,"y":0.36373332142829895}},{"start":13,"end":14,"tangentStart":{"x":0.8961266875267029,"y":-2.2771167755126953},"tangentEnd":{"x":0,"y":0}},{"start":14,"end":15,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":-1.8188666105270386,"y":-2.6030166149139404}},{"start":15,"end":16,"tangentStart":{"x":-1.3761667013168335,"y":0.3723999857902527},"tangentEnd":{"x":0.7730133533477783,"y":-1.1547666788101196}},{"start":16,"end":12,"tangentStart":{"x":-0.67808997631073,"y":-0.9202666878700256},"tangentEnd":{"x":0.30602332949638367,"y":0.500333309173584}},{"start":17,"end":18,"tangentStart":{"x":0.6780999898910522,"y":-0.9202666878700256},"tangentEnd":{"x":-0.30603334307670593,"y":0.500333309173584}},{"start":18,"end":19,"tangentStart":{"x":0.2039666622877121,"y":-0.33346667885780334},"tangentEnd":{"x":0.1431666612625122,"y":0.36373332142829895}},{"start":19,"end":20,"tangentStart":{"x":-0.8960999846458435,"y":-2.2771167755126953},"tangentEnd":{"x":0,"y":0}},{"start":20,"end":21,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":1.8188666105270386,"y":-2.6030433177948}},{"start":21,"end":17,"tangentStart":{"x":1.3761667013168335,"y":0.37236666679382324},"tangentEnd":{"x":-0.7730000019073486,"y":-1.1547666788101196}},{"start":22,"end":23,"tangentStart":{"x":-2.6693665981292725,"y":0},"tangentEnd":{"x":0,"y":-2.6693665981292725}},{"start":23,"end":24,"tangentStart":{"x":0,"y":2.6693665981292725},"tangentEnd":{"x":-2.6693665981292725,"y":0}},{"start":24,"end":25,"tangentStart":{"x":2.6693665981292725,"y":0},"tangentEnd":{"x":0,"y":2.6693665981292725}},{"start":25,"end":22,"tangentStart":{"x":0,"y":-2.6693665981292725},"tangentEnd":{"x":2.6693665981292725,"y":0}},{"start":26,"end":27,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":27,"end":28,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":28,"end":29,"tangentStart":{"x":0.3173333406448364,"y":0.06246666610240936},"tangentEnd":{"x":0.2162666618824005,"y":-0.2404666692018509}},{"start":29,"end":30,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":30,"end":31,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":31,"end":32,"tangentStart":{"x":0.04073333367705345,"y":0.32983332872390747},"tangentEnd":{"x":0.2973666787147522,"y":0.14843332767486572}},{"start":32,"end":33,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":33,"end":34,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":34,"end":35,"tangentStart":{"x":-0.2973666787147522,"y":0.14843332767486572},"tangentEnd":{"x":-0.040699999779462814,"y":0.32983332872390747}},{"start":35,"end":36,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":36,"end":37,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":37,"end":38,"tangentStart":{"x":-0.21623332798480988,"y":-0.2404666692018509},"tangentEnd":{"x":-0.3173333406448364,"y":0.06246666610240936}},{"start":38,"end":39,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":39,"end":40,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":40,"end":26,"tangentStart":{"x":0.15546666085720062,"y":-0.2997666597366333},"tangentEnd":{"x":-0.15546666085720062,"y":-0.2997666597366333}}],"regions":[{"windingRule":"EVENODD","loops":[[0,1,2,3,4,5,6,7,8,9,10,11],[12,13,14,15,16],[17,18,19,20,21],[22,23,24,25],[26,27,28,29,30,31,32,33,34,35,36,37,38,39,40]],"fillStyleId":"","fills":[{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.10980392247438431,"g":0.40392157435417175,"b":0.9529411792755127},"boundVariables":{}}]}]}
+	vector_4_16.vectorPaths = [{"windingRule":"EVENODD","data":"M 10.19843864440918 0.21322332322597504 L 10.179405212402344 0.2430233210325241 C 10.0642718821764 0.42309999465942383 9.895271956920624 0.6858867406845093 9.680871963500977 1.0149834156036377 C 9.251905292272568 1.6733434200286865 8.641671299934387 2.5962265729904175 7.91773796081543 3.6526999473571777 L 7.873437881469727 3.7172999382019043 C 7.474337875843048 3.6868999376893044 7.024605095386505 3.6666665077209473 6.534305095672607 3.6666665077209473 C 6.044038414955139 3.6666665077209473 5.594304740428925 3.6868999376893044 5.195204734802246 3.7172999382019043 L 5.150904655456543 3.6526999473571777 C 4.4269713163375854 2.5962265729904175 3.8167714178562164 1.6733434200286865 3.3878047466278076 1.0149834156036377 C 3.1733714193105698 0.6858867406845093 3.0043714493513107 0.42309999465942383 2.889238119125366 0.2430233210325241 L 2.8702046871185303 0.2132166475057602 C 3.5559380054473877 0.1168539822101593 4.75440514087677 0 6.534305095672607 0 C 8.314238429069519 0 9.512738645076752 0.11685865372419357 10.19843864440918 0.21322332322597504 Z M 0.18070800602436066 5.361733436584473 C -0.02324533462524414 5.028266757726669 -0.05514521896839142 4.621000319719315 0.08799810707569122 4.257266998291016 C 0.9841247946023941 1.9801502227783203 1.8677080869674683 0.5 1.8677080869674683 0.5 C 1.8677080869674683 0.5 3.188038468360901 2.5989835262298584 5.0069050788879395 5.202000141143799 C 3.630738377571106 5.5744001269340515 2.4563714265823364 6.437766909599304 1.683358073234558 7.592533588409424 C 1.0052680969238281 6.672266900539398 0.4867313355207443 5.862066745758057 0.18070800602436066 5.361733436584473 Z M 11.385371208190918 7.592566967010498 C 12.06347119808197 6.672300279140472 12.5820052921772 5.862066745758057 12.888038635253906 5.361733436584473 C 13.092005297541618 5.028266757726669 13.123905301094055 4.621000319719315 12.980738639831543 4.257266998291016 C 12.0846386551857 1.9801502227783203 11.201038360595703 0.5 11.201038360595703 0.5 C 11.201038360595703 0.5 9.880704760551453 2.5989902019500732 8.061838150024414 5.202033519744873 C 9.438004851341248 5.574400186538696 10.61237120628357 6.437800288200378 11.385371208190918 7.592566967010498 Z M 6.534337997436523 6 C 3.864971399307251 6 1.7010082006454468 8.163966417312622 1.7010082006454468 10.833333015441895 C 1.7010082006454468 13.502699613571167 3.864971399307251 15.666666030883789 6.534337997436523 15.666666030883789 C 9.203704595565796 15.666666030883789 11.367671966552734 13.502699613571167 11.367671966552734 10.833333015441895 C 11.367671966552734 8.163966417312622 9.203704595565796 6 6.534337997436523 6 Z M 6.904205322265625 8.213099479675293 L 7.51700496673584 9.394566535949707 L 8.814371109008789 9.650032997131348 C 9.131704449653625 9.712499663233757 9.259971648454666 10.096966192126274 9.043704986572266 10.337432861328125 L 8.124338150024414 11.359932899475098 L 8.29333782196045 12.729433059692383 C 8.334071155637503 13.05926638841629 7.9911046624183655 13.30169928073883 7.693737983703613 13.153265953063965 L 6.534337997436523 12.574565887451172 L 5.374938011169434 13.153265953063965 C 5.077571332454681 13.30169928073883 4.734638173133135 13.05926638841629 4.775338172912598 12.729433059692383 L 4.944338321685791 11.359932899475098 L 4.0249714851379395 10.337432861328125 C 3.8087381571531296 10.096966192126274 3.9369715452194214 9.712499663233757 4.254304885864258 9.650032997131348 L 5.551671504974365 9.394566535949707 L 6.164471626281738 8.213099479675293 C 6.319938287138939 7.91333281993866 6.748738661408424 7.91333281993866 6.904205322265625 8.213099479675293 Z"}]
+	
+
+	// Create GROUP
+	var group_4_15 = figma.group([vector_4_16], frame_4_14)
+	group_4_15.name = "Solid/Interface Essential/Trophy Award/star-medal-1--ribbon-reward-like-social-rating-media"
+	group_4_15.visible = true
+	group_4_15.locked = false
+	group_4_15.opacity = 1
+	group_4_15.blendMode = "PASS_THROUGH"
+	group_4_15.isMask = false
+	group_4_15.effects = []
+	group_4_15.layoutAlign = "INHERIT"
+	group_4_15.constrainProportions = false
+	group_4_15.layoutGrow = 0
+	group_4_15.layoutPositioning = "AUTO"
+	group_4_15.exportSettings = []
+	group_4_15.reactions = []
+	group_4_15.expanded = false
+	
+
+	// Create TEXT
+	var text_4_17 = figma.createText()
+	frame_4_13.appendChild(text_4_17)
+	text_4_17.resize(72.0000000000, 24.0000000000)
+	text_4_17.name = "Most Popular"
+	text_4_17.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.1804114133119583,"g":0.2168681025505066,"b":0.2849206030368805},"boundVariables":{}}]
+	text_4_17.relativeTransform = [[1,0,40],[0,1,2]]
+	text_4_17.x = 40
+	text_4_17.y = 2
+	
+	// Font properties
+	text_4_17.fontName = {
+		family: "Proxima Nova",
+		style: "Bold"
+	}
+		text_4_17.characters = "Most Popular"
+	text_4_17.listSpacing = 0
+	text_4_17.lineHeight = {"unit":"PIXELS","value":24}
+	text_4_17.fontName = {"family":"Proxima Nova","style":"Bold"}
+	text_4_17.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create RECTANGLE
-	var rectangle_2_2076 = figma.createRectangle()
-	frame_2_2075.appendChild(rectangle_2_2076)
-	rectangle_2_2076.resize(259.6787109375, 265.0000000000)
-	rectangle_2_2076.name = "image 320"
-	rectangle_2_2076.fills = [{"type":"IMAGE","visible":true,"opacity":1,"blendMode":"NORMAL","scaleMode":"CROP","imageTransform":[[0.9963334202766418,0,0.0036666346713900566],[0,0.9988313913345337,0.0005842765094712377]],"scalingFactor":0.5,"filters":{"exposure":0,"contrast":0,"saturation":0,"temperature":0,"tint":0,"highlights":0,"shadows":0},"imageHash":"76819540c85452f7cf08a3950464858b7fb0bed1"}]
-	rectangle_2_2076.strokeWeight = 0.6065271496772766
-	rectangle_2_2076.constrainProportions = true
-	rectangle_2_2076.strokeTopWeight = 0.6065271496772766
-	rectangle_2_2076.strokeBottomWeight = 0.6065271496772766
-	rectangle_2_2076.strokeLeftWeight = 0.6065271496772766
-	rectangle_2_2076.strokeRightWeight = 0.6065271496772766
+	var rectangle_4_18 = figma.createRectangle()
+	frame_4_3.appendChild(rectangle_4_18)
+	rectangle_4_18.resize(446.5703430176, 384.5890197754)
+	rectangle_4_18.name = "Groov website_insole_01_element_01 8"
+	rectangle_4_18.fills = []
+	rectangle_4_18.strokeWeight = 3.592979669570923
+	rectangle_4_18.relativeTransform = [[1,0,300],[0,1,46.48828125]]
+	rectangle_4_18.x = 300
+	rectangle_4_18.y = 46.48828125
+	rectangle_4_18.constraints = {"horizontal":"MIN","vertical":"CENTER"}
+	rectangle_4_18.strokeTopWeight = 3.592979669570923
+	rectangle_4_18.strokeBottomWeight = 3.592979669570923
+	rectangle_4_18.strokeLeftWeight = 3.592979669570923
+	rectangle_4_18.strokeRightWeight = 3.592979669570923
 	
 
-	// 🎯 CENTRALIZAR FRAME PRINCIPAL NA VIEWPORT
-	const viewportCenter = figma.viewport.center;
-	frame_2_2075.x = viewportCenter.x - frame_2_2075.width / 2;
-	frame_2_2075.y = viewportCenter.y - frame_2_2075.height / 2;
-	figma.viewport.scrollAndZoomIntoView([frame_2_2075]);
-	figma.notify("✅ Frame adicionado e centralizado com sucesso!");
+	// Create RECTANGLE
+	var rectangle_4_19 = figma.createRectangle()
+	frame_4_3.appendChild(rectangle_4_19)
+	rectangle_4_19.resize(260.0000000000, 265.0000000000)
+	rectangle_4_19.name = "image 320"
+	rectangle_4_19.fills = [{"type":"IMAGE","visible":true,"opacity":1,"blendMode":"NORMAL","scaleMode":"CROP","imageTransform":[[0.9963334202766418,0,0.0036666346713900566],[0,0.9988313913345337,0.0005842765094712377]],"scalingFactor":0.5,"filters":{"exposure":0,"contrast":0,"saturation":0,"temperature":0,"tint":0,"highlights":0,"shadows":0},"imageHash":"76819540c85452f7cf08a3950464858b7fb0bed1"}]
+	rectangle_4_19.strokeWeight = 0.6065271496772766
+	rectangle_4_19.relativeTransform = [[1,0,172],[0,1,200.4887695312]]
+	rectangle_4_19.x = 172
+	rectangle_4_19.y = 200.48876953125
+	rectangle_4_19.constrainProportions = true
+	rectangle_4_19.strokeTopWeight = 0.6065271496772766
+	rectangle_4_19.strokeBottomWeight = 0.6065271496772766
+	rectangle_4_19.strokeLeftWeight = 0.6065271496772766
+	rectangle_4_19.strokeRightWeight = 0.6065271496772766
 	
+
+	// Create FRAME
+	var frame_4_20 = figma.createFrame()
+	frame_4_2.appendChild(frame_4_20)
+	frame_4_20.resize(595.0000000000, 71.0000000000)
+	frame_4_20.name = "Frame 1000003031"
+	frame_4_20.relativeTransform = [[1,0,0],[0,1,503]]
+	frame_4_20.y = 503
+	frame_4_20.layoutAlign = "STRETCH"
+	frame_4_20.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.9803921580314636,"g":0.9803921580314636,"b":0.9843137264251709},"boundVariables":{}}]
+	frame_4_20.bottomLeftRadius = 12
+	frame_4_20.bottomRightRadius = 12
+	frame_4_20.counterAxisAlignItems = "CENTER"
+	frame_4_20.primaryAxisSizingMode = "FIXED"
+	frame_4_20.strokeTopWeight = 1
+	frame_4_20.strokeBottomWeight = 1
+	frame_4_20.strokeLeftWeight = 1
+	frame_4_20.strokeRightWeight = 1
+	frame_4_20.clipsContent = false
+	frame_4_20.expanded = false
+	frame_4_20.itemSpacing = 27
+	
+
+	// Create FRAME
+	var frame_4_21 = figma.createFrame()
+	frame_4_20.appendChild(frame_4_21)
+	frame_4_21.resize(531.9230957031, 37.0000000000)
+	frame_4_21.primaryAxisSizingMode = "AUTO"
+	frame_4_21.name = "Frame 1000003769"
+	frame_4_21.relativeTransform = [[1,0,37],[0,1,17.48828125]]
+	frame_4_21.x = 37
+	frame_4_21.y = 17.48828125
+	frame_4_21.fills = []
+	frame_4_21.counterAxisAlignItems = "CENTER"
+	frame_4_21.strokeTopWeight = 1
+	frame_4_21.strokeBottomWeight = 1
+	frame_4_21.strokeLeftWeight = 1
+	frame_4_21.strokeRightWeight = 1
+	frame_4_21.clipsContent = false
+	frame_4_21.expanded = false
+	frame_4_21.layoutMode = "HORIZONTAL"
+	frame_4_21.itemSpacing = 41
+	
+
+	// Create FRAME
+	var frame_4_22 = figma.createFrame()
+	frame_4_21.appendChild(frame_4_22)
+	frame_4_22.resize(73.0000000000, 24.0000000000)
+	frame_4_22.primaryAxisSizingMode = "AUTO"
+	frame_4_22.counterAxisSizingMode = "AUTO"
+	frame_4_22.name = "Frame 1000003576"
+	frame_4_22.relativeTransform = [[1,0,0],[0,1,6.5]]
+	frame_4_22.y = 6.5
+	frame_4_22.fills = []
+	frame_4_22.counterAxisAlignItems = "CENTER"
+	frame_4_22.strokeTopWeight = 1
+	frame_4_22.strokeBottomWeight = 1
+	frame_4_22.strokeLeftWeight = 1
+	frame_4_22.strokeRightWeight = 1
+	frame_4_22.clipsContent = false
+	frame_4_22.expanded = false
+	frame_4_22.layoutMode = "HORIZONTAL"
+	frame_4_22.counterAxisSizingMode = "AUTO"
+	frame_4_22.itemSpacing = 14
+	
+
+	// Create FRAME
+	var frame_4_23 = figma.createFrame()
+	frame_4_22.appendChild(frame_4_23)
+	frame_4_23.resize(24.0000000000, 24.0000000000)
+	frame_4_23.primaryAxisSizingMode = "AUTO"
+	frame_4_23.name = "Frame 1000003222"
+	frame_4_23.effects = [{"type":"INNER_SHADOW","visible":true,"radius":2.8235294818878174,"boundVariables":{},"color":{"r":0,"g":0,"b":0,"a":0.41999998688697815},"offset":{"x":0,"y":1.4117647409439087},"spread":0,"blendMode":"NORMAL"}]
+	frame_4_23.fills = []
+	frame_4_23.strokeWeight = 0.800000011920929
+	frame_4_23.cornerRadius = 80
+	frame_4_23.strokeTopWeight = 0.800000011920929
+	frame_4_23.strokeBottomWeight = 0.800000011920929
+	frame_4_23.strokeLeftWeight = 0.800000011920929
+	frame_4_23.strokeRightWeight = 0.800000011920929
+	frame_4_23.expanded = false
+	
+
+	// Create RECTANGLE
+	var rectangle_4_24 = figma.createRectangle()
+	frame_4_23.appendChild(rectangle_4_24)
+	rectangle_4_24.resize(48.8961944580, 48.8961944580)
+	rectangle_4_24.name = "image 194"
+	rectangle_4_24.fills = [{"type":"IMAGE","visible":true,"opacity":1,"blendMode":"NORMAL","scaleMode":"CROP","imageTransform":[[0.21361501514911652,0,0.26291078329086304],[0,0.13024604320526123,0.3733718991279602]],"scalingFactor":0.5,"filters":{"exposure":0,"contrast":0,"saturation":0,"temperature":0,"tint":0,"highlights":0,"shadows":0},"imageHash":"c24264e2deaefa434f2a27b17df5cdefbd903d9b"}]
+	rectangle_4_24.strokeWeight = 0.131239116191864
+	rectangle_4_24.relativeTransform = [[0.920504868,0.8191520572,-23.3795948029],[-0.3907311261,0.5735764503,7.853975296]]
+	rectangle_4_24.x = -23.379594802856445
+	rectangle_4_24.y = 7.853975296020508
+	rectangle_4_24.rotation = 22.99999954604251
+	rectangle_4_24.constraints = {"horizontal":"CENTER","vertical":"CENTER"}
+	rectangle_4_24.cornerRadius = 29.878841400146484
+	rectangle_4_24.strokeTopWeight = 0.131239116191864
+	rectangle_4_24.strokeBottomWeight = 0.131239116191864
+	rectangle_4_24.strokeLeftWeight = 0.131239116191864
+	rectangle_4_24.strokeRightWeight = 0.131239116191864
+	
+
+	// Create TEXT
+	var text_4_25 = figma.createText()
+	frame_4_22.appendChild(text_4_25)
+	text_4_25.resize(35.0000000000, 20.0000000000)
+	text_4_25.name = "Plush"
+	text_4_25.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	text_4_25.relativeTransform = [[1,0,38],[0,1,2]]
+	text_4_25.x = 38
+	text_4_25.y = 2
+	
+	// Font properties
+	text_4_25.fontName = {
+		family: "Proxima Nova",
+		style: "Semibold"
+	}
+		text_4_25.characters = "Plush"
+	text_4_25.fontSize = 14
+	text_4_25.listSpacing = 0
+	text_4_25.lineHeight = {"unit":"PERCENT","value":139.9999976158142}
+	text_4_25.fontName = {"family":"Proxima Nova","style":"Semibold"}
+	text_4_25.textAutoResize = "WIDTH_AND_HEIGHT"
+
+
+	// Create VECTOR
+	var vector_4_26 = figma.createVector()
+	frame_4_21.appendChild(vector_4_26)
+	vector_4_26.resize(0.0000000000, 37.0000000000)
+	vector_4_26.name = "Vector 6270"
+	vector_4_26.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.896803617477417,"g":0.896803617477417,"b":0.896803617477417},"boundVariables":{}}]
+	vector_4_26.strokeWeight = 0.5
+	vector_4_26.relativeTransform = [[1,0,114],[0,1,0]]
+	vector_4_26.x = 114
+	vector_4_26.layoutAlign = "STRETCH"
+	vector_4_26.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":37,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[]}
+	vector_4_26.vectorPaths = [{"windingRule":"NONE","data":"M 0 0 L 0 37"}]
+	
+
+	// Create FRAME
+	var frame_4_27 = figma.createFrame()
+	frame_4_21.appendChild(frame_4_27)
+	frame_4_27.resize(148.0000000000, 28.0000000000)
+	frame_4_27.primaryAxisSizingMode = "AUTO"
+	frame_4_27.counterAxisSizingMode = "AUTO"
+	frame_4_27.name = "Frame 1000003555"
+	frame_4_27.relativeTransform = [[1,0,155],[0,1,4.5]]
+	frame_4_27.x = 155
+	frame_4_27.y = 4.5
+	frame_4_27.fills = []
+	frame_4_27.counterAxisAlignItems = "CENTER"
+	frame_4_27.strokeTopWeight = 1
+	frame_4_27.strokeBottomWeight = 1
+	frame_4_27.strokeLeftWeight = 1
+	frame_4_27.strokeRightWeight = 1
+	frame_4_27.clipsContent = false
+	frame_4_27.expanded = false
+	frame_4_27.layoutMode = "HORIZONTAL"
+	frame_4_27.counterAxisSizingMode = "AUTO"
+	frame_4_27.itemSpacing = 14
+	
+
+	// Create FRAME
+	var frame_4_28 = figma.createFrame()
+	frame_4_27.appendChild(frame_4_28)
+	frame_4_28.resize(20.0000000000, 20.0000000000)
+	frame_4_28.primaryAxisSizingMode = "AUTO"
+	frame_4_28.relativeTransform = [[1,0,0],[0,1,4]]
+	frame_4_28.y = 4
+	frame_4_28.exportSettings = [{"format":"SVG","suffix":"","contentsOnly":true,"colorProfile":"DOCUMENT","svgOutlineText":true,"svgIdAttribute":false,"svgSimplifyStroke":true}]
+	frame_4_28.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_4_28.strokeWeight = 0.3571428656578064
+	frame_4_28.strokeTopWeight = 0.3571428656578064
+	frame_4_28.strokeBottomWeight = 0.3571428656578064
+	frame_4_28.strokeLeftWeight = 0.3571428656578064
+	frame_4_28.strokeRightWeight = 0.3571428656578064
+	frame_4_28.expanded = false
+	
+
+	// Create VECTOR
+	var vector_4_30 = figma.createVector()
+	frame_4_28.appendChild(vector_4_30)
+	vector_4_30.resize(15.7260465622, 17.2469959259)
+	vector_4_30.name = "Vector 5621"
+	vector_4_30.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.20156624913215637,"g":0.20156624913215637,"b":0.20156624913215637},"boundVariables":{}}]
+	vector_4_30.strokeWeight = 1.4285714626312256
+	vector_4_30.strokeJoin = "ROUND"
+	vector_4_30.strokeCap = "ROUND"
+	vector_4_30.relativeTransform = [[1,0,2.1368669783],[0,1,1.3750716921]]
+	vector_4_30.x = 2.136866978253238
+	vector_4_30.y = 1.3750716920912964
+	vector_4_30.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_4_30.vectorNetwork = {"vertices":[{"x":0.7770630806429131,"y":5.347724385960989,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":5.755996454772439,"y":0.36878382039274377,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":7.536638478384297,"y":0.36878382039274377,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":7.880978924109747,"y":1.5060384170864054,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":7.657392033901105,"y":2.6239855363414213,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":7.917578218004308,"y":3.4833384110499335,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":8.695415392650338,"y":3.756192471037787,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":9.688244127502745,"y":3.6458782363325044,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":10.72008631455753,"y":4.007822168180734,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":11.05654668598704,"y":4.612706802218265,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":12.333279484164303,"y":10.068396318647332,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":13.040453482201146,"y":11.339888070651277,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":15.058768846260733,"y":13.358138159212302,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":15.058768846260733,"y":16.579750867928745,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":13.447963949517167,"y":17.24699592590332,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":11.12220988461108,"y":17.24699592590332,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":7.370211418245385,"y":15.692832377266983,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.7770630806429131,"y":9.099709790805077,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":0.4917183305414982,"y":-0.49171176052365834},"tangentEnd":{"x":-0.4917050897959824,"y":-0.49171176052365834}},{"start":2,"end":3,"tangentStart":{"x":0.2976867214751017,"y":0.2976800974123336},"tangentEnd":{"x":0.08256325938865366,"y":-0.4128163266687528}},{"start":3,"end":4,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":4,"end":5,"tangentStart":{"x":-0.06238673144265878,"y":0.31193367565325636},"tangentEnd":{"x":-0.2249397878622021,"y":-0.22493980115952075}},{"start":5,"end":6,"tangentStart":{"x":0.20437857049112154,"y":0.20437858257296354},"tangentEnd":{"x":-0.28726018785304835,"y":0.031916326682204954}},{"start":6,"end":7,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":7,"end":8,"tangentStart":{"x":0.38107244509838034,"y":-0.04234285825970132},"tangentEnd":{"x":-0.2711163130896748,"y":-0.2711030670830474}},{"start":8,"end":9,"tangentStart":{"x":0.16633366179333184,"y":0.16633367162614854},"tangentEnd":{"x":-0.0535918323259089,"y":-0.22905205339178158}},{"start":9,"end":10,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":10,"end":11,"tangentStart":{"x":0.11262243924037206,"y":0.48145103363720104},"tangentEnd":{"x":-0.34954080174523044,"y":-0.3496469399650896}},{"start":11,"end":12,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":12,"end":13,"tangentStart":{"x":0.8897040186097374,"y":0.8897040712046027},"tangentEnd":{"x":0.8897040186097374,"y":-0.8895714082931353}},{"start":13,"end":14,"tangentStart":{"x":-0.42714283148800414,"y":0.4272755196500259},"tangentEnd":{"x":0.6042346522313936,"y":0}},{"start":14,"end":15,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":15,"end":16,"tangentStart":{"x":-1.4072765013238462,"y":0},"tangentEnd":{"x":0.995083663616079,"y":0.9951632520677489}},{"start":16,"end":17,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":17,"end":0,"tangentStart":{"x":-1.036084079140721,"y":-1.0360867800231561},"tangentEnd":{"x":-1.036084079140721,"y":1.0360734967021106}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]],"fillStyleId":"","fills":[]}]}
+	vector_4_30.vectorPaths = [{"windingRule":"NONZERO","data":"M 0.7770630806429131 5.347724385960989 L 5.755996454772439 0.36878382039274377 C 6.247714785313937 -0.12292794013091457 7.044933388588314 -0.12292794013091457 7.536638478384297 0.36878382039274377 C 7.834325199859398 0.6664639178050773 7.963542183498401 1.0932220904176526 7.880978924109747 1.5060384170864054 L 7.657392033901105 2.6239855363414213 C 7.595005302458446 2.9359192119946775 7.692638430142106 3.2583986098904125 7.917578218004308 3.4833384110499335 C 8.12195678849543 3.687716993622897 8.40815520479729 3.788108797719992 8.695415392650338 3.756192471037787 L 9.688244127502745 3.6458782363325044 C 10.069316572601126 3.603535378072803 10.448970001467856 3.736719101097687 10.72008631455753 4.007822168180734 C 10.886419976350862 4.1741558398068825 11.002954853661132 4.383654748826483 11.05654668598704 4.612706802218265 L 12.333279484164303 10.068396318647332 C 12.445901923404675 10.549847352284534 12.690912680455915 10.990241130686188 13.040453482201146 11.339888070651277 L 15.058768846260733 13.358138159212302 C 15.948472864870471 14.247842230416905 15.948472864870471 15.69017945963561 15.058768846260733 16.579750867928745 C 14.63162601477273 17.00702638757877 14.052198601748561 17.24699592590332 13.447963949517167 17.24699592590332 L 11.12220988461108 17.24699592590332 C 9.714933383287233 17.24699592590332 8.365295081861465 16.687995629334733 7.370211418245385 15.692832377266983 L 0.7770630806429131 9.099709790805077 C -0.259020998497808 8.063623010781921 -0.259020998497808 6.383797882663099 0.7770630806429131 5.347724385960989 Z"}]
+	
+
+	// Create VECTOR
+	var vector_4_31 = figma.createVector()
+	frame_4_28.appendChild(vector_4_31)
+	vector_4_31.resize(12.4833688736, 10.0235042572)
+	vector_4_31.name = "Vector 5622"
+	vector_4_31.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.20156624913215637,"g":0.20156624913215637,"b":0.20156624913215637},"boundVariables":{}}]
+	vector_4_31.strokeWeight = 1.4285714626312256
+	vector_4_31.strokeJoin = "ROUND"
+	vector_4_31.strokeCap = "ROUND"
+	vector_4_31.relativeTransform = [[1,0,2.2224121094],[0,1,8.5993652344]]
+	vector_4_31.x = 2.222412109375
+	vector_4_31.y = 8.599365234375
+	vector_4_31.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_4_31.vectorNetwork = {"vertices":[{"x":12.483368873596191,"y":10.023504257202148,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":3.237066162936223,"y":0.7771614302769094,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.3612590071627189,"y":0.00009264264410187563,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":-0.49750202968330925,"y":-0.497502025685906},"tangentEnd":{"x":0.7035652849904975,"y":0.00005306122321307064}},{"start":2,"end":3,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1,2]],"fillStyleId":"","fills":[]}]}
+	vector_4_31.vectorPaths = [{"windingRule":"NONZERO","data":"M 12.483368873596191 10.023504257202148 L 3.237066162936223 0.7771614302769094 C 2.739564133252914 0.2796594045910034 2.0648242921532165 0.00014570386731494627 1.3612590071627189 0.00009264264410187563 L 0 0"}]
+	
+
+	// Create GROUP
+	var group_4_29 = figma.group([vector_4_30, vector_4_31], frame_4_28)
+	group_4_29.name = "walking-steps--sports-walking-steps-running-sprint"
+	group_4_29.visible = true
+	group_4_29.locked = false
+	group_4_29.opacity = 1
+	group_4_29.blendMode = "PASS_THROUGH"
+	group_4_29.isMask = false
+	group_4_29.effects = []
+	group_4_29.layoutAlign = "INHERIT"
+	group_4_29.constrainProportions = false
+	group_4_29.layoutGrow = 0
+	group_4_29.layoutPositioning = "AUTO"
+	group_4_29.exportSettings = []
+	group_4_29.reactions = []
+	group_4_29.expanded = false
+	
+
+	// Create FRAME
+	var frame_4_32 = figma.createFrame()
+	frame_4_27.appendChild(frame_4_32)
+	frame_4_32.resize(114.0000000000, 28.0000000000)
+	frame_4_32.primaryAxisSizingMode = "AUTO"
+	frame_4_32.counterAxisSizingMode = "AUTO"
+	frame_4_32.name = "Frame 1000003027"
+	frame_4_32.relativeTransform = [[1,0,34],[0,1,0]]
+	frame_4_32.x = 34
+	frame_4_32.fills = []
+	frame_4_32.strokeTopWeight = 1
+	frame_4_32.strokeBottomWeight = 1
+	frame_4_32.strokeLeftWeight = 1
+	frame_4_32.strokeRightWeight = 1
+	frame_4_32.clipsContent = false
+	frame_4_32.expanded = false
+	frame_4_32.layoutMode = "VERTICAL"
+	frame_4_32.counterAxisSizingMode = "AUTO"
+	frame_4_32.itemSpacing = 4
+	
+
+	// Create TEXT
+	var text_4_33 = figma.createText()
+	frame_4_32.appendChild(text_4_33)
+	text_4_33.resize(79.0000000000, 12.0000000000)
+	text_4_33.name = "Compatible Fit"
+	text_4_33.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	text_4_33.strokeWeight = 0.8571428656578064
+	
+	// Font properties
+	text_4_33.fontName = {
+		family: "Proxima Nova",
+		style: "Semibold"
+	}
+		text_4_33.characters = "Compatible Fit"
+	text_4_33.listSpacing = 0
+	text_4_33.lineHeight = {"unit":"PERCENT","value":100}
+	text_4_33.fontName = {"family":"Proxima Nova","style":"Semibold"}
+	text_4_33.textAutoResize = "WIDTH_AND_HEIGHT"
+
+
+	// Create TEXT
+	var text_4_34 = figma.createText()
+	frame_4_32.appendChild(text_4_34)
+	text_4_34.resize(114.0000000000, 12.0000000000)
+	text_4_34.name = "All shoes & sneakers"
+	text_4_34.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.44372692704200745,"g":0.4817817509174347,"b":0.5528175234794617},"boundVariables":{}}]
+	text_4_34.strokeWeight = 0.8461538553237915
+	text_4_34.relativeTransform = [[1,0,0],[0,1,16]]
+	text_4_34.y = 16
+	
+	// Font properties
+	text_4_34.fontName = {
+		family: "Proxima Nova",
+		style: "Regular"
+	}
+		text_4_34.characters = "All shoes & sneakers"
+	text_4_34.listSpacing = 0
+	text_4_34.lineHeight = {"unit":"PERCENT","value":100}
+	text_4_34.fontName = {"family":"Proxima Nova","style":"Regular"}
+	text_4_34.textAutoResize = "HEIGHT"
+
+
+	// Create VECTOR
+	var vector_4_35 = figma.createVector()
+	frame_4_21.appendChild(vector_4_35)
+	vector_4_35.resize(0.0000000000, 37.0000000000)
+	vector_4_35.name = "Vector 6271"
+	vector_4_35.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.896803617477417,"g":0.896803617477417,"b":0.896803617477417},"boundVariables":{}}]
+	vector_4_35.strokeWeight = 0.5
+	vector_4_35.relativeTransform = [[1,0,344],[0,1,0]]
+	vector_4_35.x = 344
+	vector_4_35.layoutAlign = "STRETCH"
+	vector_4_35.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":37,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[]}
+	vector_4_35.vectorPaths = [{"windingRule":"NONE","data":"M 0 0 L 0 37"}]
+	
+
+	// Create FRAME
+	var frame_4_36 = figma.createFrame()
+	frame_4_21.appendChild(frame_4_36)
+	frame_4_36.resize(146.9230804443, 28.0000000000)
+	frame_4_36.primaryAxisSizingMode = "AUTO"
+	frame_4_36.counterAxisSizingMode = "AUTO"
+	frame_4_36.name = "Frame 1000003029"
+	frame_4_36.relativeTransform = [[1,0,385],[0,1,4.5]]
+	frame_4_36.x = 385
+	frame_4_36.y = 4.5
+	frame_4_36.fills = []
+	frame_4_36.counterAxisAlignItems = "CENTER"
+	frame_4_36.strokeTopWeight = 1
+	frame_4_36.strokeBottomWeight = 1
+	frame_4_36.strokeLeftWeight = 1
+	frame_4_36.strokeRightWeight = 1
+	frame_4_36.clipsContent = false
+	frame_4_36.expanded = false
+	frame_4_36.layoutMode = "HORIZONTAL"
+	frame_4_36.counterAxisSizingMode = "AUTO"
+	frame_4_36.itemSpacing = 20
+	
+
+	// Create VECTOR
+	var vector_4_38 = figma.createVector()
+	frame_4_36.appendChild(vector_4_38)
+	vector_4_38.resize(16.9230766296, 20.0000000000)
+	vector_4_38.name = "Vector 4766"
+	vector_4_38.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	vector_4_38.strokeWeight = 1.500024437904358
+	vector_4_38.strokeJoin = "ROUND"
+	vector_4_38.strokeCap = "ROUND"
+	vector_4_38.relativeTransform = [[1,0,0.0000901222],[0,1,4]]
+	vector_4_38.x = 0.00009012222290039062
+	vector_4_38.y = 4.0000000000009095
+	vector_4_38.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_4_38.vectorNetwork = {"vertices":[{"x":8.461600726882063,"y":20,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":15.114769458539827,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":4.885261747490285,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":8.461600726882063,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":16.923076629638672,"y":4.885261747490285,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":16.923076629638672,"y":15.114769458539827,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":2,"end":3,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":3,"end":4,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":4,"end":5,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":5,"end":0,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1,2,3,4,5]],"fillStyleId":"","fills":[]}]}
+	vector_4_38.vectorPaths = [{"windingRule":"NONZERO","data":"M 8.461600726882063 20 L 0 15.114769458539827 L 0 4.885261747490285 L 8.461600726882063 0 L 16.923076629638672 4.885261747490285 L 16.923076629638672 15.114769458539827 L 8.461600726882063 20 Z"}]
+	
+
+	// Create VECTOR
+	var vector_4_39 = figma.createVector()
+	frame_4_36.appendChild(vector_4_39)
+	vector_4_39.resize(16.9230766296, 4.8852772713)
+	vector_4_39.name = "Vector 4767"
+	vector_4_39.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	vector_4_39.strokeWeight = 1.500024437904358
+	vector_4_39.strokeJoin = "ROUND"
+	vector_4_39.relativeTransform = [[1,0,0.0001574011],[0,1,8.8849153519]]
+	vector_4_39.x = 0.00015740108210593462
+	vector_4_39.y = 8.884915351867676
+	vector_4_39.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_4_39.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"NONE","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":8.461600726882063,"y":4.885277271270752,"strokeCap":"NONE","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":16.923076629638672,"y":0,"strokeCap":"NONE","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1]],"fillStyleId":"","fills":[]}]}
+	vector_4_39.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 8.461600726882063 4.885277271270752 L 16.923076629638672 0"}]
+	
+
+	// Create VECTOR
+	var vector_4_40 = figma.createVector()
+	frame_4_36.appendChild(vector_4_40)
+	vector_4_40.resize(8.4615402222, 9.6383247375)
+	vector_4_40.name = "Vector 4769"
+	vector_4_40.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	vector_4_40.strokeWeight = 1.500024437904358
+	vector_4_40.strokeJoin = "ROUND"
+	vector_4_40.strokeCap = "ROUND"
+	vector_4_40.relativeTransform = [[1,0,4.2309122086],[0,1,6.443469286]]
+	vector_4_40.x = 4.230912208557129
+	vector_4_40.y = 6.443469285964966
+	vector_4_40.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_4_40.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":8.461540222167969,"y":4.885277683419202,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":8.461540222167969,"y":9.638324737548828,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1]],"fillStyleId":"","fills":[]}]}
+	vector_4_40.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 8.461540222167969 4.885277683419202 L 8.461540222167969 9.638324737548828"}]
+	
+
+	// Create VECTOR
+	var vector_4_41 = figma.createVector()
+	frame_4_36.appendChild(vector_4_41)
+	vector_4_41.resize(0.0000000000, 10.2294940948)
+	vector_4_41.name = "Vector 4768"
+	vector_4_41.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	vector_4_41.strokeWeight = 1.500024437904358
+	vector_4_41.strokeJoin = "ROUND"
+	vector_4_41.relativeTransform = [[1,0,8.4605817795],[0,1,13.7699775696]]
+	vector_4_41.x = 8.46058177947998
+	vector_4_41.y = 13.769977569580078
+	vector_4_41.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_4_41.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"NONE","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":10.229494094848633,"strokeCap":"NONE","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0]],"fillStyleId":"","fills":[]}]}
+	vector_4_41.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 0 10.229494094848633"}]
+	
+
+	// Create GROUP
+	var group_4_37 = figma.group([vector_4_38, vector_4_39, vector_4_40, vector_4_41], frame_4_36)
+	group_4_37.name = "package--package-box-shipping-e-commerce"
+	group_4_37.visible = true
+	group_4_37.locked = false
+	group_4_37.opacity = 1
+	group_4_37.blendMode = "PASS_THROUGH"
+	group_4_37.isMask = false
+	group_4_37.effects = []
+	group_4_37.layoutAlign = "INHERIT"
+	group_4_37.constrainProportions = false
+	group_4_37.layoutGrow = 0
+	group_4_37.layoutPositioning = "AUTO"
+	group_4_37.exportSettings = []
+	group_4_37.reactions = []
+	group_4_37.expanded = false
+	
+
+	// Create FRAME
+	var frame_4_42 = figma.createFrame()
+	frame_4_36.appendChild(frame_4_42)
+	frame_4_42.resize(110.0000000000, 28.0000000000)
+	frame_4_42.primaryAxisSizingMode = "AUTO"
+	frame_4_42.name = "Frame 1000003028"
+	frame_4_42.relativeTransform = [[1,0,36.9230766296],[0,1,0]]
+	frame_4_42.x = 36.92307662963867
+	frame_4_42.fills = []
+	frame_4_42.strokeTopWeight = 1
+	frame_4_42.strokeBottomWeight = 1
+	frame_4_42.strokeLeftWeight = 1
+	frame_4_42.strokeRightWeight = 1
+	frame_4_42.clipsContent = false
+	frame_4_42.expanded = false
+	frame_4_42.layoutMode = "VERTICAL"
+	frame_4_42.itemSpacing = 4
+	
+
+	// Create TEXT
+	var text_4_43 = figma.createText()
+	frame_4_42.appendChild(text_4_43)
+	text_4_43.resize(110.0000000000, 12.0000000000)
+	text_4_43.name = "Free Delivery"
+	text_4_43.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	text_4_43.layoutAlign = "STRETCH"
+	
+	// Font properties
+	text_4_43.fontName = {
+		family: "Proxima Nova",
+		style: "Semibold"
+	}
+		text_4_43.characters = "Free Delivery"
+	text_4_43.listSpacing = 0
+	text_4_43.lineHeight = {"unit":"PERCENT","value":100}
+	text_4_43.fontName = {"family":"Proxima Nova","style":"Semibold"}
+	text_4_43.textAutoResize = "HEIGHT"
+
+
+	// Create TEXT
+	var text_4_44 = figma.createText()
+	frame_4_42.appendChild(text_4_44)
+	text_4_44.resize(98.0000000000, 12.0000000000)
+	text_4_44.name = "Within 7 days"
+	text_4_44.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.44372692704200745,"g":0.4817817509174347,"b":0.5528175234794617},"boundVariables":{}}]
+	text_4_44.relativeTransform = [[1,0,0],[0,1,16]]
+	text_4_44.y = 16
+	
+	// Font properties
+	text_4_44.fontName = {
+		family: "Proxima Nova",
+		style: "Regular"
+	}
+		text_4_44.characters = "Within 7 days"
+	text_4_44.listSpacing = 0
+	text_4_44.lineHeight = {"unit":"PERCENT","value":100}
+	text_4_44.fontName = {"family":"Proxima Nova","style":"Regular"}
+	text_4_44.textAutoResize = "HEIGHT"
 }
 
 main()
