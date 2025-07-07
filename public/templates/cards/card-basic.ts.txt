@@ -2,37 +2,35 @@ async function main() {
 
 
 	// Create FRAME
-	var frame_6_79 = figma.createFrame()
-	figma.currentPage.appendChild(frame_6_79)
-	frame_6_79.resize(961.0000000000, 678.0000000000)
-	frame_6_79.primaryAxisSizingMode = "AUTO"
-	frame_6_79.name = "imagem"
-	frame_6_79.relativeTransform = [[1,0,6051],[0,1,1941]]
-	frame_6_79.x = 6051
-	frame_6_79.y = 1941
-	frame_6_79.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_6_79.strokeTopWeight = 1
-	frame_6_79.strokeBottomWeight = 1
-	frame_6_79.strokeLeftWeight = 1
-	frame_6_79.strokeRightWeight = 1
+	var frame_6_103 = figma.createFrame()
+	figma.currentPage.appendChild(frame_6_103)
+	frame_6_103.resize(961.0000000000, 678.0000000000)
+	frame_6_103.primaryAxisSizingMode = "AUTO"
+	frame_6_103.name = "imagem"
+	frame_6_103.relativeTransform = [[1,0,6051],[0,1,2037]]
+	frame_6_103.x = 6051
+	frame_6_103.y = 2037
+	frame_6_103.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_6_103.strokeTopWeight = 1
+	frame_6_103.strokeBottomWeight = 1
+	frame_6_103.strokeLeftWeight = 1
+	frame_6_103.strokeRightWeight = 1
 	
 
 	// Create RECTANGLE
-	var rectangle_6_80 = figma.createRectangle()
-	frame_6_79.appendChild(rectangle_6_80)
-	rectangle_6_80.resize(639.2365722656, 550.5142211914)
-	rectangle_6_80.name = "Groov website_insole_01_element_01 9"
-	rectangle_6_80.fills = [{"type":"IMAGE","visible":true,"opacity":1,"blendMode":"NORMAL","scaleMode":"CROP","imageTransform":[[0.951320230960846,7.543345217746268e-17,0.002454449189826846],[2.919683195388416e-17,0.8764419555664062,-3.587408148320037e-15]],"scalingFactor":0.5,"filters":{"exposure":0,"contrast":0,"saturation":0,"temperature":0,"tint":0,"highlights":0,"shadows":0},"imageHash":"54cff234a279746d6fe9a006934d0f799125fc4e"}]
-	rectangle_6_80.strokeWeight = 3.1956703662872314
-	rectangle_6_80.relativeTransform = [[0.9998868704,0.015041152,121],[-0.015041152,0.9998868704,68.6148529053]]
-	rectangle_6_80.x = 121
-	rectangle_6_80.y = 68.61485290527344
-	rectangle_6_80.rotation = 0.8618270320493748
-	rectangle_6_80.constraints = {"horizontal":"MIN","vertical":"CENTER"}
-	rectangle_6_80.strokeTopWeight = 3.1956703662872314
-	rectangle_6_80.strokeBottomWeight = 3.1956703662872314
-	rectangle_6_80.strokeLeftWeight = 3.1956703662872314
-	rectangle_6_80.strokeRightWeight = 3.1956703662872314
+	var rectangle_6_105 = figma.createRectangle()
+	frame_6_103.appendChild(rectangle_6_105)
+	rectangle_6_105.resize(516.0000000000, 649.0000000000)
+	rectangle_6_105.name = "3 1"
+	rectangle_6_105.fills = [{"type":"IMAGE","visible":true,"opacity":1,"blendMode":"NORMAL","scaleMode":"FILL","imageTransform":[[1,0,0],[0,1,0]],"scalingFactor":0.5,"rotation":0,"filters":{"exposure":0,"contrast":0,"saturation":0,"temperature":0,"tint":0,"highlights":0,"shadows":0},"imageHash":"2c442eba75b7af048dddded262ee21170f446307"}]
+	rectangle_6_105.relativeTransform = [[1,0,223],[0,1,29]]
+	rectangle_6_105.x = 223
+	rectangle_6_105.y = 29
+	rectangle_6_105.constrainProportions = true
+	rectangle_6_105.strokeTopWeight = 1
+	rectangle_6_105.strokeBottomWeight = 1
+	rectangle_6_105.strokeLeftWeight = 1
+	rectangle_6_105.strokeRightWeight = 1
 	
 }
 
