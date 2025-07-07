@@ -1,0 +1,9 @@
+[
+  {
+    "id": "card-basic",
+    "name": "Card B\u00e1sico",
+    "category": "cards",
+    "file": "/templates/cards/card-basic.ts.txt",
+    "premium": false
+  }
+]

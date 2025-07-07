@@ -1,0 +1,63 @@
+async function main() {
+
+	// Load FONTS
+	async function loadFonts() {
+		await Promise.all([
+			figma.loadFontAsync({
+				family: "Inter",
+				style: "Medium"
+				})
+		])
+	}
+
+	await loadFonts()
+
+	// Create FRAME
+	var frame_6_133 = figma.createFrame()
+	figma.currentPage.appendChild(frame_6_133)
+	frame_6_133.resize(54.0000000000, 35.0000000000)
+	frame_6_133.primaryAxisSizingMode = "AUTO"
+	frame_6_133.counterAxisSizingMode = "AUTO"
+	frame_6_133.name = "Cards"
+	frame_6_133.relativeTransform = [[1,0,4194],[0,1,-2879]]
+	frame_6_133.x = 4194
+	frame_6_133.y = -2879
+	frame_6_133.fills = []
+	frame_6_133.paddingLeft = 10
+	frame_6_133.paddingRight = 10
+	frame_6_133.paddingTop = 10
+	frame_6_133.paddingBottom = 10
+	frame_6_133.primaryAxisAlignItems = "CENTER"
+	frame_6_133.counterAxisAlignItems = "CENTER"
+	frame_6_133.strokeTopWeight = 1
+	frame_6_133.strokeBottomWeight = 1
+	frame_6_133.strokeLeftWeight = 1
+	frame_6_133.strokeRightWeight = 1
+	frame_6_133.clipsContent = false
+	frame_6_133.expanded = false
+	frame_6_133.layoutMode = "HORIZONTAL"
+	frame_6_133.counterAxisSizingMode = "AUTO"
+	frame_6_133.itemSpacing = 10
+
+	// Create TEXT
+	var text_6_132 = figma.createText()
+	frame_6_133.appendChild(text_6_132)
+	text_6_132.resize(34.0000000000, 15.0000000000)
+	text_6_132.name = "Cards"
+	text_6_132.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	text_6_132.relativeTransform = [[1,0,10],[0,1,10]]
+	text_6_132.x = 10
+	text_6_132.y = 10
+
+	// Font properties
+	text_6_132.fontName = {
+		family: "Inter",
+		style: "Medium"
+	}
+	text_6_132.characters = "Cards"
+	text_6_132.listSpacing = 0
+	text_6_132.fontName = {"family":"Inter","style":"Medium"}
+	text_6_132.textAutoResize = "WIDTH_AND_HEIGHT"
+}
+
+main()
