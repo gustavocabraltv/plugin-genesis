@@ -12,52 +12,211 @@ async function main() {
 
 	await loadFonts()
 
+	// Create STYLE
+	var slate_900_8108 = figma.createPaintStyle()
+	slate_900_8108.name = "slate/900"
+	slate_900_8108.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
+	
+
+	// Create STYLE
+	var slate_900_8108 = figma.createPaintStyle()
+	slate_900_8108.name = "slate/900"
+	slate_900_8108.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
+	
+
 	// Create FRAME
-	var frame_6_133 = figma.createFrame()
-	figma.currentPage.appendChild(frame_6_133)
-	frame_6_133.resize(54.0000000000, 35.0000000000)
-	frame_6_133.primaryAxisSizingMode = "AUTO"
-	frame_6_133.counterAxisSizingMode = "AUTO"
-	frame_6_133.name = "Cards"
-	frame_6_133.relativeTransform = [[1,0,4194],[0,1,-2879]]
-	frame_6_133.x = 4194
-	frame_6_133.y = -2879
-	frame_6_133.fills = []
-	frame_6_133.paddingLeft = 10
-	frame_6_133.paddingRight = 10
-	frame_6_133.paddingTop = 10
-	frame_6_133.paddingBottom = 10
-	frame_6_133.primaryAxisAlignItems = "CENTER"
-	frame_6_133.counterAxisAlignItems = "CENTER"
-	frame_6_133.strokeTopWeight = 1
-	frame_6_133.strokeBottomWeight = 1
-	frame_6_133.strokeLeftWeight = 1
-	frame_6_133.strokeRightWeight = 1
-	frame_6_133.clipsContent = false
-	frame_6_133.expanded = false
-	frame_6_133.layoutMode = "HORIZONTAL"
-	frame_6_133.counterAxisSizingMode = "AUTO"
-	frame_6_133.itemSpacing = 10
+	var frame_304_1123 = figma.createFrame()
+	figma.currentPage.appendChild(frame_304_1123)
+	frame_304_1123.resize(279.0000000000, 40.0000000000)
+	frame_304_1123.primaryAxisSizingMode = "AUTO"
+	frame_304_1123.counterAxisSizingMode = "AUTO"
+	frame_304_1123.name = "Frame 1"
+	frame_304_1123.relativeTransform = [[1,0,2291.5],[0,1,437.0002746582]]
+	frame_304_1123.x = 2291.5
+	frame_304_1123.y = 437.0002746582031
+	frame_304_1123.fills = []
+	frame_304_1123.counterAxisAlignItems = "CENTER"
+	frame_304_1123.strokeTopWeight = 1
+	frame_304_1123.strokeBottomWeight = 1
+	frame_304_1123.strokeLeftWeight = 1
+	frame_304_1123.strokeRightWeight = 1
+	frame_304_1123.clipsContent = false
+	frame_304_1123.expanded = false
+	frame_304_1123.layoutMode = "HORIZONTAL"
+	frame_304_1123.counterAxisSizingMode = "AUTO"
+	frame_304_1123.itemSpacing = 37
+	
+
+	// Create COMPONENT
+	var component_9_337 = figma.createComponent()
+	component_9_337.resize(149.0000000000, 24.0000000000)
+	component_9_337.primaryAxisSizingMode = "AUTO"
+	component_9_337.counterAxisSizingMode = "AUTO"
+	component_9_337.name = "state=on"
+	component_9_337.relativeTransform = [[1,0,209],[0,1,20]]
+	component_9_337.x = 209
+	component_9_337.y = 20
+	component_9_337.fills = []
+	component_9_337.counterAxisAlignItems = "CENTER"
+	component_9_337.strokeTopWeight = 1
+	component_9_337.strokeBottomWeight = 1
+	component_9_337.strokeLeftWeight = 1
+	component_9_337.strokeRightWeight = 1
+	component_9_337.expanded = false
+	component_9_337.layoutMode = "HORIZONTAL"
+	component_9_337.counterAxisSizingMode = "AUTO"
+	component_9_337.itemSpacing = 8
+	
+
+	// Create RECTANGLE
+	var rectangle_9_333 = figma.createRectangle()
+	component_9_337.appendChild(rectangle_9_333)
+	rectangle_9_333.fillStyleId = slate_900_8108.id
+	rectangle_9_333.resize(44.0000000000, 24.0000000000)
+	rectangle_9_333.name = "Rectangle 2"
+	rectangle_9_333.cornerRadius = 50
+	rectangle_9_333.strokeTopWeight = 1
+	rectangle_9_333.strokeBottomWeight = 1
+	rectangle_9_333.strokeLeftWeight = 1
+	rectangle_9_333.strokeRightWeight = 1
+	
+
+	// Create ELLIPSE
+	var ellipse_9_334 = figma.createEllipse()
+	component_9_337.appendChild(ellipse_9_334)
+	ellipse_9_334.resize(20.0000000000, 20.0000000000)
+	ellipse_9_334.name = "Ellipse 2"
+	ellipse_9_334.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	ellipse_9_334.relativeTransform = [[1,0,22],[0,1,2]]
+	ellipse_9_334.x = 22
+	ellipse_9_334.y = 2
+	
+
+	// Create GROUP
+	var group_9_332 = figma.group([rectangle_9_333, ellipse_9_334], component_9_337)
+	group_9_332.name = "toggle"
+	group_9_332.visible = true
+	group_9_332.locked = false
+	group_9_332.opacity = 1
+	group_9_332.blendMode = "PASS_THROUGH"
+	group_9_332.isMask = false
+	group_9_332.effects = []
+	group_9_332.layoutAlign = "INHERIT"
+	group_9_332.constrainProportions = false
+	group_9_332.layoutGrow = 0
+	group_9_332.layoutPositioning = "AUTO"
+	group_9_332.exportSettings = []
+	group_9_332.reactions = []
+	group_9_332.expanded = false
+	
 
 	// Create TEXT
-	var text_6_132 = figma.createText()
-	frame_6_133.appendChild(text_6_132)
-	text_6_132.resize(34.0000000000, 15.0000000000)
-	text_6_132.name = "Cards"
-	text_6_132.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	text_6_132.relativeTransform = [[1,0,10],[0,1,10]]
-	text_6_132.x = 10
-	text_6_132.y = 10
-
+	var text_9_335 = figma.createText()
+	component_9_337.appendChild(text_9_335)
+	text_9_335.resize(97.0000000000, 14.0000000000)
+	text_9_335.name = "Label"
+	text_9_335.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	text_9_335.relativeTransform = [[1,0,52],[0,1,5]]
+	text_9_335.x = 52
+	text_9_335.y = 5
+	text_9_335.autoRename = false
+	
 	// Font properties
-	text_6_132.fontName = {
+	text_9_335.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-	text_6_132.characters = "Cards"
-	text_6_132.listSpacing = 0
-	text_6_132.fontName = {"family":"Inter","style":"Medium"}
-	text_6_132.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_9_335.characters = "Airplane mode"
+	text_9_335.listSpacing = 0
+	text_9_335.textAutoResize = "WIDTH_AND_HEIGHT"
+
+
+	// Create INSTANCE
+	var instance_304_1124 = component_9_337.createInstance()
+	frame_304_1123.appendChild(instance_304_1124)
+	instance_304_1124.name = "switch"
+	instance_304_1124.relativeTransform = [[1,0,0],[0,1,8]]
+	instance_304_1124.y = 8
+	
+
+				// Swap COMPONENT
+				instance_304_1124.swapComponent(component_9_337)
+
+	// Ref to SUB NODE
+	var group_I304_1124_9_332 = figma.getNodeById("I" + instance_304_1124.id + ";" + group_9_332.id)
+	
+	// Ref to SUB NODE
+	var rectangle_I304_1124_9_333 = figma.getNodeById("I" + instance_304_1124.id + ";" + rectangle_9_333.id)
+	
+	// Ref to SUB NODE
+	var ellipse_I304_1124_9_334 = figma.getNodeById("I" + instance_304_1124.id + ";" + ellipse_9_334.id)
+	
+	// Ref to SUB NODE
+	var text_I304_1124_9_335 = figma.getNodeById("I" + instance_304_1124.id + ";" + text_9_335.id)
+	
+
+	// Create COMPONENT
+	var component_1_72 = figma.createComponent()
+	component_1_72.resize(93.0000000000, 40.0000000000)
+	component_1_72.primaryAxisSizingMode = "AUTO"
+	component_1_72.counterAxisSizingMode = "AUTO"
+	component_1_72.fillStyleId = slate_900_8108.id
+	component_1_72.backgroundStyleId = slate_900_8108.id
+	component_1_72.name = "type=default, state=Default"
+	component_1_72.relativeTransform = [[1,0,20],[0,1,20]]
+	component_1_72.x = 20
+	component_1_72.y = 20
+	component_1_72.cornerRadius = 6
+	component_1_72.paddingLeft = 16
+	component_1_72.paddingRight = 16
+	component_1_72.paddingTop = 8
+	component_1_72.paddingBottom = 8
+	component_1_72.primaryAxisAlignItems = "CENTER"
+	component_1_72.counterAxisAlignItems = "CENTER"
+	component_1_72.strokeTopWeight = 1
+	component_1_72.strokeBottomWeight = 1
+	component_1_72.strokeLeftWeight = 1
+	component_1_72.strokeRightWeight = 1
+	component_1_72.expanded = false
+	component_1_72.layoutMode = "HORIZONTAL"
+	component_1_72.counterAxisSizingMode = "AUTO"
+	component_1_72.itemSpacing = 10
+	
+
+	// Create TEXT
+	var text_1_59 = figma.createText()
+	component_1_72.appendChild(text_1_59)
+	text_1_59.resize(61.0000000000, 24.0000000000)
+	text_1_59.name = "Continue"
+	text_1_59.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	text_1_59.relativeTransform = [[1,0,16],[0,1,8]]
+	text_1_59.x = 16
+	text_1_59.y = 8
+	
+	// Font properties
+	text_1_59.fontName = {
+		family: "Inter",
+		style: "Medium"
+	}
+		text_1_59.characters = "Continue"
+	text_1_59.listSpacing = 0
+	text_1_59.textAutoResize = "WIDTH_AND_HEIGHT"
+
+
+	// Create INSTANCE
+	var instance_304_1125 = component_1_72.createInstance()
+	frame_304_1123.appendChild(instance_304_1125)
+	instance_304_1125.name = "button"
+	instance_304_1125.relativeTransform = [[1,0,186],[0,1,0]]
+	instance_304_1125.x = 186
+	
+
+				// Swap COMPONENT
+				instance_304_1125.swapComponent(component_1_72)
+
+	// Ref to SUB NODE
+	var text_I304_1125_1_59 = figma.getNodeById("I" + instance_304_1125.id + ";" + text_1_59.id)
+	
 }
 
 main()
