@@ -1,107 +1,65 @@
-// Template de debug completo
-async function testImageAccess() {
-  const testUrls = [
-    "https://raw.githubusercontent.com/gustavocabraltv/templates-imgs/main/imagem.png",
-    "https://via.placeholder.com/300x200.png", // URL de teste conhecida
-    "https://httpbin.org/image/png" // Outro teste
-  ];
-  
-  console.log('=== INICIANDO TESTES DE ACESSO ===');
-  
-  for (let i = 0; i < testUrls.length; i++) {
-    const url = testUrls[i];
-    console.log(`\n--- Teste ${i + 1}: ${url} ---`);
+// Template corrigido - sem problemas de font
+async function ensureImageInCache(imageUrl) {
+  try {
+    console.log('Fazendo fetch da imagem:', imageUrl);
+    const response = await fetch(imageUrl);
+    console.log('Response status:', response.status);
     
-    try {
-      console.log('Fazendo fetch...');
-      const response = await fetch(url);
+    if (response.ok) {
+      const arrayBuffer = await response.arrayBuffer();
+      const imageBytes = new Uint8Array(arrayBuffer);
+      console.log('Imagem baixada, tamanho:', imageBytes.length, 'bytes');
       
-      console.log('Status:', response.status);
-      console.log('Headers:', Object.fromEntries(response.headers.entries()));
-      
-      if (response.ok) {
-        const arrayBuffer = await response.arrayBuffer();
-        console.log('Tamanho do arquivo:', arrayBuffer.byteLength, 'bytes');
-        
-        if (arrayBuffer.byteLength > 0) {
-          const imageBytes = new Uint8Array(arrayBuffer);
-          console.log('Primeiros 10 bytes:', Array.from(imageBytes.slice(0, 10)));
-          
-          try {
-            const image = figma.createImage(imageBytes);
-            console.log('✅ Sucesso! Hash:', image.hash);
-            return { success: true, hash: image.hash, url };
-          } catch (createError) {
-            console.log('❌ Erro ao criar imagem:', createError);
-          }
-        } else {
-          console.log('❌ Arquivo vazio');
-        }
-      } else {
-        console.log('❌ Resposta não OK');
-      }
-    } catch (fetchError) {
-      console.log('❌ Erro no fetch:', fetchError);
+      const image = figma.createImage(imageBytes);
+      console.log('✅ Sucesso! Hash:', image.hash);
+      return image.hash;
+    } else {
+      console.log('❌ Resposta não OK:', response.statusText);
     }
+  } catch (error) {
+    console.log('❌ Erro ao cachear imagem:', error);
   }
-  
-  return { success: false };
+  return null;
 }
 
 async function main() {
-  console.log('=== TESTE DE ACESSO A IMAGENS ===');
+  console.log('=== INICIANDO TESTE FINAL ===');
   
-  // Primeiro, testar acesso às URLs
-  const testResult = await testImageAccess();
+  // URL da sua imagem do GitHub
+  const imageUrl = "https://raw.githubusercontent.com/gustavocabraltv/templates-imgs/main/imagem.png";
+  
+  // Tentar carregar a imagem
+  const imageHash = await ensureImageInCache(imageUrl);
   
   // Criar retângulo
   const rectangle = figma.createRectangle();
   figma.currentPage.appendChild(rectangle);
   rectangle.resize(400, 300);
-  rectangle.name = "Teste de Imagem";
+  rectangle.name = "Teste Final";
   rectangle.x = 0;
   rectangle.y = 0;
   
-  if (testResult.success) {
-    console.log('Aplicando imagem que funcionou...');
+  if (imageHash) {
+    console.log('✅ SUCESSO! Aplicando imagem...');
     rectangle.fills = [{
       type: "IMAGE",
-      imageHash: testResult.hash,
+      imageHash: imageHash,
       scaleMode: "FILL"
     }];
     
-    // Adicionar texto de sucesso
-    const textSuccess = figma.createText();
-    textSuccess.characters = `✅ Imagem carregada!\nURL: ${testResult.url}`;
-    textSuccess.fontSize = 12;
-    textSuccess.fills = [{ type: "SOLID", color: { r: 0, g: 0.8, b: 0 } }];
-    textSuccess.x = 0;
-    textSuccess.y = 320;
-    figma.currentPage.appendChild(textSuccess);
+    // Criar retângulo de sucesso (sem texto para evitar problemas de font)
+    const successRect = figma.createRectangle();
+    figma.currentPage.appendChild(successRect);
+    successRect.resize(200, 50);
+    successRect.x = 0;
+    successRect.y = 320;
+    successRect.fills = [{ type: "SOLID", color: { r: 0, g: 0.8, b: 0 } }];
+    successRect.name = "✅ IMAGEM CARREGADA!";
     
   } else {
-    console.log('Nenhuma imagem funcionou - criando placeholder');
-    
-    // Criar placeholder visual
-    rectangle.fills = [{ 
-      type: "SOLID", 
-      color: { r: 0.9, g: 0.9, b: 0.9 } 
-    }];
-    rectangle.strokes = [{ 
-      type: "SOLID", 
-      color: { r: 0.8, g: 0.2, b: 0.2 } 
-    }];
-    rectangle.strokeWeight = 2;
-    
-    // Adicionar texto de erro
-    const textError = figma.createText();
-    textError.characters = "❌ Nenhuma imagem pôde ser carregada\nVerifique o console para detalhes";
-    textError.fontSize = 12;
-    textError.fills = [{ type: "SOLID", color: { r: 0.8, g: 0.2, b: 0.2 } }];
-    textError.textAlignHorizontal = "CENTER";
-    textError.x = 50;
-    textError.y = 140;
-    figma.currentPage.appendChild(textError);
+    console.log('❌ FALHA - usando placeholder');
+    rectangle.fills = [{ type: "SOLID", color: { r: 0.9, g: 0.2, b: 0.2 } }];
+    rectangle.name = "❌ FALHA NO CARREGAMENTO";
   }
   
   console.log('=== TESTE FINALIZADO ===');
