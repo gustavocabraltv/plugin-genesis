@@ -125,13 +125,6 @@ async function main() {
 	frame_14_2792.counterAxisSizingMode = "AUTO"
 	frame_14_2792.itemSpacing = 64
 	
-			// 🎯 Centralizar frame principal na viewport
-			const viewportCenter = figma.viewport.center;
-			frame_14_2792.x = viewportCenter.x - frame_14_2792.width / 2;
-			frame_14_2792.y = viewportCenter.y - frame_14_2792.height / 2;
-			figma.viewport.scrollAndZoomIntoView([frame_14_2792]);
-			figma.notify("Adicionado com sucesso!");
-			
 
 	// Create FRAME
 	var frame_14_2793 = figma.createFrame()
@@ -141,6 +134,8 @@ async function main() {
 	frame_14_2793.counterAxisSizingMode = "AUTO"
 	frame_14_2793.name = "Frame 8"
 	frame_14_2793.relativeTransform = [[1,0,32],[0,1,32]]
+	frame_14_2793.x = 32
+	frame_14_2793.y = 32
 	frame_14_2793.fills = []
 	frame_14_2793.counterAxisAlignItems = "CENTER"
 	frame_14_2793.strokeTopWeight = 1
@@ -153,13 +148,6 @@ async function main() {
 	frame_14_2793.counterAxisSizingMode = "AUTO"
 	frame_14_2793.itemSpacing = 32
 	
-			// 🎯 Centralizar frame principal na viewport
-			const viewportCenter = figma.viewport.center;
-			frame_14_2793.x = viewportCenter.x - frame_14_2793.width / 2;
-			frame_14_2793.y = viewportCenter.y - frame_14_2793.height / 2;
-			figma.viewport.scrollAndZoomIntoView([frame_14_2793]);
-			figma.notify("Adicionado com sucesso!");
-			
 
 	// Create FRAME
 	var frame_14_2794 = figma.createFrame()
@@ -169,6 +157,7 @@ async function main() {
 	frame_14_2794.counterAxisSizingMode = "AUTO"
 	frame_14_2794.name = "Frame 8"
 	frame_14_2794.relativeTransform = [[1,0,1.5],[0,1,0]]
+	frame_14_2794.x = 1.5
 	frame_14_2794.fills = []
 	frame_14_2794.strokeTopWeight = 1
 	frame_14_2794.strokeBottomWeight = 1
@@ -180,13 +169,6 @@ async function main() {
 	frame_14_2794.counterAxisSizingMode = "AUTO"
 	frame_14_2794.itemSpacing = 45
 	
-			// 🎯 Centralizar frame principal na viewport
-			const viewportCenter = figma.viewport.center;
-			frame_14_2794.x = viewportCenter.x - frame_14_2794.width / 2;
-			frame_14_2794.y = viewportCenter.y - frame_14_2794.height / 2;
-			figma.viewport.scrollAndZoomIntoView([frame_14_2794]);
-			figma.notify("Adicionado com sucesso!");
-			
 
 	// Create FRAME
 	var frame_14_2795 = figma.createFrame()
@@ -206,13 +188,6 @@ async function main() {
 	frame_14_2795.counterAxisSizingMode = "AUTO"
 	frame_14_2795.itemSpacing = 16
 	
-			// 🎯 Centralizar frame principal na viewport
-			const viewportCenter = figma.viewport.center;
-			frame_14_2795.x = viewportCenter.x - frame_14_2795.width / 2;
-			frame_14_2795.y = viewportCenter.y - frame_14_2795.height / 2;
-			figma.viewport.scrollAndZoomIntoView([frame_14_2795]);
-			figma.notify("Adicionado com sucesso!");
-			
 
 	// Create TEXT
 	var text_14_2796 = figma.createText()
@@ -412,13 +387,6 @@ async function main() {
 	frame_14_2802.layoutMode = "VERTICAL"
 	frame_14_2802.itemSpacing = 10
 	
-			// 🎯 Centralizar frame principal na viewport
-			const viewportCenter = figma.viewport.center;
-			frame_14_2802.x = viewportCenter.x - frame_14_2802.width / 2;
-			frame_14_2802.y = viewportCenter.y - frame_14_2802.height / 2;
-			figma.viewport.scrollAndZoomIntoView([frame_14_2802]);
-			figma.notify("Adicionado com sucesso!");
-			
 
 	// Create COMPONENT
 	var component_14_226 = figma.createComponent()
@@ -828,6 +796,7 @@ async function main() {
 	frame_14_2805.backgroundStyleId = white_2dc6.id
 	frame_14_2805.name = "Frame 9"
 	frame_14_2805.relativeTransform = [[1,0,0],[0,1,40]]
+	frame_14_2805.y = 40
 	frame_14_2805.layoutAlign = "STRETCH"
 	frame_14_2805.paddingLeft = 8
 	frame_14_2805.paddingRight = 8
@@ -841,13 +810,6 @@ async function main() {
 	frame_14_2805.expanded = false
 	frame_14_2805.layoutMode = "VERTICAL"
 	
-			// 🎯 Centralizar frame principal na viewport
-			const viewportCenter = figma.viewport.center;
-			frame_14_2805.x = viewportCenter.x - frame_14_2805.width / 2;
-			frame_14_2805.y = viewportCenter.y - frame_14_2805.height / 2;
-			figma.viewport.scrollAndZoomIntoView([frame_14_2805]);
-			figma.notify("Adicionado com sucesso!");
-			
 
 	// Create COMPONENT
 	var component_14_238 = figma.createComponent()
@@ -1697,6 +1659,7 @@ async function main() {
 	frame_14_2811.backgroundStyleId = white_2dc6.id
 	frame_14_2811.name = "bottom"
 	frame_14_2811.relativeTransform = [[1,0,0],[0,1,180]]
+	frame_14_2811.y = 180
 	frame_14_2811.layoutAlign = "STRETCH"
 	frame_14_2811.bottomLeftRadius = 8
 	frame_14_2811.bottomRightRadius = 8
@@ -1712,13 +1675,6 @@ async function main() {
 	frame_14_2811.expanded = false
 	frame_14_2811.layoutMode = "VERTICAL"
 	
-			// 🎯 Centralizar frame principal na viewport
-			const viewportCenter = figma.viewport.center;
-			frame_14_2811.x = viewportCenter.x - frame_14_2811.width / 2;
-			frame_14_2811.y = viewportCenter.y - frame_14_2811.height / 2;
-			figma.viewport.scrollAndZoomIntoView([frame_14_2811]);
-			figma.notify("Adicionado com sucesso!");
-			
 
 	// Create INSTANCE
 	var instance_14_2812 = component_14_238.createInstance()
