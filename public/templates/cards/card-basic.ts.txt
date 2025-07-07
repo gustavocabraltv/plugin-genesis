@@ -2,35 +2,35 @@ async function main() {
 
 
 	// Create FRAME
-	var frame_6_103 = figma.createFrame()
-	figma.currentPage.appendChild(frame_6_103)
-	frame_6_103.resize(961.0000000000, 678.0000000000)
-	frame_6_103.primaryAxisSizingMode = "AUTO"
-	frame_6_103.name = "imagem"
-	frame_6_103.relativeTransform = [[1,0,6051],[0,1,2037]]
-	frame_6_103.x = 6051
-	frame_6_103.y = 2037
-	frame_6_103.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_6_103.strokeTopWeight = 1
-	frame_6_103.strokeBottomWeight = 1
-	frame_6_103.strokeLeftWeight = 1
-	frame_6_103.strokeRightWeight = 1
+	var frame_2_9 = figma.createFrame()
+	figma.currentPage.appendChild(frame_2_9)
+	frame_2_9.resize(961.0000000000, 678.0000000000)
+	frame_2_9.primaryAxisSizingMode = "AUTO"
+	frame_2_9.name = "imagem"
+	frame_2_9.relativeTransform = [[1,0,7082],[0,1,2252]]
+	frame_2_9.x = 7082
+	frame_2_9.y = 2252
+	frame_2_9.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_2_9.strokeTopWeight = 1
+	frame_2_9.strokeBottomWeight = 1
+	frame_2_9.strokeLeftWeight = 1
+	frame_2_9.strokeRightWeight = 1
 	
 
-	// Create RECTANGLE
-	var rectangle_6_105 = figma.createRectangle()
-	frame_6_103.appendChild(rectangle_6_105)
-	rectangle_6_105.resize(516.0000000000, 649.0000000000)
-	rectangle_6_105.name = "3 1"
-	rectangle_6_105.fills = [{"type":"IMAGE","visible":true,"opacity":1,"blendMode":"NORMAL","scaleMode":"FILL","imageTransform":[[1,0,0],[0,1,0]],"scalingFactor":0.5,"rotation":0,"filters":{"exposure":0,"contrast":0,"saturation":0,"temperature":0,"tint":0,"highlights":0,"shadows":0},"imageHash":"2c442eba75b7af048dddded262ee21170f446307"}]
-	rectangle_6_105.relativeTransform = [[1,0,223],[0,1,29]]
-	rectangle_6_105.x = 223
-	rectangle_6_105.y = 29
-	rectangle_6_105.constrainProportions = true
-	rectangle_6_105.strokeTopWeight = 1
-	rectangle_6_105.strokeBottomWeight = 1
-	rectangle_6_105.strokeLeftWeight = 1
-	rectangle_6_105.strokeRightWeight = 1
+	// Create FRAME
+	var frame_2_11 = figma.createFrame()
+	frame_2_9.appendChild(frame_2_11)
+	frame_2_11.resize(694.0000000000, 529.0000000000)
+	frame_2_11.primaryAxisSizingMode = "AUTO"
+	frame_2_11.name = "Frame 1"
+	frame_2_11.relativeTransform = [[1,0,161],[0,1,59]]
+	frame_2_11.x = 161
+	frame_2_11.y = 59
+	frame_2_11.fills = [{"type":"IMAGE","visible":true,"opacity":1,"blendMode":"NORMAL","scaleMode":"FILL","imageTransform":[[1,0,0],[0,1,0]],"scalingFactor":0.5,"rotation":0,"filters":{"exposure":0,"contrast":0,"saturation":0,"temperature":0,"tint":0,"highlights":0,"shadows":0},"imageHash":"2f776ace3e501075e4f369dcf89979b29d2ac89f"}]
+	frame_2_11.strokeTopWeight = 1
+	frame_2_11.strokeBottomWeight = 1
+	frame_2_11.strokeLeftWeight = 1
+	frame_2_11.strokeRightWeight = 1
 	
 }
 
