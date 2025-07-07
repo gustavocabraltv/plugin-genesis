@@ -1,4 +1,4 @@
-// Template corrigido - sem problemas de font
+// Template para debug visual da imagem
 async function ensureImageInCache(imageUrl) {
   try {
     console.log('Fazendo fetch da imagem:', imageUrl);
@@ -13,8 +13,6 @@ async function ensureImageInCache(imageUrl) {
       const image = figma.createImage(imageBytes);
       console.log('✅ Sucesso! Hash:', image.hash);
       return image.hash;
-    } else {
-      console.log('❌ Resposta não OK:', response.statusText);
     }
   } catch (error) {
     console.log('❌ Erro ao cachear imagem:', error);
@@ -23,46 +21,120 @@ async function ensureImageInCache(imageUrl) {
 }
 
 async function main() {
-  console.log('=== INICIANDO TESTE FINAL ===');
+  console.log('=== INICIANDO DEBUG VISUAL ===');
   
-  // URL da sua imagem do GitHub
   const imageUrl = "https://raw.githubusercontent.com/gustavocabraltv/templates-imgs/main/imagem.png";
-  
-  // Tentar carregar a imagem
   const imageHash = await ensureImageInCache(imageUrl);
   
-  // Criar retângulo
-  const rectangle = figma.createRectangle();
-  figma.currentPage.appendChild(rectangle);
-  rectangle.resize(400, 300);
-  rectangle.name = "Teste Final";
-  rectangle.x = 0;
-  rectangle.y = 0;
-  
   if (imageHash) {
-    console.log('✅ SUCESSO! Aplicando imagem...');
-    rectangle.fills = [{
+    console.log('Hash obtido:', imageHash);
+    
+    // Criar múltiplos testes visuais
+    console.log('Criando teste 1: Retângulo com imageHash');
+    const rect1 = figma.createRectangle();
+    figma.currentPage.appendChild(rect1);
+    rect1.resize(300, 200);
+    rect1.x = 0;
+    rect1.y = 0;
+    rect1.name = "Teste 1: Com imageHash";
+    
+    rect1.fills = [{
+      type: "IMAGE",
+      imageHash: imageHash,
+      scaleMode: "FILL",
+      visible: true,
+      opacity: 1,
+      blendMode: "NORMAL"
+    }];
+    
+    console.log('Fills aplicados:', rect1.fills);
+    
+    // Teste 2: Diferentes scale modes
+    console.log('Criando teste 2: ScaleMode FIT');
+    const rect2 = figma.createRectangle();
+    figma.currentPage.appendChild(rect2);
+    rect2.resize(300, 200);
+    rect2.x = 320;
+    rect2.y = 0;
+    rect2.name = "Teste 2: ScaleMode FIT";
+    
+    rect2.fills = [{
+      type: "IMAGE",
+      imageHash: imageHash,
+      scaleMode: "FIT",
+      visible: true,
+      opacity: 1
+    }];
+    
+    // Teste 3: ScaleMode CROP
+    console.log('Criando teste 3: ScaleMode CROP');
+    const rect3 = figma.createRectangle();
+    figma.currentPage.appendChild(rect3);
+    rect3.resize(300, 200);
+    rect3.x = 0;
+    rect3.y = 220;
+    rect3.name = "Teste 3: ScaleMode CROP";
+    
+    rect3.fills = [{
+      type: "IMAGE",
+      imageHash: imageHash,
+      scaleMode: "CROP",
+      visible: true,
+      opacity: 1
+    }];
+    
+    // Teste 4: Elipse com imagem
+    console.log('Criando teste 4: Elipse');
+    const ellipse = figma.createEllipse();
+    figma.currentPage.appendChild(ellipse);
+    ellipse.resize(200, 200);
+    ellipse.x = 320;
+    ellipse.y = 220;
+    ellipse.name = "Teste 4: Elipse";
+    
+    ellipse.fills = [{
       type: "IMAGE",
       imageHash: imageHash,
       scaleMode: "FILL"
     }];
     
-    // Criar retângulo de sucesso (sem texto para evitar problemas de font)
-    const successRect = figma.createRectangle();
-    figma.currentPage.appendChild(successRect);
-    successRect.resize(200, 50);
-    successRect.x = 0;
-    successRect.y = 320;
-    successRect.fills = [{ type: "SOLID", color: { r: 0, g: 0.8, b: 0 } }];
-    successRect.name = "✅ IMAGEM CARREGADA!";
+    // Teste 5: Frame em vez de retângulo
+    console.log('Criando teste 5: Frame');
+    const frame = figma.createFrame();
+    figma.currentPage.appendChild(frame);
+    frame.resize(300, 200);
+    frame.x = 0;
+    frame.y = 440;
+    frame.name = "Teste 5: Frame";
+    
+    frame.fills = [{
+      type: "IMAGE",
+      imageHash: imageHash,
+      scaleMode: "FILL"
+    }];
+    
+    // Criar indicador de sucesso
+    const indicator = figma.createRectangle();
+    figma.currentPage.appendChild(indicator);
+    indicator.resize(100, 30);
+    indicator.x = 320;
+    indicator.y = 440;
+    indicator.fills = [{ type: "SOLID", color: { r: 0, g: 1, b: 0 } }];
+    indicator.name = "✅ HASH FUNCIONOU";
+    
+    console.log('Todos os testes criados! Verifique visualmente.');
     
   } else {
-    console.log('❌ FALHA - usando placeholder');
-    rectangle.fills = [{ type: "SOLID", color: { r: 0.9, g: 0.2, b: 0.2 } }];
-    rectangle.name = "❌ FALHA NO CARREGAMENTO";
+    console.log('❌ Falha ao obter hash');
+    
+    const errorRect = figma.createRectangle();
+    figma.currentPage.appendChild(errorRect);
+    errorRect.resize(400, 100);
+    errorRect.fills = [{ type: "SOLID", color: { r: 1, g: 0, b: 0 } }];
+    errorRect.name = "❌ ERRO - SEM HASH";
   }
   
-  console.log('=== TESTE FINALIZADO ===');
+  console.log('=== DEBUG FINALIZADO ===');
 }
 
 main();
