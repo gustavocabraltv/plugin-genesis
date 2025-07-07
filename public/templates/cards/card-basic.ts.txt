@@ -1,33 +1,70 @@
 async function main() {
+  // Create FRAME
+  const frame_1_2 = figma.createFrame();
+  figma.currentPage.appendChild(frame_1_2);
+  frame_1_2.resize(595, 595);
+  frame_1_2.primaryAxisSizingMode = "AUTO";
+  frame_1_2.name = "Insole_3_view_1 1 1";
+  frame_1_2.relativeTransform = [[1, 0, -150], [0, 1, -122]];
+  frame_1_2.x = -150;
+  frame_1_2.y = -122;
+  frame_1_2.fills = [{ type: "SOLID", visible: false, opacity: 1, blendMode: "NORMAL", color: { r: 1, g: 1, b: 1 }, boundVariables: {} }];
+  frame_1_2.strokeTopWeight = 1;
+  frame_1_2.strokeBottomWeight = 1;
+  frame_1_2.strokeLeftWeight = 1;
+  frame_1_2.strokeRightWeight = 1;
 
+  // Create VECTOR
+  const vector_1_3 = figma.createVector();
+  frame_1_2.appendChild(vector_1_3);
+  vector_1_3.resize(595, 595);
+  
+  // URL da imagem
+  const imageUrl = "https://adjust-form-88601821.figma.site/_assets/v10/2c442eba75b7af048dddded262ee21170f446307.png?h=2560"; // Exemplo de URL
 
-	// Create FRAME
-	var frame_1_2 = figma.createFrame()
-	figma.currentPage.appendChild(frame_1_2)
-	frame_1_2.resize(595.0000000000, 595.0000000000)
-	frame_1_2.primaryAxisSizingMode = "AUTO"
-	frame_1_2.name = "Insole_3_view_1 1 1"
-	frame_1_2.relativeTransform = [[1,0,-150],[0,1,-122]]
-	frame_1_2.x = -150
-	frame_1_2.y = -122
-	frame_1_2.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_1_2.strokeTopWeight = 1
-	frame_1_2.strokeBottomWeight = 1
-	frame_1_2.strokeLeftWeight = 1
-	frame_1_2.strokeRightWeight = 1
-	
+  // Buscar a imagem da URL
+  const response = await fetch(imageUrl);
+  if (!response.ok) {
+    console.error("Erro ao carregar a imagem.");
+    return;
+  }
+  
+  const imageBuffer = await response.arrayBuffer();
+  const imageBytes = new Uint8Array(imageBuffer);
+  
+  // Criar a imagem no Figma a partir do conteúdo da URL
+  const image = figma.createImage(imageBytes);
+  
+  // Aplicar a imagem no vector
+  vector_1_3.fills = [{
+    type: "IMAGE",
+    imageHash: image.hash,  // Usando o hash gerado automaticamente
+    scaleMode: "CROP",
+    visible: true,
+    opacity: 1,
+    blendMode: "NORMAL",
+    imageTransform: [[1, 0, 0], [0, 1, 0]],
+    scalingFactor: 0.5,
+    rotation: 0,
+    filters: {
+      exposure: 0,
+      contrast: 0,
+      saturation: 0,
+      temperature: 0,
+      tint: 0,
+      highlights: 0,
+      shadows: 0
+    }
+  }];
 
-	// Create VECTOR
-	var vector_1_3 = figma.createVector()
-	frame_1_2.appendChild(vector_1_3)
-	vector_1_3.resize(595.0000000000, 595.0000000000)
-	vector_1_3.fills = [{"type":"IMAGE","visible":true,"opacity":1,"blendMode":"NORMAL","scaleMode":"CROP","imageTransform":[[1,0,0],[0,1,0]],"scalingFactor":0.5,"filters":{"exposure":0,"contrast":0,"saturation":0,"temperature":0,"tint":0,"highlights":0,"shadows":0},"imageHash":"7bbb2358211f0731aefac51f25e15df760a849bb"}]
-	vector_1_3.strokes = []
-	vector_1_3.strokeAlign = "INSIDE"
-	vector_1_3.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_1_3.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":595,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":595,"y":595,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":595,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":2,"end":3,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":3,"end":0,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1,2,3]],"fillStyleId":"","fills":[{"type":"IMAGE","visible":true,"opacity":1,"blendMode":"NORMAL","scaleMode":"CROP","imageTransform":[[1,0,0],[0,1,0]],"scalingFactor":0.5,"filters":{"exposure":0,"contrast":0,"saturation":0,"temperature":0,"tint":0,"highlights":0,"shadows":0},"imageHash":"7bbb2358211f0731aefac51f25e15df760a849bb"}]}]}
-	vector_1_3.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 595 0 L 595 595 L 0 595 L 0 0 Z"}]
-	
+  vector_1_3.relativeTransform = [[1, 0, 223], [0, 1, 29]];
+  vector_1_3.x = 223;
+  vector_1_3.y = 29;
+  vector_1_3.constrainProportions = true;
+  vector_1_3.strokeTopWeight = 1;
+  vector_1_3.strokeBottomWeight = 1;
+  vector_1_3.strokeLeftWeight = 1;
+  vector_1_3.strokeRightWeight = 1;
 }
 
-main()
+main();
