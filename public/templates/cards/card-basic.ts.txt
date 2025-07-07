@@ -19,1497 +19,1488 @@ async function main() {
 	await loadFonts()
 
 	// Create STYLE
-	var slate_900_0bcb = figma.createPaintStyle()
-	slate_900_0bcb.name = "slate/900"
-	slate_900_0bcb.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
+	var slate_900_3d49 = figma.createPaintStyle()
+	slate_900_3d49.name = "slate/900"
+	slate_900_3d49.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
 	
 
 	// Create STYLE
-	var slate_600_a07f = figma.createPaintStyle()
-	slate_600_a07f.name = "slate/600"
-	slate_600_a07f.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.27843138575553894,"g":0.3333333432674408,"b":0.4117647111415863},"boundVariables":{}}]
+	var slate_600_e88a = figma.createPaintStyle()
+	slate_600_e88a.name = "slate/600"
+	slate_600_e88a.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.27843138575553894,"g":0.3333333432674408,"b":0.4117647111415863},"boundVariables":{}}]
 	
 
 	// Create STYLE
-	var slate_700_a217 = figma.createPaintStyle()
-	slate_700_a217.name = "slate/700"
-	slate_700_a217.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.20000000298023224,"g":0.2549019753932953,"b":0.3333333432674408},"boundVariables":{}}]
+	var slate_700_d318 = figma.createPaintStyle()
+	slate_700_d318.name = "slate/700"
+	slate_700_d318.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.20000000298023224,"g":0.2549019753932953,"b":0.3333333432674408},"boundVariables":{}}]
 	
 
 	// Create STYLE
-	var slate_500_3788 = figma.createPaintStyle()
-	slate_500_3788.name = "slate/500"
-	slate_500_3788.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.3921568691730499,"g":0.45490196347236633,"b":0.545098066329956},"boundVariables":{}}]
+	var slate_500_e722 = figma.createPaintStyle()
+	slate_500_e722.name = "slate/500"
+	slate_500_e722.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.3921568691730499,"g":0.45490196347236633,"b":0.545098066329956},"boundVariables":{}}]
 	
 
 	// Create STYLE
-	var slate_100_51f5 = figma.createPaintStyle()
-	slate_100_51f5.name = "slate/100"
-	slate_100_51f5.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.9450980424880981,"g":0.9607843160629272,"b":0.9764705896377563},"boundVariables":{}}]
+	var slate_100_8f57 = figma.createPaintStyle()
+	slate_100_8f57.name = "slate/100"
+	slate_100_8f57.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.9450980424880981,"g":0.9607843160629272,"b":0.9764705896377563},"boundVariables":{}}]
 	
 
 	// Create STYLE
-	var slate_900_0bcb = figma.createPaintStyle()
-	slate_900_0bcb.name = "slate/900"
-	slate_900_0bcb.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
+	var slate_900_3d49 = figma.createPaintStyle()
+	slate_900_3d49.name = "slate/900"
+	slate_900_3d49.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
 	
 
 	// Create STYLE
-	var slate_100_51f5 = figma.createPaintStyle()
-	slate_100_51f5.name = "slate/100"
-	slate_100_51f5.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.9450980424880981,"g":0.9607843160629272,"b":0.9764705896377563},"boundVariables":{}}]
+	var slate_100_8f57 = figma.createPaintStyle()
+	slate_100_8f57.name = "slate/100"
+	slate_100_8f57.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.9450980424880981,"g":0.9607843160629272,"b":0.9764705896377563},"boundVariables":{}}]
 	
 
 	// Create STYLE
-	var slate_200_9dbc = figma.createPaintStyle()
-	slate_200_9dbc.name = "slate/200"
-	slate_200_9dbc.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.886274516582489,"g":0.9098039269447327,"b":0.9411764740943909},"boundVariables":{}}]
+	var slate_200_4fbb = figma.createPaintStyle()
+	slate_200_4fbb.name = "slate/200"
+	slate_200_4fbb.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.886274516582489,"g":0.9098039269447327,"b":0.9411764740943909},"boundVariables":{}}]
 	
 
 	// Create STYLE
-	var slate_100_51f5 = figma.createPaintStyle()
-	slate_100_51f5.name = "slate/100"
-	slate_100_51f5.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.9450980424880981,"g":0.9607843160629272,"b":0.9764705896377563},"boundVariables":{}}]
+	var slate_100_8f57 = figma.createPaintStyle()
+	slate_100_8f57.name = "slate/100"
+	slate_100_8f57.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.9450980424880981,"g":0.9607843160629272,"b":0.9764705896377563},"boundVariables":{}}]
 	
 
 	// Create STYLE
-	var slate_700_a217 = figma.createPaintStyle()
-	slate_700_a217.name = "slate/700"
-	slate_700_a217.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.20000000298023224,"g":0.2549019753932953,"b":0.3333333432674408},"boundVariables":{}}]
+	var slate_700_d318 = figma.createPaintStyle()
+	slate_700_d318.name = "slate/700"
+	slate_700_d318.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.20000000298023224,"g":0.2549019753932953,"b":0.3333333432674408},"boundVariables":{}}]
 	
 
 	// Create FRAME
-	var frame_17_5464 = figma.createFrame()
-	figma.currentPage.appendChild(frame_17_5464)
-	frame_17_5464.resize(792.0000000000, 612.0000000000)
-	frame_17_5464.primaryAxisSizingMode = "AUTO"
-	frame_17_5464.counterAxisSizingMode = "AUTO"
-	frame_17_5464.name = "Context Menu --"
-	frame_17_5464.relativeTransform = [[1,0,-271],[0,1,331]]
-	frame_17_5464.x = -271
-	frame_17_5464.y = 331
-	frame_17_5464.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5464.paddingLeft = 32
-	frame_17_5464.paddingRight = 32
-	frame_17_5464.paddingTop = 32
-	frame_17_5464.paddingBottom = 64
-	frame_17_5464.counterAxisAlignItems = "CENTER"
-	frame_17_5464.strokeTopWeight = 1
-	frame_17_5464.strokeBottomWeight = 1
-	frame_17_5464.strokeLeftWeight = 1
-	frame_17_5464.strokeRightWeight = 1
-	frame_17_5464.clipsContent = false
-	frame_17_5464.layoutMode = "VERTICAL"
-	frame_17_5464.counterAxisSizingMode = "AUTO"
-	frame_17_5464.itemSpacing = 64
+	var frame_0_11 = figma.createFrame()
+	figma.currentPage.appendChild(frame_0_11)
+	frame_0_11.resize(792.0000000000, 612.0000000000)
+	frame_0_11.primaryAxisSizingMode = "AUTO"
+	frame_0_11.counterAxisSizingMode = "AUTO"
+	frame_0_11.name = "Context Menu"
+	frame_0_11.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_11.paddingLeft = 32
+	frame_0_11.paddingRight = 32
+	frame_0_11.paddingTop = 32
+	frame_0_11.paddingBottom = 64
+	frame_0_11.counterAxisAlignItems = "CENTER"
+	frame_0_11.strokeTopWeight = 1
+	frame_0_11.strokeBottomWeight = 1
+	frame_0_11.strokeLeftWeight = 1
+	frame_0_11.strokeRightWeight = 1
+	frame_0_11.clipsContent = false
+	frame_0_11.layoutMode = "VERTICAL"
+	frame_0_11.counterAxisSizingMode = "AUTO"
+	frame_0_11.itemSpacing = 64
 	
 
 	// Create FRAME
-	var frame_17_5465 = figma.createFrame()
-	frame_17_5464.appendChild(frame_17_5465)
-	frame_17_5465.resize(728.0000000000, 140.0000000000)
-	frame_17_5465.primaryAxisSizingMode = "AUTO"
-	frame_17_5465.counterAxisSizingMode = "AUTO"
-	frame_17_5465.name = "Frame 8"
-	frame_17_5465.relativeTransform = [[1,0,32],[0,1,32]]
-	frame_17_5465.x = 32
-	frame_17_5465.y = 32
-	frame_17_5465.fills = []
-	frame_17_5465.counterAxisAlignItems = "CENTER"
-	frame_17_5465.strokeTopWeight = 1
-	frame_17_5465.strokeBottomWeight = 1
-	frame_17_5465.strokeLeftWeight = 1
-	frame_17_5465.strokeRightWeight = 1
-	frame_17_5465.clipsContent = false
-	frame_17_5465.expanded = false
-	frame_17_5465.layoutMode = "VERTICAL"
-	frame_17_5465.counterAxisSizingMode = "AUTO"
-	frame_17_5465.itemSpacing = 32
+	var frame_0_12 = figma.createFrame()
+	frame_0_11.appendChild(frame_0_12)
+	frame_0_12.resize(728.0000000000, 140.0000000000)
+	frame_0_12.primaryAxisSizingMode = "AUTO"
+	frame_0_12.counterAxisSizingMode = "AUTO"
+	frame_0_12.name = "Frame 8"
+	frame_0_12.relativeTransform = [[1,0,32],[0,1,32]]
+	frame_0_12.x = 32
+	frame_0_12.y = 32
+	frame_0_12.fills = []
+	frame_0_12.counterAxisAlignItems = "CENTER"
+	frame_0_12.strokeTopWeight = 1
+	frame_0_12.strokeBottomWeight = 1
+	frame_0_12.strokeLeftWeight = 1
+	frame_0_12.strokeRightWeight = 1
+	frame_0_12.clipsContent = false
+	frame_0_12.layoutMode = "VERTICAL"
+	frame_0_12.counterAxisSizingMode = "AUTO"
+	frame_0_12.itemSpacing = 32
 	
 
 	// Create FRAME
-	var frame_17_5466 = figma.createFrame()
-	frame_17_5465.appendChild(frame_17_5466)
-	frame_17_5466.resize(725.0000000000, 108.0000000000)
-	frame_17_5466.primaryAxisSizingMode = "AUTO"
-	frame_17_5466.counterAxisSizingMode = "AUTO"
-	frame_17_5466.name = "Frame 8"
-	frame_17_5466.relativeTransform = [[1,0,1.5],[0,1,0]]
-	frame_17_5466.x = 1.5
-	frame_17_5466.fills = []
-	frame_17_5466.strokeTopWeight = 1
-	frame_17_5466.strokeBottomWeight = 1
-	frame_17_5466.strokeLeftWeight = 1
-	frame_17_5466.strokeRightWeight = 1
-	frame_17_5466.clipsContent = false
-	frame_17_5466.expanded = false
-	frame_17_5466.layoutMode = "HORIZONTAL"
-	frame_17_5466.counterAxisSizingMode = "AUTO"
-	frame_17_5466.itemSpacing = 45
+	var frame_0_13 = figma.createFrame()
+	frame_0_12.appendChild(frame_0_13)
+	frame_0_13.resize(725.0000000000, 108.0000000000)
+	frame_0_13.primaryAxisSizingMode = "AUTO"
+	frame_0_13.counterAxisSizingMode = "AUTO"
+	frame_0_13.name = "Frame 8"
+	frame_0_13.relativeTransform = [[1,0,1.5],[0,1,0]]
+	frame_0_13.x = 1.5
+	frame_0_13.fills = []
+	frame_0_13.strokeTopWeight = 1
+	frame_0_13.strokeBottomWeight = 1
+	frame_0_13.strokeLeftWeight = 1
+	frame_0_13.strokeRightWeight = 1
+	frame_0_13.clipsContent = false
+	frame_0_13.layoutMode = "HORIZONTAL"
+	frame_0_13.counterAxisSizingMode = "AUTO"
+	frame_0_13.itemSpacing = 45
 	
 
 	// Create FRAME
-	var frame_17_5467 = figma.createFrame()
-	frame_17_5466.appendChild(frame_17_5467)
-	frame_17_5467.resize(584.0000000000, 108.0000000000)
-	frame_17_5467.primaryAxisSizingMode = "AUTO"
-	frame_17_5467.counterAxisSizingMode = "AUTO"
-	frame_17_5467.name = "Frame 8"
-	frame_17_5467.fills = []
-	frame_17_5467.strokeTopWeight = 1
-	frame_17_5467.strokeBottomWeight = 1
-	frame_17_5467.strokeLeftWeight = 1
-	frame_17_5467.strokeRightWeight = 1
-	frame_17_5467.clipsContent = false
-	frame_17_5467.expanded = false
-	frame_17_5467.layoutMode = "VERTICAL"
-	frame_17_5467.counterAxisSizingMode = "AUTO"
-	frame_17_5467.itemSpacing = 16
+	var frame_0_14 = figma.createFrame()
+	frame_0_13.appendChild(frame_0_14)
+	frame_0_14.resize(584.0000000000, 108.0000000000)
+	frame_0_14.primaryAxisSizingMode = "AUTO"
+	frame_0_14.counterAxisSizingMode = "AUTO"
+	frame_0_14.name = "Frame 8"
+	frame_0_14.fills = []
+	frame_0_14.strokeTopWeight = 1
+	frame_0_14.strokeBottomWeight = 1
+	frame_0_14.strokeLeftWeight = 1
+	frame_0_14.strokeRightWeight = 1
+	frame_0_14.clipsContent = false
+	frame_0_14.expanded = false
+	frame_0_14.layoutMode = "VERTICAL"
+	frame_0_14.counterAxisSizingMode = "AUTO"
+	frame_0_14.itemSpacing = 16
 	
 
 	// Create TEXT
-	var text_17_5468 = figma.createText()
-	frame_17_5467.appendChild(text_17_5468)
-	text_17_5468.fillStyleId = slate_900_0bcb.id
-	text_17_5468.resize(205.0000000000, 36.0000000000)
-	text_17_5468.name = "Context Menu"
-	text_17_5468.autoRename = false
+	var text_0_15 = figma.createText()
+	frame_0_14.appendChild(text_0_15)
+	text_0_15.fillStyleId = slate_900_3d49.id
+	text_0_15.resize(205.0000000000, 36.0000000000)
+	text_0_15.name = "Context Menu"
+	text_0_15.autoRename = false
 	
 	// Font properties
-	text_17_5468.fontName = {
+	text_0_15.fontName = {
 		family: "Inter",
 		style: "Semi Bold"
 	}
-		text_17_5468.characters = "Context Menu"
-	text_17_5468.fontSize = 30
-	text_17_5468.listSpacing = 0
-	text_17_5468.lineHeight = {"unit":"PIXELS","value":36}
-	text_17_5468.fontName = {"family":"Inter","style":"Semi Bold"}
-	text_17_5468.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_15.characters = "Context Menu"
+	text_0_15.fontSize = 30
+	text_0_15.listSpacing = 0
+	text_0_15.lineHeight = {"unit":"PIXELS","value":36}
+	text_0_15.fontName = {"family":"Inter","style":"Semi Bold"}
+	text_0_15.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5469 = figma.createText()
-	frame_17_5467.appendChild(text_17_5469)
-	text_17_5469.fillStyleId = slate_600_a07f.id
-	text_17_5469.resize(584.0000000000, 56.0000000000)
-	text_17_5469.name = "Displays a menu to the user — such as a set of actions or functions — triggered by a button."
-	text_17_5469.relativeTransform = [[1,0,0],[0,1,52]]
-	text_17_5469.y = 52
-	text_17_5469.autoRename = false
+	var text_0_16 = figma.createText()
+	frame_0_14.appendChild(text_0_16)
+	text_0_16.fillStyleId = slate_600_e88a.id
+	text_0_16.resize(584.0000000000, 56.0000000000)
+	text_0_16.name = "Displays a menu to the user — such as a set of actions or functions — triggered by a button."
+	text_0_16.relativeTransform = [[1,0,0],[0,1,52]]
+	text_0_16.y = 52
+	text_0_16.autoRename = false
 	
 	// Font properties
-	text_17_5469.fontName = {
+	text_0_16.fontName = {
 		family: "Inter",
 		style: "Regular"
 	}
-		text_17_5469.characters = "Displays a menu to the user — such as a set of actions or functions — triggered by a button."
-	text_17_5469.fontSize = 20
-	text_17_5469.listSpacing = 0
-	text_17_5469.lineHeight = {"unit":"PIXELS","value":28}
-	text_17_5469.fontName = {"family":"Inter","style":"Regular"}
-	text_17_5469.textAutoResize = "HEIGHT"
+		text_0_16.characters = "Displays a menu to the user — such as a set of actions or functions — triggered by a button."
+	text_0_16.fontSize = 20
+	text_0_16.listSpacing = 0
+	text_0_16.lineHeight = {"unit":"PIXELS","value":28}
+	text_0_16.fontName = {"family":"Inter","style":"Regular"}
+	text_0_16.textAutoResize = "HEIGHT"
 
 
-	// Create COMPONENT
-	var component_17_5470 = figma.createComponent()
-	component_17_5470.resize(85.0000000000, 31.0000000000)
-	component_17_5470.primaryAxisSizingMode = "AUTO"
-	component_17_5470.counterAxisSizingMode = "AUTO"
-	component_17_5470.fillStyleId = slate_900_0bcb.id
-	component_17_5470.backgroundStyleId = slate_900_0bcb.id
-	component_17_5470.name = "type=default, state=Default"
-	component_17_5470.relativeTransform = [[1,0,-26],[0,1,-5]]
-	component_17_5470.x = -26
-	component_17_5470.y = -5
-	component_17_5470.cornerRadius = 6
-	component_17_5470.paddingLeft = 16
-	component_17_5470.paddingRight = 16
-	component_17_5470.paddingTop = 8
-	component_17_5470.paddingBottom = 8
-	component_17_5470.primaryAxisAlignItems = "CENTER"
-	component_17_5470.counterAxisAlignItems = "CENTER"
-	component_17_5470.strokeTopWeight = 1
-	component_17_5470.strokeBottomWeight = 1
-	component_17_5470.strokeLeftWeight = 1
-	component_17_5470.strokeRightWeight = 1
-	component_17_5470.expanded = false
-	component_17_5470.layoutMode = "HORIZONTAL"
-	component_17_5470.counterAxisSizingMode = "AUTO"
-	component_17_5470.itemSpacing = 10
+	// Create FRAME
+	var frame_1_4 = figma.createFrame()
+	frame_0_13.appendChild(frame_1_4)
+	frame_1_4.resize(96.0000000000, 40.0000000000)
+	frame_1_4.counterAxisSizingMode = "AUTO"
+	frame_1_4.fillStyleId = slate_900_3d49.id
+	frame_1_4.backgroundStyleId = slate_900_3d49.id
+	frame_1_4.name = "button"
+	frame_1_4.relativeTransform = [[1,0,629],[0,1,0]]
+	frame_1_4.x = 629
+	frame_1_4.cornerRadius = 6
+	frame_1_4.paddingLeft = 16
+	frame_1_4.paddingRight = 16
+	frame_1_4.paddingTop = 8
+	frame_1_4.paddingBottom = 8
+	frame_1_4.primaryAxisAlignItems = "CENTER"
+	frame_1_4.counterAxisAlignItems = "CENTER"
+	frame_1_4.primaryAxisSizingMode = "FIXED"
+	frame_1_4.strokeTopWeight = 1
+	frame_1_4.strokeBottomWeight = 1
+	frame_1_4.strokeLeftWeight = 1
+	frame_1_4.strokeRightWeight = 1
+	frame_1_4.clipsContent = false
+	frame_1_4.layoutMode = "HORIZONTAL"
+	frame_1_4.counterAxisSizingMode = "AUTO"
+	frame_1_4.itemSpacing = 10
 	
 
 	// Create TEXT
-	var text_17_5471 = figma.createText()
-	component_17_5470.appendChild(text_17_5471)
-	text_17_5471.resize(53.0000000000, 15.0000000000)
-	text_17_5471.name = "Continue"
-	text_17_5471.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	text_17_5471.relativeTransform = [[1,0,16],[0,1,8]]
-	text_17_5471.x = 16
-	text_17_5471.y = 8
-	text_17_5471.autoRename = false
+	var text_1_5 = figma.createText()
+	frame_1_4.appendChild(text_1_5)
+	text_1_5.resize(70.0000000000, 24.0000000000)
+	text_1_5.name = "Continue"
+	text_1_5.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	text_1_5.relativeTransform = [[1,0,13],[0,1,8]]
+	text_1_5.x = 13
+	text_1_5.y = 8
+	text_1_5.hyperlink = {"type":"URL","value":"https://ui.shadcn.com/docs/primitives/context-menu"}
+	text_1_5.autoRename = false
 	
 	// Font properties
-	text_17_5471.fontName = {
+	text_1_5.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5471.characters = "Continue"
-	text_17_5471.listSpacing = 0
-	text_17_5471.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5471.textAutoResize = "WIDTH_AND_HEIGHT"
-
-
-	// Create INSTANCE
-	var instance_17_5472 = component_17_5470.createInstance()
-	frame_17_5466.appendChild(instance_17_5472)
-	instance_17_5472.resize(96.0000000000, 40.0000000000)
-	instance_17_5472.counterAxisSizingMode = "AUTO"
-	instance_17_5472.name = "button"
-	instance_17_5472.relativeTransform = [[1,0,629],[0,1,0]]
-	instance_17_5472.x = 629
-	instance_17_5472.primaryAxisSizingMode = "FIXED"
-	
-
-				// Swap COMPONENT
-				instance_17_5472.swapComponent(component_17_5470)
-
-	// Ref to SUB NODE
-	var text_I17_5472_17_5471 = figma.getNodeById("I" + instance_17_5472.id + ";" + text_17_5471.id)
-	text_I17_5472_17_5471.resize(70.0000000000, 24.0000000000)
-	text_I17_5472_17_5471.hyperlink = {"type":"URL","value":"https://ui.shadcn.com/docs/primitives/context-menu"}
-	
-	// Font properties
-	text_I17_5472_17_5471.fontName = {
-		family: "Inter",
-		style: "Medium"
-	}
-		text_I17_5472_17_5471.characters = "View docs"
-	text_I17_5472_17_5471.fontSize = 14
-	text_I17_5472_17_5471.textDecoration = "UNDERLINE"
-	text_I17_5472_17_5471.lineHeight = {"unit":"PIXELS","value":24}
+		text_1_5.characters = "View docs"
+	text_1_5.fontSize = 14
+	text_1_5.listSpacing = 0
+	text_1_5.textDecoration = "UNDERLINE"
+	text_1_5.lineHeight = {"unit":"PIXELS","value":24}
+	text_1_5.fontName = {"family":"Inter","style":"Medium"}
+	text_1_5.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create GROUP
-	var group_17_5474 = figma.group([instance_17_5472], frame_17_5466)
-	group_17_5474.name = "Group 6"
-	group_17_5474.visible = true
-	group_17_5474.locked = false
-	group_17_5474.opacity = 1
-	group_17_5474.blendMode = "PASS_THROUGH"
-	group_17_5474.isMask = false
-	group_17_5474.effects = []
-	group_17_5474.layoutAlign = "INHERIT"
-	group_17_5474.constrainProportions = false
-	group_17_5474.layoutGrow = 0
-	group_17_5474.layoutPositioning = "AUTO"
-	group_17_5474.exportSettings = []
-	group_17_5474.reactions = []
-	group_17_5474.expanded = false
+	var group_0_17 = figma.group([frame_1_4], frame_0_13)
+	group_0_17.name = "Group 6"
+	group_0_17.visible = true
+	group_0_17.locked = false
+	group_0_17.opacity = 1
+	group_0_17.blendMode = "PASS_THROUGH"
+	group_0_17.isMask = false
+	group_0_17.effects = []
+	group_0_17.layoutAlign = "INHERIT"
+	group_0_17.constrainProportions = false
+	group_0_17.layoutGrow = 0
+	group_0_17.layoutPositioning = "AUTO"
+	group_0_17.exportSettings = []
+	group_0_17.reactions = []
+	group_0_17.expanded = true
 	
 
 	// Create LINE
-	var line_17_5475 = figma.createLine()
-	frame_17_5465.appendChild(line_17_5475)
-	line_17_5475.strokeStyleId = slate_200_9dbc.id
-	line_17_5475.resizeWithoutConstraints(728.0000000000, 0)
-	line_17_5475.name = "Line 2"
-	line_17_5475.relativeTransform = [[1,0,0],[0,1,140]]
-	line_17_5475.y = 140
+	var line_0_19 = figma.createLine()
+	frame_0_12.appendChild(line_0_19)
+	line_0_19.strokeStyleId = slate_200_4fbb.id
+	line_0_19.resizeWithoutConstraints(728.0000000000, 0)
+	line_0_19.name = "Line 2"
+	line_0_19.relativeTransform = [[1,0,0],[0,1,140]]
+	line_0_19.y = 140
 	
 
 	// Create FRAME
-	var frame_17_5476 = figma.createFrame()
-	frame_17_5464.appendChild(frame_17_5476)
-	frame_17_5476.resize(256.0000000000, 312.0000000000)
-	frame_17_5476.primaryAxisSizingMode = "AUTO"
-	frame_17_5476.counterAxisSizingMode = "AUTO"
-	frame_17_5476.strokeStyleId = slate_100_51f5.id
-	frame_17_5476.name = "context menu"
-	frame_17_5476.relativeTransform = [[1,0,268],[0,1,236]]
-	frame_17_5476.x = 268
-	frame_17_5476.y = 236
-	frame_17_5476.fills = []
-	frame_17_5476.strokeAlign = "OUTSIDE"
-	frame_17_5476.cornerRadius = 6
-	frame_17_5476.strokeTopWeight = 1
-	frame_17_5476.strokeBottomWeight = 1
-	frame_17_5476.strokeLeftWeight = 1
-	frame_17_5476.strokeRightWeight = 1
-	frame_17_5476.layoutMode = "HORIZONTAL"
-	frame_17_5476.counterAxisSizingMode = "AUTO"
+	var frame_0_20 = figma.createFrame()
+	frame_0_11.appendChild(frame_0_20)
+	frame_0_20.resize(256.0000000000, 312.0000000000)
+	frame_0_20.primaryAxisSizingMode = "AUTO"
+	frame_0_20.counterAxisSizingMode = "AUTO"
+	frame_0_20.strokeStyleId = slate_100_8f57.id
+	frame_0_20.name = "context menu"
+	frame_0_20.relativeTransform = [[1,0,268],[0,1,236]]
+	frame_0_20.x = 268
+	frame_0_20.y = 236
+	frame_0_20.fills = []
+	frame_0_20.strokeAlign = "OUTSIDE"
+	frame_0_20.cornerRadius = 6
+	frame_0_20.strokeTopWeight = 1
+	frame_0_20.strokeBottomWeight = 1
+	frame_0_20.strokeLeftWeight = 1
+	frame_0_20.strokeRightWeight = 1
+	frame_0_20.expanded = false
+	frame_0_20.layoutMode = "HORIZONTAL"
+	frame_0_20.counterAxisSizingMode = "AUTO"
 	
 
 	// Create FRAME
-	var frame_17_5477 = figma.createFrame()
-	frame_17_5476.appendChild(frame_17_5477)
-	frame_17_5477.resize(256.0000000000, 312.0000000000)
-	frame_17_5477.primaryAxisSizingMode = "AUTO"
-	frame_17_5477.counterAxisSizingMode = "AUTO"
-	frame_17_5477.name = "Frame 3"
-	frame_17_5477.fills = []
-	frame_17_5477.counterAxisAlignItems = "CENTER"
-	frame_17_5477.strokeTopWeight = 1
-	frame_17_5477.strokeBottomWeight = 1
-	frame_17_5477.strokeLeftWeight = 1
-	frame_17_5477.strokeRightWeight = 1
-	frame_17_5477.clipsContent = false
-	frame_17_5477.layoutMode = "VERTICAL"
-	frame_17_5477.counterAxisSizingMode = "AUTO"
+	var frame_0_21 = figma.createFrame()
+	frame_0_20.appendChild(frame_0_21)
+	frame_0_21.resize(256.0000000000, 312.0000000000)
+	frame_0_21.primaryAxisSizingMode = "AUTO"
+	frame_0_21.counterAxisSizingMode = "AUTO"
+	frame_0_21.name = "Frame 3"
+	frame_0_21.fills = []
+	frame_0_21.counterAxisAlignItems = "CENTER"
+	frame_0_21.strokeTopWeight = 1
+	frame_0_21.strokeBottomWeight = 1
+	frame_0_21.strokeLeftWeight = 1
+	frame_0_21.strokeRightWeight = 1
+	frame_0_21.clipsContent = false
+	frame_0_21.expanded = false
+	frame_0_21.layoutMode = "VERTICAL"
+	frame_0_21.counterAxisSizingMode = "AUTO"
 	
 
 	// Create FRAME
-	var frame_17_5478 = figma.createFrame()
-	frame_17_5477.appendChild(frame_17_5478)
-	frame_17_5478.resize(256.0000000000, 119.0000000000)
-	frame_17_5478.primaryAxisSizingMode = "AUTO"
-	frame_17_5478.name = "top section"
-	frame_17_5478.layoutAlign = "STRETCH"
-	frame_17_5478.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5478.paddingLeft = 5
-	frame_17_5478.paddingRight = 5
-	frame_17_5478.paddingTop = 5
-	frame_17_5478.paddingBottom = 5
-	frame_17_5478.strokeTopWeight = 1
-	frame_17_5478.strokeBottomWeight = 1
-	frame_17_5478.strokeLeftWeight = 1
-	frame_17_5478.strokeRightWeight = 1
-	frame_17_5478.clipsContent = false
-	frame_17_5478.layoutMode = "VERTICAL"
+	var frame_0_22 = figma.createFrame()
+	frame_0_21.appendChild(frame_0_22)
+	frame_0_22.resize(256.0000000000, 119.0000000000)
+	frame_0_22.primaryAxisSizingMode = "AUTO"
+	frame_0_22.name = "top section"
+	frame_0_22.layoutAlign = "STRETCH"
+	frame_0_22.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_22.paddingLeft = 5
+	frame_0_22.paddingRight = 5
+	frame_0_22.paddingTop = 5
+	frame_0_22.paddingBottom = 5
+	frame_0_22.strokeTopWeight = 1
+	frame_0_22.strokeBottomWeight = 1
+	frame_0_22.strokeLeftWeight = 1
+	frame_0_22.strokeRightWeight = 1
+	frame_0_22.clipsContent = false
+	frame_0_22.expanded = false
+	frame_0_22.layoutMode = "VERTICAL"
 	
 
 	// Create FRAME
-	var frame_17_5619 = figma.createFrame()
-	frame_17_5478.appendChild(frame_17_5619)
-	frame_17_5619.resize(246.0000000000, 27.0000000000)
-	frame_17_5619.counterAxisSizingMode = "AUTO"
-	frame_17_5619.name = "menu_item"
-	frame_17_5619.relativeTransform = [[1,0,5],[0,1,5]]
-	frame_17_5619.x = 5
-	frame_17_5619.y = 5
-	frame_17_5619.layoutAlign = "STRETCH"
-	frame_17_5619.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5619.paddingLeft = 32
-	frame_17_5619.paddingRight = 8
-	frame_17_5619.paddingTop = 6
-	frame_17_5619.paddingBottom = 6
-	frame_17_5619.counterAxisAlignItems = "CENTER"
-	frame_17_5619.primaryAxisSizingMode = "FIXED"
-	frame_17_5619.strokeTopWeight = 1
-	frame_17_5619.strokeBottomWeight = 1
-	frame_17_5619.strokeLeftWeight = 1
-	frame_17_5619.strokeRightWeight = 1
-	frame_17_5619.clipsContent = false
-	frame_17_5619.layoutMode = "HORIZONTAL"
-	frame_17_5619.counterAxisSizingMode = "AUTO"
-	frame_17_5619.itemSpacing = 8
+	var frame_0_23 = figma.createFrame()
+	frame_0_22.appendChild(frame_0_23)
+	frame_0_23.resize(246.0000000000, 27.0000000000)
+	frame_0_23.counterAxisSizingMode = "AUTO"
+	frame_0_23.name = "menu_item"
+	frame_0_23.relativeTransform = [[1,0,5],[0,1,5]]
+	frame_0_23.x = 5
+	frame_0_23.y = 5
+	frame_0_23.layoutAlign = "STRETCH"
+	frame_0_23.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_23.paddingLeft = 32
+	frame_0_23.paddingRight = 8
+	frame_0_23.paddingTop = 6
+	frame_0_23.paddingBottom = 6
+	frame_0_23.counterAxisAlignItems = "CENTER"
+	frame_0_23.primaryAxisSizingMode = "FIXED"
+	frame_0_23.strokeTopWeight = 1
+	frame_0_23.strokeBottomWeight = 1
+	frame_0_23.strokeLeftWeight = 1
+	frame_0_23.strokeRightWeight = 1
+	frame_0_23.clipsContent = false
+	frame_0_23.expanded = false
+	frame_0_23.layoutMode = "HORIZONTAL"
+	frame_0_23.counterAxisSizingMode = "AUTO"
+	frame_0_23.itemSpacing = 8
 	
 
 	// Create TEXT
-	var text_17_5620 = figma.createText()
-	frame_17_5619.appendChild(text_17_5620)
-	text_17_5620.resize(15.0000000000, 20.0000000000)
-	text_17_5620.name = "⇤"
-	text_17_5620.visible = false
-	text_17_5620.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	text_17_5620.relativeTransform = [[1,0,0],[0,1,6]]
-	text_17_5620.y = 6
-	text_17_5620.autoRename = false
+	var text_0_24 = figma.createText()
+	frame_0_23.appendChild(text_0_24)
+	text_0_24.resize(15.0000000000, 20.0000000000)
+	text_0_24.name = "⇤"
+	text_0_24.visible = false
+	text_0_24.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	text_0_24.relativeTransform = [[1,0,0],[0,1,6]]
+	text_0_24.y = 6
+	text_0_24.autoRename = false
 	
 	// Font properties
-	text_17_5620.fontName = {
+	text_0_24.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5620.characters = "⇤"
-	text_17_5620.fontSize = 14
-	text_17_5620.listSpacing = 0
-	text_17_5620.lineHeight = {"unit":"PIXELS","value":20}
-	text_17_5620.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5620.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_24.characters = "⇤"
+	text_0_24.fontSize = 14
+	text_0_24.listSpacing = 0
+	text_0_24.lineHeight = {"unit":"PIXELS","value":20}
+	text_0_24.fontName = {"family":"Inter","style":"Medium"}
+	text_0_24.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5622 = figma.createText()
-	frame_17_5619.appendChild(text_17_5622)
-	text_17_5622.fillStyleId = slate_700_a217.id
-	text_17_5622.resize(181.0000000000, 15.0000000000)
-	text_17_5622.name = "Menu Item"
-	text_17_5622.relativeTransform = [[1,0,32],[0,1,6]]
-	text_17_5622.x = 32
-	text_17_5622.y = 6
-	text_17_5622.layoutGrow = 1
-	text_17_5622.autoRename = false
+	var text_0_25 = figma.createText()
+	frame_0_23.appendChild(text_0_25)
+	text_0_25.fillStyleId = slate_700_d318.id
+	text_0_25.resize(181.0000000000, 15.0000000000)
+	text_0_25.name = "Menu Item"
+	text_0_25.relativeTransform = [[1,0,32],[0,1,6]]
+	text_0_25.x = 32
+	text_0_25.y = 6
+	text_0_25.layoutGrow = 1
+	text_0_25.autoRename = false
 	
 	// Font properties
-	text_17_5622.fontName = {
+	text_0_25.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5622.characters = "Back"
-	text_17_5622.listSpacing = 0
-	text_17_5622.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5622.textAutoResize = "HEIGHT"
+		text_0_25.characters = "Back"
+	text_0_25.listSpacing = 0
+	text_0_25.fontName = {"family":"Inter","style":"Medium"}
+	text_0_25.textAutoResize = "HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5623 = figma.createText()
-	frame_17_5619.appendChild(text_17_5623)
-	text_17_5623.fillStyleId = slate_500_3788.id
-	text_17_5623.resize(17.0000000000, 15.0000000000)
-	text_17_5623.name = "⌘⇧B︎"
-	text_17_5623.relativeTransform = [[1,0,221],[0,1,6]]
-	text_17_5623.x = 221
-	text_17_5623.y = 6
-	text_17_5623.autoRename = false
+	var text_0_26 = figma.createText()
+	frame_0_23.appendChild(text_0_26)
+	text_0_26.fillStyleId = slate_500_e722.id
+	text_0_26.resize(17.0000000000, 15.0000000000)
+	text_0_26.name = "⌘⇧B︎"
+	text_0_26.relativeTransform = [[1,0,221],[0,1,6]]
+	text_0_26.x = 221
+	text_0_26.y = 6
+	text_0_26.autoRename = false
 	
 	// Font properties
-	text_17_5623.fontName = {
+	text_0_26.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5623.characters = "⌘["
-	text_17_5623.listSpacing = 0
-	text_17_5623.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5623.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_26.characters = "⌘["
+	text_0_26.listSpacing = 0
+	text_0_26.fontName = {"family":"Inter","style":"Medium"}
+	text_0_26.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create FRAME
-	var frame_17_5653 = figma.createFrame()
-	frame_17_5478.appendChild(frame_17_5653)
-	frame_17_5653.resize(246.0000000000, 27.0000000000)
-	frame_17_5653.counterAxisSizingMode = "AUTO"
-	frame_17_5653.name = "menu_item"
-	frame_17_5653.relativeTransform = [[1,0,5],[0,1,32]]
-	frame_17_5653.x = 5
-	frame_17_5653.y = 32
-	frame_17_5653.layoutAlign = "STRETCH"
-	frame_17_5653.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5653.paddingLeft = 32
-	frame_17_5653.paddingRight = 8
-	frame_17_5653.paddingTop = 6
-	frame_17_5653.paddingBottom = 6
-	frame_17_5653.counterAxisAlignItems = "CENTER"
-	frame_17_5653.primaryAxisSizingMode = "FIXED"
-	frame_17_5653.strokeTopWeight = 1
-	frame_17_5653.strokeBottomWeight = 1
-	frame_17_5653.strokeLeftWeight = 1
-	frame_17_5653.strokeRightWeight = 1
-	frame_17_5653.clipsContent = false
-	frame_17_5653.layoutMode = "HORIZONTAL"
-	frame_17_5653.counterAxisSizingMode = "AUTO"
-	frame_17_5653.itemSpacing = 8
+	var frame_0_27 = figma.createFrame()
+	frame_0_22.appendChild(frame_0_27)
+	frame_0_27.resize(246.0000000000, 27.0000000000)
+	frame_0_27.counterAxisSizingMode = "AUTO"
+	frame_0_27.name = "menu_item"
+	frame_0_27.relativeTransform = [[1,0,5],[0,1,32]]
+	frame_0_27.x = 5
+	frame_0_27.y = 32
+	frame_0_27.layoutAlign = "STRETCH"
+	frame_0_27.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_27.paddingLeft = 32
+	frame_0_27.paddingRight = 8
+	frame_0_27.paddingTop = 6
+	frame_0_27.paddingBottom = 6
+	frame_0_27.counterAxisAlignItems = "CENTER"
+	frame_0_27.primaryAxisSizingMode = "FIXED"
+	frame_0_27.strokeTopWeight = 1
+	frame_0_27.strokeBottomWeight = 1
+	frame_0_27.strokeLeftWeight = 1
+	frame_0_27.strokeRightWeight = 1
+	frame_0_27.clipsContent = false
+	frame_0_27.expanded = false
+	frame_0_27.layoutMode = "HORIZONTAL"
+	frame_0_27.counterAxisSizingMode = "AUTO"
+	frame_0_27.itemSpacing = 8
 	
 
 	// Create TEXT
-	var text_17_5654 = figma.createText()
-	frame_17_5653.appendChild(text_17_5654)
-	text_17_5654.resize(15.0000000000, 20.0000000000)
-	text_17_5654.name = "⇤"
-	text_17_5654.visible = false
-	text_17_5654.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	text_17_5654.relativeTransform = [[1,0,0],[0,1,6]]
-	text_17_5654.y = 6
-	text_17_5654.autoRename = false
+	var text_0_28 = figma.createText()
+	frame_0_27.appendChild(text_0_28)
+	text_0_28.resize(15.0000000000, 20.0000000000)
+	text_0_28.name = "⇤"
+	text_0_28.visible = false
+	text_0_28.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	text_0_28.relativeTransform = [[1,0,0],[0,1,6]]
+	text_0_28.y = 6
+	text_0_28.autoRename = false
 	
 	// Font properties
-	text_17_5654.fontName = {
+	text_0_28.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5654.characters = "⇤"
-	text_17_5654.fontSize = 14
-	text_17_5654.listSpacing = 0
-	text_17_5654.lineHeight = {"unit":"PIXELS","value":20}
-	text_17_5654.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5654.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_28.characters = "⇤"
+	text_0_28.fontSize = 14
+	text_0_28.listSpacing = 0
+	text_0_28.lineHeight = {"unit":"PIXELS","value":20}
+	text_0_28.fontName = {"family":"Inter","style":"Medium"}
+	text_0_28.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5656 = figma.createText()
-	frame_17_5653.appendChild(text_17_5656)
-	text_17_5656.fillStyleId = slate_700_a217.id
-	text_17_5656.resize(181.0000000000, 15.0000000000)
-	text_17_5656.name = "Menu Item"
-	text_17_5656.opacity = 0.5
-	text_17_5656.relativeTransform = [[1,0,32],[0,1,6]]
-	text_17_5656.x = 32
-	text_17_5656.y = 6
-	text_17_5656.layoutGrow = 1
-	text_17_5656.autoRename = false
+	var text_0_29 = figma.createText()
+	frame_0_27.appendChild(text_0_29)
+	text_0_29.fillStyleId = slate_700_d318.id
+	text_0_29.resize(181.0000000000, 15.0000000000)
+	text_0_29.name = "Menu Item"
+	text_0_29.opacity = 0.5
+	text_0_29.relativeTransform = [[1,0,32],[0,1,6]]
+	text_0_29.x = 32
+	text_0_29.y = 6
+	text_0_29.layoutGrow = 1
+	text_0_29.autoRename = false
 	
 	// Font properties
-	text_17_5656.fontName = {
+	text_0_29.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5656.characters = "Forward"
-	text_17_5656.listSpacing = 0
-	text_17_5656.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5656.textAutoResize = "HEIGHT"
+		text_0_29.characters = "Forward"
+	text_0_29.listSpacing = 0
+	text_0_29.fontName = {"family":"Inter","style":"Medium"}
+	text_0_29.textAutoResize = "HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5657 = figma.createText()
-	frame_17_5653.appendChild(text_17_5657)
-	text_17_5657.fillStyleId = slate_500_3788.id
-	text_17_5657.resize(17.0000000000, 15.0000000000)
-	text_17_5657.name = "⌘⇧B︎"
-	text_17_5657.opacity = 0.5
-	text_17_5657.relativeTransform = [[1,0,221],[0,1,6]]
-	text_17_5657.x = 221
-	text_17_5657.y = 6
-	text_17_5657.autoRename = false
+	var text_0_30 = figma.createText()
+	frame_0_27.appendChild(text_0_30)
+	text_0_30.fillStyleId = slate_500_e722.id
+	text_0_30.resize(17.0000000000, 15.0000000000)
+	text_0_30.name = "⌘⇧B︎"
+	text_0_30.opacity = 0.5
+	text_0_30.relativeTransform = [[1,0,221],[0,1,6]]
+	text_0_30.x = 221
+	text_0_30.y = 6
+	text_0_30.autoRename = false
 	
 	// Font properties
-	text_17_5657.fontName = {
+	text_0_30.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5657.characters = "⌘]"
-	text_17_5657.listSpacing = 0
-	text_17_5657.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5657.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_30.characters = "⌘]"
+	text_0_30.listSpacing = 0
+	text_0_30.fontName = {"family":"Inter","style":"Medium"}
+	text_0_30.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create FRAME
-	var frame_17_5644 = figma.createFrame()
-	frame_17_5478.appendChild(frame_17_5644)
-	frame_17_5644.resize(246.0000000000, 27.0000000000)
-	frame_17_5644.counterAxisSizingMode = "AUTO"
-	frame_17_5644.name = "menu_item"
-	frame_17_5644.relativeTransform = [[1,0,5],[0,1,59]]
-	frame_17_5644.x = 5
-	frame_17_5644.y = 59
-	frame_17_5644.layoutAlign = "STRETCH"
-	frame_17_5644.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5644.paddingLeft = 32
-	frame_17_5644.paddingRight = 8
-	frame_17_5644.paddingTop = 6
-	frame_17_5644.paddingBottom = 6
-	frame_17_5644.counterAxisAlignItems = "CENTER"
-	frame_17_5644.primaryAxisSizingMode = "FIXED"
-	frame_17_5644.strokeTopWeight = 1
-	frame_17_5644.strokeBottomWeight = 1
-	frame_17_5644.strokeLeftWeight = 1
-	frame_17_5644.strokeRightWeight = 1
-	frame_17_5644.clipsContent = false
-	frame_17_5644.layoutMode = "HORIZONTAL"
-	frame_17_5644.counterAxisSizingMode = "AUTO"
-	frame_17_5644.itemSpacing = 8
+	var frame_0_31 = figma.createFrame()
+	frame_0_22.appendChild(frame_0_31)
+	frame_0_31.resize(246.0000000000, 27.0000000000)
+	frame_0_31.counterAxisSizingMode = "AUTO"
+	frame_0_31.name = "menu_item"
+	frame_0_31.relativeTransform = [[1,0,5],[0,1,59]]
+	frame_0_31.x = 5
+	frame_0_31.y = 59
+	frame_0_31.layoutAlign = "STRETCH"
+	frame_0_31.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_31.paddingLeft = 32
+	frame_0_31.paddingRight = 8
+	frame_0_31.paddingTop = 6
+	frame_0_31.paddingBottom = 6
+	frame_0_31.counterAxisAlignItems = "CENTER"
+	frame_0_31.primaryAxisSizingMode = "FIXED"
+	frame_0_31.strokeTopWeight = 1
+	frame_0_31.strokeBottomWeight = 1
+	frame_0_31.strokeLeftWeight = 1
+	frame_0_31.strokeRightWeight = 1
+	frame_0_31.clipsContent = false
+	frame_0_31.expanded = false
+	frame_0_31.layoutMode = "HORIZONTAL"
+	frame_0_31.counterAxisSizingMode = "AUTO"
+	frame_0_31.itemSpacing = 8
 	
 
 	// Create TEXT
-	var text_17_5645 = figma.createText()
-	frame_17_5644.appendChild(text_17_5645)
-	text_17_5645.resize(15.0000000000, 20.0000000000)
-	text_17_5645.name = "⇤"
-	text_17_5645.visible = false
-	text_17_5645.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	text_17_5645.relativeTransform = [[1,0,0],[0,1,6]]
-	text_17_5645.y = 6
-	text_17_5645.autoRename = false
+	var text_0_32 = figma.createText()
+	frame_0_31.appendChild(text_0_32)
+	text_0_32.resize(15.0000000000, 20.0000000000)
+	text_0_32.name = "⇤"
+	text_0_32.visible = false
+	text_0_32.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	text_0_32.relativeTransform = [[1,0,0],[0,1,6]]
+	text_0_32.y = 6
+	text_0_32.autoRename = false
 	
 	// Font properties
-	text_17_5645.fontName = {
+	text_0_32.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5645.characters = "⇤"
-	text_17_5645.fontSize = 14
-	text_17_5645.listSpacing = 0
-	text_17_5645.lineHeight = {"unit":"PIXELS","value":20}
-	text_17_5645.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5645.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_32.characters = "⇤"
+	text_0_32.fontSize = 14
+	text_0_32.listSpacing = 0
+	text_0_32.lineHeight = {"unit":"PIXELS","value":20}
+	text_0_32.fontName = {"family":"Inter","style":"Medium"}
+	text_0_32.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5647 = figma.createText()
-	frame_17_5644.appendChild(text_17_5647)
-	text_17_5647.fillStyleId = slate_700_a217.id
-	text_17_5647.resize(178.0000000000, 15.0000000000)
-	text_17_5647.name = "Menu Item"
-	text_17_5647.relativeTransform = [[1,0,32],[0,1,6]]
-	text_17_5647.x = 32
-	text_17_5647.y = 6
-	text_17_5647.layoutGrow = 1
-	text_17_5647.autoRename = false
+	var text_0_33 = figma.createText()
+	frame_0_31.appendChild(text_0_33)
+	text_0_33.fillStyleId = slate_700_d318.id
+	text_0_33.resize(178.0000000000, 15.0000000000)
+	text_0_33.name = "Menu Item"
+	text_0_33.relativeTransform = [[1,0,32],[0,1,6]]
+	text_0_33.x = 32
+	text_0_33.y = 6
+	text_0_33.layoutGrow = 1
+	text_0_33.autoRename = false
 	
 	// Font properties
-	text_17_5647.fontName = {
+	text_0_33.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5647.characters = "Reload"
-	text_17_5647.listSpacing = 0
-	text_17_5647.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5647.textAutoResize = "HEIGHT"
+		text_0_33.characters = "Reload"
+	text_0_33.listSpacing = 0
+	text_0_33.fontName = {"family":"Inter","style":"Medium"}
+	text_0_33.textAutoResize = "HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5648 = figma.createText()
-	frame_17_5644.appendChild(text_17_5648)
-	text_17_5648.fillStyleId = slate_500_3788.id
-	text_17_5648.resize(20.0000000000, 15.0000000000)
-	text_17_5648.name = "⌘⇧B︎"
-	text_17_5648.relativeTransform = [[1,0,218],[0,1,6]]
-	text_17_5648.x = 218
-	text_17_5648.y = 6
-	text_17_5648.autoRename = false
+	var text_0_34 = figma.createText()
+	frame_0_31.appendChild(text_0_34)
+	text_0_34.fillStyleId = slate_500_e722.id
+	text_0_34.resize(20.0000000000, 15.0000000000)
+	text_0_34.name = "⌘⇧B︎"
+	text_0_34.relativeTransform = [[1,0,218],[0,1,6]]
+	text_0_34.x = 218
+	text_0_34.y = 6
+	text_0_34.autoRename = false
 	
 	// Font properties
-	text_17_5648.fontName = {
+	text_0_34.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5648.characters = "⌘R"
-	text_17_5648.listSpacing = 0
-	text_17_5648.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5648.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_34.characters = "⌘R"
+	text_0_34.listSpacing = 0
+	text_0_34.fontName = {"family":"Inter","style":"Medium"}
+	text_0_34.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create FRAME
-	var frame_17_5661 = figma.createFrame()
-	frame_17_5478.appendChild(frame_17_5661)
-	frame_17_5661.resize(246.0000000000, 28.0000000000)
-	frame_17_5661.counterAxisSizingMode = "AUTO"
-	frame_17_5661.fillStyleId = slate_100_51f5.id
-	frame_17_5661.backgroundStyleId = slate_100_51f5.id
-	frame_17_5661.name = "menu_item"
-	frame_17_5661.relativeTransform = [[1,0,5],[0,1,86]]
-	frame_17_5661.x = 5
-	frame_17_5661.y = 86
-	frame_17_5661.layoutAlign = "STRETCH"
-	frame_17_5661.cornerRadius = 6
-	frame_17_5661.paddingLeft = 32
-	frame_17_5661.paddingRight = 8
-	frame_17_5661.paddingTop = 6
-	frame_17_5661.paddingBottom = 6
-	frame_17_5661.counterAxisAlignItems = "CENTER"
-	frame_17_5661.primaryAxisSizingMode = "FIXED"
-	frame_17_5661.strokeTopWeight = 1
-	frame_17_5661.strokeBottomWeight = 1
-	frame_17_5661.strokeLeftWeight = 1
-	frame_17_5661.strokeRightWeight = 1
-	frame_17_5661.clipsContent = false
-	frame_17_5661.layoutMode = "HORIZONTAL"
-	frame_17_5661.counterAxisSizingMode = "AUTO"
-	frame_17_5661.itemSpacing = 8
+	var frame_0_35 = figma.createFrame()
+	frame_0_22.appendChild(frame_0_35)
+	frame_0_35.resize(246.0000000000, 28.0000000000)
+	frame_0_35.counterAxisSizingMode = "AUTO"
+	frame_0_35.fillStyleId = slate_100_8f57.id
+	frame_0_35.backgroundStyleId = slate_100_8f57.id
+	frame_0_35.name = "menu_item"
+	frame_0_35.relativeTransform = [[1,0,5],[0,1,86]]
+	frame_0_35.x = 5
+	frame_0_35.y = 86
+	frame_0_35.layoutAlign = "STRETCH"
+	frame_0_35.cornerRadius = 6
+	frame_0_35.paddingLeft = 32
+	frame_0_35.paddingRight = 8
+	frame_0_35.paddingTop = 6
+	frame_0_35.paddingBottom = 6
+	frame_0_35.counterAxisAlignItems = "CENTER"
+	frame_0_35.primaryAxisSizingMode = "FIXED"
+	frame_0_35.strokeTopWeight = 1
+	frame_0_35.strokeBottomWeight = 1
+	frame_0_35.strokeLeftWeight = 1
+	frame_0_35.strokeRightWeight = 1
+	frame_0_35.clipsContent = false
+	frame_0_35.expanded = false
+	frame_0_35.layoutMode = "HORIZONTAL"
+	frame_0_35.counterAxisSizingMode = "AUTO"
+	frame_0_35.itemSpacing = 8
 	
 
 	// Create TEXT
-	var text_17_5662 = figma.createText()
-	frame_17_5661.appendChild(text_17_5662)
-	text_17_5662.resize(15.0000000000, 20.0000000000)
-	text_17_5662.name = "⇤"
-	text_17_5662.visible = false
-	text_17_5662.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	text_17_5662.relativeTransform = [[1,0,0],[0,1,6]]
-	text_17_5662.y = 6
-	text_17_5662.autoRename = false
+	var text_0_36 = figma.createText()
+	frame_0_35.appendChild(text_0_36)
+	text_0_36.resize(15.0000000000, 20.0000000000)
+	text_0_36.name = "⇤"
+	text_0_36.visible = false
+	text_0_36.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	text_0_36.relativeTransform = [[1,0,0],[0,1,6]]
+	text_0_36.y = 6
+	text_0_36.autoRename = false
 	
 	// Font properties
-	text_17_5662.fontName = {
+	text_0_36.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5662.characters = "⇤"
-	text_17_5662.fontSize = 14
-	text_17_5662.listSpacing = 0
-	text_17_5662.lineHeight = {"unit":"PIXELS","value":20}
-	text_17_5662.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5662.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_36.characters = "⇤"
+	text_0_36.fontSize = 14
+	text_0_36.listSpacing = 0
+	text_0_36.lineHeight = {"unit":"PIXELS","value":20}
+	text_0_36.fontName = {"family":"Inter","style":"Medium"}
+	text_0_36.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5664 = figma.createText()
-	frame_17_5661.appendChild(text_17_5664)
-	text_17_5664.fillStyleId = slate_700_a217.id
-	text_17_5664.resize(182.0000000000, 15.0000000000)
-	text_17_5664.name = "Menu Item"
-	text_17_5664.relativeTransform = [[1,0,32],[0,1,6.5]]
-	text_17_5664.x = 32
-	text_17_5664.y = 6.5
-	text_17_5664.layoutGrow = 1
-	text_17_5664.autoRename = false
+	var text_0_37 = figma.createText()
+	frame_0_35.appendChild(text_0_37)
+	text_0_37.fillStyleId = slate_700_d318.id
+	text_0_37.resize(182.0000000000, 15.0000000000)
+	text_0_37.name = "Menu Item"
+	text_0_37.relativeTransform = [[1,0,32],[0,1,6.5]]
+	text_0_37.x = 32
+	text_0_37.y = 6.5
+	text_0_37.layoutGrow = 1
+	text_0_37.autoRename = false
 	
 	// Font properties
-	text_17_5664.fontName = {
+	text_0_37.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5664.characters = "More Tools"
-	text_17_5664.listSpacing = 0
-	text_17_5664.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5664.textAutoResize = "HEIGHT"
+		text_0_37.characters = "More Tools"
+	text_0_37.listSpacing = 0
+	text_0_37.fontName = {"family":"Inter","style":"Medium"}
+	text_0_37.textAutoResize = "HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5665 = figma.createText()
-	frame_17_5661.appendChild(text_17_5665)
-	text_17_5665.fillStyleId = slate_500_3788.id
-	text_17_5665.resize(20.0000000000, 15.0000000000)
-	text_17_5665.name = "⌘⇧B︎"
-	text_17_5665.visible = false
-	text_17_5665.relativeTransform = [[1,0,171],[0,1,6.5]]
-	text_17_5665.x = 171
-	text_17_5665.y = 6.5
-	text_17_5665.autoRename = false
+	var text_0_38 = figma.createText()
+	frame_0_35.appendChild(text_0_38)
+	text_0_38.fillStyleId = slate_500_e722.id
+	text_0_38.resize(20.0000000000, 15.0000000000)
+	text_0_38.name = "⌘⇧B︎"
+	text_0_38.visible = false
+	text_0_38.relativeTransform = [[1,0,171],[0,1,6.5]]
+	text_0_38.x = 171
+	text_0_38.y = 6.5
+	text_0_38.autoRename = false
 	
 	// Font properties
-	text_17_5665.fontName = {
+	text_0_38.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5665.characters = "⌘R"
-	text_17_5665.listSpacing = 0
-	text_17_5665.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5665.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_38.characters = "⌘R"
+	text_0_38.listSpacing = 0
+	text_0_38.fontName = {"family":"Inter","style":"Medium"}
+	text_0_38.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create FRAME
-	var frame_17_5700 = figma.createFrame()
-	frame_17_5661.appendChild(frame_17_5700)
-	frame_17_5700.resize(16.0000000000, 16.0000000000)
-	frame_17_5700.primaryAxisSizingMode = "AUTO"
-	frame_17_5700.name = "secondary icon"
-	frame_17_5700.relativeTransform = [[1,0,222],[0,1,6]]
-	frame_17_5700.x = 222
-	frame_17_5700.y = 6
-	frame_17_5700.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5700.strokeWeight = 0.6666666865348816
-	frame_17_5700.strokeTopWeight = 0.6666666865348816
-	frame_17_5700.strokeBottomWeight = 0.6666666865348816
-	frame_17_5700.strokeLeftWeight = 0.6666666865348816
-	frame_17_5700.strokeRightWeight = 0.6666666865348816
+	var frame_0_39 = figma.createFrame()
+	frame_0_35.appendChild(frame_0_39)
+	frame_0_39.resize(16.0000000000, 16.0000000000)
+	frame_0_39.primaryAxisSizingMode = "AUTO"
+	frame_0_39.name = "secondary icon"
+	frame_0_39.relativeTransform = [[1,0,222],[0,1,6]]
+	frame_0_39.x = 222
+	frame_0_39.y = 6
+	frame_0_39.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_39.strokeWeight = 0.6666666865348816
+	frame_0_39.strokeTopWeight = 0.6666666865348816
+	frame_0_39.strokeBottomWeight = 0.6666666865348816
+	frame_0_39.strokeLeftWeight = 0.6666666865348816
+	frame_0_39.strokeRightWeight = 0.6666666865348816
+	frame_0_39.expanded = false
 	
 
 	// Create VECTOR
-	var vector_17_5701 = figma.createVector()
-	frame_17_5700.appendChild(vector_17_5701)
-	vector_17_5701.strokeStyleId = slate_700_a217.id
-	vector_17_5701.resize(4.0000000000, 8.0000000000)
-	vector_17_5701.strokeWeight = 1.3333333730697632
-	vector_17_5701.relativeTransform = [[1,0,6],[0,1,4]]
-	vector_17_5701.x = 6
-	vector_17_5701.y = 4
-	vector_17_5701.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_17_5701.vectorNetwork = {"vertices":[{"x":0,"y":8,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":4,"y":4,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1]],"fillStyleId":"","fills":[]}]}
-	vector_17_5701.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 8 L 4 4 L 0 0"}]
+	var vector_0_40 = figma.createVector()
+	frame_0_39.appendChild(vector_0_40)
+	vector_0_40.strokeStyleId = slate_700_d318.id
+	vector_0_40.resize(4.0000000000, 8.0000000000)
+	vector_0_40.strokeWeight = 1.3333333730697632
+	vector_0_40.relativeTransform = [[1,0,6],[0,1,4]]
+	vector_0_40.x = 6
+	vector_0_40.y = 4
+	vector_0_40.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_0_40.vectorNetwork = {"vertices":[{"x":0,"y":8,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":4,"y":4,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1]],"fillStyleId":"","fills":[]}]}
+	vector_0_40.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 8 L 4 4 L 0 0"}]
 	
 
 	// Create FRAME
-	var frame_17_5551 = figma.createFrame()
-	frame_17_5477.appendChild(frame_17_5551)
-	frame_17_5551.resize(256.0000000000, 65.0000000000)
-	frame_17_5551.primaryAxisSizingMode = "AUTO"
-	frame_17_5551.name = "middle section"
-	frame_17_5551.relativeTransform = [[1,0,0],[0,1,119]]
-	frame_17_5551.y = 119
-	frame_17_5551.layoutAlign = "STRETCH"
-	frame_17_5551.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5551.paddingLeft = 5
-	frame_17_5551.paddingRight = 5
-	frame_17_5551.paddingTop = 5
-	frame_17_5551.paddingBottom = 5
-	frame_17_5551.strokeTopWeight = 1
-	frame_17_5551.strokeBottomWeight = 1
-	frame_17_5551.strokeLeftWeight = 1
-	frame_17_5551.strokeRightWeight = 1
-	frame_17_5551.clipsContent = false
-	frame_17_5551.layoutMode = "VERTICAL"
-	frame_17_5551.itemSpacing = 10
+	var frame_0_41 = figma.createFrame()
+	frame_0_21.appendChild(frame_0_41)
+	frame_0_41.resize(256.0000000000, 65.0000000000)
+	frame_0_41.primaryAxisSizingMode = "AUTO"
+	frame_0_41.name = "middle section"
+	frame_0_41.relativeTransform = [[1,0,0],[0,1,119]]
+	frame_0_41.y = 119
+	frame_0_41.layoutAlign = "STRETCH"
+	frame_0_41.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_41.paddingLeft = 5
+	frame_0_41.paddingRight = 5
+	frame_0_41.paddingTop = 5
+	frame_0_41.paddingBottom = 5
+	frame_0_41.strokeTopWeight = 1
+	frame_0_41.strokeBottomWeight = 1
+	frame_0_41.strokeLeftWeight = 1
+	frame_0_41.strokeRightWeight = 1
+	frame_0_41.clipsContent = false
+	frame_0_41.expanded = false
+	frame_0_41.layoutMode = "VERTICAL"
+	frame_0_41.itemSpacing = 10
 	
 
 	// Create FRAME
-	var frame_17_5552 = figma.createFrame()
-	frame_17_5551.appendChild(frame_17_5552)
-	frame_17_5552.resize(246.0000000000, 55.0000000000)
-	frame_17_5552.primaryAxisSizingMode = "AUTO"
-	frame_17_5552.name = "Frame 4"
-	frame_17_5552.relativeTransform = [[1,0,5],[0,1,5]]
-	frame_17_5552.x = 5
-	frame_17_5552.y = 5
-	frame_17_5552.fills = []
-	frame_17_5552.strokeTopWeight = 1
-	frame_17_5552.strokeBottomWeight = 1
-	frame_17_5552.strokeLeftWeight = 1
-	frame_17_5552.strokeRightWeight = 1
-	frame_17_5552.clipsContent = false
-	frame_17_5552.layoutMode = "VERTICAL"
+	var frame_0_42 = figma.createFrame()
+	frame_0_41.appendChild(frame_0_42)
+	frame_0_42.resize(246.0000000000, 55.0000000000)
+	frame_0_42.primaryAxisSizingMode = "AUTO"
+	frame_0_42.name = "Frame 4"
+	frame_0_42.relativeTransform = [[1,0,5],[0,1,5]]
+	frame_0_42.x = 5
+	frame_0_42.y = 5
+	frame_0_42.fills = []
+	frame_0_42.strokeTopWeight = 1
+	frame_0_42.strokeBottomWeight = 1
+	frame_0_42.strokeLeftWeight = 1
+	frame_0_42.strokeRightWeight = 1
+	frame_0_42.clipsContent = false
+	frame_0_42.expanded = false
+	frame_0_42.layoutMode = "VERTICAL"
 	
 
 	// Create FRAME
-	var frame_17_5635 = figma.createFrame()
-	frame_17_5552.appendChild(frame_17_5635)
-	frame_17_5635.resize(246.0000000000, 28.0000000000)
-	frame_17_5635.counterAxisSizingMode = "AUTO"
-	frame_17_5635.name = "menu item"
-	frame_17_5635.layoutAlign = "STRETCH"
-	frame_17_5635.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5635.paddingLeft = 8
-	frame_17_5635.paddingRight = 8
-	frame_17_5635.paddingTop = 6
-	frame_17_5635.paddingBottom = 6
-	frame_17_5635.counterAxisAlignItems = "CENTER"
-	frame_17_5635.primaryAxisSizingMode = "FIXED"
-	frame_17_5635.strokeTopWeight = 1
-	frame_17_5635.strokeBottomWeight = 1
-	frame_17_5635.strokeLeftWeight = 1
-	frame_17_5635.strokeRightWeight = 1
-	frame_17_5635.clipsContent = false
-	frame_17_5635.layoutMode = "HORIZONTAL"
-	frame_17_5635.counterAxisSizingMode = "AUTO"
-	frame_17_5635.itemSpacing = 8
+	var frame_0_43 = figma.createFrame()
+	frame_0_42.appendChild(frame_0_43)
+	frame_0_43.resize(246.0000000000, 28.0000000000)
+	frame_0_43.counterAxisSizingMode = "AUTO"
+	frame_0_43.name = "menu item"
+	frame_0_43.layoutAlign = "STRETCH"
+	frame_0_43.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_43.paddingLeft = 8
+	frame_0_43.paddingRight = 8
+	frame_0_43.paddingTop = 6
+	frame_0_43.paddingBottom = 6
+	frame_0_43.counterAxisAlignItems = "CENTER"
+	frame_0_43.primaryAxisSizingMode = "FIXED"
+	frame_0_43.strokeTopWeight = 1
+	frame_0_43.strokeBottomWeight = 1
+	frame_0_43.strokeLeftWeight = 1
+	frame_0_43.strokeRightWeight = 1
+	frame_0_43.clipsContent = false
+	frame_0_43.expanded = false
+	frame_0_43.layoutMode = "HORIZONTAL"
+	frame_0_43.counterAxisSizingMode = "AUTO"
+	frame_0_43.itemSpacing = 8
 	
 
 	// Create TEXT
-	var text_17_5636 = figma.createText()
-	frame_17_5635.appendChild(text_17_5636)
-	text_17_5636.resize(15.0000000000, 20.0000000000)
-	text_17_5636.name = "⇤"
-	text_17_5636.visible = false
-	text_17_5636.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	text_17_5636.relativeTransform = [[1,0,0],[0,1,6]]
-	text_17_5636.y = 6
-	text_17_5636.autoRename = false
+	var text_0_44 = figma.createText()
+	frame_0_43.appendChild(text_0_44)
+	text_0_44.resize(15.0000000000, 20.0000000000)
+	text_0_44.name = "⇤"
+	text_0_44.visible = false
+	text_0_44.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	text_0_44.relativeTransform = [[1,0,0],[0,1,6]]
+	text_0_44.y = 6
+	text_0_44.autoRename = false
 	
 	// Font properties
-	text_17_5636.fontName = {
+	text_0_44.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5636.characters = "⇤"
-	text_17_5636.fontSize = 14
-	text_17_5636.listSpacing = 0
-	text_17_5636.lineHeight = {"unit":"PIXELS","value":20}
-	text_17_5636.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5636.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_44.characters = "⇤"
+	text_0_44.fontSize = 14
+	text_0_44.listSpacing = 0
+	text_0_44.lineHeight = {"unit":"PIXELS","value":20}
+	text_0_44.fontName = {"family":"Inter","style":"Medium"}
+	text_0_44.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create FRAME
-	var frame_17_5702 = figma.createFrame()
-	frame_17_5635.appendChild(frame_17_5702)
-	frame_17_5702.resize(16.0000000000, 16.0000000000)
-	frame_17_5702.primaryAxisSizingMode = "AUTO"
-	frame_17_5702.name = "icon/check"
-	frame_17_5702.relativeTransform = [[1,0,8],[0,1,6]]
-	frame_17_5702.x = 8
-	frame_17_5702.y = 6
-	frame_17_5702.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5702.strokeTopWeight = 1
-	frame_17_5702.strokeBottomWeight = 1
-	frame_17_5702.strokeLeftWeight = 1
-	frame_17_5702.strokeRightWeight = 1
+	var frame_0_45 = figma.createFrame()
+	frame_0_43.appendChild(frame_0_45)
+	frame_0_45.resize(16.0000000000, 16.0000000000)
+	frame_0_45.primaryAxisSizingMode = "AUTO"
+	frame_0_45.name = "icon/check"
+	frame_0_45.relativeTransform = [[1,0,8],[0,1,6]]
+	frame_0_45.x = 8
+	frame_0_45.y = 6
+	frame_0_45.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_45.strokeTopWeight = 1
+	frame_0_45.strokeBottomWeight = 1
+	frame_0_45.strokeLeftWeight = 1
+	frame_0_45.strokeRightWeight = 1
+	frame_0_45.expanded = false
 	
 
 	// Create VECTOR
-	var vector_17_5703 = figma.createVector()
-	frame_17_5702.appendChild(vector_17_5703)
-	vector_17_5703.strokeStyleId = slate_700_a217.id
-	vector_17_5703.resize(10.6666660309, 7.3333330154)
-	vector_17_5703.strokeWeight = 1.3333333730697632
-	vector_17_5703.relativeTransform = [[1,0,2.6666667461],[0,1,4]]
-	vector_17_5703.x = 2.6666667461395264
-	vector_17_5703.y = 4
-	vector_17_5703.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_17_5703.vectorNetwork = {"vertices":[{"x":10.666666030883789,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":3.333333134651184,"y":7.3333330154418945,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":3.99999982660467,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1]],"fillStyleId":"","fills":[]}]}
-	vector_17_5703.vectorPaths = [{"windingRule":"NONZERO","data":"M 10.666666030883789 0 L 3.333333134651184 7.3333330154418945 L 0 3.99999982660467"}]
+	var vector_0_46 = figma.createVector()
+	frame_0_45.appendChild(vector_0_46)
+	vector_0_46.strokeStyleId = slate_700_d318.id
+	vector_0_46.resize(10.6666660309, 7.3333330154)
+	vector_0_46.strokeWeight = 1.3333333730697632
+	vector_0_46.relativeTransform = [[1,0,2.6666667461],[0,1,4]]
+	vector_0_46.x = 2.6666667461395264
+	vector_0_46.y = 4
+	vector_0_46.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_0_46.vectorNetwork = {"vertices":[{"x":10.666666030883789,"y":0,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":3.3333330154418945,"y":7.3333330154418945,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":3.999999761581421,"strokeCap":"NONE","strokeJoin":"MITER","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1]],"fillStyleId":"","fills":[]}]}
+	vector_0_46.vectorPaths = [{"windingRule":"NONZERO","data":"M 10.666666030883789 0 L 3.3333330154418945 7.3333330154418945 L 0 3.999999761581421"}]
 	
 
 	// Create TEXT
-	var text_17_5638 = figma.createText()
-	frame_17_5635.appendChild(text_17_5638)
-	text_17_5638.fillStyleId = slate_700_a217.id
-	text_17_5638.resize(165.0000000000, 15.0000000000)
-	text_17_5638.name = "Menu Item"
-	text_17_5638.relativeTransform = [[1,0,32],[0,1,6.5]]
-	text_17_5638.x = 32
-	text_17_5638.y = 6.5
-	text_17_5638.layoutGrow = 1
-	text_17_5638.autoRename = false
+	var text_0_47 = figma.createText()
+	frame_0_43.appendChild(text_0_47)
+	text_0_47.fillStyleId = slate_700_d318.id
+	text_0_47.resize(165.0000000000, 15.0000000000)
+	text_0_47.name = "Menu Item"
+	text_0_47.relativeTransform = [[1,0,32],[0,1,6.5]]
+	text_0_47.x = 32
+	text_0_47.y = 6.5
+	text_0_47.layoutGrow = 1
+	text_0_47.autoRename = false
 	
 	// Font properties
-	text_17_5638.fontName = {
+	text_0_47.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5638.characters = "Show Bookmark Bar"
-	text_17_5638.listSpacing = 0
-	text_17_5638.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5638.textAutoResize = "HEIGHT"
+		text_0_47.characters = "Show Bookmark Bar"
+	text_0_47.listSpacing = 0
+	text_0_47.fontName = {"family":"Inter","style":"Medium"}
+	text_0_47.textAutoResize = "HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5639 = figma.createText()
-	frame_17_5635.appendChild(text_17_5639)
-	text_17_5639.fillStyleId = slate_500_3788.id
-	text_17_5639.resize(33.0000000000, 15.0000000000)
-	text_17_5639.name = "⌘⇧B︎"
-	text_17_5639.relativeTransform = [[1,0,205],[0,1,6.5]]
-	text_17_5639.x = 205
-	text_17_5639.y = 6.5
-	text_17_5639.autoRename = false
+	var text_0_48 = figma.createText()
+	frame_0_43.appendChild(text_0_48)
+	text_0_48.fillStyleId = slate_500_e722.id
+	text_0_48.resize(33.0000000000, 15.0000000000)
+	text_0_48.name = "⌘⇧B︎"
+	text_0_48.relativeTransform = [[1,0,205],[0,1,6.5]]
+	text_0_48.x = 205
+	text_0_48.y = 6.5
+	text_0_48.autoRename = false
 	
 	// Font properties
-	text_17_5639.fontName = {
+	text_0_48.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5639.characters = "⌘⇧B︎"
-	text_17_5639.listSpacing = 0
-	text_17_5639.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5639.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_48.characters = "⌘⇧B︎"
+	text_0_48.listSpacing = 0
+	text_0_48.fontName = {"family":"Inter","style":"Medium"}
+	text_0_48.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create FRAME
-	var frame_17_5628 = figma.createFrame()
-	frame_17_5552.appendChild(frame_17_5628)
-	frame_17_5628.resize(246.0000000000, 27.0000000000)
-	frame_17_5628.counterAxisSizingMode = "AUTO"
-	frame_17_5628.name = "menu item"
-	frame_17_5628.relativeTransform = [[1,0,0],[0,1,28]]
-	frame_17_5628.y = 28
-	frame_17_5628.layoutAlign = "STRETCH"
-	frame_17_5628.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5628.paddingLeft = 32
-	frame_17_5628.paddingRight = 8
-	frame_17_5628.paddingTop = 6
-	frame_17_5628.paddingBottom = 6
-	frame_17_5628.counterAxisAlignItems = "CENTER"
-	frame_17_5628.primaryAxisSizingMode = "FIXED"
-	frame_17_5628.strokeTopWeight = 1
-	frame_17_5628.strokeBottomWeight = 1
-	frame_17_5628.strokeLeftWeight = 1
-	frame_17_5628.strokeRightWeight = 1
-	frame_17_5628.clipsContent = false
-	frame_17_5628.layoutMode = "HORIZONTAL"
-	frame_17_5628.counterAxisSizingMode = "AUTO"
-	frame_17_5628.itemSpacing = 8
+	var frame_0_49 = figma.createFrame()
+	frame_0_42.appendChild(frame_0_49)
+	frame_0_49.resize(246.0000000000, 27.0000000000)
+	frame_0_49.counterAxisSizingMode = "AUTO"
+	frame_0_49.name = "menu item"
+	frame_0_49.relativeTransform = [[1,0,0],[0,1,28]]
+	frame_0_49.y = 28
+	frame_0_49.layoutAlign = "STRETCH"
+	frame_0_49.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_49.paddingLeft = 32
+	frame_0_49.paddingRight = 8
+	frame_0_49.paddingTop = 6
+	frame_0_49.paddingBottom = 6
+	frame_0_49.counterAxisAlignItems = "CENTER"
+	frame_0_49.primaryAxisSizingMode = "FIXED"
+	frame_0_49.strokeTopWeight = 1
+	frame_0_49.strokeBottomWeight = 1
+	frame_0_49.strokeLeftWeight = 1
+	frame_0_49.strokeRightWeight = 1
+	frame_0_49.clipsContent = false
+	frame_0_49.expanded = false
+	frame_0_49.layoutMode = "HORIZONTAL"
+	frame_0_49.counterAxisSizingMode = "AUTO"
+	frame_0_49.itemSpacing = 8
 	
 
 	// Create TEXT
-	var text_17_5629 = figma.createText()
-	frame_17_5628.appendChild(text_17_5629)
-	text_17_5629.resize(15.0000000000, 20.0000000000)
-	text_17_5629.name = "⇤"
-	text_17_5629.visible = false
-	text_17_5629.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	text_17_5629.relativeTransform = [[1,0,0],[0,1,6]]
-	text_17_5629.y = 6
-	text_17_5629.autoRename = false
+	var text_0_50 = figma.createText()
+	frame_0_49.appendChild(text_0_50)
+	text_0_50.resize(15.0000000000, 20.0000000000)
+	text_0_50.name = "⇤"
+	text_0_50.visible = false
+	text_0_50.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	text_0_50.relativeTransform = [[1,0,0],[0,1,6]]
+	text_0_50.y = 6
+	text_0_50.autoRename = false
 	
 	// Font properties
-	text_17_5629.fontName = {
+	text_0_50.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5629.characters = "⇤"
-	text_17_5629.fontSize = 14
-	text_17_5629.listSpacing = 0
-	text_17_5629.lineHeight = {"unit":"PIXELS","value":20}
-	text_17_5629.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5629.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_50.characters = "⇤"
+	text_0_50.fontSize = 14
+	text_0_50.listSpacing = 0
+	text_0_50.lineHeight = {"unit":"PIXELS","value":20}
+	text_0_50.fontName = {"family":"Inter","style":"Medium"}
+	text_0_50.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5631 = figma.createText()
-	frame_17_5628.appendChild(text_17_5631)
-	text_17_5631.fillStyleId = slate_700_a217.id
-	text_17_5631.resize(206.0000000000, 15.0000000000)
-	text_17_5631.name = "Menu Item"
-	text_17_5631.relativeTransform = [[1,0,32],[0,1,6]]
-	text_17_5631.x = 32
-	text_17_5631.y = 6
-	text_17_5631.layoutGrow = 1
-	text_17_5631.autoRename = false
+	var text_0_51 = figma.createText()
+	frame_0_49.appendChild(text_0_51)
+	text_0_51.fillStyleId = slate_700_d318.id
+	text_0_51.resize(206.0000000000, 15.0000000000)
+	text_0_51.name = "Menu Item"
+	text_0_51.relativeTransform = [[1,0,32],[0,1,6]]
+	text_0_51.x = 32
+	text_0_51.y = 6
+	text_0_51.layoutGrow = 1
+	text_0_51.autoRename = false
 	
 	// Font properties
-	text_17_5631.fontName = {
+	text_0_51.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5631.characters = "Show Full Urls"
-	text_17_5631.listSpacing = 0
-	text_17_5631.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5631.textAutoResize = "HEIGHT"
+		text_0_51.characters = "Show Full Urls"
+	text_0_51.listSpacing = 0
+	text_0_51.fontName = {"family":"Inter","style":"Medium"}
+	text_0_51.textAutoResize = "HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5632 = figma.createText()
-	frame_17_5628.appendChild(text_17_5632)
-	text_17_5632.fillStyleId = slate_500_3788.id
-	text_17_5632.resize(17.0000000000, 15.0000000000)
-	text_17_5632.name = "⌘⇧B︎"
-	text_17_5632.visible = false
-	text_17_5632.relativeTransform = [[1,0,171],[0,1,6.5]]
-	text_17_5632.x = 171
-	text_17_5632.y = 6.5
-	text_17_5632.autoRename = false
+	var text_0_52 = figma.createText()
+	frame_0_49.appendChild(text_0_52)
+	text_0_52.fillStyleId = slate_500_e722.id
+	text_0_52.resize(17.0000000000, 15.0000000000)
+	text_0_52.name = "⌘⇧B︎"
+	text_0_52.visible = false
+	text_0_52.relativeTransform = [[1,0,171],[0,1,6.5]]
+	text_0_52.x = 171
+	text_0_52.y = 6.5
+	text_0_52.autoRename = false
 	
 	// Font properties
-	text_17_5632.fontName = {
+	text_0_52.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5632.characters = "⌘]"
-	text_17_5632.listSpacing = 0
-	text_17_5632.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5632.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_52.characters = "⌘]"
+	text_0_52.listSpacing = 0
+	text_0_52.fontName = {"family":"Inter","style":"Medium"}
+	text_0_52.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create FRAME
-	var frame_17_5708 = figma.createFrame()
-	frame_17_5477.appendChild(frame_17_5708)
-	frame_17_5708.resizeWithoutConstraints(246.0000000000, 0.01)
-	frame_17_5708.primaryAxisSizingMode = "AUTO"
-	frame_17_5708.name = "section items"
-	frame_17_5708.relativeTransform = [[1,0,5],[0,1,184]]
-	frame_17_5708.x = 5
-	frame_17_5708.y = 184
-	frame_17_5708.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5708.strokeTopWeight = 1
-	frame_17_5708.strokeBottomWeight = 1
-	frame_17_5708.strokeLeftWeight = 1
-	frame_17_5708.strokeRightWeight = 1
-	frame_17_5708.clipsContent = false
-	frame_17_5708.layoutMode = "VERTICAL"
+	var frame_0_53 = figma.createFrame()
+	frame_0_21.appendChild(frame_0_53)
+	frame_0_53.resizeWithoutConstraints(246.0000000000, 0.01)
+	frame_0_53.primaryAxisSizingMode = "AUTO"
+	frame_0_53.name = "section items"
+	frame_0_53.relativeTransform = [[1,0,5],[0,1,184]]
+	frame_0_53.x = 5
+	frame_0_53.y = 184
+	frame_0_53.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_53.strokeTopWeight = 1
+	frame_0_53.strokeBottomWeight = 1
+	frame_0_53.strokeLeftWeight = 1
+	frame_0_53.strokeRightWeight = 1
+	frame_0_53.clipsContent = false
+	frame_0_53.expanded = false
+	frame_0_53.layoutMode = "VERTICAL"
 	
 
 	// Create LINE
-	var line_17_5709 = figma.createLine()
-	frame_17_5708.appendChild(line_17_5709)
-	line_17_5709.strokeStyleId = slate_100_51f5.id
-	line_17_5709.resizeWithoutConstraints(246.0000000000, 0)
-	line_17_5709.name = "Line 1"
-	line_17_5709.layoutAlign = "STRETCH"
+	var line_0_54 = figma.createLine()
+	frame_0_53.appendChild(line_0_54)
+	line_0_54.strokeStyleId = slate_100_8f57.id
+	line_0_54.resizeWithoutConstraints(246.0000000000, 0)
+	line_0_54.name = "Line 1"
+	line_0_54.layoutAlign = "STRETCH"
 	
 
 	// Create FRAME
-	var frame_17_5576 = figma.createFrame()
-	frame_17_5477.appendChild(frame_17_5576)
-	frame_17_5576.resize(256.0000000000, 37.0000000000)
-	frame_17_5576.primaryAxisSizingMode = "AUTO"
-	frame_17_5576.name = "title section"
-	frame_17_5576.relativeTransform = [[1,0,0],[0,1,184]]
-	frame_17_5576.y = 184
-	frame_17_5576.layoutAlign = "STRETCH"
-	frame_17_5576.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5576.paddingLeft = 5
-	frame_17_5576.paddingRight = 5
-	frame_17_5576.paddingTop = 5
-	frame_17_5576.paddingBottom = 5
-	frame_17_5576.strokeTopWeight = 1
-	frame_17_5576.strokeBottomWeight = 1
-	frame_17_5576.strokeLeftWeight = 1
-	frame_17_5576.strokeRightWeight = 1
-	frame_17_5576.clipsContent = false
-	frame_17_5576.layoutMode = "VERTICAL"
-	frame_17_5576.itemSpacing = 10
+	var frame_0_55 = figma.createFrame()
+	frame_0_21.appendChild(frame_0_55)
+	frame_0_55.resize(256.0000000000, 37.0000000000)
+	frame_0_55.primaryAxisSizingMode = "AUTO"
+	frame_0_55.name = "title section"
+	frame_0_55.relativeTransform = [[1,0,0],[0,1,184]]
+	frame_0_55.y = 184
+	frame_0_55.layoutAlign = "STRETCH"
+	frame_0_55.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_55.paddingLeft = 5
+	frame_0_55.paddingRight = 5
+	frame_0_55.paddingTop = 5
+	frame_0_55.paddingBottom = 5
+	frame_0_55.strokeTopWeight = 1
+	frame_0_55.strokeBottomWeight = 1
+	frame_0_55.strokeLeftWeight = 1
+	frame_0_55.strokeRightWeight = 1
+	frame_0_55.clipsContent = false
+	frame_0_55.expanded = false
+	frame_0_55.layoutMode = "VERTICAL"
+	frame_0_55.itemSpacing = 10
 	
 
 	// Create FRAME
-	var frame_17_5698 = figma.createFrame()
-	frame_17_5576.appendChild(frame_17_5698)
-	frame_17_5698.resize(246.0000000000, 27.0000000000)
-	frame_17_5698.counterAxisSizingMode = "AUTO"
-	frame_17_5698.name = "menu item"
-	frame_17_5698.relativeTransform = [[1,0,5],[0,1,5]]
-	frame_17_5698.x = 5
-	frame_17_5698.y = 5
-	frame_17_5698.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5698.paddingLeft = 32
-	frame_17_5698.paddingRight = 8
-	frame_17_5698.paddingTop = 6
-	frame_17_5698.paddingBottom = 6
-	frame_17_5698.counterAxisAlignItems = "CENTER"
-	frame_17_5698.primaryAxisSizingMode = "FIXED"
-	frame_17_5698.strokeTopWeight = 1
-	frame_17_5698.strokeBottomWeight = 1
-	frame_17_5698.strokeLeftWeight = 1
-	frame_17_5698.strokeRightWeight = 1
-	frame_17_5698.clipsContent = false
-	frame_17_5698.layoutMode = "HORIZONTAL"
-	frame_17_5698.counterAxisSizingMode = "AUTO"
-	frame_17_5698.itemSpacing = 8
+	var frame_0_56 = figma.createFrame()
+	frame_0_55.appendChild(frame_0_56)
+	frame_0_56.resize(246.0000000000, 27.0000000000)
+	frame_0_56.counterAxisSizingMode = "AUTO"
+	frame_0_56.name = "menu item"
+	frame_0_56.relativeTransform = [[1,0,5],[0,1,5]]
+	frame_0_56.x = 5
+	frame_0_56.y = 5
+	frame_0_56.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_56.paddingLeft = 32
+	frame_0_56.paddingRight = 8
+	frame_0_56.paddingTop = 6
+	frame_0_56.paddingBottom = 6
+	frame_0_56.counterAxisAlignItems = "CENTER"
+	frame_0_56.primaryAxisSizingMode = "FIXED"
+	frame_0_56.strokeTopWeight = 1
+	frame_0_56.strokeBottomWeight = 1
+	frame_0_56.strokeLeftWeight = 1
+	frame_0_56.strokeRightWeight = 1
+	frame_0_56.clipsContent = false
+	frame_0_56.expanded = false
+	frame_0_56.layoutMode = "HORIZONTAL"
+	frame_0_56.counterAxisSizingMode = "AUTO"
+	frame_0_56.itemSpacing = 8
 	
 
 	// Create TEXT
-	var text_17_5699 = figma.createText()
-	frame_17_5698.appendChild(text_17_5699)
-	text_17_5699.fillStyleId = slate_700_a217.id
-	text_17_5699.resize(206.0000000000, 15.0000000000)
-	text_17_5699.name = "Section Title"
-	text_17_5699.relativeTransform = [[1,0,32],[0,1,6]]
-	text_17_5699.x = 32
-	text_17_5699.y = 6
-	text_17_5699.layoutGrow = 1
-	text_17_5699.autoRename = false
+	var text_0_57 = figma.createText()
+	frame_0_56.appendChild(text_0_57)
+	text_0_57.fillStyleId = slate_700_d318.id
+	text_0_57.resize(206.0000000000, 15.0000000000)
+	text_0_57.name = "Section Title"
+	text_0_57.relativeTransform = [[1,0,32],[0,1,6]]
+	text_0_57.x = 32
+	text_0_57.y = 6
+	text_0_57.layoutGrow = 1
+	text_0_57.autoRename = false
 	
 	// Font properties
-	text_17_5699.fontName = {
+	text_0_57.fontName = {
 		family: "Inter",
 		style: "Semi Bold"
 	}
-		text_17_5699.characters = "People "
-	text_17_5699.listSpacing = 0
-	text_17_5699.fontName = {"family":"Inter","style":"Semi Bold"}
-	text_17_5699.textAutoResize = "HEIGHT"
+		text_0_57.characters = "People "
+	text_0_57.listSpacing = 0
+	text_0_57.fontName = {"family":"Inter","style":"Semi Bold"}
+	text_0_57.textAutoResize = "HEIGHT"
 
 
 	// Create FRAME
-	var frame_17_5710 = figma.createFrame()
-	frame_17_5477.appendChild(frame_17_5710)
-	frame_17_5710.resizeWithoutConstraints(246.0000000000, 0.01)
-	frame_17_5710.primaryAxisSizingMode = "AUTO"
-	frame_17_5710.name = "section items"
-	frame_17_5710.relativeTransform = [[1,0,5],[0,1,221]]
-	frame_17_5710.x = 5
-	frame_17_5710.y = 221
-	frame_17_5710.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5710.strokeTopWeight = 1
-	frame_17_5710.strokeBottomWeight = 1
-	frame_17_5710.strokeLeftWeight = 1
-	frame_17_5710.strokeRightWeight = 1
-	frame_17_5710.clipsContent = false
-	frame_17_5710.layoutMode = "VERTICAL"
+	var frame_0_58 = figma.createFrame()
+	frame_0_21.appendChild(frame_0_58)
+	frame_0_58.resizeWithoutConstraints(246.0000000000, 0.01)
+	frame_0_58.primaryAxisSizingMode = "AUTO"
+	frame_0_58.name = "section items"
+	frame_0_58.relativeTransform = [[1,0,5],[0,1,221]]
+	frame_0_58.x = 5
+	frame_0_58.y = 221
+	frame_0_58.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_58.strokeTopWeight = 1
+	frame_0_58.strokeBottomWeight = 1
+	frame_0_58.strokeLeftWeight = 1
+	frame_0_58.strokeRightWeight = 1
+	frame_0_58.clipsContent = false
+	frame_0_58.expanded = false
+	frame_0_58.layoutMode = "VERTICAL"
 	
 
 	// Create LINE
-	var line_17_5711 = figma.createLine()
-	frame_17_5710.appendChild(line_17_5711)
-	line_17_5711.strokeStyleId = slate_100_51f5.id
-	line_17_5711.resizeWithoutConstraints(246.0000000000, 0)
-	line_17_5711.name = "Line 1"
-	line_17_5711.layoutAlign = "STRETCH"
+	var line_0_59 = figma.createLine()
+	frame_0_58.appendChild(line_0_59)
+	line_0_59.strokeStyleId = slate_100_8f57.id
+	line_0_59.resizeWithoutConstraints(246.0000000000, 0)
+	line_0_59.name = "Line 1"
+	line_0_59.layoutAlign = "STRETCH"
 	
 
 	// Create FRAME
-	var frame_17_5583 = figma.createFrame()
-	frame_17_5477.appendChild(frame_17_5583)
-	frame_17_5583.resize(256.0000000000, 91.0000000000)
-	frame_17_5583.primaryAxisSizingMode = "AUTO"
-	frame_17_5583.name = "bottom section"
-	frame_17_5583.relativeTransform = [[1,0,0],[0,1,221]]
-	frame_17_5583.y = 221
-	frame_17_5583.layoutAlign = "STRETCH"
-	frame_17_5583.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5583.paddingLeft = 5
-	frame_17_5583.paddingRight = 5
-	frame_17_5583.paddingTop = 5
-	frame_17_5583.paddingBottom = 5
-	frame_17_5583.strokeTopWeight = 1
-	frame_17_5583.strokeBottomWeight = 1
-	frame_17_5583.strokeLeftWeight = 1
-	frame_17_5583.strokeRightWeight = 1
-	frame_17_5583.clipsContent = false
-	frame_17_5583.layoutMode = "VERTICAL"
-	frame_17_5583.itemSpacing = 10
+	var frame_0_60 = figma.createFrame()
+	frame_0_21.appendChild(frame_0_60)
+	frame_0_60.resize(256.0000000000, 91.0000000000)
+	frame_0_60.primaryAxisSizingMode = "AUTO"
+	frame_0_60.name = "bottom section"
+	frame_0_60.relativeTransform = [[1,0,0],[0,1,221]]
+	frame_0_60.y = 221
+	frame_0_60.layoutAlign = "STRETCH"
+	frame_0_60.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_60.paddingLeft = 5
+	frame_0_60.paddingRight = 5
+	frame_0_60.paddingTop = 5
+	frame_0_60.paddingBottom = 5
+	frame_0_60.strokeTopWeight = 1
+	frame_0_60.strokeBottomWeight = 1
+	frame_0_60.strokeLeftWeight = 1
+	frame_0_60.strokeRightWeight = 1
+	frame_0_60.clipsContent = false
+	frame_0_60.expanded = false
+	frame_0_60.layoutMode = "VERTICAL"
+	frame_0_60.itemSpacing = 10
 	
 
 	// Create FRAME
-	var frame_17_5584 = figma.createFrame()
-	frame_17_5583.appendChild(frame_17_5584)
-	frame_17_5584.resize(246.0000000000, 81.0000000000)
-	frame_17_5584.primaryAxisSizingMode = "AUTO"
-	frame_17_5584.name = "Frame 4"
-	frame_17_5584.relativeTransform = [[1,0,5],[0,1,5]]
-	frame_17_5584.x = 5
-	frame_17_5584.y = 5
-	frame_17_5584.fills = []
-	frame_17_5584.strokeTopWeight = 1
-	frame_17_5584.strokeBottomWeight = 1
-	frame_17_5584.strokeLeftWeight = 1
-	frame_17_5584.strokeRightWeight = 1
-	frame_17_5584.clipsContent = false
-	frame_17_5584.layoutMode = "VERTICAL"
+	var frame_0_61 = figma.createFrame()
+	frame_0_60.appendChild(frame_0_61)
+	frame_0_61.resize(246.0000000000, 81.0000000000)
+	frame_0_61.primaryAxisSizingMode = "AUTO"
+	frame_0_61.name = "Frame 4"
+	frame_0_61.relativeTransform = [[1,0,5],[0,1,5]]
+	frame_0_61.x = 5
+	frame_0_61.y = 5
+	frame_0_61.fills = []
+	frame_0_61.strokeTopWeight = 1
+	frame_0_61.strokeBottomWeight = 1
+	frame_0_61.strokeLeftWeight = 1
+	frame_0_61.strokeRightWeight = 1
+	frame_0_61.clipsContent = false
+	frame_0_61.expanded = false
+	frame_0_61.layoutMode = "VERTICAL"
 	
 
 	// Create FRAME
-	var frame_17_5683 = figma.createFrame()
-	frame_17_5584.appendChild(frame_17_5683)
-	frame_17_5683.resize(246.0000000000, 27.0000000000)
-	frame_17_5683.counterAxisSizingMode = "AUTO"
-	frame_17_5683.name = "menu item"
-	frame_17_5683.layoutAlign = "STRETCH"
-	frame_17_5683.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5683.paddingLeft = 32
-	frame_17_5683.paddingRight = 8
-	frame_17_5683.paddingTop = 6
-	frame_17_5683.paddingBottom = 6
-	frame_17_5683.counterAxisAlignItems = "CENTER"
-	frame_17_5683.primaryAxisSizingMode = "FIXED"
-	frame_17_5683.strokeTopWeight = 1
-	frame_17_5683.strokeBottomWeight = 1
-	frame_17_5683.strokeLeftWeight = 1
-	frame_17_5683.strokeRightWeight = 1
-	frame_17_5683.clipsContent = false
-	frame_17_5683.layoutMode = "HORIZONTAL"
-	frame_17_5683.counterAxisSizingMode = "AUTO"
-	frame_17_5683.itemSpacing = 8
+	var frame_0_62 = figma.createFrame()
+	frame_0_61.appendChild(frame_0_62)
+	frame_0_62.resize(246.0000000000, 27.0000000000)
+	frame_0_62.counterAxisSizingMode = "AUTO"
+	frame_0_62.name = "menu item"
+	frame_0_62.layoutAlign = "STRETCH"
+	frame_0_62.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_62.paddingLeft = 32
+	frame_0_62.paddingRight = 8
+	frame_0_62.paddingTop = 6
+	frame_0_62.paddingBottom = 6
+	frame_0_62.counterAxisAlignItems = "CENTER"
+	frame_0_62.primaryAxisSizingMode = "FIXED"
+	frame_0_62.strokeTopWeight = 1
+	frame_0_62.strokeBottomWeight = 1
+	frame_0_62.strokeLeftWeight = 1
+	frame_0_62.strokeRightWeight = 1
+	frame_0_62.clipsContent = false
+	frame_0_62.expanded = false
+	frame_0_62.layoutMode = "HORIZONTAL"
+	frame_0_62.counterAxisSizingMode = "AUTO"
+	frame_0_62.itemSpacing = 8
 	
 
 	// Create TEXT
-	var text_17_5684 = figma.createText()
-	frame_17_5683.appendChild(text_17_5684)
-	text_17_5684.resize(15.0000000000, 20.0000000000)
-	text_17_5684.name = "⇤"
-	text_17_5684.visible = false
-	text_17_5684.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	text_17_5684.relativeTransform = [[1,0,0],[0,1,6]]
-	text_17_5684.y = 6
-	text_17_5684.autoRename = false
+	var text_0_63 = figma.createText()
+	frame_0_62.appendChild(text_0_63)
+	text_0_63.resize(15.0000000000, 20.0000000000)
+	text_0_63.name = "⇤"
+	text_0_63.visible = false
+	text_0_63.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	text_0_63.relativeTransform = [[1,0,0],[0,1,6]]
+	text_0_63.y = 6
+	text_0_63.autoRename = false
 	
 	// Font properties
-	text_17_5684.fontName = {
+	text_0_63.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5684.characters = "⇤"
-	text_17_5684.fontSize = 14
-	text_17_5684.listSpacing = 0
-	text_17_5684.lineHeight = {"unit":"PIXELS","value":20}
-	text_17_5684.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5684.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_63.characters = "⇤"
+	text_0_63.fontSize = 14
+	text_0_63.listSpacing = 0
+	text_0_63.lineHeight = {"unit":"PIXELS","value":20}
+	text_0_63.fontName = {"family":"Inter","style":"Medium"}
+	text_0_63.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5686 = figma.createText()
-	frame_17_5683.appendChild(text_17_5686)
-	text_17_5686.fillStyleId = slate_700_a217.id
-	text_17_5686.resize(206.0000000000, 15.0000000000)
-	text_17_5686.name = "Menu Item"
-	text_17_5686.relativeTransform = [[1,0,32],[0,1,6]]
-	text_17_5686.x = 32
-	text_17_5686.y = 6
-	text_17_5686.layoutGrow = 1
-	text_17_5686.autoRename = false
+	var text_0_64 = figma.createText()
+	frame_0_62.appendChild(text_0_64)
+	text_0_64.fillStyleId = slate_700_d318.id
+	text_0_64.resize(206.0000000000, 15.0000000000)
+	text_0_64.name = "Menu Item"
+	text_0_64.relativeTransform = [[1,0,32],[0,1,6]]
+	text_0_64.x = 32
+	text_0_64.y = 6
+	text_0_64.layoutGrow = 1
+	text_0_64.autoRename = false
 	
 	// Font properties
-	text_17_5686.fontName = {
+	text_0_64.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5686.characters = "Pedro Duarte"
-	text_17_5686.listSpacing = 0
-	text_17_5686.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5686.textAutoResize = "HEIGHT"
+		text_0_64.characters = "Pedro Duarte"
+	text_0_64.listSpacing = 0
+	text_0_64.fontName = {"family":"Inter","style":"Medium"}
+	text_0_64.textAutoResize = "HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5687 = figma.createText()
-	frame_17_5683.appendChild(text_17_5687)
-	text_17_5687.fillStyleId = slate_500_3788.id
-	text_17_5687.resize(33.0000000000, 15.0000000000)
-	text_17_5687.name = "⌘⇧B︎"
-	text_17_5687.visible = false
-	text_17_5687.relativeTransform = [[1,0,171],[0,1,6.5]]
-	text_17_5687.x = 171
-	text_17_5687.y = 6.5
-	text_17_5687.autoRename = false
+	var text_0_65 = figma.createText()
+	frame_0_62.appendChild(text_0_65)
+	text_0_65.fillStyleId = slate_500_e722.id
+	text_0_65.resize(33.0000000000, 15.0000000000)
+	text_0_65.name = "⌘⇧B︎"
+	text_0_65.visible = false
+	text_0_65.relativeTransform = [[1,0,171],[0,1,6.5]]
+	text_0_65.x = 171
+	text_0_65.y = 6.5
+	text_0_65.autoRename = false
 	
 	// Font properties
-	text_17_5687.fontName = {
+	text_0_65.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5687.characters = "⌘⇧B︎"
-	text_17_5687.listSpacing = 0
-	text_17_5687.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5687.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_65.characters = "⌘⇧B︎"
+	text_0_65.listSpacing = 0
+	text_0_65.fontName = {"family":"Inter","style":"Medium"}
+	text_0_65.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create FRAME
-	var frame_17_5692 = figma.createFrame()
-	frame_17_5584.appendChild(frame_17_5692)
-	frame_17_5692.resize(246.0000000000, 27.0000000000)
-	frame_17_5692.counterAxisSizingMode = "AUTO"
-	frame_17_5692.name = "menu item"
-	frame_17_5692.relativeTransform = [[1,0,0],[0,1,27]]
-	frame_17_5692.y = 27
-	frame_17_5692.layoutAlign = "STRETCH"
-	frame_17_5692.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5692.paddingLeft = 32
-	frame_17_5692.paddingRight = 8
-	frame_17_5692.paddingTop = 6
-	frame_17_5692.paddingBottom = 6
-	frame_17_5692.counterAxisAlignItems = "CENTER"
-	frame_17_5692.primaryAxisSizingMode = "FIXED"
-	frame_17_5692.strokeTopWeight = 1
-	frame_17_5692.strokeBottomWeight = 1
-	frame_17_5692.strokeLeftWeight = 1
-	frame_17_5692.strokeRightWeight = 1
-	frame_17_5692.clipsContent = false
-	frame_17_5692.layoutMode = "HORIZONTAL"
-	frame_17_5692.counterAxisSizingMode = "AUTO"
-	frame_17_5692.itemSpacing = 8
+	var frame_0_66 = figma.createFrame()
+	frame_0_61.appendChild(frame_0_66)
+	frame_0_66.resize(246.0000000000, 27.0000000000)
+	frame_0_66.counterAxisSizingMode = "AUTO"
+	frame_0_66.name = "menu item"
+	frame_0_66.relativeTransform = [[1,0,0],[0,1,27]]
+	frame_0_66.y = 27
+	frame_0_66.layoutAlign = "STRETCH"
+	frame_0_66.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_66.paddingLeft = 32
+	frame_0_66.paddingRight = 8
+	frame_0_66.paddingTop = 6
+	frame_0_66.paddingBottom = 6
+	frame_0_66.counterAxisAlignItems = "CENTER"
+	frame_0_66.primaryAxisSizingMode = "FIXED"
+	frame_0_66.strokeTopWeight = 1
+	frame_0_66.strokeBottomWeight = 1
+	frame_0_66.strokeLeftWeight = 1
+	frame_0_66.strokeRightWeight = 1
+	frame_0_66.clipsContent = false
+	frame_0_66.expanded = false
+	frame_0_66.layoutMode = "HORIZONTAL"
+	frame_0_66.counterAxisSizingMode = "AUTO"
+	frame_0_66.itemSpacing = 8
 	
 
 	// Create TEXT
-	var text_17_5693 = figma.createText()
-	frame_17_5692.appendChild(text_17_5693)
-	text_17_5693.resize(15.0000000000, 20.0000000000)
-	text_17_5693.name = "⇤"
-	text_17_5693.visible = false
-	text_17_5693.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	text_17_5693.relativeTransform = [[1,0,0],[0,1,6]]
-	text_17_5693.y = 6
-	text_17_5693.autoRename = false
+	var text_0_67 = figma.createText()
+	frame_0_66.appendChild(text_0_67)
+	text_0_67.resize(15.0000000000, 20.0000000000)
+	text_0_67.name = "⇤"
+	text_0_67.visible = false
+	text_0_67.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	text_0_67.relativeTransform = [[1,0,0],[0,1,6]]
+	text_0_67.y = 6
+	text_0_67.autoRename = false
 	
 	// Font properties
-	text_17_5693.fontName = {
+	text_0_67.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5693.characters = "⇤"
-	text_17_5693.fontSize = 14
-	text_17_5693.listSpacing = 0
-	text_17_5693.lineHeight = {"unit":"PIXELS","value":20}
-	text_17_5693.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5693.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_67.characters = "⇤"
+	text_0_67.fontSize = 14
+	text_0_67.listSpacing = 0
+	text_0_67.lineHeight = {"unit":"PIXELS","value":20}
+	text_0_67.fontName = {"family":"Inter","style":"Medium"}
+	text_0_67.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5695 = figma.createText()
-	frame_17_5692.appendChild(text_17_5695)
-	text_17_5695.fillStyleId = slate_700_a217.id
-	text_17_5695.resize(206.0000000000, 15.0000000000)
-	text_17_5695.name = "Menu Item"
-	text_17_5695.relativeTransform = [[1,0,32],[0,1,6]]
-	text_17_5695.x = 32
-	text_17_5695.y = 6
-	text_17_5695.layoutGrow = 1
-	text_17_5695.autoRename = false
+	var text_0_68 = figma.createText()
+	frame_0_66.appendChild(text_0_68)
+	text_0_68.fillStyleId = slate_700_d318.id
+	text_0_68.resize(206.0000000000, 15.0000000000)
+	text_0_68.name = "Menu Item"
+	text_0_68.relativeTransform = [[1,0,32],[0,1,6]]
+	text_0_68.x = 32
+	text_0_68.y = 6
+	text_0_68.layoutGrow = 1
+	text_0_68.autoRename = false
 	
 	// Font properties
-	text_17_5695.fontName = {
+	text_0_68.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5695.characters = "Colm Tuite"
-	text_17_5695.listSpacing = 0
-	text_17_5695.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5695.textAutoResize = "HEIGHT"
+		text_0_68.characters = "Colm Tuite"
+	text_0_68.listSpacing = 0
+	text_0_68.fontName = {"family":"Inter","style":"Medium"}
+	text_0_68.textAutoResize = "HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5696 = figma.createText()
-	frame_17_5692.appendChild(text_17_5696)
-	text_17_5696.fillStyleId = slate_500_3788.id
-	text_17_5696.resize(17.0000000000, 15.0000000000)
-	text_17_5696.name = "⌘⇧B︎"
-	text_17_5696.visible = false
-	text_17_5696.relativeTransform = [[1,0,171],[0,1,6.5]]
-	text_17_5696.x = 171
-	text_17_5696.y = 6.5
-	text_17_5696.autoRename = false
+	var text_0_69 = figma.createText()
+	frame_0_66.appendChild(text_0_69)
+	text_0_69.fillStyleId = slate_500_e722.id
+	text_0_69.resize(17.0000000000, 15.0000000000)
+	text_0_69.name = "⌘⇧B︎"
+	text_0_69.visible = false
+	text_0_69.relativeTransform = [[1,0,171],[0,1,6.5]]
+	text_0_69.x = 171
+	text_0_69.y = 6.5
+	text_0_69.autoRename = false
 	
 	// Font properties
-	text_17_5696.fontName = {
+	text_0_69.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5696.characters = "⌘]"
-	text_17_5696.listSpacing = 0
-	text_17_5696.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5696.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_69.characters = "⌘]"
+	text_0_69.listSpacing = 0
+	text_0_69.fontName = {"family":"Inter","style":"Medium"}
+	text_0_69.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create FRAME
-	var frame_17_5675 = figma.createFrame()
-	frame_17_5584.appendChild(frame_17_5675)
-	frame_17_5675.resize(246.0000000000, 27.0000000000)
-	frame_17_5675.counterAxisSizingMode = "AUTO"
-	frame_17_5675.name = "menu item"
-	frame_17_5675.relativeTransform = [[1,0,0],[0,1,54]]
-	frame_17_5675.y = 54
-	frame_17_5675.layoutAlign = "STRETCH"
-	frame_17_5675.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_17_5675.paddingLeft = 32
-	frame_17_5675.paddingRight = 8
-	frame_17_5675.paddingTop = 6
-	frame_17_5675.paddingBottom = 6
-	frame_17_5675.counterAxisAlignItems = "CENTER"
-	frame_17_5675.primaryAxisSizingMode = "FIXED"
-	frame_17_5675.strokeTopWeight = 1
-	frame_17_5675.strokeBottomWeight = 1
-	frame_17_5675.strokeLeftWeight = 1
-	frame_17_5675.strokeRightWeight = 1
-	frame_17_5675.clipsContent = false
-	frame_17_5675.layoutMode = "HORIZONTAL"
-	frame_17_5675.counterAxisSizingMode = "AUTO"
-	frame_17_5675.itemSpacing = 8
+	var frame_0_70 = figma.createFrame()
+	frame_0_61.appendChild(frame_0_70)
+	frame_0_70.resize(246.0000000000, 27.0000000000)
+	frame_0_70.counterAxisSizingMode = "AUTO"
+	frame_0_70.name = "menu item"
+	frame_0_70.relativeTransform = [[1,0,0],[0,1,54]]
+	frame_0_70.y = 54
+	frame_0_70.layoutAlign = "STRETCH"
+	frame_0_70.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_0_70.paddingLeft = 32
+	frame_0_70.paddingRight = 8
+	frame_0_70.paddingTop = 6
+	frame_0_70.paddingBottom = 6
+	frame_0_70.counterAxisAlignItems = "CENTER"
+	frame_0_70.primaryAxisSizingMode = "FIXED"
+	frame_0_70.strokeTopWeight = 1
+	frame_0_70.strokeBottomWeight = 1
+	frame_0_70.strokeLeftWeight = 1
+	frame_0_70.strokeRightWeight = 1
+	frame_0_70.clipsContent = false
+	frame_0_70.expanded = false
+	frame_0_70.layoutMode = "HORIZONTAL"
+	frame_0_70.counterAxisSizingMode = "AUTO"
+	frame_0_70.itemSpacing = 8
 	
 
 	// Create TEXT
-	var text_17_5676 = figma.createText()
-	frame_17_5675.appendChild(text_17_5676)
-	text_17_5676.resize(15.0000000000, 20.0000000000)
-	text_17_5676.name = "⇤"
-	text_17_5676.visible = false
-	text_17_5676.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	text_17_5676.relativeTransform = [[1,0,0],[0,1,6]]
-	text_17_5676.y = 6
-	text_17_5676.autoRename = false
+	var text_0_71 = figma.createText()
+	frame_0_70.appendChild(text_0_71)
+	text_0_71.resize(15.0000000000, 20.0000000000)
+	text_0_71.name = "⇤"
+	text_0_71.visible = false
+	text_0_71.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	text_0_71.relativeTransform = [[1,0,0],[0,1,6]]
+	text_0_71.y = 6
+	text_0_71.autoRename = false
 	
 	// Font properties
-	text_17_5676.fontName = {
+	text_0_71.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5676.characters = "⇤"
-	text_17_5676.fontSize = 14
-	text_17_5676.listSpacing = 0
-	text_17_5676.lineHeight = {"unit":"PIXELS","value":20}
-	text_17_5676.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5676.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_71.characters = "⇤"
+	text_0_71.fontSize = 14
+	text_0_71.listSpacing = 0
+	text_0_71.lineHeight = {"unit":"PIXELS","value":20}
+	text_0_71.fontName = {"family":"Inter","style":"Medium"}
+	text_0_71.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5678 = figma.createText()
-	frame_17_5675.appendChild(text_17_5678)
-	text_17_5678.fillStyleId = slate_700_a217.id
-	text_17_5678.resize(206.0000000000, 15.0000000000)
-	text_17_5678.name = "Menu Item"
-	text_17_5678.relativeTransform = [[1,0,32],[0,1,6]]
-	text_17_5678.x = 32
-	text_17_5678.y = 6
-	text_17_5678.layoutGrow = 1
-	text_17_5678.autoRename = false
+	var text_0_72 = figma.createText()
+	frame_0_70.appendChild(text_0_72)
+	text_0_72.fillStyleId = slate_700_d318.id
+	text_0_72.resize(206.0000000000, 15.0000000000)
+	text_0_72.name = "Menu Item"
+	text_0_72.relativeTransform = [[1,0,32],[0,1,6]]
+	text_0_72.x = 32
+	text_0_72.y = 6
+	text_0_72.layoutGrow = 1
+	text_0_72.autoRename = false
 	
 	// Font properties
-	text_17_5678.fontName = {
+	text_0_72.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5678.characters = "Pietro Schirano"
-	text_17_5678.listSpacing = 0
-	text_17_5678.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5678.textAutoResize = "HEIGHT"
+		text_0_72.characters = "Pietro Schirano"
+	text_0_72.listSpacing = 0
+	text_0_72.fontName = {"family":"Inter","style":"Medium"}
+	text_0_72.textAutoResize = "HEIGHT"
 
 
 	// Create TEXT
-	var text_17_5679 = figma.createText()
-	frame_17_5675.appendChild(text_17_5679)
-	text_17_5679.fillStyleId = slate_500_3788.id
-	text_17_5679.resize(17.0000000000, 15.0000000000)
-	text_17_5679.name = "⌘⇧B︎"
-	text_17_5679.visible = false
-	text_17_5679.relativeTransform = [[1,0,171],[0,1,6.5]]
-	text_17_5679.x = 171
-	text_17_5679.y = 6.5
-	text_17_5679.autoRename = false
+	var text_0_73 = figma.createText()
+	frame_0_70.appendChild(text_0_73)
+	text_0_73.fillStyleId = slate_500_e722.id
+	text_0_73.resize(17.0000000000, 15.0000000000)
+	text_0_73.name = "⌘⇧B︎"
+	text_0_73.visible = false
+	text_0_73.relativeTransform = [[1,0,171],[0,1,6.5]]
+	text_0_73.x = 171
+	text_0_73.y = 6.5
+	text_0_73.autoRename = false
 	
 	// Font properties
-	text_17_5679.fontName = {
+	text_0_73.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_17_5679.characters = "⌘]"
-	text_17_5679.listSpacing = 0
-	text_17_5679.fontName = {"family":"Inter","style":"Medium"}
-	text_17_5679.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_0_73.characters = "⌘]"
+	text_0_73.listSpacing = 0
+	text_0_73.fontName = {"family":"Inter","style":"Medium"}
+	text_0_73.textAutoResize = "WIDTH_AND_HEIGHT"
 }
 
 main()
