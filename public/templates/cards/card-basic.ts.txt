@@ -1125,7 +1125,7 @@ async function main() {
 	group_2_2750.exportSettings = []
 	group_2_2750.reactions = []
 	group_2_2750.expanded = true
-	// test
+	
 
 	// 🎯 CENTRALIZAR FRAME PRINCIPAL NA VIEWPORT
 	const viewportCenter = figma.viewport.center;
@@ -1133,6 +1133,7 @@ async function main() {
 	frame_2_2745.y = viewportCenter.y - frame_2_2745.height / 2;
 	figma.viewport.scrollAndZoomIntoView([frame_2_2745]);
 	figma.notify("✅ Frame adicionado e centralizado com sucesso!");
+	
 }
 
 main()
