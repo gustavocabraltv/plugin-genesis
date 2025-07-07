@@ -43,18 +43,6 @@ async function main() {
 	
 
 	// Create STYLE
-	var slate_400_a845 = figma.createPaintStyle()
-	slate_400_a845.name = "slate/400"
-	slate_400_a845.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.5803921818733215,"g":0.6392157077789307,"b":0.7215686440467834},"boundVariables":{}}]
-	
-
-	// Create STYLE
-	var white_2dc6 = figma.createPaintStyle()
-	white_2dc6.name = "white"
-	white_2dc6.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	
-
-	// Create STYLE
 	var slate_100_ab69 = figma.createPaintStyle()
 	slate_100_ab69.name = "slate/100"
 	slate_100_ab69.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.9450980424880981,"g":0.9607843160629272,"b":0.9764705896377563},"boundVariables":{}}]
@@ -64,12 +52,6 @@ async function main() {
 	var slate_900_8108 = figma.createPaintStyle()
 	slate_900_8108.name = "slate/900"
 	slate_900_8108.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
-	
-
-	// Create STYLE
-	var white_2dc6 = figma.createPaintStyle()
-	white_2dc6.name = "white"
-	white_2dc6.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
 	
 
 	// Create STYLE
@@ -85,150 +67,143 @@ async function main() {
 	
 
 	// Create STYLE
-	var slate_700_226f = figma.createPaintStyle()
-	slate_700_226f.name = "slate/700"
-	slate_700_226f.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.20000000298023224,"g":0.2549019753932953,"b":0.3333333432674408},"boundVariables":{}}]
-	
-
-	// Create STYLE
-	var slate_900_8108 = figma.createPaintStyle()
-	slate_900_8108.name = "slate/900"
-	slate_900_8108.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
-	
-
-	// Create STYLE
 	var slate_100_ab69 = figma.createPaintStyle()
 	slate_100_ab69.name = "slate/100"
 	slate_100_ab69.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.9450980424880981,"g":0.9607843160629272,"b":0.9764705896377563},"boundVariables":{}}]
 	
 
-	// Create FRAME
-	var frame_14_2792 = figma.createFrame()
-	figma.currentPage.appendChild(frame_14_2792)
-	frame_14_2792.resize(792.0000000000, 620.0000000000)
-	frame_14_2792.primaryAxisSizingMode = "AUTO"
-	frame_14_2792.counterAxisSizingMode = "AUTO"
-	frame_14_2792.name = "command"
-	frame_14_2792.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_14_2792.paddingLeft = 32
-	frame_14_2792.paddingRight = 32
-	frame_14_2792.paddingTop = 32
-	frame_14_2792.paddingBottom = 64
-	frame_14_2792.counterAxisAlignItems = "CENTER"
-	frame_14_2792.strokeTopWeight = 1
-	frame_14_2792.strokeBottomWeight = 1
-	frame_14_2792.strokeLeftWeight = 1
-	frame_14_2792.strokeRightWeight = 1
-	frame_14_2792.clipsContent = false
-	frame_14_2792.expanded = false
-	frame_14_2792.layoutMode = "VERTICAL"
-	frame_14_2792.counterAxisSizingMode = "AUTO"
-	frame_14_2792.itemSpacing = 64
+	// Create STYLE
+	var slate_700_226f = figma.createPaintStyle()
+	slate_700_226f.name = "slate/700"
+	slate_700_226f.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.20000000298023224,"g":0.2549019753932953,"b":0.3333333432674408},"boundVariables":{}}]
 	
 
 	// Create FRAME
-	var frame_14_2793 = figma.createFrame()
-	frame_14_2792.appendChild(frame_14_2793)
-	frame_14_2793.resize(728.0000000000, 140.0000000000)
-	frame_14_2793.primaryAxisSizingMode = "AUTO"
-	frame_14_2793.counterAxisSizingMode = "AUTO"
-	frame_14_2793.name = "Frame 8"
-	frame_14_2793.relativeTransform = [[1,0,32],[0,1,32]]
-	frame_14_2793.x = 32
-	frame_14_2793.y = 32
-	frame_14_2793.fills = []
-	frame_14_2793.counterAxisAlignItems = "CENTER"
-	frame_14_2793.strokeTopWeight = 1
-	frame_14_2793.strokeBottomWeight = 1
-	frame_14_2793.strokeLeftWeight = 1
-	frame_14_2793.strokeRightWeight = 1
-	frame_14_2793.clipsContent = false
-	frame_14_2793.expanded = false
-	frame_14_2793.layoutMode = "VERTICAL"
-	frame_14_2793.counterAxisSizingMode = "AUTO"
-	frame_14_2793.itemSpacing = 32
+	var frame_16_2215 = figma.createFrame()
+	figma.currentPage.appendChild(frame_16_2215)
+	frame_16_2215.resize(792.0000000000, 660.0000000000)
+	frame_16_2215.primaryAxisSizingMode = "AUTO"
+	frame_16_2215.counterAxisSizingMode = "AUTO"
+	frame_16_2215.name = "Context Menu"
+	frame_16_2215.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_16_2215.paddingLeft = 32
+	frame_16_2215.paddingRight = 32
+	frame_16_2215.paddingTop = 32
+	frame_16_2215.paddingBottom = 64
+	frame_16_2215.counterAxisAlignItems = "CENTER"
+	frame_16_2215.strokeTopWeight = 1
+	frame_16_2215.strokeBottomWeight = 1
+	frame_16_2215.strokeLeftWeight = 1
+	frame_16_2215.strokeRightWeight = 1
+	frame_16_2215.clipsContent = false
+	frame_16_2215.layoutMode = "VERTICAL"
+	frame_16_2215.counterAxisSizingMode = "AUTO"
+	frame_16_2215.itemSpacing = 64
 	
 
 	// Create FRAME
-	var frame_14_2794 = figma.createFrame()
-	frame_14_2793.appendChild(frame_14_2794)
-	frame_14_2794.resize(725.0000000000, 108.0000000000)
-	frame_14_2794.primaryAxisSizingMode = "AUTO"
-	frame_14_2794.counterAxisSizingMode = "AUTO"
-	frame_14_2794.name = "Frame 8"
-	frame_14_2794.relativeTransform = [[1,0,1.5],[0,1,0]]
-	frame_14_2794.x = 1.5
-	frame_14_2794.fills = []
-	frame_14_2794.strokeTopWeight = 1
-	frame_14_2794.strokeBottomWeight = 1
-	frame_14_2794.strokeLeftWeight = 1
-	frame_14_2794.strokeRightWeight = 1
-	frame_14_2794.clipsContent = false
-	frame_14_2794.expanded = false
-	frame_14_2794.layoutMode = "HORIZONTAL"
-	frame_14_2794.counterAxisSizingMode = "AUTO"
-	frame_14_2794.itemSpacing = 45
+	var frame_16_2216 = figma.createFrame()
+	frame_16_2215.appendChild(frame_16_2216)
+	frame_16_2216.resize(728.0000000000, 140.0000000000)
+	frame_16_2216.primaryAxisSizingMode = "AUTO"
+	frame_16_2216.counterAxisSizingMode = "AUTO"
+	frame_16_2216.name = "Frame 8"
+	frame_16_2216.relativeTransform = [[1,0,32],[0,1,32]]
+	frame_16_2216.x = 32
+	frame_16_2216.y = 32
+	frame_16_2216.fills = []
+	frame_16_2216.counterAxisAlignItems = "CENTER"
+	frame_16_2216.strokeTopWeight = 1
+	frame_16_2216.strokeBottomWeight = 1
+	frame_16_2216.strokeLeftWeight = 1
+	frame_16_2216.strokeRightWeight = 1
+	frame_16_2216.clipsContent = false
+	frame_16_2216.expanded = false
+	frame_16_2216.layoutMode = "VERTICAL"
+	frame_16_2216.counterAxisSizingMode = "AUTO"
+	frame_16_2216.itemSpacing = 32
 	
 
 	// Create FRAME
-	var frame_14_2795 = figma.createFrame()
-	frame_14_2794.appendChild(frame_14_2795)
-	frame_14_2795.resize(584.0000000000, 108.0000000000)
-	frame_14_2795.primaryAxisSizingMode = "AUTO"
-	frame_14_2795.counterAxisSizingMode = "AUTO"
-	frame_14_2795.name = "Frame 8"
-	frame_14_2795.fills = []
-	frame_14_2795.strokeTopWeight = 1
-	frame_14_2795.strokeBottomWeight = 1
-	frame_14_2795.strokeLeftWeight = 1
-	frame_14_2795.strokeRightWeight = 1
-	frame_14_2795.clipsContent = false
-	frame_14_2795.expanded = false
-	frame_14_2795.layoutMode = "VERTICAL"
-	frame_14_2795.counterAxisSizingMode = "AUTO"
-	frame_14_2795.itemSpacing = 16
+	var frame_16_2217 = figma.createFrame()
+	frame_16_2216.appendChild(frame_16_2217)
+	frame_16_2217.resize(725.0000000000, 108.0000000000)
+	frame_16_2217.primaryAxisSizingMode = "AUTO"
+	frame_16_2217.counterAxisSizingMode = "AUTO"
+	frame_16_2217.name = "Frame 8"
+	frame_16_2217.relativeTransform = [[1,0,1.5],[0,1,0]]
+	frame_16_2217.x = 1.5
+	frame_16_2217.fills = []
+	frame_16_2217.strokeTopWeight = 1
+	frame_16_2217.strokeBottomWeight = 1
+	frame_16_2217.strokeLeftWeight = 1
+	frame_16_2217.strokeRightWeight = 1
+	frame_16_2217.clipsContent = false
+	frame_16_2217.expanded = false
+	frame_16_2217.layoutMode = "HORIZONTAL"
+	frame_16_2217.counterAxisSizingMode = "AUTO"
+	frame_16_2217.itemSpacing = 45
+	
+
+	// Create FRAME
+	var frame_16_2218 = figma.createFrame()
+	frame_16_2217.appendChild(frame_16_2218)
+	frame_16_2218.resize(584.0000000000, 108.0000000000)
+	frame_16_2218.primaryAxisSizingMode = "AUTO"
+	frame_16_2218.counterAxisSizingMode = "AUTO"
+	frame_16_2218.name = "Frame 8"
+	frame_16_2218.fills = []
+	frame_16_2218.strokeTopWeight = 1
+	frame_16_2218.strokeBottomWeight = 1
+	frame_16_2218.strokeLeftWeight = 1
+	frame_16_2218.strokeRightWeight = 1
+	frame_16_2218.clipsContent = false
+	frame_16_2218.expanded = false
+	frame_16_2218.layoutMode = "VERTICAL"
+	frame_16_2218.counterAxisSizingMode = "AUTO"
+	frame_16_2218.itemSpacing = 16
 	
 
 	// Create TEXT
-	var text_14_2796 = figma.createText()
-	frame_14_2795.appendChild(text_14_2796)
-	text_14_2796.fillStyleId = slate_900_8108.id
-	text_14_2796.resize(148.0000000000, 36.0000000000)
-	text_14_2796.name = "Command"
+	var text_16_2219 = figma.createText()
+	frame_16_2218.appendChild(text_16_2219)
+	text_16_2219.fillStyleId = slate_900_8108.id
+	text_16_2219.resize(203.0000000000, 36.0000000000)
+	text_16_2219.name = "Context Menu"
 	
 	// Font properties
-	text_14_2796.fontName = {
+	text_16_2219.fontName = {
 		family: "Inter",
 		style: "Semi Bold"
 	}
-		text_14_2796.characters = "Command"
-	text_14_2796.fontSize = 30
-	text_14_2796.listSpacing = 0
-	text_14_2796.lineHeight = {"unit":"PIXELS","value":36}
-	text_14_2796.fontName = {"family":"Inter","style":"Semi Bold"}
-	text_14_2796.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_16_2219.characters = "Context Menu"
+	text_16_2219.fontSize = 30
+	text_16_2219.listSpacing = 0
+	text_16_2219.lineHeight = {"unit":"PIXELS","value":36}
+	text_16_2219.fontName = {"family":"Inter","style":"Semi Bold"}
+	text_16_2219.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create TEXT
-	var text_14_2797 = figma.createText()
-	frame_14_2795.appendChild(text_14_2797)
-	text_14_2797.fillStyleId = slate_600_8179.id
-	text_14_2797.resize(584.0000000000, 56.0000000000)
-	text_14_2797.name = "Fast, composable, unstyled command menu for React."
-	text_14_2797.relativeTransform = [[1,0,0],[0,1,52]]
-	text_14_2797.y = 52
+	var text_16_2220 = figma.createText()
+	frame_16_2218.appendChild(text_16_2220)
+	text_16_2220.fillStyleId = slate_600_8179.id
+	text_16_2220.resize(584.0000000000, 56.0000000000)
+	text_16_2220.name = "Displays a menu to the user — such as a set of actions or functions — triggered by a button."
+	text_16_2220.relativeTransform = [[1,0,0],[0,1,52]]
+	text_16_2220.y = 52
 	
 	// Font properties
-	text_14_2797.fontName = {
+	text_16_2220.fontName = {
 		family: "Inter",
 		style: "Regular"
 	}
-		text_14_2797.characters = "Fast, composable, unstyled command menu for React.\n"
-	text_14_2797.fontSize = 20
-	text_14_2797.listSpacing = 0
-	text_14_2797.lineHeight = {"unit":"PIXELS","value":28}
-	text_14_2797.fontName = {"family":"Inter","style":"Regular"}
-	text_14_2797.textAutoResize = "HEIGHT"
+		text_16_2220.characters = "Displays a menu to the user — such as a set of actions or functions — triggered by a button."
+	text_16_2220.fontSize = 20
+	text_16_2220.listSpacing = 0
+	text_16_2220.lineHeight = {"unit":"PIXELS","value":28}
+	text_16_2220.fontName = {"family":"Inter","style":"Regular"}
+	text_16_2220.textAutoResize = "HEIGHT"
 
 
 	// Create COMPONENT
@@ -280,112 +255,127 @@ async function main() {
 
 
 	// Create INSTANCE
-	var instance_14_2799 = component_5_8774.createInstance()
-	frame_14_2794.appendChild(instance_14_2799)
-	instance_14_2799.resize(96.0000000000, 40.0000000000)
-	instance_14_2799.counterAxisSizingMode = "AUTO"
-	instance_14_2799.name = "button"
-	instance_14_2799.relativeTransform = [[1,0,629],[0,1,0]]
-	instance_14_2799.x = 629
-	instance_14_2799.primaryAxisSizingMode = "FIXED"
+	var instance_16_2222 = component_5_8774.createInstance()
+	frame_16_2217.appendChild(instance_16_2222)
+	instance_16_2222.resize(96.0000000000, 40.0000000000)
+	instance_16_2222.counterAxisSizingMode = "AUTO"
+	instance_16_2222.name = "button"
+	instance_16_2222.relativeTransform = [[1,0,629],[0,1,0]]
+	instance_16_2222.x = 629
+	instance_16_2222.primaryAxisSizingMode = "FIXED"
 	
 
 				// Swap COMPONENT
-				instance_14_2799.swapComponent(component_5_8774)
+				instance_16_2222.swapComponent(component_5_8774)
 
 	// Ref to SUB NODE
-	var text_I14_2799_1_59 = figma.getNodeById("I" + instance_14_2799.id + ";" + text_5_8775.id)
-	text_I14_2799_1_59.resize(70.0000000000, 24.0000000000)
-	text_I14_2799_1_59.name = "Continue"
-	text_I14_2799_1_59.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	text_I14_2799_1_59.hyperlink = {"type":"URL","value":"https://ui.shadcn.com/docs/primitives/command"}
+	var text_I16_2222_1_59 = figma.getNodeById("I" + instance_16_2222.id + ";" + text_5_8775.id)
+	text_I16_2222_1_59.resize(70.0000000000, 24.0000000000)
+	text_I16_2222_1_59.name = "Continue"
+	text_I16_2222_1_59.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	text_I16_2222_1_59.hyperlink = {"type":"URL","value":"https://ui.shadcn.com/docs/primitives/context-menu"}
 	
 	// Font properties
-	text_I14_2799_1_59.fontName = {
+	text_I16_2222_1_59.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_I14_2799_1_59.characters = "View docs"
-	text_I14_2799_1_59.fontSize = 14
-	text_I14_2799_1_59.listSpacing = 0
-	text_I14_2799_1_59.textDecoration = "UNDERLINE"
-	text_I14_2799_1_59.lineHeight = {"unit":"PIXELS","value":24}
-	text_I14_2799_1_59.fontName = {"family":"Inter","style":"Medium"}
-	text_I14_2799_1_59.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_I16_2222_1_59.characters = "View docs"
+	text_I16_2222_1_59.fontSize = 14
+	text_I16_2222_1_59.listSpacing = 0
+	text_I16_2222_1_59.textDecoration = "UNDERLINE"
+	text_I16_2222_1_59.lineHeight = {"unit":"PIXELS","value":24}
+	text_I16_2222_1_59.fontName = {"family":"Inter","style":"Medium"}
+	text_I16_2222_1_59.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create GROUP
-	var group_14_2798 = figma.group([instance_14_2799], frame_14_2794)
-	group_14_2798.name = "Group 6"
-	group_14_2798.visible = true
-	group_14_2798.locked = false
-	group_14_2798.opacity = 1
-	group_14_2798.blendMode = "PASS_THROUGH"
-	group_14_2798.isMask = false
-	group_14_2798.effects = []
-	group_14_2798.layoutAlign = "INHERIT"
-	group_14_2798.constrainProportions = false
-	group_14_2798.layoutGrow = 0
-	group_14_2798.layoutPositioning = "AUTO"
-	group_14_2798.exportSettings = []
-	group_14_2798.reactions = []
-	group_14_2798.expanded = false
+	var group_16_2221 = figma.group([instance_16_2222], frame_16_2217)
+	group_16_2221.name = "Group 6"
+	group_16_2221.visible = true
+	group_16_2221.locked = false
+	group_16_2221.opacity = 1
+	group_16_2221.blendMode = "PASS_THROUGH"
+	group_16_2221.isMask = false
+	group_16_2221.effects = []
+	group_16_2221.layoutAlign = "INHERIT"
+	group_16_2221.constrainProportions = false
+	group_16_2221.layoutGrow = 0
+	group_16_2221.layoutPositioning = "AUTO"
+	group_16_2221.exportSettings = []
+	group_16_2221.reactions = []
+	group_16_2221.expanded = false
 	
 
 	// Create LINE
-	var line_14_2800 = figma.createLine()
-	frame_14_2793.appendChild(line_14_2800)
-	line_14_2800.strokeStyleId = slate_200_a09d.id
-	line_14_2800.resizeWithoutConstraints(728.0000000000, 0)
-	line_14_2800.name = "Line 2"
-	line_14_2800.relativeTransform = [[1,0,0],[0,1,140]]
-	line_14_2800.y = 140
+	var line_16_2223 = figma.createLine()
+	frame_16_2216.appendChild(line_16_2223)
+	line_16_2223.strokeStyleId = slate_200_a09d.id
+	line_16_2223.resizeWithoutConstraints(728.0000000000, 0)
+	line_16_2223.name = "Line 2"
+	line_16_2223.relativeTransform = [[1,0,0],[0,1,140]]
+	line_16_2223.y = 140
 	
 
 	// Create COMPONENT
-	var component_14_2801 = figma.createComponent()
-	frame_14_2792.appendChild(component_14_2801)
-	component_14_2801.resize(690.0000000000, 320.0000000000)
-	component_14_2801.primaryAxisSizingMode = "AUTO"
-	component_14_2801.counterAxisSizingMode = "AUTO"
-	component_14_2801.strokeStyleId = slate_200_a09d.id
-	component_14_2801.name = "command"
-	component_14_2801.relativeTransform = [[1,0,51],[0,1,236]]
-	component_14_2801.x = 51
-	component_14_2801.y = 236
-	component_14_2801.fills = []
-	component_14_2801.strokeAlign = "OUTSIDE"
-	component_14_2801.cornerRadius = 6
-	component_14_2801.counterAxisAlignItems = "CENTER"
-	component_14_2801.strokeTopWeight = 1
-	component_14_2801.strokeBottomWeight = 1
-	component_14_2801.strokeLeftWeight = 1
-	component_14_2801.strokeRightWeight = 1
-	component_14_2801.expanded = false
-	component_14_2801.layoutMode = "VERTICAL"
-	component_14_2801.counterAxisSizingMode = "AUTO"
+	var component_16_2224 = figma.createComponent()
+	frame_16_2215.appendChild(component_16_2224)
+	component_16_2224.resize(256.0000000000, 360.0000000000)
+	component_16_2224.primaryAxisSizingMode = "AUTO"
+	component_16_2224.counterAxisSizingMode = "AUTO"
+	component_16_2224.strokeStyleId = slate_100_ab69.id
+	component_16_2224.name = "context menu"
+	component_16_2224.relativeTransform = [[1,0,268],[0,1,236]]
+	component_16_2224.x = 268
+	component_16_2224.y = 236
+	component_16_2224.fills = []
+	component_16_2224.strokeAlign = "OUTSIDE"
+	component_16_2224.cornerRadius = 6
+	component_16_2224.strokeTopWeight = 1
+	component_16_2224.strokeBottomWeight = 1
+	component_16_2224.strokeLeftWeight = 1
+	component_16_2224.strokeRightWeight = 1
+	component_16_2224.clipsContent = true
+	component_16_2224.layoutMode = "HORIZONTAL"
+	component_16_2224.counterAxisSizingMode = "AUTO"
 	
 
 	// Create FRAME
-	var frame_14_2802 = figma.createFrame()
-	component_14_2801.appendChild(frame_14_2802)
-	frame_14_2802.resize(690.0000000000, 40.0000000000)
-	frame_14_2802.primaryAxisSizingMode = "AUTO"
-	frame_14_2802.name = "Search"
-	frame_14_2802.layoutAlign = "STRETCH"
-	frame_14_2802.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_14_2802.topLeftRadius = 8
-	frame_14_2802.topRightRadius = 8
-	frame_14_2802.paddingLeft = 8
-	frame_14_2802.paddingRight = 8
-	frame_14_2802.strokeTopWeight = 1
-	frame_14_2802.strokeBottomWeight = 1
-	frame_14_2802.strokeLeftWeight = 1
-	frame_14_2802.strokeRightWeight = 1
-	frame_14_2802.clipsContent = false
-	frame_14_2802.expanded = false
-	frame_14_2802.layoutMode = "VERTICAL"
-	frame_14_2802.itemSpacing = 10
+	var frame_16_2225 = figma.createFrame()
+	component_16_2224.appendChild(frame_16_2225)
+	frame_16_2225.resize(256.0000000000, 360.0000000000)
+	frame_16_2225.primaryAxisSizingMode = "AUTO"
+	frame_16_2225.counterAxisSizingMode = "AUTO"
+	frame_16_2225.name = "Frame 3"
+	frame_16_2225.fills = []
+	frame_16_2225.counterAxisAlignItems = "CENTER"
+	frame_16_2225.strokeTopWeight = 1
+	frame_16_2225.strokeBottomWeight = 1
+	frame_16_2225.strokeLeftWeight = 1
+	frame_16_2225.strokeRightWeight = 1
+	frame_16_2225.clipsContent = false
+	frame_16_2225.layoutMode = "VERTICAL"
+	frame_16_2225.counterAxisSizingMode = "AUTO"
+	
+
+	// Create FRAME
+	var frame_16_2226 = figma.createFrame()
+	frame_16_2225.appendChild(frame_16_2226)
+	frame_16_2226.resize(256.0000000000, 138.0000000000)
+	frame_16_2226.primaryAxisSizingMode = "AUTO"
+	frame_16_2226.name = "top section"
+	frame_16_2226.layoutAlign = "STRETCH"
+	frame_16_2226.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_16_2226.paddingLeft = 5
+	frame_16_2226.paddingRight = 5
+	frame_16_2226.paddingTop = 5
+	frame_16_2226.paddingBottom = 5
+	frame_16_2226.strokeTopWeight = 1
+	frame_16_2226.strokeBottomWeight = 1
+	frame_16_2226.strokeLeftWeight = 1
+	frame_16_2226.strokeRightWeight = 1
+	frame_16_2226.clipsContent = false
+	frame_16_2226.layoutMode = "VERTICAL"
 	
 
 	// Create COMPONENT
@@ -617,272 +607,382 @@ async function main() {
 	
 
 	// Create INSTANCE
-	var instance_14_2803 = component_14_226.createInstance()
-	frame_14_2802.appendChild(instance_14_2803)
-	instance_14_2803.resize(672.0000000000, 40.0000000000)
-	instance_14_2803.counterAxisSizingMode = "AUTO"
-	instance_14_2803.name = "menu item"
-	instance_14_2803.relativeTransform = [[1,0,8],[0,1,0]]
-	instance_14_2803.x = 8
-	instance_14_2803.paddingTop = 10
-	instance_14_2803.paddingBottom = 10
+	var instance_16_2227 = component_14_226.createInstance()
+	frame_16_2226.appendChild(instance_16_2227)
+	instance_16_2227.resize(246.0000000000, 32.0000000000)
+	instance_16_2227.counterAxisSizingMode = "AUTO"
+	instance_16_2227.name = "menu item"
+	instance_16_2227.relativeTransform = [[1,0,5],[0,1,5]]
+	instance_16_2227.x = 5
+	instance_16_2227.y = 5
+	instance_16_2227.layoutAlign = "STRETCH"
+	instance_16_2227.paddingLeft = 32
 	
 
 				// Swap COMPONENT
-				instance_14_2803.swapComponent(component_14_226)
+				instance_16_2227.swapComponent(component_14_226)
 
 	// Ref to SUB NODE
-	var text_I14_2803_4_5775 = figma.getNodeById("I" + instance_14_2803.id + ";" + text_14_227.id)
-	
-
-	// Create COMPONENT
-	var component_14_2768 = figma.createComponent()
-	component_14_2768.resize(24.0000000000, 24.0000000000)
-	component_14_2768.primaryAxisSizingMode = "AUTO"
-	component_14_2768.name = "icon/search"
-	component_14_2768.relativeTransform = [[1,0,1812],[0,1,2150]]
-	component_14_2768.x = 1812
-	component_14_2768.y = 2150
-	component_14_2768.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	component_14_2768.strokeTopWeight = 1
-	component_14_2768.strokeBottomWeight = 1
-	component_14_2768.strokeLeftWeight = 1
-	component_14_2768.strokeRightWeight = 1
-	component_14_2768.clipsContent = true
-	component_14_2768.expanded = false
-	
-
-	// Create VECTOR
-	var vector_14_2769 = figma.createVector()
-	component_14_2768.appendChild(vector_14_2769)
-	vector_14_2769.resize(16.0000000000, 16.0000000000)
-	vector_14_2769.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2769.strokeWeight = 2
-	vector_14_2769.strokeJoin = "ROUND"
-	vector_14_2769.strokeCap = "ROUND"
-	vector_14_2769.relativeTransform = [[1,0,3],[0,1,3]]
-	vector_14_2769.x = 3
-	vector_14_2769.y = 3
-	vector_14_2769.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2769.vectorNetwork = {"vertices":[{"x":16,"y":8,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":8,"y":16,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":8,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":8,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":4.418278217315674},"tangentEnd":{"x":4.418278217315674,"y":0}},{"start":1,"end":2,"tangentStart":{"x":-4.418278217315674,"y":0},"tangentEnd":{"x":0,"y":4.418278217315674}},{"start":2,"end":3,"tangentStart":{"x":0,"y":-4.418278217315674},"tangentEnd":{"x":-4.418278217315674,"y":0}},{"start":3,"end":0,"tangentStart":{"x":4.418278217315674,"y":0},"tangentEnd":{"x":0,"y":-4.418278217315674}}],"regions":[]}
-	vector_14_2769.vectorPaths = [{"windingRule":"NONE","data":"M 16 8 C 16 12.418278217315674 12.418278217315674 16 8 16 C 3.581721782684326 16 0 12.418278217315674 0 8 C 0 3.581721782684326 3.581721782684326 0 8 0 C 12.418278217315674 0 16 3.581721782684326 16 8 Z"}]
-	
-
-	// Create VECTOR
-	var vector_14_2770 = figma.createVector()
-	component_14_2768.appendChild(vector_14_2770)
-	vector_14_2770.resize(4.3500003815, 4.3500003815)
-	vector_14_2770.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2770.strokeWeight = 2
-	vector_14_2770.strokeJoin = "ROUND"
-	vector_14_2770.strokeCap = "ROUND"
-	vector_14_2770.relativeTransform = [[1,0,16.6499996185],[0,1,16.6499996185]]
-	vector_14_2770.x = 16.649999618530273
-	vector_14_2770.y = 16.649999618530273
-	vector_14_2770.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2770.vectorNetwork = {"vertices":[{"x":4.350000381469727,"y":4.350000381469727,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[]}
-	vector_14_2770.vectorPaths = [{"windingRule":"NONE","data":"M 4.350000381469727 4.350000381469727 L 0 0"}]
+	var text_I16_2227_4_5775 = figma.getNodeById("I" + instance_16_2227.id + ";" + text_14_227.id)
 	
 	// Ref to SUB NODE
-	var instance_I14_2803_4_6249 = figma.getNodeById("I" + instance_14_2803.id + ";" + instance_14_228.id)
-	instance_I14_2803_4_6249.name = "icon/search"
-	instance_I14_2803_4_6249.opacity = 0.5
-	instance_I14_2803_4_6249.strokeWeight = 1
-	instance_I14_2803_4_6249.strokeTopWeight = 1
-	instance_I14_2803_4_6249.strokeBottomWeight = 1
-	instance_I14_2803_4_6249.strokeLeftWeight = 1
-	instance_I14_2803_4_6249.strokeRightWeight = 1
+	var instance_I16_2227_4_6249 = figma.getNodeById("I" + instance_16_2227.id + ";" + instance_14_228.id)
+	instance_I16_2227_4_6249.visible = false
 	
 
 				// Swap COMPONENT
-				instance_I14_2803_4_6249.swapComponent(component_14_2768)
+				instance_I16_2227_4_6249.swapComponent(component_5_8766)
 
 	// Ref to SUB NODE
-	var vector_I14_2803_4_6249_4_3730 = figma.getNodeById(instance_I14_2803_4_6249.id + ";" + vector_14_2769.id)
-	vector_I14_2803_4_6249_4_3730.strokeStyleId = slate_900_8108.id
-	vector_I14_2803_4_6249_4_3730.resize(10.6666669846, 10.6666669846)
+	var vector_I16_2227_4_6249_4_3047 = figma.getNodeById(instance_I16_2227_4_6249.id + ";" + vector_5_8767.id)
+	vector_I16_2227_4_6249_4_3047.strokeStyleId = slate_700_226f.id
+	vector_I16_2227_4_6249_4_3047.resize(13.3333339691, 10.6666669846)
+	vector_I16_2227_4_6249_4_3047.strokeWeight = 1.3333333730697632
 	
 	// Ref to SUB NODE
-	var vector_I14_2803_4_6249_4_3731 = figma.getNodeById(instance_I14_2803_4_6249.id + ";" + vector_14_2770.id)
-	vector_I14_2803_4_6249_4_3731.strokeStyleId = slate_900_8108.id
-	vector_I14_2803_4_6249_4_3731.resize(2.9000005722, 2.9000005722)
+	var vector_I16_2227_4_6249_4_3048 = figma.getNodeById(instance_I16_2227_4_6249.id + ";" + vector_5_8768.id)
+	vector_I16_2227_4_6249_4_3048.strokeStyleId = slate_700_226f.id
+	vector_I16_2227_4_6249_4_3048.resize(13.3333339691, 3.9973406792)
+	vector_I16_2227_4_6249_4_3048.strokeWeight = 1.3333333730697632
 	
 	// Ref to SUB NODE
-	var text_I14_2803_4_5778 = figma.getNodeById("I" + instance_14_2803.id + ";" + text_14_229.id)
-	text_I14_2803_4_5778.fillStyleId = slate_400_a845.id
-	text_I14_2803_4_5778.resize(632.0000000000, 20.0000000000)
-	text_I14_2803_4_5778.opacity = 0.5
+	var text_I16_2227_4_5778 = figma.getNodeById("I" + instance_16_2227.id + ";" + text_14_229.id)
+	text_I16_2227_4_5778.resize(181.0000000000, 20.0000000000)
 	
 	// Font properties
-	text_I14_2803_4_5778.fontName = {
+	text_I16_2227_4_5778.fontName = {
 		family: "Inter",
-		style: "Regular"
+		style: "Medium"
 	}
-		text_I14_2803_4_5778.characters = "Type a command or search..."
+		text_I16_2227_4_5778.characters = "Back"
 
 	// Ref to SUB NODE
-	var text_I14_2803_4_5779 = figma.getNodeById("I" + instance_14_2803.id + ";" + text_14_230.id)
-	text_I14_2803_4_5779.visible = false
+	var text_I16_2227_4_5779 = figma.getNodeById("I" + instance_16_2227.id + ";" + text_14_230.id)
+	text_I16_2227_4_5779.resize(17.0000000000, 20.0000000000)
 	
+	// Font properties
+	text_I16_2227_4_5779.fontName = {
+		family: "Inter",
+		style: "Medium"
+	}
+		text_I16_2227_4_5779.characters = "⌘["
+
 	// Ref to SUB NODE
-	var instance_I14_2803_4_6322 = figma.getNodeById("I" + instance_14_2803.id + ";" + instance_14_231.id)
-	instance_I14_2803_4_6322.visible = false
+	var instance_I16_2227_4_6322 = figma.getNodeById("I" + instance_16_2227.id + ";" + instance_14_231.id)
+	instance_I16_2227_4_6322.visible = false
 	
 
 				// Swap COMPONENT
-				instance_I14_2803_4_6322.swapComponent(component_14_219)
+				instance_I16_2227_4_6322.swapComponent(component_14_219)
 
 	// Ref to SUB NODE
-	var vector_I14_2803_4_6322_4_1230 = figma.getNodeById(instance_I14_2803_4_6322.id + ";" + vector_14_220.id)
-	vector_I14_2803_4_6322_4_1230.strokeStyleId = slate_700_226f.id
-	vector_I14_2803_4_6322_4_1230.resize(4.0000000000, 8.0000000000)
-	vector_I14_2803_4_6322_4_1230.strokeWeight = 1.3333333730697632
+	var vector_I16_2227_4_6322_4_1230 = figma.getNodeById(instance_I16_2227_4_6322.id + ";" + vector_14_220.id)
+	vector_I16_2227_4_6322_4_1230.strokeStyleId = slate_700_226f.id
+	vector_I16_2227_4_6322_4_1230.resize(4.0000000000, 8.0000000000)
+	vector_I16_2227_4_6322_4_1230.strokeWeight = 1.3333333730697632
 	
 
 	// Create COMPONENT
-	var component_14_249 = figma.createComponent()
-	component_14_249.resizeWithoutConstraints(246.0000000000, 0.01)
-	component_14_249.primaryAxisSizingMode = "AUTO"
-	component_14_249.counterAxisSizingMode = "AUTO"
-	component_14_249.name = "type=divider"
-	component_14_249.relativeTransform = [[1,0,20],[0,1,20]]
-	component_14_249.x = 20
-	component_14_249.y = 20
-	component_14_249.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	component_14_249.strokeTopWeight = 1
-	component_14_249.strokeBottomWeight = 1
-	component_14_249.strokeLeftWeight = 1
-	component_14_249.strokeRightWeight = 1
-	component_14_249.expanded = false
-	component_14_249.layoutMode = "VERTICAL"
-	component_14_249.counterAxisSizingMode = "AUTO"
-	
-
-	// Create LINE
-	var line_14_250 = figma.createLine()
-	component_14_249.appendChild(line_14_250)
-	line_14_250.strokeStyleId = slate_100_ab69.id
-	line_14_250.resizeWithoutConstraints(246.0000000000, 0)
-	line_14_250.name = "Line 1"
-	
-
-	// Create INSTANCE
-	var instance_14_2804 = component_14_249.createInstance()
-	component_14_2801.appendChild(instance_14_2804)
-	instance_14_2804.name = "section items"
-	instance_14_2804.relativeTransform = [[1,0,0],[0,1,40]]
-	instance_14_2804.y = 40
-	instance_14_2804.layoutAlign = "STRETCH"
-	instance_14_2804.counterAxisSizingMode = "FIXED"
-	
-
-				// Swap COMPONENT
-				instance_14_2804.swapComponent(component_14_249)
-
-	// Ref to SUB NODE
-	var line_I14_2804_1_158 = figma.getNodeById("I" + instance_14_2804.id + ";" + line_14_250.id)
-	line_I14_2804_1_158.strokeStyleId = slate_100_ab69.id
-	line_I14_2804_1_158.resizeWithoutConstraints(690.0000000000, 0)
-	line_I14_2804_1_158.name = "Line 1"
-	line_I14_2804_1_158.layoutAlign = "STRETCH"
-	
-
-	// Create FRAME
-	var frame_14_2805 = figma.createFrame()
-	component_14_2801.appendChild(frame_14_2805)
-	frame_14_2805.resize(690.0000000000, 140.0000000000)
-	frame_14_2805.primaryAxisSizingMode = "AUTO"
-	frame_14_2805.fillStyleId = white_2dc6.id
-	frame_14_2805.backgroundStyleId = white_2dc6.id
-	frame_14_2805.name = "Frame 9"
-	frame_14_2805.relativeTransform = [[1,0,0],[0,1,40]]
-	frame_14_2805.y = 40
-	frame_14_2805.layoutAlign = "STRETCH"
-	frame_14_2805.paddingLeft = 8
-	frame_14_2805.paddingRight = 8
-	frame_14_2805.paddingTop = 6
-	frame_14_2805.paddingBottom = 6
-	frame_14_2805.strokeTopWeight = 1
-	frame_14_2805.strokeBottomWeight = 1
-	frame_14_2805.strokeLeftWeight = 1
-	frame_14_2805.strokeRightWeight = 1
-	frame_14_2805.clipsContent = false
-	frame_14_2805.expanded = false
-	frame_14_2805.layoutMode = "VERTICAL"
-	
-
-	// Create COMPONENT
-	var component_14_238 = figma.createComponent()
-	component_14_238.resize(236.0000000000, 32.0000000000)
-	component_14_238.counterAxisSizingMode = "AUTO"
-	component_14_238.name = "State=Default, type=section title"
-	component_14_238.relativeTransform = [[1,0,15],[0,1,114]]
-	component_14_238.x = 15
-	component_14_238.y = 114
-	component_14_238.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	component_14_238.paddingLeft = 32
-	component_14_238.paddingRight = 8
-	component_14_238.paddingTop = 6
-	component_14_238.paddingBottom = 6
-	component_14_238.counterAxisAlignItems = "CENTER"
-	component_14_238.primaryAxisSizingMode = "FIXED"
-	component_14_238.strokeTopWeight = 1
-	component_14_238.strokeBottomWeight = 1
-	component_14_238.strokeLeftWeight = 1
-	component_14_238.strokeRightWeight = 1
-	component_14_238.expanded = false
-	component_14_238.layoutMode = "HORIZONTAL"
-	component_14_238.counterAxisSizingMode = "AUTO"
-	component_14_238.itemSpacing = 8
+	var component_14_232 = figma.createComponent()
+	component_14_232.resize(236.0000000000, 32.0000000000)
+	component_14_232.counterAxisSizingMode = "AUTO"
+	component_14_232.name = "State=diabled, type=default"
+	component_14_232.relativeTransform = [[1,0,15],[0,1,62]]
+	component_14_232.x = 15
+	component_14_232.y = 62
+	component_14_232.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	component_14_232.paddingLeft = 8
+	component_14_232.paddingRight = 8
+	component_14_232.paddingTop = 6
+	component_14_232.paddingBottom = 6
+	component_14_232.counterAxisAlignItems = "CENTER"
+	component_14_232.primaryAxisSizingMode = "FIXED"
+	component_14_232.strokeTopWeight = 1
+	component_14_232.strokeBottomWeight = 1
+	component_14_232.strokeLeftWeight = 1
+	component_14_232.strokeRightWeight = 1
+	component_14_232.expanded = false
+	component_14_232.layoutMode = "HORIZONTAL"
+	component_14_232.counterAxisSizingMode = "AUTO"
+	component_14_232.itemSpacing = 8
 	
 
 	// Create TEXT
-	var text_14_239 = figma.createText()
-	component_14_238.appendChild(text_14_239)
-	text_14_239.fillStyleId = slate_700_226f.id
-	text_14_239.resize(196.0000000000, 20.0000000000)
-	text_14_239.name = "Section Title"
-	text_14_239.relativeTransform = [[1,0,32],[0,1,6]]
-	text_14_239.x = 32
-	text_14_239.y = 6
-	text_14_239.layoutGrow = 1
+	var text_14_233 = figma.createText()
+	component_14_232.appendChild(text_14_233)
+	text_14_233.resize(15.0000000000, 20.0000000000)
+	text_14_233.name = "⇤"
+	text_14_233.visible = false
+	text_14_233.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}},{"type":"SOLID","visible":true,"opacity":0.20000000298023224,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	text_14_233.relativeTransform = [[1,0,0],[0,1,6]]
+	text_14_233.y = 6
 	
 	// Font properties
-	text_14_239.fontName = {
+	text_14_233.fontName = {
 		family: "Inter",
-		style: "Semi Bold"
+		style: "Medium"
 	}
-		text_14_239.characters = "Section Title"
-	text_14_239.listSpacing = 0
-	text_14_239.textAutoResize = "HEIGHT"
+		text_14_233.characters = "⇤"
+	text_14_233.fontSize = 14
+	text_14_233.listSpacing = 0
+	text_14_233.lineHeight = {"unit":"PIXELS","value":20}
+	text_14_233.fontName = {"family":"Inter","style":"Medium"}
+	text_14_233.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create INSTANCE
-	var instance_14_2806 = component_14_238.createInstance()
-	frame_14_2805.appendChild(instance_14_2806)
-	instance_14_2806.resize(672.0000000000, 32.0000000000)
-	instance_14_2806.counterAxisSizingMode = "AUTO"
-	instance_14_2806.name = "menu item"
-	instance_14_2806.relativeTransform = [[1,0,8],[0,1,6]]
-	instance_14_2806.x = 8
-	instance_14_2806.y = 6
-	instance_14_2806.paddingLeft = 8
+	var instance_14_234 = component_5_8766.createInstance()
+	component_14_232.appendChild(instance_14_234)
+	instance_14_234.resize(16.0000000000, 16.0000000000)
+	instance_14_234.primaryAxisSizingMode = "AUTO"
+	instance_14_234.opacity = 0.5
+	instance_14_234.relativeTransform = [[1,0,8],[0,1,8]]
+	instance_14_234.x = 8
+	instance_14_234.y = 8
+	instance_14_234.strokeWeight = 0.6666666865348816
+	instance_14_234.strokeTopWeight = 0.6666666865348816
+	instance_14_234.strokeBottomWeight = 0.6666666865348816
+	instance_14_234.strokeLeftWeight = 0.6666666865348816
+	instance_14_234.strokeRightWeight = 0.6666666865348816
 	
 
 				// Swap COMPONENT
-				instance_14_2806.swapComponent(component_14_238)
+				instance_14_234.swapComponent(component_5_8766)
 
 	// Ref to SUB NODE
-	var text_I14_2806_12_343 = figma.getNodeById("I" + instance_14_2806.id + ";" + text_14_239.id)
-	text_I14_2806_12_343.resize(656.0000000000, 20.0000000000)
+	var vector_I14_234_4_3047 = figma.getNodeById("I" + instance_14_234.id + ";" + vector_5_8767.id)
+	vector_I14_234_4_3047.strokeStyleId = slate_700_226f.id
+	vector_I14_234_4_3047.resize(13.3333339691, 10.6666669846)
+	vector_I14_234_4_3047.strokeWeight = 1.3333333730697632
+	
+	// Ref to SUB NODE
+	var vector_I14_234_4_3048 = figma.getNodeById("I" + instance_14_234.id + ";" + vector_5_8768.id)
+	vector_I14_234_4_3048.strokeStyleId = slate_700_226f.id
+	vector_I14_234_4_3048.resize(13.3333339691, 3.9973406792)
+	vector_I14_234_4_3048.strokeWeight = 1.3333333730697632
+	
+
+	// Create TEXT
+	var text_14_235 = figma.createText()
+	component_14_232.appendChild(text_14_235)
+	text_14_235.fillStyleId = slate_700_226f.id
+	text_14_235.resize(131.0000000000, 20.0000000000)
+	text_14_235.name = "Menu Item"
+	text_14_235.opacity = 0.5
+	text_14_235.relativeTransform = [[1,0,32],[0,1,6]]
+	text_14_235.x = 32
+	text_14_235.y = 6
+	text_14_235.layoutGrow = 1
 	
 	// Font properties
-	text_I14_2806_12_343.fontName = {
+	text_14_235.fontName = {
 		family: "Inter",
-		style: "Semi Bold"
+		style: "Medium"
 	}
-		text_I14_2806_12_343.characters = "Suggestions"
+		text_14_235.characters = "Menu Item"
+	text_14_235.listSpacing = 0
+	text_14_235.textAutoResize = "HEIGHT"
 
+
+	// Create TEXT
+	var text_14_236 = figma.createText()
+	component_14_232.appendChild(text_14_236)
+	text_14_236.fillStyleId = slate_500_8775.id
+	text_14_236.resize(33.0000000000, 20.0000000000)
+	text_14_236.name = "⌘⇧B︎"
+	text_14_236.opacity = 0.5
+	text_14_236.relativeTransform = [[1,0,171],[0,1,6]]
+	text_14_236.x = 171
+	text_14_236.y = 6
+	
+	// Font properties
+	text_14_236.fontName = {
+		family: "Inter",
+		style: "Medium"
+	}
+		text_14_236.characters = "⌘⇧B︎"
+	text_14_236.listSpacing = 0
+	text_14_236.textAutoResize = "WIDTH_AND_HEIGHT"
+
+
+	// Create INSTANCE
+	var instance_14_237 = component_14_219.createInstance()
+	component_14_232.appendChild(instance_14_237)
+	instance_14_237.resize(16.0000000000, 16.0000000000)
+	instance_14_237.primaryAxisSizingMode = "AUTO"
+	instance_14_237.name = "secondary icon"
+	instance_14_237.opacity = 0.5
+	instance_14_237.relativeTransform = [[1,0,212],[0,1,8]]
+	instance_14_237.x = 212
+	instance_14_237.y = 8
+	instance_14_237.strokeWeight = 0.6666666865348816
+	instance_14_237.strokeTopWeight = 0.6666666865348816
+	instance_14_237.strokeBottomWeight = 0.6666666865348816
+	instance_14_237.strokeLeftWeight = 0.6666666865348816
+	instance_14_237.strokeRightWeight = 0.6666666865348816
+	
+
+				// Swap COMPONENT
+				instance_14_237.swapComponent(component_14_219)
+
+	// Ref to SUB NODE
+	var vector_I14_237_4_1230 = figma.getNodeById("I" + instance_14_237.id + ";" + vector_14_220.id)
+	vector_I14_237_4_1230.strokeStyleId = slate_700_226f.id
+	vector_I14_237_4_1230.resize(4.0000000000, 8.0000000000)
+	vector_I14_237_4_1230.strokeWeight = 1.3333333730697632
+	
+
+	// Create INSTANCE
+	var instance_16_2228 = component_14_232.createInstance()
+	frame_16_2226.appendChild(instance_16_2228)
+	instance_16_2228.resize(246.0000000000, 32.0000000000)
+	instance_16_2228.counterAxisSizingMode = "AUTO"
+	instance_16_2228.name = "menu item"
+	instance_16_2228.relativeTransform = [[1,0,5],[0,1,37]]
+	instance_16_2228.x = 5
+	instance_16_2228.y = 37
+	instance_16_2228.layoutAlign = "STRETCH"
+	instance_16_2228.paddingLeft = 32
+	
+
+				// Swap COMPONENT
+				instance_16_2228.swapComponent(component_14_232)
+
+	// Ref to SUB NODE
+	var text_I16_2228_4_6554 = figma.getNodeById("I" + instance_16_2228.id + ";" + text_14_233.id)
+	
+	// Ref to SUB NODE
+	var instance_I16_2228_4_6555 = figma.getNodeById("I" + instance_16_2228.id + ";" + instance_14_234.id)
+	instance_I16_2228_4_6555.visible = false
+	
+
+				// Swap COMPONENT
+				instance_I16_2228_4_6555.swapComponent(component_5_8766)
+
+	// Ref to SUB NODE
+	var vector_I16_2228_4_6555_4_3047 = figma.getNodeById(instance_I16_2228_4_6555.id + ";" + vector_5_8767.id)
+	vector_I16_2228_4_6555_4_3047.strokeStyleId = slate_700_226f.id
+	vector_I16_2228_4_6555_4_3047.resize(13.3333339691, 10.6666669846)
+	vector_I16_2228_4_6555_4_3047.strokeWeight = 1.3333333730697632
+	
+	// Ref to SUB NODE
+	var vector_I16_2228_4_6555_4_3048 = figma.getNodeById(instance_I16_2228_4_6555.id + ";" + vector_5_8768.id)
+	vector_I16_2228_4_6555_4_3048.strokeStyleId = slate_700_226f.id
+	vector_I16_2228_4_6555_4_3048.resize(13.3333339691, 3.9973406792)
+	vector_I16_2228_4_6555_4_3048.strokeWeight = 1.3333333730697632
+	
+	// Ref to SUB NODE
+	var text_I16_2228_4_6556 = figma.getNodeById("I" + instance_16_2228.id + ";" + text_14_235.id)
+	text_I16_2228_4_6556.resize(181.0000000000, 20.0000000000)
+	
+	// Font properties
+	text_I16_2228_4_6556.fontName = {
+		family: "Inter",
+		style: "Medium"
+	}
+		text_I16_2228_4_6556.characters = "Forward"
+
+	// Ref to SUB NODE
+	var text_I16_2228_4_6557 = figma.getNodeById("I" + instance_16_2228.id + ";" + text_14_236.id)
+	text_I16_2228_4_6557.resize(17.0000000000, 20.0000000000)
+	
+	// Font properties
+	text_I16_2228_4_6557.fontName = {
+		family: "Inter",
+		style: "Medium"
+	}
+		text_I16_2228_4_6557.characters = "⌘]"
+
+	// Ref to SUB NODE
+	var instance_I16_2228_4_6558 = figma.getNodeById("I" + instance_16_2228.id + ";" + instance_14_237.id)
+	instance_I16_2228_4_6558.visible = false
+	
+
+				// Swap COMPONENT
+				instance_I16_2228_4_6558.swapComponent(component_14_219)
+
+	// Ref to SUB NODE
+	var vector_I16_2228_4_6558_4_1230 = figma.getNodeById(instance_I16_2228_4_6558.id + ";" + vector_14_220.id)
+	vector_I16_2228_4_6558_4_1230.strokeStyleId = slate_700_226f.id
+	vector_I16_2228_4_6558_4_1230.resize(4.0000000000, 8.0000000000)
+	vector_I16_2228_4_6558_4_1230.strokeWeight = 1.3333333730697632
+	
+
+	// Create INSTANCE
+	var instance_16_2229 = component_14_226.createInstance()
+	frame_16_2226.appendChild(instance_16_2229)
+	instance_16_2229.resize(246.0000000000, 32.0000000000)
+	instance_16_2229.counterAxisSizingMode = "AUTO"
+	instance_16_2229.name = "menu item"
+	instance_16_2229.relativeTransform = [[1,0,5],[0,1,69]]
+	instance_16_2229.x = 5
+	instance_16_2229.y = 69
+	instance_16_2229.layoutAlign = "STRETCH"
+	instance_16_2229.paddingLeft = 32
+	
+
+				// Swap COMPONENT
+				instance_16_2229.swapComponent(component_14_226)
+
+	// Ref to SUB NODE
+	var text_I16_2229_4_5775 = figma.getNodeById("I" + instance_16_2229.id + ";" + text_14_227.id)
+	
+	// Ref to SUB NODE
+	var instance_I16_2229_4_6249 = figma.getNodeById("I" + instance_16_2229.id + ";" + instance_14_228.id)
+	instance_I16_2229_4_6249.visible = false
+	
+
+				// Swap COMPONENT
+				instance_I16_2229_4_6249.swapComponent(component_5_8766)
+
+	// Ref to SUB NODE
+	var vector_I16_2229_4_6249_4_3047 = figma.getNodeById(instance_I16_2229_4_6249.id + ";" + vector_5_8767.id)
+	vector_I16_2229_4_6249_4_3047.strokeStyleId = slate_700_226f.id
+	vector_I16_2229_4_6249_4_3047.resize(13.3333339691, 10.6666669846)
+	vector_I16_2229_4_6249_4_3047.strokeWeight = 1.3333333730697632
+	
+	// Ref to SUB NODE
+	var vector_I16_2229_4_6249_4_3048 = figma.getNodeById(instance_I16_2229_4_6249.id + ";" + vector_5_8768.id)
+	vector_I16_2229_4_6249_4_3048.strokeStyleId = slate_700_226f.id
+	vector_I16_2229_4_6249_4_3048.resize(13.3333339691, 3.9973406792)
+	vector_I16_2229_4_6249_4_3048.strokeWeight = 1.3333333730697632
+	
+	// Ref to SUB NODE
+	var text_I16_2229_4_5778 = figma.getNodeById("I" + instance_16_2229.id + ";" + text_14_229.id)
+	text_I16_2229_4_5778.resize(178.0000000000, 20.0000000000)
+	
+	// Font properties
+	text_I16_2229_4_5778.fontName = {
+		family: "Inter",
+		style: "Medium"
+	}
+		text_I16_2229_4_5778.characters = "Reload"
+
+	// Ref to SUB NODE
+	var text_I16_2229_4_5779 = figma.getNodeById("I" + instance_16_2229.id + ";" + text_14_230.id)
+	text_I16_2229_4_5779.resize(20.0000000000, 20.0000000000)
+	
+	// Font properties
+	text_I16_2229_4_5779.fontName = {
+		family: "Inter",
+		style: "Medium"
+	}
+		text_I16_2229_4_5779.characters = "⌘R"
+
+	// Ref to SUB NODE
+	var instance_I16_2229_4_6322 = figma.getNodeById("I" + instance_16_2229.id + ";" + instance_14_231.id)
+	instance_I16_2229_4_6322.visible = false
+	
+
+				// Swap COMPONENT
+				instance_I16_2229_4_6322.swapComponent(component_14_219)
+
+	// Ref to SUB NODE
+	var vector_I16_2229_4_6322_4_1230 = figma.getNodeById(instance_I16_2229_4_6322.id + ";" + vector_14_220.id)
+	vector_I16_2229_4_6322_4_1230.strokeStyleId = slate_700_226f.id
+	vector_I16_2229_4_6322_4_1230.resize(4.0000000000, 8.0000000000)
+	vector_I16_2229_4_6322_4_1230.strokeWeight = 1.3333333730697632
+	
 
 	// Create COMPONENT
 	var component_14_240 = figma.createComponent()
@@ -1033,1052 +1133,738 @@ async function main() {
 	
 
 	// Create INSTANCE
-	var instance_14_2807 = component_14_240.createInstance()
-	frame_14_2805.appendChild(instance_14_2807)
-	instance_14_2807.resize(672.0000000000, 32.0000000000)
-	instance_14_2807.counterAxisSizingMode = "AUTO"
-	instance_14_2807.name = "menu item"
-	instance_14_2807.relativeTransform = [[1,0,8],[0,1,38]]
-	instance_14_2807.x = 8
-	instance_14_2807.y = 38
+	var instance_16_2230 = component_14_240.createInstance()
+	frame_16_2226.appendChild(instance_16_2230)
+	instance_16_2230.resize(246.0000000000, 32.0000000000)
+	instance_16_2230.counterAxisSizingMode = "AUTO"
+	instance_16_2230.name = "menu item"
+	instance_16_2230.relativeTransform = [[1,0,5],[0,1,101]]
+	instance_16_2230.x = 5
+	instance_16_2230.y = 101
+	instance_16_2230.layoutAlign = "STRETCH"
+	instance_16_2230.paddingLeft = 32
 	
 
 				// Swap COMPONENT
-				instance_14_2807.swapComponent(component_14_240)
+				instance_16_2230.swapComponent(component_14_240)
 
 	// Ref to SUB NODE
-	var text_I14_2807_4_6338 = figma.getNodeById("I" + instance_14_2807.id + ";" + text_14_241.id)
-	
-
-	// Create COMPONENT
-	var component_14_2771 = figma.createComponent()
-	component_14_2771.resize(24.0000000000, 24.0000000000)
-	component_14_2771.primaryAxisSizingMode = "AUTO"
-	component_14_2771.name = "icon/calendar"
-	component_14_2771.relativeTransform = [[1,0,1668],[0,1,830]]
-	component_14_2771.x = 1668
-	component_14_2771.y = 830
-	component_14_2771.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	component_14_2771.strokeTopWeight = 1
-	component_14_2771.strokeBottomWeight = 1
-	component_14_2771.strokeLeftWeight = 1
-	component_14_2771.strokeRightWeight = 1
-	component_14_2771.clipsContent = true
-	component_14_2771.expanded = false
-	
-
-	// Create VECTOR
-	var vector_14_2772 = figma.createVector()
-	component_14_2771.appendChild(vector_14_2772)
-	vector_14_2772.resize(18.0000000000, 18.0000000000)
-	vector_14_2772.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2772.strokeWeight = 2
-	vector_14_2772.strokeJoin = "ROUND"
-	vector_14_2772.strokeCap = "ROUND"
-	vector_14_2772.relativeTransform = [[1,0,3],[0,1,4]]
-	vector_14_2772.x = 3
-	vector_14_2772.y = 4
-	vector_14_2772.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2772.vectorNetwork = {"vertices":[{"x":2,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":16,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":18,"y":2,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":18,"y":16,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":16,"y":18,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":2,"y":18,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":16,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":2,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":1.1045695543289185,"y":0},"tangentEnd":{"x":0,"y":-1.1045695543289185}},{"start":2,"end":3,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":3,"end":4,"tangentStart":{"x":0,"y":1.1045695543289185},"tangentEnd":{"x":1.1045695543289185,"y":0}},{"start":4,"end":5,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":5,"end":6,"tangentStart":{"x":-1.1045695543289185,"y":0},"tangentEnd":{"x":0,"y":1.1045695543289185}},{"start":6,"end":7,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":7,"end":0,"tangentStart":{"x":0,"y":-1.1045695543289185},"tangentEnd":{"x":-1.1045695543289185,"y":0}}],"regions":[]}
-	vector_14_2772.vectorPaths = [{"windingRule":"NONE","data":"M 2 0 L 16 0 C 17.10456955432892 0 18 0.8954304456710815 18 2 L 18 16 C 18 17.10456955432892 17.10456955432892 18 16 18 L 2 18 C 0.8954304456710815 18 0 17.10456955432892 0 16 L 0 2 C 0 0.8954304456710815 0.8954304456710815 0 2 0 Z"}]
-	
-
-	// Create VECTOR
-	var vector_14_2773 = figma.createVector()
-	component_14_2771.appendChild(vector_14_2773)
-	vector_14_2773.resize(0.0000000000, 4.0000000000)
-	vector_14_2773.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2773.strokeWeight = 2
-	vector_14_2773.strokeJoin = "ROUND"
-	vector_14_2773.strokeCap = "ROUND"
-	vector_14_2773.relativeTransform = [[1,0,16],[0,1,2]]
-	vector_14_2773.x = 16
-	vector_14_2773.y = 2
-	vector_14_2773.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2773.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":4,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[]}
-	vector_14_2773.vectorPaths = [{"windingRule":"NONE","data":"M 0 0 L 0 4"}]
-	
-
-	// Create VECTOR
-	var vector_14_2774 = figma.createVector()
-	component_14_2771.appendChild(vector_14_2774)
-	vector_14_2774.resize(0.0000000000, 4.0000000000)
-	vector_14_2774.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2774.strokeWeight = 2
-	vector_14_2774.strokeJoin = "ROUND"
-	vector_14_2774.strokeCap = "ROUND"
-	vector_14_2774.relativeTransform = [[1,0,8],[0,1,2]]
-	vector_14_2774.x = 8
-	vector_14_2774.y = 2
-	vector_14_2774.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2774.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":4,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[]}
-	vector_14_2774.vectorPaths = [{"windingRule":"NONE","data":"M 0 0 L 0 4"}]
-	
-
-	// Create VECTOR
-	var vector_14_2775 = figma.createVector()
-	component_14_2771.appendChild(vector_14_2775)
-	vector_14_2775.resizeWithoutConstraints(18.0000000000, 0.0000000000)
-	vector_14_2775.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2775.strokeWeight = 2
-	vector_14_2775.strokeJoin = "ROUND"
-	vector_14_2775.strokeCap = "ROUND"
-	vector_14_2775.relativeTransform = [[1,0,3],[0,1,10]]
-	vector_14_2775.x = 3
-	vector_14_2775.y = 10
-	vector_14_2775.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2775.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":18,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[]}
-	vector_14_2775.vectorPaths = [{"windingRule":"NONE","data":"M 0 0 L 18 0"}]
+	var text_I16_2230_4_6338 = figma.getNodeById("I" + instance_16_2230.id + ";" + text_14_241.id)
 	
 	// Ref to SUB NODE
-	var instance_I14_2807_4_6339 = figma.getNodeById("I" + instance_14_2807.id + ";" + instance_14_242.id)
-	instance_I14_2807_4_6339.name = "icon/calendar"
-	instance_I14_2807_4_6339.strokeWeight = 1
-	instance_I14_2807_4_6339.strokeTopWeight = 1
-	instance_I14_2807_4_6339.strokeBottomWeight = 1
-	instance_I14_2807_4_6339.strokeLeftWeight = 1
-	instance_I14_2807_4_6339.strokeRightWeight = 1
+	var instance_I16_2230_4_6339 = figma.getNodeById("I" + instance_16_2230.id + ";" + instance_14_242.id)
+	instance_I16_2230_4_6339.visible = false
 	
 
 				// Swap COMPONENT
-				instance_I14_2807_4_6339.swapComponent(component_14_2771)
+				instance_I16_2230_4_6339.swapComponent(component_5_8766)
 
 	// Ref to SUB NODE
-	var vector_I14_2807_4_6339_4_1150 = figma.getNodeById(instance_I14_2807_4_6339.id + ";" + vector_14_2772.id)
-	vector_I14_2807_4_6339_4_1150.strokeStyleId = slate_700_226f.id
-	vector_I14_2807_4_6339_4_1150.resize(12.0000000000, 12.0000000000)
+	var vector_I16_2230_4_6339_4_3047 = figma.getNodeById(instance_I16_2230_4_6339.id + ";" + vector_5_8767.id)
+	vector_I16_2230_4_6339_4_3047.strokeStyleId = slate_700_226f.id
+	vector_I16_2230_4_6339_4_3047.resize(13.3333339691, 10.6666669846)
+	vector_I16_2230_4_6339_4_3047.strokeWeight = 1.3333333730697632
 	
 	// Ref to SUB NODE
-	var vector_I14_2807_4_6339_4_1151 = figma.getNodeById(instance_I14_2807_4_6339.id + ";" + vector_14_2773.id)
-	vector_I14_2807_4_6339_4_1151.strokeStyleId = slate_700_226f.id
-	vector_I14_2807_4_6339_4_1151.resize(0.0000000000, 2.6666665077)
+	var vector_I16_2230_4_6339_4_3048 = figma.getNodeById(instance_I16_2230_4_6339.id + ";" + vector_5_8768.id)
+	vector_I16_2230_4_6339_4_3048.strokeStyleId = slate_700_226f.id
+	vector_I16_2230_4_6339_4_3048.resize(13.3333339691, 3.9973406792)
+	vector_I16_2230_4_6339_4_3048.strokeWeight = 1.3333333730697632
 	
 	// Ref to SUB NODE
-	var vector_I14_2807_4_6339_4_1152 = figma.getNodeById(instance_I14_2807_4_6339.id + ";" + vector_14_2774.id)
-	vector_I14_2807_4_6339_4_1152.resize(0.0000000000, 2.6666665077)
-	
-	// Ref to SUB NODE
-	var vector_I14_2807_4_6339_4_1153 = figma.getNodeById(instance_I14_2807_4_6339.id + ";" + vector_14_2775.id)
-	vector_I14_2807_4_6339_4_1153.resizeWithoutConstraints(12.0000000000, 0.0000000000)
-	
-	// Ref to SUB NODE
-	var text_I14_2807_4_6340 = figma.getNodeById("I" + instance_14_2807.id + ";" + text_14_243.id)
-	text_I14_2807_4_6340.resize(632.0000000000, 20.0000000000)
+	var text_I16_2230_4_6340 = figma.getNodeById("I" + instance_16_2230.id + ";" + text_14_243.id)
+	text_I16_2230_4_6340.resize(182.0000000000, 20.0000000000)
 	
 	// Font properties
-	text_I14_2807_4_6340.fontName = {
+	text_I16_2230_4_6340.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_I14_2807_4_6340.characters = "Calendar"
+		text_I16_2230_4_6340.characters = "More Tools"
 
 	// Ref to SUB NODE
-	var text_I14_2807_4_6341 = figma.getNodeById("I" + instance_14_2807.id + ";" + text_14_244.id)
-	text_I14_2807_4_6341.visible = false
-	
-	// Ref to SUB NODE
-	var instance_I14_2807_4_6342 = figma.getNodeById("I" + instance_14_2807.id + ";" + instance_14_245.id)
-	instance_I14_2807_4_6342.visible = false
-	
-
-				// Swap COMPONENT
-				instance_I14_2807_4_6342.swapComponent(component_14_219)
-
-	// Ref to SUB NODE
-	var vector_I14_2807_4_6342_4_1230 = figma.getNodeById(instance_I14_2807_4_6342.id + ";" + vector_14_220.id)
-	vector_I14_2807_4_6342_4_1230.strokeStyleId = slate_700_226f.id
-	vector_I14_2807_4_6342_4_1230.resize(4.0000000000, 8.0000000000)
-	vector_I14_2807_4_6342_4_1230.strokeWeight = 1.3333333730697632
-	
-
-	// Create INSTANCE
-	var instance_14_2808 = component_14_226.createInstance()
-	frame_14_2805.appendChild(instance_14_2808)
-	instance_14_2808.resize(672.0000000000, 32.0000000000)
-	instance_14_2808.counterAxisSizingMode = "AUTO"
-	instance_14_2808.name = "menu item"
-	instance_14_2808.relativeTransform = [[1,0,8],[0,1,70]]
-	instance_14_2808.x = 8
-	instance_14_2808.y = 70
-	
-
-				// Swap COMPONENT
-				instance_14_2808.swapComponent(component_14_226)
-
-	// Ref to SUB NODE
-	var text_I14_2808_4_5775 = figma.getNodeById("I" + instance_14_2808.id + ";" + text_14_227.id)
-	
-
-	// Create COMPONENT
-	var component_14_2776 = figma.createComponent()
-	component_14_2776.resize(24.0000000000, 24.0000000000)
-	component_14_2776.primaryAxisSizingMode = "AUTO"
-	component_14_2776.name = "icon/smile"
-	component_14_2776.relativeTransform = [[1,0,1740],[0,1,2270]]
-	component_14_2776.x = 1740
-	component_14_2776.y = 2270
-	component_14_2776.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	component_14_2776.strokeTopWeight = 1
-	component_14_2776.strokeBottomWeight = 1
-	component_14_2776.strokeLeftWeight = 1
-	component_14_2776.strokeRightWeight = 1
-	component_14_2776.clipsContent = true
-	component_14_2776.expanded = false
-	
-
-	// Create VECTOR
-	var vector_14_2777 = figma.createVector()
-	component_14_2776.appendChild(vector_14_2777)
-	vector_14_2777.resize(20.0000000000, 20.0000000000)
-	vector_14_2777.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2777.strokeWeight = 2
-	vector_14_2777.strokeJoin = "ROUND"
-	vector_14_2777.strokeCap = "ROUND"
-	vector_14_2777.relativeTransform = [[1,0,2],[0,1,2]]
-	vector_14_2777.x = 2
-	vector_14_2777.y = 2
-	vector_14_2777.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2777.vectorNetwork = {"vertices":[{"x":20,"y":10,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":10,"y":20,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":10,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":10,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":5.522847652435303},"tangentEnd":{"x":5.522847652435303,"y":0}},{"start":1,"end":2,"tangentStart":{"x":-5.522847652435303,"y":0},"tangentEnd":{"x":0,"y":5.522847652435303}},{"start":2,"end":3,"tangentStart":{"x":0,"y":-5.522847652435303},"tangentEnd":{"x":-5.522847652435303,"y":0}},{"start":3,"end":0,"tangentStart":{"x":5.522847652435303,"y":0},"tangentEnd":{"x":0,"y":-5.522847652435303}}],"regions":[]}
-	vector_14_2777.vectorPaths = [{"windingRule":"NONE","data":"M 20 10 C 20 15.522847652435303 15.522847652435303 20 10 20 C 4.477152347564697 20 0 15.522847652435303 0 10 C 0 4.477152347564697 4.477152347564697 0 10 0 C 15.522847652435303 0 20 4.477152347564697 20 10 Z"}]
-	
-
-	// Create VECTOR
-	var vector_14_2778 = figma.createVector()
-	component_14_2776.appendChild(vector_14_2778)
-	vector_14_2778.resize(8.0000000000, 2.0000000000)
-	vector_14_2778.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2778.strokeWeight = 2
-	vector_14_2778.strokeJoin = "ROUND"
-	vector_14_2778.strokeCap = "ROUND"
-	vector_14_2778.relativeTransform = [[1,0,8],[0,1,14]]
-	vector_14_2778.x = 8
-	vector_14_2778.y = 14
-	vector_14_2778.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2778.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":4,"y":2,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":8,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":-2.5,"y":0}},{"start":1,"end":2,"tangentStart":{"x":2.5,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1]],"fillStyleId":"","fills":[]}]}
-	vector_14_2778.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 C 0 0 1.5 2 4 2 C 6.5 2 8 0 8 0"}]
-	
-
-	// Create VECTOR
-	var vector_14_2779 = figma.createVector()
-	component_14_2776.appendChild(vector_14_2779)
-	vector_14_2779.resizeWithoutConstraints(0.0100002289, 0.0000000000)
-	vector_14_2779.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2779.strokeWeight = 2
-	vector_14_2779.strokeJoin = "ROUND"
-	vector_14_2779.strokeCap = "ROUND"
-	vector_14_2779.relativeTransform = [[1,0,9],[0,1,9]]
-	vector_14_2779.x = 9
-	vector_14_2779.y = 9
-	vector_14_2779.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2779.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.010000228881835937,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[]}
-	vector_14_2779.vectorPaths = [{"windingRule":"NONE","data":"M 0 0 L 0.010000228881835938 0"}]
-	
-
-	// Create VECTOR
-	var vector_14_2780 = figma.createVector()
-	component_14_2776.appendChild(vector_14_2780)
-	vector_14_2780.resizeWithoutConstraints(0.0100002289, 0.0000000000)
-	vector_14_2780.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2780.strokeWeight = 2
-	vector_14_2780.strokeJoin = "ROUND"
-	vector_14_2780.strokeCap = "ROUND"
-	vector_14_2780.relativeTransform = [[1,0,15],[0,1,9]]
-	vector_14_2780.x = 15
-	vector_14_2780.y = 9
-	vector_14_2780.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2780.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.010000228881835937,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[]}
-	vector_14_2780.vectorPaths = [{"windingRule":"NONE","data":"M 0 0 L 0.010000228881835938 0"}]
-	
-	// Ref to SUB NODE
-	var instance_I14_2808_4_6249 = figma.getNodeById("I" + instance_14_2808.id + ";" + instance_14_228.id)
-	instance_I14_2808_4_6249.name = "icon/smile"
-	instance_I14_2808_4_6249.strokeWeight = 1
-	instance_I14_2808_4_6249.strokeTopWeight = 1
-	instance_I14_2808_4_6249.strokeBottomWeight = 1
-	instance_I14_2808_4_6249.strokeLeftWeight = 1
-	instance_I14_2808_4_6249.strokeRightWeight = 1
-	
-
-				// Swap COMPONENT
-				instance_I14_2808_4_6249.swapComponent(component_14_2776)
-
-	// Ref to SUB NODE
-	var vector_I14_2808_4_6249_4_3959 = figma.getNodeById(instance_I14_2808_4_6249.id + ";" + vector_14_2777.id)
-	vector_I14_2808_4_6249_4_3959.strokeStyleId = slate_700_226f.id
-	vector_I14_2808_4_6249_4_3959.resize(13.3333339691, 13.3333339691)
-	
-	// Ref to SUB NODE
-	var vector_I14_2808_4_6249_4_3960 = figma.getNodeById(instance_I14_2808_4_6249.id + ";" + vector_14_2778.id)
-	vector_I14_2808_4_6249_4_3960.strokeStyleId = slate_700_226f.id
-	vector_I14_2808_4_6249_4_3960.resize(5.3333334923, 1.3333339691)
-	
-	// Ref to SUB NODE
-	var vector_I14_2808_4_6249_4_3961 = figma.getNodeById(instance_I14_2808_4_6249.id + ";" + vector_14_2779.id)
-	vector_I14_2808_4_6249_4_3961.resizeWithoutConstraints(0.0066666603, 0.0000000000)
-	
-	// Ref to SUB NODE
-	var vector_I14_2808_4_6249_4_3962 = figma.getNodeById(instance_I14_2808_4_6249.id + ";" + vector_14_2780.id)
-	vector_I14_2808_4_6249_4_3962.resizeWithoutConstraints(0.0066671371, 0.0000000000)
-	
-	// Ref to SUB NODE
-	var text_I14_2808_4_5778 = figma.getNodeById("I" + instance_14_2808.id + ";" + text_14_229.id)
-	text_I14_2808_4_5778.resize(632.0000000000, 20.0000000000)
+	var text_I16_2230_4_6341 = figma.getNodeById("I" + instance_16_2230.id + ";" + text_14_244.id)
+	text_I16_2230_4_6341.resize(20.0000000000, 20.0000000000)
+	text_I16_2230_4_6341.visible = false
 	
 	// Font properties
-	text_I14_2808_4_5778.fontName = {
+	text_I16_2230_4_6341.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_I14_2808_4_5778.characters = "Search Emojii"
+		text_I16_2230_4_6341.characters = "⌘R"
 
 	// Ref to SUB NODE
-	var text_I14_2808_4_5779 = figma.getNodeById("I" + instance_14_2808.id + ";" + text_14_230.id)
-	text_I14_2808_4_5779.visible = false
-	
-	// Ref to SUB NODE
-	var instance_I14_2808_4_6322 = figma.getNodeById("I" + instance_14_2808.id + ";" + instance_14_231.id)
-	instance_I14_2808_4_6322.visible = false
+	var instance_I16_2230_4_6342 = figma.getNodeById("I" + instance_16_2230.id + ";" + instance_14_245.id)
 	
 
 				// Swap COMPONENT
-				instance_I14_2808_4_6322.swapComponent(component_14_219)
+				instance_I16_2230_4_6342.swapComponent(component_14_219)
 
 	// Ref to SUB NODE
-	var vector_I14_2808_4_6322_4_1230 = figma.getNodeById(instance_I14_2808_4_6322.id + ";" + vector_14_220.id)
-	vector_I14_2808_4_6322_4_1230.strokeStyleId = slate_700_226f.id
-	vector_I14_2808_4_6322_4_1230.resize(4.0000000000, 8.0000000000)
-	vector_I14_2808_4_6322_4_1230.strokeWeight = 1.3333333730697632
-	
-
-	// Create INSTANCE
-	var instance_14_2809 = component_14_226.createInstance()
-	frame_14_2805.appendChild(instance_14_2809)
-	instance_14_2809.resize(672.0000000000, 32.0000000000)
-	instance_14_2809.counterAxisSizingMode = "AUTO"
-	instance_14_2809.name = "menu item"
-	instance_14_2809.relativeTransform = [[1,0,8],[0,1,102]]
-	instance_14_2809.x = 8
-	instance_14_2809.y = 102
-	
-
-				// Swap COMPONENT
-				instance_14_2809.swapComponent(component_14_226)
-
-	// Ref to SUB NODE
-	var text_I14_2809_4_5775 = figma.getNodeById("I" + instance_14_2809.id + ";" + text_14_227.id)
+	var vector_I16_2230_4_6342_4_1230 = figma.getNodeById(instance_I16_2230_4_6342.id + ";" + vector_14_220.id)
+	vector_I16_2230_4_6342_4_1230.strokeStyleId = slate_700_226f.id
+	vector_I16_2230_4_6342_4_1230.resize(4.0000000000, 8.0000000000)
+	vector_I16_2230_4_6342_4_1230.strokeWeight = 1.3333333730697632
 	
 
 	// Create COMPONENT
-	var component_14_2781 = figma.createComponent()
-	component_14_2781.resize(24.0000000000, 24.0000000000)
-	component_14_2781.primaryAxisSizingMode = "AUTO"
-	component_14_2781.name = "icon/calculator"
-	component_14_2781.relativeTransform = [[1,0,1836],[0,1,782]]
-	component_14_2781.x = 1836
-	component_14_2781.y = 782
-	component_14_2781.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	component_14_2781.strokeTopWeight = 1
-	component_14_2781.strokeBottomWeight = 1
-	component_14_2781.strokeLeftWeight = 1
-	component_14_2781.strokeRightWeight = 1
-	component_14_2781.clipsContent = true
-	component_14_2781.expanded = false
+	var component_14_249 = figma.createComponent()
+	component_14_249.resizeWithoutConstraints(246.0000000000, 0.01)
+	component_14_249.primaryAxisSizingMode = "AUTO"
+	component_14_249.counterAxisSizingMode = "AUTO"
+	component_14_249.name = "type=divider"
+	component_14_249.relativeTransform = [[1,0,20],[0,1,20]]
+	component_14_249.x = 20
+	component_14_249.y = 20
+	component_14_249.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	component_14_249.strokeTopWeight = 1
+	component_14_249.strokeBottomWeight = 1
+	component_14_249.strokeLeftWeight = 1
+	component_14_249.strokeRightWeight = 1
+	component_14_249.expanded = false
+	component_14_249.layoutMode = "VERTICAL"
+	component_14_249.counterAxisSizingMode = "AUTO"
 	
 
-	// Create VECTOR
-	var vector_14_2782 = figma.createVector()
-	component_14_2781.appendChild(vector_14_2782)
-	vector_14_2782.resize(16.0000000000, 20.0000000000)
-	vector_14_2782.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2782.strokeWeight = 2
-	vector_14_2782.strokeJoin = "ROUND"
-	vector_14_2782.strokeCap = "ROUND"
-	vector_14_2782.relativeTransform = [[1,0,4],[0,1,2]]
-	vector_14_2782.x = 4
-	vector_14_2782.y = 2
-	vector_14_2782.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2782.vectorNetwork = {"vertices":[{"x":2,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":14,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":16,"y":2,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":16,"y":18,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":14,"y":20,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":2,"y":20,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":18,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":2,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":1.1045695543289185,"y":0},"tangentEnd":{"x":0,"y":-1.1045695543289185}},{"start":2,"end":3,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":3,"end":4,"tangentStart":{"x":0,"y":1.1045695543289185},"tangentEnd":{"x":1.1045695543289185,"y":0}},{"start":4,"end":5,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":5,"end":6,"tangentStart":{"x":-1.1045695543289185,"y":0},"tangentEnd":{"x":0,"y":1.1045695543289185}},{"start":6,"end":7,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":7,"end":0,"tangentStart":{"x":0,"y":-1.1045695543289185},"tangentEnd":{"x":-1.1045695543289185,"y":0}}],"regions":[]}
-	vector_14_2782.vectorPaths = [{"windingRule":"NONE","data":"M 2 0 L 14 0 C 15.104569554328918 0 16 0.8954304456710815 16 2 L 16 18 C 16 19.10456955432892 15.104569554328918 20 14 20 L 2 20 C 0.8954304456710815 20 0 19.10456955432892 0 18 L 0 2 C 0 0.8954304456710815 0.8954304456710815 0 2 0 Z"}]
-	
-
-	// Create VECTOR
-	var vector_14_2783 = figma.createVector()
-	component_14_2781.appendChild(vector_14_2783)
-	vector_14_2783.resizeWithoutConstraints(8.0000000000, 0.0000000000)
-	vector_14_2783.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2783.strokeWeight = 2
-	vector_14_2783.strokeJoin = "ROUND"
-	vector_14_2783.strokeCap = "ROUND"
-	vector_14_2783.relativeTransform = [[1,0,8],[0,1,6]]
-	vector_14_2783.x = 8
-	vector_14_2783.y = 6
-	vector_14_2783.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2783.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":8,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[]}
-	vector_14_2783.vectorPaths = [{"windingRule":"NONE","data":"M 0 0 L 8 0"}]
-	
-
-	// Create VECTOR
-	var vector_14_2784 = figma.createVector()
-	component_14_2781.appendChild(vector_14_2784)
-	vector_14_2784.resize(0.0000000000, 4.0000000000)
-	vector_14_2784.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2784.strokeWeight = 2
-	vector_14_2784.strokeJoin = "ROUND"
-	vector_14_2784.strokeCap = "ROUND"
-	vector_14_2784.relativeTransform = [[1,0,16],[0,1,14]]
-	vector_14_2784.x = 16
-	vector_14_2784.y = 14
-	vector_14_2784.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2784.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":4,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[]}
-	vector_14_2784.vectorPaths = [{"windingRule":"NONE","data":"M 0 0 L 0 4"}]
-	
-
-	// Create VECTOR
-	var vector_14_2785 = figma.createVector()
-	component_14_2781.appendChild(vector_14_2785)
-	vector_14_2785.resizeWithoutConstraints(0.0100002289, 0.0000000000)
-	vector_14_2785.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2785.strokeWeight = 2
-	vector_14_2785.strokeJoin = "ROUND"
-	vector_14_2785.strokeCap = "ROUND"
-	vector_14_2785.relativeTransform = [[1,0,16],[0,1,10]]
-	vector_14_2785.x = 16
-	vector_14_2785.y = 10
-	vector_14_2785.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2785.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.010000228881835937,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0]],"fillStyleId":"","fills":[]}]}
-	vector_14_2785.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 0.010000228881835938 0"}]
-	
-
-	// Create VECTOR
-	var vector_14_2786 = figma.createVector()
-	component_14_2781.appendChild(vector_14_2786)
-	vector_14_2786.resizeWithoutConstraints(0.0100002289, 0.0000000000)
-	vector_14_2786.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2786.strokeWeight = 2
-	vector_14_2786.strokeJoin = "ROUND"
-	vector_14_2786.strokeCap = "ROUND"
-	vector_14_2786.relativeTransform = [[1,0,12],[0,1,10]]
-	vector_14_2786.x = 12
-	vector_14_2786.y = 10
-	vector_14_2786.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2786.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.010000228881835937,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0]],"fillStyleId":"","fills":[]}]}
-	vector_14_2786.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 0.010000228881835938 0"}]
-	
-
-	// Create VECTOR
-	var vector_14_2787 = figma.createVector()
-	component_14_2781.appendChild(vector_14_2787)
-	vector_14_2787.resizeWithoutConstraints(0.0100002289, 0.0000000000)
-	vector_14_2787.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2787.strokeWeight = 2
-	vector_14_2787.strokeJoin = "ROUND"
-	vector_14_2787.strokeCap = "ROUND"
-	vector_14_2787.relativeTransform = [[1,0,8],[0,1,10]]
-	vector_14_2787.x = 8
-	vector_14_2787.y = 10
-	vector_14_2787.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2787.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.010000228881835937,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0]],"fillStyleId":"","fills":[]}]}
-	vector_14_2787.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 0.010000228881835938 0"}]
-	
-
-	// Create VECTOR
-	var vector_14_2788 = figma.createVector()
-	component_14_2781.appendChild(vector_14_2788)
-	vector_14_2788.resizeWithoutConstraints(0.0100002289, 0.0000000000)
-	vector_14_2788.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2788.strokeWeight = 2
-	vector_14_2788.strokeJoin = "ROUND"
-	vector_14_2788.strokeCap = "ROUND"
-	vector_14_2788.relativeTransform = [[1,0,12],[0,1,14]]
-	vector_14_2788.x = 12
-	vector_14_2788.y = 14
-	vector_14_2788.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2788.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.010000228881835937,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0]],"fillStyleId":"","fills":[]}]}
-	vector_14_2788.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 0.010000228881835938 0"}]
-	
-
-	// Create VECTOR
-	var vector_14_2789 = figma.createVector()
-	component_14_2781.appendChild(vector_14_2789)
-	vector_14_2789.resizeWithoutConstraints(0.0100002289, 0.0000000000)
-	vector_14_2789.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2789.strokeWeight = 2
-	vector_14_2789.strokeJoin = "ROUND"
-	vector_14_2789.strokeCap = "ROUND"
-	vector_14_2789.relativeTransform = [[1,0,8],[0,1,14]]
-	vector_14_2789.x = 8
-	vector_14_2789.y = 14
-	vector_14_2789.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2789.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.010000228881835937,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0]],"fillStyleId":"","fills":[]}]}
-	vector_14_2789.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 0.010000228881835938 0"}]
-	
-
-	// Create VECTOR
-	var vector_14_2790 = figma.createVector()
-	component_14_2781.appendChild(vector_14_2790)
-	vector_14_2790.resizeWithoutConstraints(0.0100002289, 0.0000000000)
-	vector_14_2790.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2790.strokeWeight = 2
-	vector_14_2790.strokeJoin = "ROUND"
-	vector_14_2790.strokeCap = "ROUND"
-	vector_14_2790.relativeTransform = [[1,0,12],[0,1,18]]
-	vector_14_2790.x = 12
-	vector_14_2790.y = 18
-	vector_14_2790.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2790.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.010000228881835937,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0]],"fillStyleId":"","fills":[]}]}
-	vector_14_2790.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 0.010000228881835938 0"}]
-	
-
-	// Create VECTOR
-	var vector_14_2791 = figma.createVector()
-	component_14_2781.appendChild(vector_14_2791)
-	vector_14_2791.resizeWithoutConstraints(0.0100002289, 0.0000000000)
-	vector_14_2791.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_2791.strokeWeight = 2
-	vector_14_2791.strokeJoin = "ROUND"
-	vector_14_2791.strokeCap = "ROUND"
-	vector_14_2791.relativeTransform = [[1,0,8],[0,1,18]]
-	vector_14_2791.x = 8
-	vector_14_2791.y = 18
-	vector_14_2791.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_2791.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.010000228881835937,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0]],"fillStyleId":"","fills":[]}]}
-	vector_14_2791.vectorPaths = [{"windingRule":"NONZERO","data":"M 0 0 L 0.010000228881835938 0"}]
-	
-	// Ref to SUB NODE
-	var instance_I14_2809_4_6249 = figma.getNodeById("I" + instance_14_2809.id + ";" + instance_14_228.id)
-	instance_I14_2809_4_6249.name = "icon/calculator"
-	instance_I14_2809_4_6249.strokeWeight = 1
-	instance_I14_2809_4_6249.strokeTopWeight = 1
-	instance_I14_2809_4_6249.strokeBottomWeight = 1
-	instance_I14_2809_4_6249.strokeLeftWeight = 1
-	instance_I14_2809_4_6249.strokeRightWeight = 1
-	
-
-				// Swap COMPONENT
-				instance_I14_2809_4_6249.swapComponent(component_14_2781)
-
-	// Ref to SUB NODE
-	var vector_I14_2809_4_6249_4_1053 = figma.getNodeById(instance_I14_2809_4_6249.id + ";" + vector_14_2782.id)
-	vector_I14_2809_4_6249_4_1053.strokeStyleId = slate_700_226f.id
-	vector_I14_2809_4_6249_4_1053.resize(10.6666660309, 13.3333339691)
-	
-	// Ref to SUB NODE
-	var vector_I14_2809_4_6249_4_1054 = figma.getNodeById(instance_I14_2809_4_6249.id + ";" + vector_14_2783.id)
-	vector_I14_2809_4_6249_4_1054.strokeStyleId = slate_700_226f.id
-	vector_I14_2809_4_6249_4_1054.resizeWithoutConstraints(5.3333334923, 0.0000000000)
-	
-	// Ref to SUB NODE
-	var vector_I14_2809_4_6249_4_1055 = figma.getNodeById(instance_I14_2809_4_6249.id + ";" + vector_14_2784.id)
-	vector_I14_2809_4_6249_4_1055.resize(0.0000000000, 2.6666669846)
-	
-	// Ref to SUB NODE
-	var vector_I14_2809_4_6249_4_1056 = figma.getNodeById(instance_I14_2809_4_6249.id + ";" + vector_14_2785.id)
-	vector_I14_2809_4_6249_4_1056.resizeWithoutConstraints(0.0066661835, 0.0000000000)
-	
-	// Ref to SUB NODE
-	var vector_I14_2809_4_6249_4_1057 = figma.getNodeById(instance_I14_2809_4_6249.id + ";" + vector_14_2786.id)
-	vector_I14_2809_4_6249_4_1057.resizeWithoutConstraints(0.0066671371, 0.0000000000)
-	
-	// Ref to SUB NODE
-	var vector_I14_2809_4_6249_4_1058 = figma.getNodeById(instance_I14_2809_4_6249.id + ";" + vector_14_2787.id)
-	vector_I14_2809_4_6249_4_1058.resizeWithoutConstraints(0.0066666603, 0.0000000000)
-	
-	// Ref to SUB NODE
-	var vector_I14_2809_4_6249_4_1059 = figma.getNodeById(instance_I14_2809_4_6249.id + ";" + vector_14_2788.id)
-	vector_I14_2809_4_6249_4_1059.resizeWithoutConstraints(0.0066671371, 0.0000000000)
-	
-	// Ref to SUB NODE
-	var vector_I14_2809_4_6249_4_1060 = figma.getNodeById(instance_I14_2809_4_6249.id + ";" + vector_14_2789.id)
-	vector_I14_2809_4_6249_4_1060.resizeWithoutConstraints(0.0066666603, 0.0000000000)
-	
-	// Ref to SUB NODE
-	var vector_I14_2809_4_6249_4_1061 = figma.getNodeById(instance_I14_2809_4_6249.id + ";" + vector_14_2790.id)
-	vector_I14_2809_4_6249_4_1061.resizeWithoutConstraints(0.0066671371, 0.0000000000)
-	
-	// Ref to SUB NODE
-	var vector_I14_2809_4_6249_4_1062 = figma.getNodeById(instance_I14_2809_4_6249.id + ";" + vector_14_2791.id)
-	vector_I14_2809_4_6249_4_1062.resizeWithoutConstraints(0.0066666603, 0.0000000000)
-	
-	// Ref to SUB NODE
-	var text_I14_2809_4_5778 = figma.getNodeById("I" + instance_14_2809.id + ";" + text_14_229.id)
-	text_I14_2809_4_5778.resize(632.0000000000, 20.0000000000)
-	
-	// Font properties
-	text_I14_2809_4_5778.fontName = {
-		family: "Inter",
-		style: "Medium"
-	}
-		text_I14_2809_4_5778.characters = "Calculator"
-
-	// Ref to SUB NODE
-	var text_I14_2809_4_5779 = figma.getNodeById("I" + instance_14_2809.id + ";" + text_14_230.id)
-	text_I14_2809_4_5779.visible = false
-	
-	// Ref to SUB NODE
-	var instance_I14_2809_4_6322 = figma.getNodeById("I" + instance_14_2809.id + ";" + instance_14_231.id)
-	instance_I14_2809_4_6322.visible = false
-	
-
-				// Swap COMPONENT
-				instance_I14_2809_4_6322.swapComponent(component_14_219)
-
-	// Ref to SUB NODE
-	var vector_I14_2809_4_6322_4_1230 = figma.getNodeById(instance_I14_2809_4_6322.id + ";" + vector_14_220.id)
-	vector_I14_2809_4_6322_4_1230.strokeStyleId = slate_700_226f.id
-	vector_I14_2809_4_6322_4_1230.resize(4.0000000000, 8.0000000000)
-	vector_I14_2809_4_6322_4_1230.strokeWeight = 1.3333333730697632
+	// Create LINE
+	var line_14_250 = figma.createLine()
+	component_14_249.appendChild(line_14_250)
+	line_14_250.strokeStyleId = slate_100_ab69.id
+	line_14_250.resizeWithoutConstraints(246.0000000000, 0)
+	line_14_250.name = "Line 1"
 	
 
 	// Create INSTANCE
-	var instance_14_2810 = component_14_249.createInstance()
-	component_14_2801.appendChild(instance_14_2810)
-	instance_14_2810.name = "section items"
-	instance_14_2810.relativeTransform = [[1,0,0],[0,1,180]]
-	instance_14_2810.y = 180
-	instance_14_2810.rotation = 1.4033419209422001e-14
-	instance_14_2810.counterAxisSizingMode = "FIXED"
+	var instance_16_2231 = component_14_249.createInstance()
+	frame_16_2225.appendChild(instance_16_2231)
+	instance_16_2231.name = "section 1"
+	instance_16_2231.relativeTransform = [[1,0,0],[0,1,138]]
+	instance_16_2231.y = 138
+	instance_16_2231.counterAxisSizingMode = "FIXED"
 	
 
 				// Swap COMPONENT
-				instance_14_2810.swapComponent(component_14_249)
+				instance_16_2231.swapComponent(component_14_249)
 
 	// Ref to SUB NODE
-	var line_I14_2810_1_158 = figma.getNodeById("I" + instance_14_2810.id + ";" + line_14_250.id)
-	line_I14_2810_1_158.strokeStyleId = slate_100_ab69.id
-	line_I14_2810_1_158.resizeWithoutConstraints(690.0000000000, 0)
-	line_I14_2810_1_158.name = "Line 1"
-	line_I14_2810_1_158.layoutAlign = "STRETCH"
+	var line_I16_2231_1_158 = figma.getNodeById("I" + instance_16_2231.id + ";" + line_14_250.id)
+	line_I16_2231_1_158.strokeStyleId = slate_100_ab69.id
+	line_I16_2231_1_158.resizeWithoutConstraints(256.0000000000, 0)
+	line_I16_2231_1_158.name = "Line 1"
+	line_I16_2231_1_158.layoutAlign = "STRETCH"
 	
 
 	// Create FRAME
-	var frame_14_2811 = figma.createFrame()
-	component_14_2801.appendChild(frame_14_2811)
-	frame_14_2811.resize(690.0000000000, 140.0000000000)
-	frame_14_2811.primaryAxisSizingMode = "AUTO"
-	frame_14_2811.fillStyleId = white_2dc6.id
-	frame_14_2811.backgroundStyleId = white_2dc6.id
-	frame_14_2811.name = "bottom"
-	frame_14_2811.relativeTransform = [[1,0,0],[0,1,180]]
-	frame_14_2811.y = 180
-	frame_14_2811.layoutAlign = "STRETCH"
-	frame_14_2811.bottomLeftRadius = 8
-	frame_14_2811.bottomRightRadius = 8
-	frame_14_2811.paddingLeft = 8
-	frame_14_2811.paddingRight = 8
-	frame_14_2811.paddingTop = 6
-	frame_14_2811.paddingBottom = 6
-	frame_14_2811.strokeTopWeight = 1
-	frame_14_2811.strokeBottomWeight = 1
-	frame_14_2811.strokeLeftWeight = 1
-	frame_14_2811.strokeRightWeight = 1
-	frame_14_2811.clipsContent = false
-	frame_14_2811.expanded = false
-	frame_14_2811.layoutMode = "VERTICAL"
+	var frame_16_2232 = figma.createFrame()
+	frame_16_2225.appendChild(frame_16_2232)
+	frame_16_2232.resize(256.0000000000, 74.0000000000)
+	frame_16_2232.primaryAxisSizingMode = "AUTO"
+	frame_16_2232.name = "middle section"
+	frame_16_2232.relativeTransform = [[1,0,0],[0,1,138]]
+	frame_16_2232.y = 138
+	frame_16_2232.layoutAlign = "STRETCH"
+	frame_16_2232.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_16_2232.paddingLeft = 5
+	frame_16_2232.paddingRight = 5
+	frame_16_2232.paddingTop = 5
+	frame_16_2232.paddingBottom = 5
+	frame_16_2232.strokeTopWeight = 1
+	frame_16_2232.strokeBottomWeight = 1
+	frame_16_2232.strokeLeftWeight = 1
+	frame_16_2232.strokeRightWeight = 1
+	frame_16_2232.clipsContent = false
+	frame_16_2232.expanded = false
+	frame_16_2232.layoutMode = "VERTICAL"
+	frame_16_2232.itemSpacing = 10
+	
+
+	// Create FRAME
+	var frame_16_2233 = figma.createFrame()
+	frame_16_2232.appendChild(frame_16_2233)
+	frame_16_2233.resize(246.0000000000, 64.0000000000)
+	frame_16_2233.primaryAxisSizingMode = "AUTO"
+	frame_16_2233.name = "Frame 4"
+	frame_16_2233.relativeTransform = [[1,0,5],[0,1,5]]
+	frame_16_2233.x = 5
+	frame_16_2233.y = 5
+	frame_16_2233.fills = []
+	frame_16_2233.strokeTopWeight = 1
+	frame_16_2233.strokeBottomWeight = 1
+	frame_16_2233.strokeLeftWeight = 1
+	frame_16_2233.strokeRightWeight = 1
+	frame_16_2233.clipsContent = false
+	frame_16_2233.expanded = false
+	frame_16_2233.layoutMode = "VERTICAL"
 	
 
 	// Create INSTANCE
-	var instance_14_2812 = component_14_238.createInstance()
-	frame_14_2811.appendChild(instance_14_2812)
-	instance_14_2812.resize(672.0000000000, 32.0000000000)
-	instance_14_2812.counterAxisSizingMode = "AUTO"
-	instance_14_2812.name = "menu item"
-	instance_14_2812.relativeTransform = [[1,0,8],[0,1,6]]
-	instance_14_2812.x = 8
-	instance_14_2812.y = 6
-	instance_14_2812.paddingLeft = 8
+	var instance_16_2234 = component_14_226.createInstance()
+	frame_16_2233.appendChild(instance_16_2234)
+	instance_16_2234.resize(246.0000000000, 32.0000000000)
+	instance_16_2234.counterAxisSizingMode = "AUTO"
+	instance_16_2234.name = "menu item"
+	instance_16_2234.relativeTransform = [[1,0,0],[0,1,0]]
+	instance_16_2234.layoutAlign = "STRETCH"
 	
 
 				// Swap COMPONENT
-				instance_14_2812.swapComponent(component_14_238)
+				instance_16_2234.swapComponent(component_14_226)
 
 	// Ref to SUB NODE
-	var text_I14_2812_12_343 = figma.getNodeById("I" + instance_14_2812.id + ";" + text_14_239.id)
-	text_I14_2812_12_343.resize(656.0000000000, 20.0000000000)
+	var text_I16_2234_4_5775 = figma.getNodeById("I" + instance_16_2234.id + ";" + text_14_227.id)
+	
+
+	// Create COMPONENT
+	var component_14_246 = figma.createComponent()
+	component_14_246.resize(24.0000000000, 24.0000000000)
+	component_14_246.primaryAxisSizingMode = "AUTO"
+	component_14_246.name = "icon/check"
+	component_14_246.relativeTransform = [[1,0,1740],[0,1,854]]
+	component_14_246.x = 1740
+	component_14_246.y = 854
+	component_14_246.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	component_14_246.strokeTopWeight = 1
+	component_14_246.strokeBottomWeight = 1
+	component_14_246.strokeLeftWeight = 1
+	component_14_246.strokeRightWeight = 1
+	component_14_246.clipsContent = true
+	component_14_246.expanded = false
+	
+
+	// Create VECTOR
+	var vector_14_247 = figma.createVector()
+	component_14_246.appendChild(vector_14_247)
+	vector_14_247.resize(16.0000000000, 11.0000000000)
+	vector_14_247.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
+	vector_14_247.strokeWeight = 2
+	vector_14_247.strokeJoin = "ROUND"
+	vector_14_247.strokeCap = "ROUND"
+	vector_14_247.relativeTransform = [[1,0,4],[0,1,6]]
+	vector_14_247.x = 4
+	vector_14_247.y = 6
+	vector_14_247.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
+	vector_14_247.vectorNetwork = {"vertices":[{"x":16,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":5,"y":11,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":6,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1]],"fillStyleId":"","fills":[]}]}
+	vector_14_247.vectorPaths = [{"windingRule":"NONZERO","data":"M 16 0 L 5 11 L 0 6"}]
+	
+	// Ref to SUB NODE
+	var instance_I16_2234_4_6249 = figma.getNodeById("I" + instance_16_2234.id + ";" + instance_14_228.id)
+	instance_I16_2234_4_6249.name = "icon/check"
+	instance_I16_2234_4_6249.strokeWeight = 1
+	instance_I16_2234_4_6249.strokeTopWeight = 1
+	instance_I16_2234_4_6249.strokeBottomWeight = 1
+	instance_I16_2234_4_6249.strokeLeftWeight = 1
+	instance_I16_2234_4_6249.strokeRightWeight = 1
+	
+
+				// Swap COMPONENT
+				instance_I16_2234_4_6249.swapComponent(component_14_246)
+
+	// Ref to SUB NODE
+	var vector_I16_2234_4_6249_4_1210 = figma.getNodeById(instance_I16_2234_4_6249.id + ";" + vector_14_247.id)
+	vector_I16_2234_4_6249_4_1210.strokeStyleId = slate_700_226f.id
+	vector_I16_2234_4_6249_4_1210.resize(10.6666660309, 7.3333330154)
+	
+	// Ref to SUB NODE
+	var text_I16_2234_4_5778 = figma.getNodeById("I" + instance_16_2234.id + ";" + text_14_229.id)
+	text_I16_2234_4_5778.resize(165.0000000000, 20.0000000000)
 	
 	// Font properties
-	text_I14_2812_12_343.fontName = {
+	text_I16_2234_4_5778.fontName = {
+		family: "Inter",
+		style: "Medium"
+	}
+		text_I16_2234_4_5778.characters = "Show Bookmark Bar"
+
+	// Ref to SUB NODE
+	var text_I16_2234_4_5779 = figma.getNodeById("I" + instance_16_2234.id + ";" + text_14_230.id)
+	
+	// Ref to SUB NODE
+	var instance_I16_2234_4_6322 = figma.getNodeById("I" + instance_16_2234.id + ";" + instance_14_231.id)
+	instance_I16_2234_4_6322.visible = false
+	
+
+				// Swap COMPONENT
+				instance_I16_2234_4_6322.swapComponent(component_14_219)
+
+	// Ref to SUB NODE
+	var vector_I16_2234_4_6322_4_1230 = figma.getNodeById(instance_I16_2234_4_6322.id + ";" + vector_14_220.id)
+	vector_I16_2234_4_6322_4_1230.strokeStyleId = slate_700_226f.id
+	vector_I16_2234_4_6322_4_1230.resize(4.0000000000, 8.0000000000)
+	vector_I16_2234_4_6322_4_1230.strokeWeight = 1.3333333730697632
+	
+
+	// Create INSTANCE
+	var instance_16_2235 = component_14_226.createInstance()
+	frame_16_2233.appendChild(instance_16_2235)
+	instance_16_2235.resize(246.0000000000, 32.0000000000)
+	instance_16_2235.counterAxisSizingMode = "AUTO"
+	instance_16_2235.name = "menu item"
+	instance_16_2235.relativeTransform = [[1,0,0],[0,1,32]]
+	instance_16_2235.y = 32
+	instance_16_2235.layoutAlign = "STRETCH"
+	instance_16_2235.paddingLeft = 32
+	
+
+				// Swap COMPONENT
+				instance_16_2235.swapComponent(component_14_226)
+
+	// Ref to SUB NODE
+	var text_I16_2235_4_5775 = figma.getNodeById("I" + instance_16_2235.id + ";" + text_14_227.id)
+	
+	// Ref to SUB NODE
+	var instance_I16_2235_4_6249 = figma.getNodeById("I" + instance_16_2235.id + ";" + instance_14_228.id)
+	instance_I16_2235_4_6249.visible = false
+	
+
+				// Swap COMPONENT
+				instance_I16_2235_4_6249.swapComponent(component_5_8766)
+
+	// Ref to SUB NODE
+	var vector_I16_2235_4_6249_4_3047 = figma.getNodeById(instance_I16_2235_4_6249.id + ";" + vector_5_8767.id)
+	vector_I16_2235_4_6249_4_3047.strokeStyleId = slate_700_226f.id
+	vector_I16_2235_4_6249_4_3047.resize(13.3333339691, 10.6666669846)
+	vector_I16_2235_4_6249_4_3047.strokeWeight = 1.3333333730697632
+	
+	// Ref to SUB NODE
+	var vector_I16_2235_4_6249_4_3048 = figma.getNodeById(instance_I16_2235_4_6249.id + ";" + vector_5_8768.id)
+	vector_I16_2235_4_6249_4_3048.strokeStyleId = slate_700_226f.id
+	vector_I16_2235_4_6249_4_3048.resize(13.3333339691, 3.9973406792)
+	vector_I16_2235_4_6249_4_3048.strokeWeight = 1.3333333730697632
+	
+	// Ref to SUB NODE
+	var text_I16_2235_4_5778 = figma.getNodeById("I" + instance_16_2235.id + ";" + text_14_229.id)
+	text_I16_2235_4_5778.resize(206.0000000000, 20.0000000000)
+	
+	// Font properties
+	text_I16_2235_4_5778.fontName = {
+		family: "Inter",
+		style: "Medium"
+	}
+		text_I16_2235_4_5778.characters = "Show Full Urls"
+
+	// Ref to SUB NODE
+	var text_I16_2235_4_5779 = figma.getNodeById("I" + instance_16_2235.id + ";" + text_14_230.id)
+	text_I16_2235_4_5779.resize(17.0000000000, 20.0000000000)
+	text_I16_2235_4_5779.visible = false
+	
+	// Font properties
+	text_I16_2235_4_5779.fontName = {
+		family: "Inter",
+		style: "Medium"
+	}
+		text_I16_2235_4_5779.characters = "⌘]"
+
+	// Ref to SUB NODE
+	var instance_I16_2235_4_6322 = figma.getNodeById("I" + instance_16_2235.id + ";" + instance_14_231.id)
+	instance_I16_2235_4_6322.visible = false
+	
+
+				// Swap COMPONENT
+				instance_I16_2235_4_6322.swapComponent(component_14_219)
+
+	// Ref to SUB NODE
+	var vector_I16_2235_4_6322_4_1230 = figma.getNodeById(instance_I16_2235_4_6322.id + ";" + vector_14_220.id)
+	vector_I16_2235_4_6322_4_1230.strokeStyleId = slate_700_226f.id
+	vector_I16_2235_4_6322_4_1230.resize(4.0000000000, 8.0000000000)
+	vector_I16_2235_4_6322_4_1230.strokeWeight = 1.3333333730697632
+	
+
+	// Create INSTANCE
+	var instance_16_2236 = component_14_249.createInstance()
+	frame_16_2225.appendChild(instance_16_2236)
+	instance_16_2236.name = "section items"
+	instance_16_2236.relativeTransform = [[1,0,0],[0,1,212]]
+	instance_16_2236.y = 212
+	instance_16_2236.counterAxisSizingMode = "FIXED"
+	
+
+				// Swap COMPONENT
+				instance_16_2236.swapComponent(component_14_249)
+
+	// Ref to SUB NODE
+	var line_I16_2236_1_158 = figma.getNodeById("I" + instance_16_2236.id + ";" + line_14_250.id)
+	line_I16_2236_1_158.strokeStyleId = slate_100_ab69.id
+	line_I16_2236_1_158.resizeWithoutConstraints(256.0000000000, 0)
+	line_I16_2236_1_158.name = "Line 1"
+	line_I16_2236_1_158.layoutAlign = "STRETCH"
+	
+
+	// Create FRAME
+	var frame_16_2237 = figma.createFrame()
+	frame_16_2225.appendChild(frame_16_2237)
+	frame_16_2237.resize(256.0000000000, 42.0000000000)
+	frame_16_2237.primaryAxisSizingMode = "AUTO"
+	frame_16_2237.name = "title section"
+	frame_16_2237.relativeTransform = [[1,0,0],[0,1,212]]
+	frame_16_2237.y = 212
+	frame_16_2237.layoutAlign = "STRETCH"
+	frame_16_2237.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_16_2237.paddingLeft = 5
+	frame_16_2237.paddingRight = 5
+	frame_16_2237.paddingTop = 5
+	frame_16_2237.paddingBottom = 5
+	frame_16_2237.strokeTopWeight = 1
+	frame_16_2237.strokeBottomWeight = 1
+	frame_16_2237.strokeLeftWeight = 1
+	frame_16_2237.strokeRightWeight = 1
+	frame_16_2237.clipsContent = false
+	frame_16_2237.expanded = false
+	frame_16_2237.layoutMode = "VERTICAL"
+	frame_16_2237.itemSpacing = 10
+	
+
+	// Create COMPONENT
+	var component_14_238 = figma.createComponent()
+	component_14_238.resize(236.0000000000, 32.0000000000)
+	component_14_238.counterAxisSizingMode = "AUTO"
+	component_14_238.name = "State=Default, type=section title"
+	component_14_238.relativeTransform = [[1,0,15],[0,1,114]]
+	component_14_238.x = 15
+	component_14_238.y = 114
+	component_14_238.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	component_14_238.paddingLeft = 32
+	component_14_238.paddingRight = 8
+	component_14_238.paddingTop = 6
+	component_14_238.paddingBottom = 6
+	component_14_238.counterAxisAlignItems = "CENTER"
+	component_14_238.primaryAxisSizingMode = "FIXED"
+	component_14_238.strokeTopWeight = 1
+	component_14_238.strokeBottomWeight = 1
+	component_14_238.strokeLeftWeight = 1
+	component_14_238.strokeRightWeight = 1
+	component_14_238.expanded = false
+	component_14_238.layoutMode = "HORIZONTAL"
+	component_14_238.counterAxisSizingMode = "AUTO"
+	component_14_238.itemSpacing = 8
+	
+
+	// Create TEXT
+	var text_14_239 = figma.createText()
+	component_14_238.appendChild(text_14_239)
+	text_14_239.fillStyleId = slate_700_226f.id
+	text_14_239.resize(196.0000000000, 20.0000000000)
+	text_14_239.name = "Section Title"
+	text_14_239.relativeTransform = [[1,0,32],[0,1,6]]
+	text_14_239.x = 32
+	text_14_239.y = 6
+	text_14_239.layoutGrow = 1
+	
+	// Font properties
+	text_14_239.fontName = {
 		family: "Inter",
 		style: "Semi Bold"
 	}
-		text_I14_2812_12_343.characters = "Settings"
+		text_14_239.characters = "Section Title"
+	text_14_239.listSpacing = 0
+	text_14_239.textAutoResize = "HEIGHT"
 
 
 	// Create INSTANCE
-	var instance_14_2813 = component_14_226.createInstance()
-	frame_14_2811.appendChild(instance_14_2813)
-	instance_14_2813.resize(672.0000000000, 32.0000000000)
-	instance_14_2813.counterAxisSizingMode = "AUTO"
-	instance_14_2813.name = "menu item"
-	instance_14_2813.relativeTransform = [[1,0,8],[0,1,38]]
-	instance_14_2813.x = 8
-	instance_14_2813.y = 38
+	var instance_16_2238 = component_14_238.createInstance()
+	frame_16_2237.appendChild(instance_16_2238)
+	instance_16_2238.resize(246.0000000000, 32.0000000000)
+	instance_16_2238.counterAxisSizingMode = "AUTO"
+	instance_16_2238.name = "menu item"
+	instance_16_2238.relativeTransform = [[1,0,5],[0,1,5]]
+	instance_16_2238.x = 5
+	instance_16_2238.y = 5
 	
 
 				// Swap COMPONENT
-				instance_14_2813.swapComponent(component_14_226)
+				instance_16_2238.swapComponent(component_14_238)
 
 	// Ref to SUB NODE
-	var text_I14_2813_4_5775 = figma.getNodeById("I" + instance_14_2813.id + ";" + text_14_227.id)
-	
-
-	// Create COMPONENT
-	var component_14_216 = figma.createComponent()
-	component_14_216.resize(24.0000000000, 24.0000000000)
-	component_14_216.primaryAxisSizingMode = "AUTO"
-	component_14_216.name = "icon/user"
-	component_14_216.relativeTransform = [[1,0,1764],[0,1,2486]]
-	component_14_216.x = 1764
-	component_14_216.y = 2486
-	component_14_216.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	component_14_216.strokeTopWeight = 1
-	component_14_216.strokeBottomWeight = 1
-	component_14_216.strokeLeftWeight = 1
-	component_14_216.strokeRightWeight = 1
-	component_14_216.clipsContent = true
-	component_14_216.expanded = false
-	
-
-	// Create VECTOR
-	var vector_14_217 = figma.createVector()
-	component_14_216.appendChild(vector_14_217)
-	vector_14_217.resize(14.0000000000, 6.0000000000)
-	vector_14_217.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_217.strokeWeight = 2
-	vector_14_217.strokeJoin = "ROUND"
-	vector_14_217.strokeCap = "ROUND"
-	vector_14_217.relativeTransform = [[1,0,5],[0,1,15]]
-	vector_14_217.x = 5
-	vector_14_217.y = 15
-	vector_14_217.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_217.vectorNetwork = {"vertices":[{"x":14,"y":6,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":14,"y":4,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":12.828426361083984,"y":1.1715736389160156,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":10,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":4,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.1715726852416992,"y":1.1715736389160156,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":4,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":6,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":0,"y":-1.0608659982681274},"tangentEnd":{"x":0.7501454949378967,"y":0.7501454949378967}},{"start":2,"end":3,"tangentStart":{"x":-0.7501454949378967,"y":-0.7501454949378967},"tangentEnd":{"x":1.0608659982681274,"y":3.552713678800501e-15}},{"start":3,"end":4,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":4,"end":5,"tangentStart":{"x":-1.0608659982681274,"y":1.7763568394002505e-15},"tangentEnd":{"x":0.7501454949378967,"y":-0.7501454949378967}},{"start":5,"end":6,"tangentStart":{"x":-0.7501454949378967,"y":0.7501454949378967},"tangentEnd":{"x":8.881784197001252e-16,"y":-1.0608659982681274}},{"start":6,"end":7,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1,2,3,4,5,6]],"fillStyleId":"","fills":[]}]}
-	vector_14_217.vectorPaths = [{"windingRule":"NONZERO","data":"M 14 6 L 14 4 C 14 2.9391340017318726 13.578571856021881 1.9217191338539124 12.828426361083984 1.1715736389160156 C 12.078280866146088 0.4214281439781189 11.060865998268127 3.552713678800501e-15 10 0 L 4 0 C 2.9391340017318726 1.7763568394002505e-15 1.921718180179596 0.4214281439781189 1.1715726852416992 1.1715736389160156 C 0.4214271903038025 1.9217191338539124 8.881784197001252e-16 2.9391340017318726 0 4 L 0 6"}]
-	
-
-	// Create VECTOR
-	var vector_14_218 = figma.createVector()
-	component_14_216.appendChild(vector_14_218)
-	vector_14_218.resize(8.0000000000, 8.0000000000)
-	vector_14_218.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_218.strokeWeight = 2
-	vector_14_218.strokeJoin = "ROUND"
-	vector_14_218.strokeCap = "ROUND"
-	vector_14_218.relativeTransform = [[1,0,8],[0,1,3]]
-	vector_14_218.x = 8
-	vector_14_218.y = 3
-	vector_14_218.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_218.vectorNetwork = {"vertices":[{"x":8,"y":4,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":4,"y":8,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":4,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":4,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":2.209139108657837},"tangentEnd":{"x":2.209139108657837,"y":0}},{"start":1,"end":2,"tangentStart":{"x":-2.209139108657837,"y":0},"tangentEnd":{"x":0,"y":2.209139108657837}},{"start":2,"end":3,"tangentStart":{"x":0,"y":-2.209139108657837},"tangentEnd":{"x":-2.209139108657837,"y":0}},{"start":3,"end":0,"tangentStart":{"x":2.209139108657837,"y":0},"tangentEnd":{"x":0,"y":-2.209139108657837}}],"regions":[]}
-	vector_14_218.vectorPaths = [{"windingRule":"NONE","data":"M 8 4 C 8 6.209139108657837 6.209139108657837 8 4 8 C 1.790860891342163 8 0 6.209139108657837 0 4 C 0 1.790860891342163 1.790860891342163 0 4 0 C 6.209139108657837 0 8 1.790860891342163 8 4 Z"}]
-	
-	// Ref to SUB NODE
-	var instance_I14_2813_4_6249 = figma.getNodeById("I" + instance_14_2813.id + ";" + instance_14_228.id)
-	instance_I14_2813_4_6249.name = "icon/user"
-	instance_I14_2813_4_6249.strokeWeight = 1
-	instance_I14_2813_4_6249.strokeTopWeight = 1
-	instance_I14_2813_4_6249.strokeBottomWeight = 1
-	instance_I14_2813_4_6249.strokeLeftWeight = 1
-	instance_I14_2813_4_6249.strokeRightWeight = 1
-	
-
-				// Swap COMPONENT
-				instance_I14_2813_4_6249.swapComponent(component_14_216)
-
-	// Ref to SUB NODE
-	var vector_I14_2813_4_6249_4_4395 = figma.getNodeById(instance_I14_2813_4_6249.id + ";" + vector_14_217.id)
-	vector_I14_2813_4_6249_4_4395.strokeStyleId = slate_700_226f.id
-	vector_I14_2813_4_6249_4_4395.resize(9.3333339691, 4.0000000000)
-	
-	// Ref to SUB NODE
-	var vector_I14_2813_4_6249_4_4396 = figma.getNodeById(instance_I14_2813_4_6249.id + ";" + vector_14_218.id)
-	vector_I14_2813_4_6249_4_4396.strokeStyleId = slate_700_226f.id
-	vector_I14_2813_4_6249_4_4396.resize(5.3333334923, 5.3333334923)
-	
-	// Ref to SUB NODE
-	var text_I14_2813_4_5778 = figma.getNodeById("I" + instance_14_2813.id + ";" + text_14_229.id)
-	text_I14_2813_4_5778.resize(604.0000000000, 20.0000000000)
+	var text_I16_2238_12_343 = figma.getNodeById("I" + instance_16_2238.id + ";" + text_14_239.id)
+	text_I16_2238_12_343.resize(206.0000000000, 20.0000000000)
 	
 	// Font properties
-	text_I14_2813_4_5778.fontName = {
+	text_I16_2238_12_343.fontName = {
 		family: "Inter",
-		style: "Medium"
+		style: "Semi Bold"
 	}
-		text_I14_2813_4_5778.characters = "Profile"
+		text_I16_2238_12_343.characters = "People "
 
-	// Ref to SUB NODE
-	var text_I14_2813_4_5779 = figma.getNodeById("I" + instance_14_2813.id + ";" + text_14_230.id)
-	text_I14_2813_4_5779.resize(20.0000000000, 20.0000000000)
-	
-	// Font properties
-	text_I14_2813_4_5779.fontName = {
-		family: "Inter",
-		style: "Medium"
-	}
-		text_I14_2813_4_5779.characters = "⌘P"
 
-	// Ref to SUB NODE
-	var instance_I14_2813_4_6322 = figma.getNodeById("I" + instance_14_2813.id + ";" + instance_14_231.id)
-	instance_I14_2813_4_6322.visible = false
+	// Create INSTANCE
+	var instance_16_2239 = component_14_249.createInstance()
+	frame_16_2225.appendChild(instance_16_2239)
+	instance_16_2239.name = "section items"
+	instance_16_2239.relativeTransform = [[1,0,0],[0,1,254]]
+	instance_16_2239.y = 254
+	instance_16_2239.counterAxisSizingMode = "FIXED"
 	
 
 				// Swap COMPONENT
-				instance_I14_2813_4_6322.swapComponent(component_14_219)
+				instance_16_2239.swapComponent(component_14_249)
 
 	// Ref to SUB NODE
-	var vector_I14_2813_4_6322_4_1230 = figma.getNodeById(instance_I14_2813_4_6322.id + ";" + vector_14_220.id)
-	vector_I14_2813_4_6322_4_1230.strokeStyleId = slate_700_226f.id
-	vector_I14_2813_4_6322_4_1230.resize(4.0000000000, 8.0000000000)
-	vector_I14_2813_4_6322_4_1230.strokeWeight = 1.3333333730697632
+	var line_I16_2239_1_158 = figma.getNodeById("I" + instance_16_2239.id + ";" + line_14_250.id)
+	line_I16_2239_1_158.strokeStyleId = slate_100_ab69.id
+	line_I16_2239_1_158.resizeWithoutConstraints(256.0000000000, 0)
+	line_I16_2239_1_158.name = "Line 1"
+	line_I16_2239_1_158.layoutAlign = "STRETCH"
+	
+
+	// Create FRAME
+	var frame_16_2240 = figma.createFrame()
+	frame_16_2225.appendChild(frame_16_2240)
+	frame_16_2240.resize(256.0000000000, 106.0000000000)
+	frame_16_2240.primaryAxisSizingMode = "AUTO"
+	frame_16_2240.name = "bottom section"
+	frame_16_2240.relativeTransform = [[1,0,0],[0,1,254]]
+	frame_16_2240.y = 254
+	frame_16_2240.layoutAlign = "STRETCH"
+	frame_16_2240.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_16_2240.paddingLeft = 5
+	frame_16_2240.paddingRight = 5
+	frame_16_2240.paddingTop = 5
+	frame_16_2240.paddingBottom = 5
+	frame_16_2240.strokeTopWeight = 1
+	frame_16_2240.strokeBottomWeight = 1
+	frame_16_2240.strokeLeftWeight = 1
+	frame_16_2240.strokeRightWeight = 1
+	frame_16_2240.clipsContent = false
+	frame_16_2240.expanded = false
+	frame_16_2240.layoutMode = "VERTICAL"
+	frame_16_2240.itemSpacing = 10
+	
+
+	// Create FRAME
+	var frame_16_2241 = figma.createFrame()
+	frame_16_2240.appendChild(frame_16_2241)
+	frame_16_2241.resize(246.0000000000, 96.0000000000)
+	frame_16_2241.primaryAxisSizingMode = "AUTO"
+	frame_16_2241.name = "Frame 4"
+	frame_16_2241.relativeTransform = [[1,0,5],[0,1,5]]
+	frame_16_2241.x = 5
+	frame_16_2241.y = 5
+	frame_16_2241.fills = []
+	frame_16_2241.strokeTopWeight = 1
+	frame_16_2241.strokeBottomWeight = 1
+	frame_16_2241.strokeLeftWeight = 1
+	frame_16_2241.strokeRightWeight = 1
+	frame_16_2241.clipsContent = false
+	frame_16_2241.expanded = false
+	frame_16_2241.layoutMode = "VERTICAL"
 	
 
 	// Create INSTANCE
-	var instance_14_2814 = component_14_226.createInstance()
-	frame_14_2811.appendChild(instance_14_2814)
-	instance_14_2814.resize(672.0000000000, 32.0000000000)
-	instance_14_2814.counterAxisSizingMode = "AUTO"
-	instance_14_2814.name = "menu item"
-	instance_14_2814.relativeTransform = [[1,0,8],[0,1,70]]
-	instance_14_2814.x = 8
-	instance_14_2814.y = 70
+	var instance_16_2242 = component_14_226.createInstance()
+	frame_16_2241.appendChild(instance_16_2242)
+	instance_16_2242.resize(246.0000000000, 32.0000000000)
+	instance_16_2242.counterAxisSizingMode = "AUTO"
+	instance_16_2242.name = "menu item"
+	instance_16_2242.relativeTransform = [[1,0,0],[0,1,0]]
+	instance_16_2242.layoutAlign = "STRETCH"
+	instance_16_2242.paddingLeft = 32
 	
 
 				// Swap COMPONENT
-				instance_14_2814.swapComponent(component_14_226)
+				instance_16_2242.swapComponent(component_14_226)
 
 	// Ref to SUB NODE
-	var text_I14_2814_4_5775 = figma.getNodeById("I" + instance_14_2814.id + ";" + text_14_227.id)
-	
-
-	// Create COMPONENT
-	var component_14_267 = figma.createComponent()
-	component_14_267.resize(24.0000000000, 24.0000000000)
-	component_14_267.primaryAxisSizingMode = "AUTO"
-	component_14_267.name = "icon/credit-card"
-	component_14_267.relativeTransform = [[1,0,1740],[0,1,1070]]
-	component_14_267.x = 1740
-	component_14_267.y = 1070
-	component_14_267.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	component_14_267.strokeTopWeight = 1
-	component_14_267.strokeBottomWeight = 1
-	component_14_267.strokeLeftWeight = 1
-	component_14_267.strokeRightWeight = 1
-	component_14_267.clipsContent = true
-	component_14_267.expanded = false
-	
-
-	// Create VECTOR
-	var vector_14_268 = figma.createVector()
-	component_14_267.appendChild(vector_14_268)
-	vector_14_268.resize(20.0000000000, 14.0000000000)
-	vector_14_268.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_268.strokeWeight = 2
-	vector_14_268.strokeJoin = "ROUND"
-	vector_14_268.strokeCap = "ROUND"
-	vector_14_268.relativeTransform = [[1,0,2],[0,1,5]]
-	vector_14_268.x = 2
-	vector_14_268.y = 5
-	vector_14_268.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_268.vectorNetwork = {"vertices":[{"x":2,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":18,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":20,"y":2,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":20,"y":12,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":18,"y":14,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":2,"y":14,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":12,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":2,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":1.1045695543289185,"y":0},"tangentEnd":{"x":0,"y":-1.1045695543289185}},{"start":2,"end":3,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":3,"end":4,"tangentStart":{"x":0,"y":1.1045695543289185},"tangentEnd":{"x":1.1045695543289185,"y":0}},{"start":4,"end":5,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":5,"end":6,"tangentStart":{"x":-1.1045695543289185,"y":0},"tangentEnd":{"x":0,"y":1.1045695543289185}},{"start":6,"end":7,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":7,"end":0,"tangentStart":{"x":0,"y":-1.1045695543289185},"tangentEnd":{"x":-1.1045695543289185,"y":0}}],"regions":[]}
-	vector_14_268.vectorPaths = [{"windingRule":"NONE","data":"M 2 0 L 18 0 C 19.10456955432892 0 20 0.8954304456710815 20 2 L 20 12 C 20 13.104569554328918 19.10456955432892 14 18 14 L 2 14 C 0.8954304456710815 14 0 13.104569554328918 0 12 L 0 2 C 0 0.8954304456710815 0.8954304456710815 0 2 0 Z"}]
-	
-
-	// Create VECTOR
-	var vector_14_269 = figma.createVector()
-	component_14_267.appendChild(vector_14_269)
-	vector_14_269.resizeWithoutConstraints(20.0000000000, 0.0000000000)
-	vector_14_269.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_269.strokeWeight = 2
-	vector_14_269.strokeJoin = "ROUND"
-	vector_14_269.strokeCap = "ROUND"
-	vector_14_269.relativeTransform = [[1,0,2],[0,1,10]]
-	vector_14_269.x = 2
-	vector_14_269.y = 10
-	vector_14_269.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_269.vectorNetwork = {"vertices":[{"x":0,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":20,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}}],"regions":[]}
-	vector_14_269.vectorPaths = [{"windingRule":"NONE","data":"M 0 0 L 20 0"}]
+	var text_I16_2242_4_5775 = figma.getNodeById("I" + instance_16_2242.id + ";" + text_14_227.id)
 	
 	// Ref to SUB NODE
-	var instance_I14_2814_4_6249 = figma.getNodeById("I" + instance_14_2814.id + ";" + instance_14_228.id)
-	instance_I14_2814_4_6249.name = "icon/credit-card"
-	instance_I14_2814_4_6249.strokeWeight = 1
-	instance_I14_2814_4_6249.strokeTopWeight = 1
-	instance_I14_2814_4_6249.strokeBottomWeight = 1
-	instance_I14_2814_4_6249.strokeLeftWeight = 1
-	instance_I14_2814_4_6249.strokeRightWeight = 1
+	var instance_I16_2242_4_6249 = figma.getNodeById("I" + instance_16_2242.id + ";" + instance_14_228.id)
+	instance_I16_2242_4_6249.name = "icon/check"
+	instance_I16_2242_4_6249.visible = false
+	instance_I16_2242_4_6249.strokeWeight = 1
+	instance_I16_2242_4_6249.strokeTopWeight = 1
+	instance_I16_2242_4_6249.strokeBottomWeight = 1
+	instance_I16_2242_4_6249.strokeLeftWeight = 1
+	instance_I16_2242_4_6249.strokeRightWeight = 1
 	
 
 				// Swap COMPONENT
-				instance_I14_2814_4_6249.swapComponent(component_14_267)
+				instance_I16_2242_4_6249.swapComponent(component_14_246)
 
 	// Ref to SUB NODE
-	var vector_I14_2814_4_6249_4_1598 = figma.getNodeById(instance_I14_2814_4_6249.id + ";" + vector_14_268.id)
-	vector_I14_2814_4_6249_4_1598.strokeStyleId = slate_700_226f.id
-	vector_I14_2814_4_6249_4_1598.resize(13.3333339691, 9.3333339691)
+	var vector_I16_2242_4_6249_4_1210 = figma.getNodeById(instance_I16_2242_4_6249.id + ";" + vector_14_247.id)
+	vector_I16_2242_4_6249_4_1210.strokeStyleId = slate_700_226f.id
+	vector_I16_2242_4_6249_4_1210.resize(10.6666660309, 7.3333330154)
 	
 	// Ref to SUB NODE
-	var vector_I14_2814_4_6249_4_1599 = figma.getNodeById(instance_I14_2814_4_6249.id + ";" + vector_14_269.id)
-	vector_I14_2814_4_6249_4_1599.strokeStyleId = slate_700_226f.id
-	vector_I14_2814_4_6249_4_1599.resizeWithoutConstraints(13.3333339691, 0.0000000000)
-	
-	// Ref to SUB NODE
-	var text_I14_2814_4_5778 = figma.getNodeById("I" + instance_14_2814.id + ";" + text_14_229.id)
-	text_I14_2814_4_5778.resize(604.0000000000, 20.0000000000)
+	var text_I16_2242_4_5778 = figma.getNodeById("I" + instance_16_2242.id + ";" + text_14_229.id)
+	text_I16_2242_4_5778.resize(206.0000000000, 20.0000000000)
 	
 	// Font properties
-	text_I14_2814_4_5778.fontName = {
+	text_I16_2242_4_5778.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_I14_2814_4_5778.characters = "Billing"
+		text_I16_2242_4_5778.characters = "Pedro Duarte"
 
 	// Ref to SUB NODE
-	var text_I14_2814_4_5779 = figma.getNodeById("I" + instance_14_2814.id + ";" + text_14_230.id)
-	text_I14_2814_4_5779.resize(20.0000000000, 20.0000000000)
+	var text_I16_2242_4_5779 = figma.getNodeById("I" + instance_16_2242.id + ";" + text_14_230.id)
+	text_I16_2242_4_5779.visible = false
 	
-	// Font properties
-	text_I14_2814_4_5779.fontName = {
-		family: "Inter",
-		style: "Medium"
-	}
-		text_I14_2814_4_5779.characters = "⌘B︎"
-
 	// Ref to SUB NODE
-	var instance_I14_2814_4_6322 = figma.getNodeById("I" + instance_14_2814.id + ";" + instance_14_231.id)
-	instance_I14_2814_4_6322.visible = false
+	var instance_I16_2242_4_6322 = figma.getNodeById("I" + instance_16_2242.id + ";" + instance_14_231.id)
+	instance_I16_2242_4_6322.visible = false
 	
 
 				// Swap COMPONENT
-				instance_I14_2814_4_6322.swapComponent(component_14_219)
+				instance_I16_2242_4_6322.swapComponent(component_14_219)
 
 	// Ref to SUB NODE
-	var vector_I14_2814_4_6322_4_1230 = figma.getNodeById(instance_I14_2814_4_6322.id + ";" + vector_14_220.id)
-	vector_I14_2814_4_6322_4_1230.strokeStyleId = slate_700_226f.id
-	vector_I14_2814_4_6322_4_1230.resize(4.0000000000, 8.0000000000)
-	vector_I14_2814_4_6322_4_1230.strokeWeight = 1.3333333730697632
+	var vector_I16_2242_4_6322_4_1230 = figma.getNodeById(instance_I16_2242_4_6322.id + ";" + vector_14_220.id)
+	vector_I16_2242_4_6322_4_1230.strokeStyleId = slate_700_226f.id
+	vector_I16_2242_4_6322_4_1230.resize(4.0000000000, 8.0000000000)
+	vector_I16_2242_4_6322_4_1230.strokeWeight = 1.3333333730697632
 	
 
 	// Create INSTANCE
-	var instance_14_2815 = component_14_226.createInstance()
-	frame_14_2811.appendChild(instance_14_2815)
-	instance_14_2815.resize(672.0000000000, 32.0000000000)
-	instance_14_2815.counterAxisSizingMode = "AUTO"
-	instance_14_2815.name = "menu item"
-	instance_14_2815.relativeTransform = [[1,0,8],[0,1,102]]
-	instance_14_2815.x = 8
-	instance_14_2815.y = 102
+	var instance_16_2243 = component_14_226.createInstance()
+	frame_16_2241.appendChild(instance_16_2243)
+	instance_16_2243.resize(246.0000000000, 32.0000000000)
+	instance_16_2243.counterAxisSizingMode = "AUTO"
+	instance_16_2243.name = "menu item"
+	instance_16_2243.relativeTransform = [[1,0,0],[0,1,32]]
+	instance_16_2243.y = 32
+	instance_16_2243.layoutAlign = "STRETCH"
+	instance_16_2243.paddingLeft = 32
 	
 
 				// Swap COMPONENT
-				instance_14_2815.swapComponent(component_14_226)
+				instance_16_2243.swapComponent(component_14_226)
 
 	// Ref to SUB NODE
-	var text_I14_2815_4_5775 = figma.getNodeById("I" + instance_14_2815.id + ";" + text_14_227.id)
-	
-
-	// Create COMPONENT
-	var component_14_270 = figma.createComponent()
-	component_14_270.resize(24.0000000000, 24.0000000000)
-	component_14_270.primaryAxisSizingMode = "AUTO"
-	component_14_270.name = "icon/settings"
-	component_14_270.relativeTransform = [[1,0,1788],[0,1,2174]]
-	component_14_270.x = 1788
-	component_14_270.y = 2174
-	component_14_270.fills = [{"type":"SOLID","visible":false,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	component_14_270.strokeTopWeight = 1
-	component_14_270.strokeBottomWeight = 1
-	component_14_270.strokeLeftWeight = 1
-	component_14_270.strokeRightWeight = 1
-	component_14_270.clipsContent = true
-	component_14_270.expanded = false
-	
-
-	// Create VECTOR
-	var vector_14_271 = figma.createVector()
-	component_14_270.appendChild(vector_14_271)
-	vector_14_271.resize(18.0351600647, 20.0000000000)
-	vector_14_271.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_271.strokeWeight = 2
-	vector_14_271.strokeJoin = "ROUND"
-	vector_14_271.strokeCap = "ROUND"
-	vector_14_271.relativeTransform = [[1,0,2.9824199677],[0,1,2]]
-	vector_14_271.x = 2.982419967651367
-	vector_14_271.y = 2
-	vector_14_271.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_271.vectorNetwork = {"vertices":[{"x":9.237580299377441,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":8.797579765319824,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":7.383366584777832,"y":0.5857863426208496,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.797579765319824,"y":2,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.797579765319824,"y":2.179999828338623,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.529118537902832,"y":3.178837299346924,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":5.797579765319824,"y":3.9099998474121094,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":5.367580413818359,"y":4.159999847412109,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":4.367579936981201,"y":4.42794942855835,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":3.367579936981201,"y":4.159999847412109,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":3.2175798416137695,"y":4.079999923706055,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.7015819549560547,"y":3.880308151245117,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.4875800609588623,"y":4.809999942779541,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.2675800323486328,"y":5.190000057220459,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.06788802146911621,"y":6.705998420715332,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.9975800514221191,"y":7.920000076293945,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.1475801467895508,"y":8.020000457763672,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.8766307830810547,"y":8.746830940246582,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":2.147580146789551,"y":9.739999771118164,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":2.147580146789551,"y":10.25,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.8816237449645996,"y":11.254508018493652,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.1475801467895508,"y":11.989999771118164,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.9975800514221191,"y":12.079999923706055,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.06788802146911621,"y":13.294001579284668,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.2675800323486328,"y":14.809999465942383,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0.4875800609588623,"y":15.190000534057617,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":1.7015819549560547,"y":16.119691848754883,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":3.2175798416137695,"y":15.920000076293945,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":3.367579936981201,"y":15.84000015258789,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":4.367579936981201,"y":15.572050094604492,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":5.367580413818359,"y":15.84000015258789,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":5.797579765319824,"y":16.09000015258789,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.529118537902832,"y":16.821163177490234,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.797579765319824,"y":17.81999969482422,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":6.797579765319824,"y":18,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":7.383366584777832,"y":19.414213180541992,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":8.797579765319824,"y":20,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":9.237580299377441,"y":20,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":10.651793479919434,"y":19.414213180541992,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":11.237580299377441,"y":18,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":11.237580299377441,"y":17.81999969482422,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":11.506041526794434,"y":16.821163177490234,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":12.237580299377441,"y":16.09000015258789,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":12.667579650878906,"y":15.84000015258789,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":13.667579650878906,"y":15.572050094604492,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":14.667579650878906,"y":15.84000015258789,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":14.81757926940918,"y":15.920000076293945,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":16.33357810974121,"y":16.119691848754883,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":17.54758071899414,"y":15.190000534057617,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":17.767580032348633,"y":14.799999237060547,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":17.96727180480957,"y":13.284001350402832,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":17.037580490112305,"y":12.069999694824219,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":16.88758087158203,"y":11.989999771118164,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":16.153535842895508,"y":11.254508018493652,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":15.887580871582031,"y":10.25,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":15.887580871582031,"y":9.75,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":16.153535842895508,"y":8.745491981506348,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":16.88758087158203,"y":8.010000228881836,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":17.037580490112305,"y":7.920000076293945,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":17.96727180480957,"y":6.705998420715332,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":17.767580032348633,"y":5.190000057220459,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":17.54758071899414,"y":4.809999942779541,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":16.33357810974121,"y":3.880308151245117,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":14.81757926940918,"y":4.079999923706055,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":14.667579650878906,"y":4.159999847412109,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":13.667579650878906,"y":4.42794942855835,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":12.667579650878906,"y":4.159999847412109,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":12.237580299377441,"y":3.9099998474121094,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":11.506041526794434,"y":3.178837299346924,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":11.237580299377441,"y":2.179999828338623,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":11.237580299377441,"y":2,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":10.651793479919434,"y":0.5857863426208496,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":1,"end":2,"tangentStart":{"x":-0.5304329991340637,"y":4.440892098500626e-16},"tangentEnd":{"x":0.37507274746894836,"y":-0.37507274746894836}},{"start":2,"end":3,"tangentStart":{"x":-0.37507274746894836,"y":0.37507274746894836},"tangentEnd":{"x":0,"y":-0.5304329991340637}},{"start":3,"end":4,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":4,"end":5,"tangentStart":{"x":-0.00035974200000055134,"y":0.35072553157806396},"tangentEnd":{"x":0.1755186915397644,"y":-0.30364733934402466}},{"start":5,"end":6,"tangentStart":{"x":-0.1755186915397644,"y":0.30364733934402466},"tangentEnd":{"x":0.30373749136924744,"y":-0.17536267638206482}},{"start":6,"end":7,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":7,"end":8,"tangentStart":{"x":-0.304038405418396,"y":0.17553666234016418},"tangentEnd":{"x":0.35107332468032837,"y":0}},{"start":8,"end":9,"tangentStart":{"x":-0.35107332468032837,"y":0},"tangentEnd":{"x":0.304038405418396,"y":0.17553666234016418}},{"start":9,"end":10,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":10,"end":11,"tangentStart":{"x":-0.4589349329471588,"y":-0.26473718881607056},"tangentEnd":{"x":0.5118350982666016,"y":-0.1368643343448639}},{"start":11,"end":12,"tangentStart":{"x":-0.5118350982666016,"y":0.1368643343448639},"tangentEnd":{"x":0.2655513882637024,"y":-0.45846429467201233}},{"start":12,"end":13,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":13,"end":14,"tangentStart":{"x":-0.26473718881607056,"y":0.4589349329471588},"tangentEnd":{"x":-0.1368643343448639,"y":-0.5118350982666016}},{"start":14,"end":15,"tangentStart":{"x":0.1368643343448639,"y":0.5118350982666016},"tangentEnd":{"x":-0.45846429467201233,"y":-0.2655513882637024}},{"start":15,"end":16,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":16,"end":17,"tangentStart":{"x":0.30227580666542053,"y":0.17451053857803345},"tangentEnd":{"x":-0.1754315346479416,"y":-0.30174222588539124}},{"start":17,"end":18,"tangentStart":{"x":0.1754315346479416,"y":0.30174222588539124},"tangentEnd":{"x":-0.0021067403722554445,"y":-0.34902745485305786}},{"start":18,"end":19,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":19,"end":20,"tangentStart":{"x":0.001399134867824614,"y":0.35242000222206116},"tangentEnd":{"x":0.1756065934896469,"y":-0.30555546283721924}},{"start":20,"end":21,"tangentStart":{"x":-0.1756065934896469,"y":0.30555546283721924},"tangentEnd":{"x":0.305208683013916,"y":-0.17620861530303955}},{"start":21,"end":22,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":22,"end":23,"tangentStart":{"x":-0.45846429467201233,"y":0.2655513882637024},"tangentEnd":{"x":0.1368643343448639,"y":-0.5118350982666016}},{"start":23,"end":24,"tangentStart":{"x":-0.1368643343448639,"y":0.5118350982666016},"tangentEnd":{"x":-0.26473718881607056,"y":-0.4589349329471588}},{"start":24,"end":25,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":25,"end":26,"tangentStart":{"x":0.2655513882637024,"y":0.45846429467201233},"tangentEnd":{"x":-0.5118350982666016,"y":-0.1368643343448639}},{"start":26,"end":27,"tangentStart":{"x":0.5118350982666016,"y":0.1368643343448639},"tangentEnd":{"x":-0.4589349329471588,"y":0.26473718881607056}},{"start":27,"end":28,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":28,"end":29,"tangentStart":{"x":0.304038405418396,"y":-0.17553666234016418},"tangentEnd":{"x":-0.35107332468032837,"y":0}},{"start":29,"end":30,"tangentStart":{"x":0.35107332468032837,"y":0},"tangentEnd":{"x":-0.304038405418396,"y":-0.17553666234016418}},{"start":30,"end":31,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":31,"end":32,"tangentStart":{"x":0.30373749136924744,"y":0.17536267638206482},"tangentEnd":{"x":-0.1755186915397644,"y":-0.30364733934402466}},{"start":32,"end":33,"tangentStart":{"x":0.1755186915397644,"y":0.30364733934402466},"tangentEnd":{"x":-0.00035974200000055134,"y":-0.35072553157806396}},{"start":33,"end":34,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":34,"end":35,"tangentStart":{"x":0,"y":0.5304329991340637},"tangentEnd":{"x":-0.37507274746894836,"y":-0.37507274746894836}},{"start":35,"end":36,"tangentStart":{"x":0.37507274746894836,"y":0.37507274746894836},"tangentEnd":{"x":-0.5304329991340637,"y":0}},{"start":36,"end":37,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":37,"end":38,"tangentStart":{"x":0.5304329991340637,"y":0},"tangentEnd":{"x":-0.37507274746894836,"y":0.37507274746894836}},{"start":38,"end":39,"tangentStart":{"x":0.37507274746894836,"y":-0.37507274746894836},"tangentEnd":{"x":0,"y":0.5304329991340637}},{"start":39,"end":40,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":40,"end":41,"tangentStart":{"x":0.00035974200000055134,"y":-0.35072553157806396},"tangentEnd":{"x":-0.1755186915397644,"y":0.30364733934402466}},{"start":41,"end":42,"tangentStart":{"x":0.1755186915397644,"y":-0.30364733934402466},"tangentEnd":{"x":-0.30373749136924744,"y":0.17536267638206482}},{"start":42,"end":43,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":43,"end":44,"tangentStart":{"x":0.304038405418396,"y":-0.17553666234016418},"tangentEnd":{"x":-0.35107332468032837,"y":0}},{"start":44,"end":45,"tangentStart":{"x":0.35107332468032837,"y":0},"tangentEnd":{"x":-0.304038405418396,"y":-0.17553666234016418}},{"start":45,"end":46,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":46,"end":47,"tangentStart":{"x":0.4589349329471588,"y":0.26473718881607056},"tangentEnd":{"x":-0.5118350982666016,"y":0.1368643343448639}},{"start":47,"end":48,"tangentStart":{"x":0.5118350982666016,"y":-0.1368643343448639},"tangentEnd":{"x":-0.2655513882637024,"y":0.45846429467201233}},{"start":48,"end":49,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":49,"end":50,"tangentStart":{"x":0.26473718881607056,"y":-0.4589349329471588},"tangentEnd":{"x":0.1368643343448639,"y":0.5118350982666016}},{"start":50,"end":51,"tangentStart":{"x":-0.1368643343448639,"y":-0.5118350982666016},"tangentEnd":{"x":0.45846429467201233,"y":0.2655513882637024}},{"start":51,"end":52,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":52,"end":53,"tangentStart":{"x":-0.305208683013916,"y":-0.17620861530303955},"tangentEnd":{"x":0.1756065934896469,"y":0.30555546283721924}},{"start":53,"end":54,"tangentStart":{"x":-0.1756065934896469,"y":-0.30555546283721924},"tangentEnd":{"x":-0.001399134867824614,"y":0.35242000222206116}},{"start":54,"end":55,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":55,"end":56,"tangentStart":{"x":-0.001399134867824614,"y":-0.35242000222206116},"tangentEnd":{"x":-0.1756065934896469,"y":0.30555546283721924}},{"start":56,"end":57,"tangentStart":{"x":0.1756065934896469,"y":-0.30555546283721924},"tangentEnd":{"x":-0.305208683013916,"y":0.17620861530303955}},{"start":57,"end":58,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":58,"end":59,"tangentStart":{"x":0.45846429467201233,"y":-0.2655513882637024},"tangentEnd":{"x":-0.1368643343448639,"y":0.5118350982666016}},{"start":59,"end":60,"tangentStart":{"x":0.1368643343448639,"y":-0.5118350982666016},"tangentEnd":{"x":0.26473718881607056,"y":0.4589349329471588}},{"start":60,"end":61,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":61,"end":62,"tangentStart":{"x":-0.2655513882637024,"y":-0.45846429467201233},"tangentEnd":{"x":0.5118350982666016,"y":0.1368643343448639}},{"start":62,"end":63,"tangentStart":{"x":-0.5118350982666016,"y":-0.1368643343448639},"tangentEnd":{"x":0.4589349329471588,"y":-0.26473718881607056}},{"start":63,"end":64,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":64,"end":65,"tangentStart":{"x":-0.304038405418396,"y":0.17553666234016418},"tangentEnd":{"x":0.35107332468032837,"y":0}},{"start":65,"end":66,"tangentStart":{"x":-0.35107332468032837,"y":0},"tangentEnd":{"x":0.304038405418396,"y":0.17553666234016418}},{"start":66,"end":67,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":67,"end":68,"tangentStart":{"x":-0.30373749136924744,"y":-0.17536267638206482},"tangentEnd":{"x":0.1755186915397644,"y":0.30364733934402466}},{"start":68,"end":69,"tangentStart":{"x":-0.1755186915397644,"y":-0.30364733934402466},"tangentEnd":{"x":0.00035974200000055134,"y":0.35072553157806396}},{"start":69,"end":70,"tangentStart":{"x":0,"y":0},"tangentEnd":{"x":0,"y":0}},{"start":70,"end":71,"tangentStart":{"x":0,"y":-0.5304329991340637},"tangentEnd":{"x":0.37507274746894836,"y":0.37507274746894836}},{"start":71,"end":0,"tangentStart":{"x":-0.37507274746894836,"y":-0.37507274746894836},"tangentEnd":{"x":0.5304329991340637,"y":4.440892098500626e-16}}],"regions":[{"windingRule":"NONZERO","loops":[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71]],"fillStyleId":"","fills":[]}]}
-	vector_14_271.vectorPaths = [{"windingRule":"NONZERO","data":"M 9.237580299377441 0 L 8.797579765319824 0 C 8.26714676618576 4.440892098500626e-16 7.75843933224678 0.21071359515190125 7.383366584777832 0.5857863426208496 C 7.008293837308884 0.960859090089798 6.797579765319824 1.4695670008659363 6.797579765319824 2 L 6.797579765319824 2.179999828338623 C 6.797220023319824 2.530725359916687 6.704637229442596 2.875189960002899 6.529118537902832 3.178837299346924 C 6.353599846363068 3.4824846386909485 6.101317256689072 3.7346371710300446 5.797579765319824 3.9099998474121094 L 5.367580413818359 4.159999847412109 C 5.063542008399963 4.335536509752274 4.7186532616615295 4.42794942855835 4.367579936981201 4.42794942855835 C 4.016506612300873 4.42794942855835 3.671618342399597 4.335536509752274 3.367579936981201 4.159999847412109 L 3.2175798416137695 4.079999923706055 C 2.7586449086666107 3.815262734889984 2.2134170532226562 3.7434438169002533 1.7015819549560547 3.880308151245117 C 1.1897468566894531 4.017172485589981 0.7531314492225647 4.351535648107529 0.4875800609588623 4.809999942779541 L 0.2675800323486328 5.190000057220459 C 0.002842843532562256 5.648934990167618 -0.06897631287574768 6.1941633224487305 0.06788802146911621 6.705998420715332 C 0.2047523558139801 7.217833518981934 0.5391157567501068 7.654448688030243 0.9975800514221191 7.920000076293945 L 1.1475801467895508 8.020000457763672 C 1.4498559534549713 8.194510996341705 1.701199248433113 8.44508871436119 1.8766307830810547 8.746830940246582 C 2.0520623177289963 9.048573166131973 2.1454734064172953 9.390972316265106 2.147580146789551 9.739999771118164 L 2.147580146789551 10.25 C 2.1489792816573754 10.602420002222061 2.0572303384542465 10.948952555656433 1.8816237449645996 11.254508018493652 C 1.7060171514749527 11.560063481330872 1.4527888298034668 11.813791155815125 1.1475801467895508 11.989999771118164 L 0.9975800514221191 12.079999923706055 C 0.5391157567501068 12.345551311969757 0.2047523558139801 12.782166481018066 0.06788802146911621 13.294001579284668 C -0.06897631287574768 13.80583667755127 0.002842843532562256 14.351064532995224 0.2675800323486328 14.809999465942383 L 0.4875800609588623 15.190000534057617 C 0.7531314492225647 15.64846482872963 1.1897468566894531 15.982827514410019 1.7015819549560547 16.119691848754883 C 2.2134170532226562 16.256556183099747 2.7586449086666107 16.184737265110016 3.2175798416137695 15.920000076293945 L 3.367579936981201 15.84000015258789 C 3.671618342399597 15.664463490247726 4.016506612300873 15.572050094604492 4.367579936981201 15.572050094604492 C 4.7186532616615295 15.572050094604492 5.063542008399963 15.664463490247726 5.367580413818359 15.84000015258789 L 5.797579765319824 16.09000015258789 C 6.101317256689072 16.265362828969955 6.353599846363068 16.51751583814621 6.529118537902832 16.821163177490234 C 6.704637229442596 17.12481051683426 6.797220023319824 17.469274163246155 6.797579765319824 17.81999969482422 L 6.797579765319824 18 C 6.797579765319824 18.530432999134064 7.008293837308884 19.039140433073044 7.383366584777832 19.414213180541992 C 7.75843933224678 19.78928592801094 8.26714676618576 20 8.797579765319824 20 L 9.237580299377441 20 C 9.768013298511505 20 10.276720732450485 19.78928592801094 10.651793479919434 19.414213180541992 C 11.026866227388382 19.039140433073044 11.237580299377441 18.530432999134064 11.237580299377441 18 L 11.237580299377441 17.81999969482422 C 11.237940041377442 17.469274163246155 11.33052283525467 17.12481051683426 11.506041526794434 16.821163177490234 C 11.681560218334198 16.51751583814621 11.933842808008194 16.265362828969955 12.237580299377441 16.09000015258789 L 12.667579650878906 15.84000015258789 C 12.971618056297302 15.664463490247726 13.316506326198578 15.572050094604492 13.667579650878906 15.572050094604492 C 14.018652975559235 15.572050094604492 14.36354124546051 15.664463490247726 14.667579650878906 15.84000015258789 L 14.81757926940918 15.920000076293945 C 15.276514202356339 16.184737265110016 15.82174301147461 16.256556183099747 16.33357810974121 16.119691848754883 C 16.845413208007812 15.982827514410019 17.28202933073044 15.64846482872963 17.54758071899414 15.190000534057617 L 17.767580032348633 14.799999237060547 C 18.032317221164703 14.341064304113388 18.104136139154434 13.795836448669434 17.96727180480957 13.284001350402832 C 17.830407470464706 12.77216625213623 17.496044784784317 12.335551083087921 17.037580490112305 12.069999694824219 L 16.88758087158203 11.989999771118164 C 16.582372188568115 11.813791155815125 16.329142436385155 11.560063481330872 16.153535842895508 11.254508018493652 C 15.977929249405861 10.948952555656433 15.886181736714207 10.602420002222061 15.887580871582031 10.25 L 15.887580871582031 9.75 C 15.886181736714207 9.397579997777939 15.977929249405861 9.051047444343567 16.153535842895508 8.745491981506348 C 16.329142436385155 8.439936518669128 16.582372188568115 8.186208844184875 16.88758087158203 8.010000228881836 L 17.037580490112305 7.920000076293945 C 17.496044784784317 7.654448688030243 17.830407470464706 7.217833518981934 17.96727180480957 6.705998420715332 C 18.104136139154434 6.1941633224487305 18.032317221164703 5.648934990167618 17.767580032348633 5.190000057220459 L 17.54758071899414 4.809999942779541 C 17.28202933073044 4.351535648107529 16.845413208007812 4.017172485589981 16.33357810974121 3.880308151245117 C 15.82174301147461 3.7434438169002533 15.276514202356339 3.815262734889984 14.81757926940918 4.079999923706055 L 14.667579650878906 4.159999847412109 C 14.36354124546051 4.335536509752274 14.018652975559235 4.42794942855835 13.667579650878906 4.42794942855835 C 13.316506326198578 4.42794942855835 12.971618056297302 4.335536509752274 12.667579650878906 4.159999847412109 L 12.237580299377441 3.9099998474121094 C 11.933842808008194 3.7346371710300446 11.681560218334198 3.4824846386909485 11.506041526794434 3.178837299346924 C 11.33052283525467 2.875189960002899 11.237940041377442 2.530725359916687 11.237580299377441 2.179999828338623 L 11.237580299377441 2 C 11.237580299377441 1.4695670008659363 11.026866227388382 0.960859090089798 10.651793479919434 0.5857863426208496 C 10.276720732450485 0.21071359515190125 9.768013298511505 4.440892098500626e-16 9.237580299377441 0 Z"}]
-	
-
-	// Create VECTOR
-	var vector_14_272 = figma.createVector()
-	component_14_270.appendChild(vector_14_272)
-	vector_14_272.resize(6.0000000000, 6.0000000000)
-	vector_14_272.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0,"g":0,"b":0},"boundVariables":{}}]
-	vector_14_272.strokeWeight = 2
-	vector_14_272.strokeJoin = "ROUND"
-	vector_14_272.strokeCap = "ROUND"
-	vector_14_272.relativeTransform = [[1,0,9],[0,1,9]]
-	vector_14_272.x = 9
-	vector_14_272.y = 9
-	vector_14_272.constraints = {"horizontal":"SCALE","vertical":"SCALE"}
-	vector_14_272.vectorNetwork = {"vertices":[{"x":6,"y":3,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":3,"y":6,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":0,"y":3,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"},{"x":3,"y":0,"strokeCap":"ROUND","strokeJoin":"ROUND","cornerRadius":0,"handleMirroring":"NONE"}],"segments":[{"start":0,"end":1,"tangentStart":{"x":0,"y":1.656854271888733},"tangentEnd":{"x":1.656854271888733,"y":0}},{"start":1,"end":2,"tangentStart":{"x":-1.656854271888733,"y":0},"tangentEnd":{"x":0,"y":1.656854271888733}},{"start":2,"end":3,"tangentStart":{"x":0,"y":-1.656854271888733},"tangentEnd":{"x":-1.656854271888733,"y":0}},{"start":3,"end":0,"tangentStart":{"x":1.656854271888733,"y":0},"tangentEnd":{"x":0,"y":-1.656854271888733}}],"regions":[]}
-	vector_14_272.vectorPaths = [{"windingRule":"NONE","data":"M 6 3 C 6 4.656854271888733 4.656854271888733 6 3 6 C 1.343145728111267 6 0 4.656854271888733 0 3 C 0 1.343145728111267 1.343145728111267 0 3 0 C 4.656854271888733 0 6 1.343145728111267 6 3 Z"}]
+	var text_I16_2243_4_5775 = figma.getNodeById("I" + instance_16_2243.id + ";" + text_14_227.id)
 	
 	// Ref to SUB NODE
-	var instance_I14_2815_4_6249 = figma.getNodeById("I" + instance_14_2815.id + ";" + instance_14_228.id)
-	instance_I14_2815_4_6249.name = "icon/settings"
-	instance_I14_2815_4_6249.strokeWeight = 1
-	instance_I14_2815_4_6249.strokeTopWeight = 1
-	instance_I14_2815_4_6249.strokeBottomWeight = 1
-	instance_I14_2815_4_6249.strokeLeftWeight = 1
-	instance_I14_2815_4_6249.strokeRightWeight = 1
+	var instance_I16_2243_4_6249 = figma.getNodeById("I" + instance_16_2243.id + ";" + instance_14_228.id)
+	instance_I16_2243_4_6249.visible = false
 	
 
 				// Swap COMPONENT
-				instance_I14_2815_4_6249.swapComponent(component_14_270)
+				instance_I16_2243_4_6249.swapComponent(component_5_8766)
 
 	// Ref to SUB NODE
-	var vector_I14_2815_4_6249_4_3781 = figma.getNodeById(instance_I14_2815_4_6249.id + ";" + vector_14_271.id)
-	vector_I14_2815_4_6249_4_3781.strokeStyleId = slate_700_226f.id
-	vector_I14_2815_4_6249_4_3781.resize(12.0234394073, 13.3333339691)
+	var vector_I16_2243_4_6249_4_3047 = figma.getNodeById(instance_I16_2243_4_6249.id + ";" + vector_5_8767.id)
+	vector_I16_2243_4_6249_4_3047.strokeStyleId = slate_700_226f.id
+	vector_I16_2243_4_6249_4_3047.resize(13.3333339691, 10.6666669846)
+	vector_I16_2243_4_6249_4_3047.strokeWeight = 1.3333333730697632
 	
 	// Ref to SUB NODE
-	var vector_I14_2815_4_6249_4_3782 = figma.getNodeById(instance_I14_2815_4_6249.id + ";" + vector_14_272.id)
-	vector_I14_2815_4_6249_4_3782.strokeStyleId = slate_700_226f.id
-	vector_I14_2815_4_6249_4_3782.resize(4.0000000000, 4.0000000000)
+	var vector_I16_2243_4_6249_4_3048 = figma.getNodeById(instance_I16_2243_4_6249.id + ";" + vector_5_8768.id)
+	vector_I16_2243_4_6249_4_3048.strokeStyleId = slate_700_226f.id
+	vector_I16_2243_4_6249_4_3048.resize(13.3333339691, 3.9973406792)
+	vector_I16_2243_4_6249_4_3048.strokeWeight = 1.3333333730697632
 	
 	// Ref to SUB NODE
-	var text_I14_2815_4_5778 = figma.getNodeById("I" + instance_14_2815.id + ";" + text_14_229.id)
-	text_I14_2815_4_5778.resize(604.0000000000, 20.0000000000)
+	var text_I16_2243_4_5778 = figma.getNodeById("I" + instance_16_2243.id + ";" + text_14_229.id)
+	text_I16_2243_4_5778.resize(206.0000000000, 20.0000000000)
 	
 	// Font properties
-	text_I14_2815_4_5778.fontName = {
+	text_I16_2243_4_5778.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_I14_2815_4_5778.characters = "Settings"
+		text_I16_2243_4_5778.characters = "Colm Tuite"
 
 	// Ref to SUB NODE
-	var text_I14_2815_4_5779 = figma.getNodeById("I" + instance_14_2815.id + ";" + text_14_230.id)
-	text_I14_2815_4_5779.resize(20.0000000000, 20.0000000000)
+	var text_I16_2243_4_5779 = figma.getNodeById("I" + instance_16_2243.id + ";" + text_14_230.id)
+	text_I16_2243_4_5779.resize(17.0000000000, 20.0000000000)
+	text_I16_2243_4_5779.visible = false
 	
 	// Font properties
-	text_I14_2815_4_5779.fontName = {
+	text_I16_2243_4_5779.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_I14_2815_4_5779.characters = "⌘S︎"
+		text_I16_2243_4_5779.characters = "⌘]"
 
 	// Ref to SUB NODE
-	var instance_I14_2815_4_6322 = figma.getNodeById("I" + instance_14_2815.id + ";" + instance_14_231.id)
-	instance_I14_2815_4_6322.visible = false
+	var instance_I16_2243_4_6322 = figma.getNodeById("I" + instance_16_2243.id + ";" + instance_14_231.id)
+	instance_I16_2243_4_6322.visible = false
 	
 
 				// Swap COMPONENT
-				instance_I14_2815_4_6322.swapComponent(component_14_219)
+				instance_I16_2243_4_6322.swapComponent(component_14_219)
 
 	// Ref to SUB NODE
-	var vector_I14_2815_4_6322_4_1230 = figma.getNodeById(instance_I14_2815_4_6322.id + ";" + vector_14_220.id)
-	vector_I14_2815_4_6322_4_1230.strokeStyleId = slate_700_226f.id
-	vector_I14_2815_4_6322_4_1230.resize(4.0000000000, 8.0000000000)
-	vector_I14_2815_4_6322_4_1230.strokeWeight = 1.3333333730697632
+	var vector_I16_2243_4_6322_4_1230 = figma.getNodeById(instance_I16_2243_4_6322.id + ";" + vector_14_220.id)
+	vector_I16_2243_4_6322_4_1230.strokeStyleId = slate_700_226f.id
+	vector_I16_2243_4_6322_4_1230.resize(4.0000000000, 8.0000000000)
+	vector_I16_2243_4_6322_4_1230.strokeWeight = 1.3333333730697632
+	
+
+	// Create INSTANCE
+	var instance_16_2244 = component_14_226.createInstance()
+	frame_16_2241.appendChild(instance_16_2244)
+	instance_16_2244.resize(246.0000000000, 32.0000000000)
+	instance_16_2244.counterAxisSizingMode = "AUTO"
+	instance_16_2244.name = "menu item"
+	instance_16_2244.relativeTransform = [[1,0,0],[0,1,64]]
+	instance_16_2244.y = 64
+	instance_16_2244.layoutAlign = "STRETCH"
+	instance_16_2244.paddingLeft = 32
+	
+
+				// Swap COMPONENT
+				instance_16_2244.swapComponent(component_14_226)
+
+	// Ref to SUB NODE
+	var text_I16_2244_4_5775 = figma.getNodeById("I" + instance_16_2244.id + ";" + text_14_227.id)
+	
+	// Ref to SUB NODE
+	var instance_I16_2244_4_6249 = figma.getNodeById("I" + instance_16_2244.id + ";" + instance_14_228.id)
+	instance_I16_2244_4_6249.visible = false
+	
+
+				// Swap COMPONENT
+				instance_I16_2244_4_6249.swapComponent(component_5_8766)
+
+	// Ref to SUB NODE
+	var vector_I16_2244_4_6249_4_3047 = figma.getNodeById(instance_I16_2244_4_6249.id + ";" + vector_5_8767.id)
+	vector_I16_2244_4_6249_4_3047.strokeStyleId = slate_700_226f.id
+	vector_I16_2244_4_6249_4_3047.resize(13.3333339691, 10.6666669846)
+	vector_I16_2244_4_6249_4_3047.strokeWeight = 1.3333333730697632
+	
+	// Ref to SUB NODE
+	var vector_I16_2244_4_6249_4_3048 = figma.getNodeById(instance_I16_2244_4_6249.id + ";" + vector_5_8768.id)
+	vector_I16_2244_4_6249_4_3048.strokeStyleId = slate_700_226f.id
+	vector_I16_2244_4_6249_4_3048.resize(13.3333339691, 3.9973406792)
+	vector_I16_2244_4_6249_4_3048.strokeWeight = 1.3333333730697632
+	
+	// Ref to SUB NODE
+	var text_I16_2244_4_5778 = figma.getNodeById("I" + instance_16_2244.id + ";" + text_14_229.id)
+	text_I16_2244_4_5778.resize(206.0000000000, 20.0000000000)
+	
+	// Font properties
+	text_I16_2244_4_5778.fontName = {
+		family: "Inter",
+		style: "Medium"
+	}
+		text_I16_2244_4_5778.characters = "Pietro Schirano"
+
+	// Ref to SUB NODE
+	var text_I16_2244_4_5779 = figma.getNodeById("I" + instance_16_2244.id + ";" + text_14_230.id)
+	text_I16_2244_4_5779.resize(17.0000000000, 20.0000000000)
+	text_I16_2244_4_5779.visible = false
+	
+	// Font properties
+	text_I16_2244_4_5779.fontName = {
+		family: "Inter",
+		style: "Medium"
+	}
+		text_I16_2244_4_5779.characters = "⌘]"
+
+	// Ref to SUB NODE
+	var instance_I16_2244_4_6322 = figma.getNodeById("I" + instance_16_2244.id + ";" + instance_14_231.id)
+	instance_I16_2244_4_6322.visible = false
+	
+
+				// Swap COMPONENT
+				instance_I16_2244_4_6322.swapComponent(component_14_219)
+
+	// Ref to SUB NODE
+	var vector_I16_2244_4_6322_4_1230 = figma.getNodeById(instance_I16_2244_4_6322.id + ";" + vector_14_220.id)
+	vector_I16_2244_4_6322_4_1230.strokeStyleId = slate_700_226f.id
+	vector_I16_2244_4_6322_4_1230.resize(4.0000000000, 8.0000000000)
+	vector_I16_2244_4_6322_4_1230.strokeWeight = 1.3333333730697632
 	
 }
 
