@@ -1,57 +1,55 @@
 async function main() {
-  // Create RECTANGLE
-  const rectangle_4_4 = figma.createRectangle();
-  figma.currentPage.appendChild(rectangle_4_4);
-  rectangle_4_4.resize(497, 749);
-  rectangle_4_4.name = "Unsplash Image";
+  // Create FRAME
+  const frame_1_2 = figma.createFrame();
+  figma.currentPage.appendChild(frame_1_2);
+  frame_1_2.resize(595, 595);
+  frame_1_2.primaryAxisSizingMode = "AUTO";
+  frame_1_2.name = "Unsplash Image";
+  frame_1_2.relativeTransform = [[1, 0, -150], [0, 1, -122]];
+  frame_1_2.x = -150;
+  frame_1_2.y = -122;
 
   // URL da imagem
   const imageUrl = "https://adjust-form-88601821.figma.site/_assets/v10/2c442eba75b7af048dddded262ee21170f446307.png?h=2560";  // Exemplo de URL
 
-  // Fetch the image from the URL
-  const response = await fetch(imageUrl);
-  if (!response.ok) {
-    console.error("Erro ao carregar a imagem.");
-    return;
-  }
-
-  // Convert the image to ArrayBuffer
-  const imageBuffer = await response.arrayBuffer();
-  const imageBytes = new Uint8Array(imageBuffer);
-
-  // Create the image in Figma using the bytes
-  const image = figma.createImage(imageBytes);
-
-  // Apply the image to the rectangle
-  rectangle_4_4.fills = [{
-    type: "IMAGE",
-    imageHash: image.hash,  // Use the hash generated automatically
-    scaleMode: "FILL",
-    visible: true,
-    opacity: 1,
-    blendMode: "NORMAL",
-    imageTransform: [[1, 0, 0], [0, 1, 0]],
-    scalingFactor: 0.5,
-    rotation: 0,
-    filters: {
-      exposure: 0,
-      contrast: 0,
-      saturation: 0,
-      temperature: 0,
-      tint: 0,
-      highlights: 0,
-      shadows: 0
+  try {
+    // Fetch the image from the URL
+    const response = await fetch(imageUrl);
+    if (!response.ok) {
+      throw new Error(`Erro ao carregar a imagem: ${response.statusText}`);
     }
-  }];
-
-  // Set the position of the rectangle
-  rectangle_4_4.relativeTransform = [[1, 0, 1830], [0, 1, -141]];
-  rectangle_4_4.x = 1830;
-  rectangle_4_4.y = -141;
-  rectangle_4_4.strokeTopWeight = 1;
-  rectangle_4_4.strokeBottomWeight = 1;
-  rectangle_4_4.strokeLeftWeight = 1;
-  rectangle_4_4.strokeRightWeight = 1;
+  
+    // Get the image buffer as ArrayBuffer
+    const imageBuffer = await response.arrayBuffer();
+    const imageBytes = new Uint8Array(imageBuffer);
+  
+    // Create the image in Figma using the bytes
+    const image = figma.createImage(imageBytes);
+  
+    // Apply the image to the frame (or rectangle)
+    frame_1_2.fills = [{
+      type: "IMAGE",
+      imageHash: image.hash,  // Using the hash generated automatically
+      scaleMode: "FILL",
+      visible: true,
+      opacity: 1,
+      blendMode: "NORMAL",
+      imageTransform: [[1, 0, 0], [0, 1, 0]],
+      scalingFactor: 0.5,
+      rotation: 0,
+      filters: {
+        exposure: 0,
+        contrast: 0,
+        saturation: 0,
+        temperature: 0,
+        tint: 0,
+        highlights: 0,
+        shadows: 0
+      }
+    }];
+  } catch (error) {
+    console.error("Erro ao processar a imagem:", error);
+  }
 }
 
 main();
