@@ -1126,7 +1126,7 @@ async function main() {
 	group_2_3622.reactions = []
 	group_2_3622.expanded = true
 	
-
+	// Test
 	// 🎯 CENTRALIZAR FRAME PRINCIPAL NA VIEWPORT
 	const viewportCenter = figma.viewport.center;
 	frame_2_3558.x = viewportCenter.x - frame_2_3558.width / 2;
