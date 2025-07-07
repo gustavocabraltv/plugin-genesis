@@ -19,510 +19,454 @@ async function main() {
 	await loadFonts()
 
 	// Create STYLE
-	var slate_900_8108 = figma.createPaintStyle()
-	slate_900_8108.name = "slate/900"
-	slate_900_8108.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
+	var slate_900_6df7 = figma.createPaintStyle()
+	slate_900_6df7.name = "slate/900"
+	slate_900_6df7.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
 	
 
 	// Create STYLE
-	var slate_600_8179 = figma.createPaintStyle()
-	slate_600_8179.name = "slate/600"
-	slate_600_8179.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.27843138575553894,"g":0.3333333432674408,"b":0.4117647111415863},"boundVariables":{}}]
+	var slate_600_2e74 = figma.createPaintStyle()
+	slate_600_2e74.name = "slate/600"
+	slate_600_2e74.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.27843138575553894,"g":0.3333333432674408,"b":0.4117647111415863},"boundVariables":{}}]
 	
 
 	// Create STYLE
-	var slate_400_a845 = figma.createPaintStyle()
-	slate_400_a845.name = "slate/400"
-	slate_400_a845.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.5803921818733215,"g":0.6392157077789307,"b":0.7215686440467834},"boundVariables":{}}]
+	var slate_400_e594 = figma.createPaintStyle()
+	slate_400_e594.name = "slate/400"
+	slate_400_e594.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.5803921818733215,"g":0.6392157077789307,"b":0.7215686440467834},"boundVariables":{}}]
 	
 
 	// Create STYLE
-	var slate_500_8775 = figma.createPaintStyle()
-	slate_500_8775.name = "slate/500"
-	slate_500_8775.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.3921568691730499,"g":0.45490196347236633,"b":0.545098066329956},"boundVariables":{}}]
+	var slate_500_547b = figma.createPaintStyle()
+	slate_500_547b.name = "slate/500"
+	slate_500_547b.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.3921568691730499,"g":0.45490196347236633,"b":0.545098066329956},"boundVariables":{}}]
 	
 
 	// Create STYLE
-	var slate_900_8108 = figma.createPaintStyle()
-	slate_900_8108.name = "slate/900"
-	slate_900_8108.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
+	var slate_900_6df7 = figma.createPaintStyle()
+	slate_900_6df7.name = "slate/900"
+	slate_900_6df7.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
 	
 
 	// Create STYLE
-	var slate_200_a09d = figma.createPaintStyle()
-	slate_200_a09d.name = "slate/200"
-	slate_200_a09d.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.886274516582489,"g":0.9098039269447327,"b":0.9411764740943909},"boundVariables":{}}]
+	var slate_200_7b93 = figma.createPaintStyle()
+	slate_200_7b93.name = "slate/200"
+	slate_200_7b93.paints = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.886274516582489,"g":0.9098039269447327,"b":0.9411764740943909},"boundVariables":{}}]
 	
 
 	// Create FRAME
-	var frame_7_427 = figma.createFrame()
-	figma.currentPage.appendChild(frame_7_427)
-	frame_7_427.resize(792.0000000000, 392.0000000000)
-	frame_7_427.primaryAxisSizingMode = "AUTO"
-	frame_7_427.counterAxisSizingMode = "AUTO"
-	frame_7_427.name = "Inout"
-	frame_7_427.relativeTransform = [[1,0,3691],[0,1,-2795]]
-	frame_7_427.x = 3691
-	frame_7_427.y = -2795
-	frame_7_427.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_7_427.paddingLeft = 32
-	frame_7_427.paddingRight = 32
-	frame_7_427.paddingTop = 32
-	frame_7_427.paddingBottom = 64
-	frame_7_427.counterAxisAlignItems = "CENTER"
-	frame_7_427.strokeTopWeight = 1
-	frame_7_427.strokeBottomWeight = 1
-	frame_7_427.strokeLeftWeight = 1
-	frame_7_427.strokeRightWeight = 1
-	frame_7_427.clipsContent = false
-	frame_7_427.layoutMode = "VERTICAL"
-	frame_7_427.counterAxisSizingMode = "AUTO"
-	frame_7_427.itemSpacing = 64
+	var frame_2_527 = figma.createFrame()
+	figma.currentPage.appendChild(frame_2_527)
+	frame_2_527.resize(792.0000000000, 378.0000000000)
+	frame_2_527.primaryAxisSizingMode = "AUTO"
+	frame_2_527.counterAxisSizingMode = "AUTO"
+	frame_2_527.name = "Inout"
+	frame_2_527.relativeTransform = [[1,0,3691],[0,1,-2795]]
+	frame_2_527.x = 3691
+	frame_2_527.y = -2795
+	frame_2_527.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_2_527.paddingLeft = 32
+	frame_2_527.paddingRight = 32
+	frame_2_527.paddingTop = 32
+	frame_2_527.paddingBottom = 64
+	frame_2_527.counterAxisAlignItems = "CENTER"
+	frame_2_527.strokeTopWeight = 1
+	frame_2_527.strokeBottomWeight = 1
+	frame_2_527.strokeLeftWeight = 1
+	frame_2_527.strokeRightWeight = 1
+	frame_2_527.clipsContent = false
+	frame_2_527.layoutMode = "VERTICAL"
+	frame_2_527.counterAxisSizingMode = "AUTO"
+	frame_2_527.itemSpacing = 64
 	
 
 	// Create FRAME
-	var frame_7_428 = figma.createFrame()
-	frame_7_427.appendChild(frame_7_428)
-	frame_7_428.resize(728.0000000000, 140.0000000000)
-	frame_7_428.primaryAxisSizingMode = "AUTO"
-	frame_7_428.counterAxisSizingMode = "AUTO"
-	frame_7_428.name = "Frame 8"
-	frame_7_428.relativeTransform = [[1,0,32],[0,1,32]]
-	frame_7_428.x = 32
-	frame_7_428.y = 32
-	frame_7_428.fills = []
-	frame_7_428.counterAxisAlignItems = "CENTER"
-	frame_7_428.strokeTopWeight = 1
-	frame_7_428.strokeBottomWeight = 1
-	frame_7_428.strokeLeftWeight = 1
-	frame_7_428.strokeRightWeight = 1
-	frame_7_428.clipsContent = false
-	frame_7_428.layoutMode = "VERTICAL"
-	frame_7_428.counterAxisSizingMode = "AUTO"
-	frame_7_428.itemSpacing = 32
+	var frame_2_528 = figma.createFrame()
+	frame_2_527.appendChild(frame_2_528)
+	frame_2_528.resize(728.0000000000, 140.0000000000)
+	frame_2_528.primaryAxisSizingMode = "AUTO"
+	frame_2_528.counterAxisSizingMode = "AUTO"
+	frame_2_528.name = "Frame 8"
+	frame_2_528.relativeTransform = [[1,0,32],[0,1,32]]
+	frame_2_528.x = 32
+	frame_2_528.y = 32
+	frame_2_528.fills = []
+	frame_2_528.counterAxisAlignItems = "CENTER"
+	frame_2_528.strokeTopWeight = 1
+	frame_2_528.strokeBottomWeight = 1
+	frame_2_528.strokeLeftWeight = 1
+	frame_2_528.strokeRightWeight = 1
+	frame_2_528.clipsContent = false
+	frame_2_528.layoutMode = "VERTICAL"
+	frame_2_528.counterAxisSizingMode = "AUTO"
+	frame_2_528.itemSpacing = 32
 	
 
 	// Create FRAME
-	var frame_7_429 = figma.createFrame()
-	frame_7_428.appendChild(frame_7_429)
-	frame_7_429.resize(725.0000000000, 108.0000000000)
-	frame_7_429.primaryAxisSizingMode = "AUTO"
-	frame_7_429.counterAxisSizingMode = "AUTO"
-	frame_7_429.name = "Frame 8"
-	frame_7_429.relativeTransform = [[1,0,1.5],[0,1,0]]
-	frame_7_429.x = 1.5
-	frame_7_429.fills = []
-	frame_7_429.strokeTopWeight = 1
-	frame_7_429.strokeBottomWeight = 1
-	frame_7_429.strokeLeftWeight = 1
-	frame_7_429.strokeRightWeight = 1
-	frame_7_429.clipsContent = false
-	frame_7_429.layoutMode = "HORIZONTAL"
-	frame_7_429.counterAxisSizingMode = "AUTO"
-	frame_7_429.itemSpacing = 45
+	var frame_2_529 = figma.createFrame()
+	frame_2_528.appendChild(frame_2_529)
+	frame_2_529.resize(725.0000000000, 108.0000000000)
+	frame_2_529.primaryAxisSizingMode = "AUTO"
+	frame_2_529.counterAxisSizingMode = "AUTO"
+	frame_2_529.name = "Frame 8"
+	frame_2_529.relativeTransform = [[1,0,1.5],[0,1,0]]
+	frame_2_529.x = 1.5
+	frame_2_529.fills = []
+	frame_2_529.strokeTopWeight = 1
+	frame_2_529.strokeBottomWeight = 1
+	frame_2_529.strokeLeftWeight = 1
+	frame_2_529.strokeRightWeight = 1
+	frame_2_529.clipsContent = false
+	frame_2_529.layoutMode = "HORIZONTAL"
+	frame_2_529.counterAxisSizingMode = "AUTO"
+	frame_2_529.itemSpacing = 45
 	
 
 	// Create FRAME
-	var frame_7_430 = figma.createFrame()
-	frame_7_429.appendChild(frame_7_430)
-	frame_7_430.resize(584.0000000000, 108.0000000000)
-	frame_7_430.primaryAxisSizingMode = "AUTO"
-	frame_7_430.counterAxisSizingMode = "AUTO"
-	frame_7_430.name = "Frame 8"
-	frame_7_430.fills = []
-	frame_7_430.strokeTopWeight = 1
-	frame_7_430.strokeBottomWeight = 1
-	frame_7_430.strokeLeftWeight = 1
-	frame_7_430.strokeRightWeight = 1
-	frame_7_430.clipsContent = false
-	frame_7_430.expanded = false
-	frame_7_430.layoutMode = "VERTICAL"
-	frame_7_430.counterAxisSizingMode = "AUTO"
-	frame_7_430.itemSpacing = 16
+	var frame_2_530 = figma.createFrame()
+	frame_2_529.appendChild(frame_2_530)
+	frame_2_530.resize(584.0000000000, 108.0000000000)
+	frame_2_530.primaryAxisSizingMode = "AUTO"
+	frame_2_530.counterAxisSizingMode = "AUTO"
+	frame_2_530.name = "Frame 8"
+	frame_2_530.fills = []
+	frame_2_530.strokeTopWeight = 1
+	frame_2_530.strokeBottomWeight = 1
+	frame_2_530.strokeLeftWeight = 1
+	frame_2_530.strokeRightWeight = 1
+	frame_2_530.clipsContent = false
+	frame_2_530.layoutMode = "VERTICAL"
+	frame_2_530.counterAxisSizingMode = "AUTO"
+	frame_2_530.itemSpacing = 16
 	
 
 	// Create TEXT
-	var text_7_431 = figma.createText()
-	frame_7_430.appendChild(text_7_431)
-	text_7_431.fillStyleId = slate_900_8108.id
-	text_7_431.resize(75.0000000000, 36.0000000000)
-	text_7_431.name = "Input"
+	var text_2_531 = figma.createText()
+	frame_2_530.appendChild(text_2_531)
+	text_2_531.fillStyleId = slate_900_6df7.id
+	text_2_531.resize(75.0000000000, 36.0000000000)
+	text_2_531.name = "Input"
+	text_2_531.autoRename = false
 	
 	// Font properties
-	text_7_431.fontName = {
+	text_2_531.fontName = {
 		family: "Inter",
 		style: "Semi Bold"
 	}
-		text_7_431.characters = "Input"
-	text_7_431.fontSize = 30
-	text_7_431.listSpacing = 0
-	text_7_431.lineHeight = {"unit":"PIXELS","value":36}
-	text_7_431.fontName = {"family":"Inter","style":"Semi Bold"}
-	text_7_431.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_2_531.characters = "Input"
+	text_2_531.fontSize = 30
+	text_2_531.listSpacing = 0
+	text_2_531.lineHeight = {"unit":"PIXELS","value":36}
+	text_2_531.fontName = {"family":"Inter","style":"Semi Bold"}
+	text_2_531.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create TEXT
-	var text_7_432 = figma.createText()
-	frame_7_430.appendChild(text_7_432)
-	text_7_432.fillStyleId = slate_600_8179.id
-	text_7_432.resize(584.0000000000, 56.0000000000)
-	text_7_432.name = "Displays a form input field or a component that looks like an input field."
-	text_7_432.relativeTransform = [[1,0,0],[0,1,52]]
-	text_7_432.y = 52
+	var text_2_532 = figma.createText()
+	frame_2_530.appendChild(text_2_532)
+	text_2_532.fillStyleId = slate_600_2e74.id
+	text_2_532.resize(584.0000000000, 56.0000000000)
+	text_2_532.name = "Displays a form input field or a component that looks like an input field."
+	text_2_532.relativeTransform = [[1,0,0],[0,1,52]]
+	text_2_532.y = 52
+	text_2_532.autoRename = false
 	
 	// Font properties
-	text_7_432.fontName = {
+	text_2_532.fontName = {
 		family: "Inter",
 		style: "Regular"
 	}
-		text_7_432.characters = "Displays a form input field or a component that looks like an input field."
-	text_7_432.fontSize = 20
-	text_7_432.listSpacing = 0
-	text_7_432.lineHeight = {"unit":"PIXELS","value":28}
-	text_7_432.fontName = {"family":"Inter","style":"Regular"}
-	text_7_432.textAutoResize = "HEIGHT"
+		text_2_532.characters = "Displays a form input field or a component that looks like an input field."
+	text_2_532.fontSize = 20
+	text_2_532.listSpacing = 0
+	text_2_532.lineHeight = {"unit":"PIXELS","value":28}
+	text_2_532.fontName = {"family":"Inter","style":"Regular"}
+	text_2_532.textAutoResize = "HEIGHT"
 
 
-	// Create COMPONENT
-	var component_5_8774 = figma.createComponent()
-	component_5_8774.resize(93.0000000000, 40.0000000000)
-	component_5_8774.primaryAxisSizingMode = "AUTO"
-	component_5_8774.counterAxisSizingMode = "AUTO"
-	component_5_8774.fillStyleId = slate_900_8108.id
-	component_5_8774.backgroundStyleId = slate_900_8108.id
-	component_5_8774.name = "type=default, state=Default"
-	component_5_8774.relativeTransform = [[1,0,20],[0,1,20]]
-	component_5_8774.x = 20
-	component_5_8774.y = 20
-	component_5_8774.cornerRadius = 6
-	component_5_8774.paddingLeft = 16
-	component_5_8774.paddingRight = 16
-	component_5_8774.paddingTop = 8
-	component_5_8774.paddingBottom = 8
-	component_5_8774.primaryAxisAlignItems = "CENTER"
-	component_5_8774.counterAxisAlignItems = "CENTER"
-	component_5_8774.strokeTopWeight = 1
-	component_5_8774.strokeBottomWeight = 1
-	component_5_8774.strokeLeftWeight = 1
-	component_5_8774.strokeRightWeight = 1
-	component_5_8774.expanded = false
-	component_5_8774.layoutMode = "HORIZONTAL"
-	component_5_8774.counterAxisSizingMode = "AUTO"
-	component_5_8774.itemSpacing = 10
+	// Create FRAME
+	var frame_2_566 = figma.createFrame()
+	frame_2_529.appendChild(frame_2_566)
+	frame_2_566.resize(96.0000000000, 40.0000000000)
+	frame_2_566.counterAxisSizingMode = "AUTO"
+	frame_2_566.fillStyleId = slate_900_6df7.id
+	frame_2_566.backgroundStyleId = slate_900_6df7.id
+	frame_2_566.name = "button"
+	frame_2_566.relativeTransform = [[1,0,629],[0,1,0]]
+	frame_2_566.x = 629
+	frame_2_566.cornerRadius = 6
+	frame_2_566.paddingLeft = 16
+	frame_2_566.paddingRight = 16
+	frame_2_566.paddingTop = 8
+	frame_2_566.paddingBottom = 8
+	frame_2_566.primaryAxisAlignItems = "CENTER"
+	frame_2_566.counterAxisAlignItems = "CENTER"
+	frame_2_566.primaryAxisSizingMode = "FIXED"
+	frame_2_566.strokeTopWeight = 1
+	frame_2_566.strokeBottomWeight = 1
+	frame_2_566.strokeLeftWeight = 1
+	frame_2_566.strokeRightWeight = 1
+	frame_2_566.clipsContent = false
+	frame_2_566.expanded = false
+	frame_2_566.layoutMode = "HORIZONTAL"
+	frame_2_566.counterAxisSizingMode = "AUTO"
+	frame_2_566.itemSpacing = 10
 	
 
 	// Create TEXT
-	var text_5_8775 = figma.createText()
-	component_5_8774.appendChild(text_5_8775)
-	text_5_8775.resize(61.0000000000, 24.0000000000)
-	text_5_8775.name = "Continue"
-	text_5_8775.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	text_5_8775.relativeTransform = [[1,0,16],[0,1,8]]
-	text_5_8775.x = 16
-	text_5_8775.y = 8
+	var text_2_567 = figma.createText()
+	frame_2_566.appendChild(text_2_567)
+	text_2_567.resize(70.0000000000, 24.0000000000)
+	text_2_567.name = "Continue"
+	text_2_567.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	text_2_567.relativeTransform = [[1,0,13],[0,1,8]]
+	text_2_567.x = 13
+	text_2_567.y = 8
+	text_2_567.hyperlink = {"type":"URL","value":"https://cabral.com"}
+	text_2_567.autoRename = false
 	
 	// Font properties
-	text_5_8775.fontName = {
+	text_2_567.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_5_8775.characters = "Continue"
-	text_5_8775.listSpacing = 0
-	text_5_8775.textAutoResize = "WIDTH_AND_HEIGHT"
-
-
-	// Create INSTANCE
-	var instance_7_434 = component_5_8774.createInstance()
-	frame_7_429.appendChild(instance_7_434)
-	instance_7_434.resize(96.0000000000, 40.0000000000)
-	instance_7_434.counterAxisSizingMode = "AUTO"
-	instance_7_434.name = "button"
-	instance_7_434.relativeTransform = [[1,0,629],[0,1,0]]
-	instance_7_434.x = 629
-	instance_7_434.primaryAxisSizingMode = "FIXED"
-	
-
-				// Swap COMPONENT
-				instance_7_434.swapComponent(component_5_8774)
-
-	// Ref to SUB NODE
-	var text_I7_434_1_59 = figma.getNodeById("I" + instance_7_434.id + ";" + text_5_8775.id)
-	text_I7_434_1_59.resize(70.0000000000, 24.0000000000)
-	text_I7_434_1_59.name = "Continue"
-	text_I7_434_1_59.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	text_I7_434_1_59.hyperlink = {"type":"URL","value":"https://cabral.com"}
-	
-	// Font properties
-	text_I7_434_1_59.fontName = {
-		family: "Inter",
-		style: "Medium"
-	}
-		text_I7_434_1_59.characters = "View docs"
-	text_I7_434_1_59.fontSize = 14
-	text_I7_434_1_59.listSpacing = 0
-	text_I7_434_1_59.textDecoration = "UNDERLINE"
-	text_I7_434_1_59.lineHeight = {"unit":"PIXELS","value":24}
-	text_I7_434_1_59.fontName = {"family":"Inter","style":"Medium"}
-	text_I7_434_1_59.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_2_567.characters = "View docs"
+	text_2_567.fontSize = 14
+	text_2_567.listSpacing = 0
+	text_2_567.textDecoration = "UNDERLINE"
+	text_2_567.lineHeight = {"unit":"PIXELS","value":24}
+	text_2_567.fontName = {"family":"Inter","style":"Medium"}
+	text_2_567.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create GROUP
-	var group_7_433 = figma.group([instance_7_434], frame_7_429)
-	group_7_433.name = "Group 6"
-	group_7_433.visible = true
-	group_7_433.locked = false
-	group_7_433.opacity = 1
-	group_7_433.blendMode = "PASS_THROUGH"
-	group_7_433.isMask = false
-	group_7_433.effects = []
-	group_7_433.layoutAlign = "INHERIT"
-	group_7_433.constrainProportions = false
-	group_7_433.layoutGrow = 0
-	group_7_433.layoutPositioning = "AUTO"
-	group_7_433.exportSettings = []
-	group_7_433.reactions = []
-	group_7_433.expanded = false
+	var group_2_537 = figma.group([frame_2_566], frame_2_529)
+	group_2_537.name = "Group 6"
+	group_2_537.visible = true
+	group_2_537.locked = false
+	group_2_537.opacity = 1
+	group_2_537.blendMode = "PASS_THROUGH"
+	group_2_537.isMask = false
+	group_2_537.effects = []
+	group_2_537.layoutAlign = "INHERIT"
+	group_2_537.constrainProportions = false
+	group_2_537.layoutGrow = 0
+	group_2_537.layoutPositioning = "AUTO"
+	group_2_537.exportSettings = []
+	group_2_537.reactions = []
+	group_2_537.expanded = false
 	
 
 	// Create LINE
-	var line_7_435 = figma.createLine()
-	frame_7_428.appendChild(line_7_435)
-	line_7_435.strokeStyleId = slate_200_a09d.id
-	line_7_435.resizeWithoutConstraints(728.0000000000, 0)
-	line_7_435.name = "Line 2"
-	line_7_435.relativeTransform = [[1,0,0],[0,1,140]]
-	line_7_435.y = 140
+	var line_2_538 = figma.createLine()
+	frame_2_528.appendChild(line_2_538)
+	line_2_538.strokeStyleId = slate_200_7b93.id
+	line_2_538.resizeWithoutConstraints(728.0000000000, 0)
+	line_2_538.name = "Line 2"
+	line_2_538.relativeTransform = [[1,0,0],[0,1,140]]
+	line_2_538.y = 140
 	
 
-	// Create COMPONENT
-	var component_7_316 = figma.createComponent()
-	component_7_316.resize(384.0000000000, 92.0000000000)
-	component_7_316.primaryAxisSizingMode = "AUTO"
-	component_7_316.counterAxisSizingMode = "AUTO"
-	component_7_316.name = "Size=default, State=default, type=default"
-	component_7_316.relativeTransform = [[1,0,30],[0,1,20]]
-	component_7_316.x = 30
-	component_7_316.y = 20
-	component_7_316.fills = []
-	component_7_316.strokeTopWeight = 1
-	component_7_316.strokeBottomWeight = 1
-	component_7_316.strokeLeftWeight = 1
-	component_7_316.strokeRightWeight = 1
-	component_7_316.expanded = false
-	component_7_316.layoutMode = "VERTICAL"
-	component_7_316.counterAxisSizingMode = "AUTO"
-	component_7_316.itemSpacing = 6
+	// Create FRAME
+	var frame_2_557 = figma.createFrame()
+	frame_2_527.appendChild(frame_2_557)
+	frame_2_557.resize(384.0000000000, 78.0000000000)
+	frame_2_557.primaryAxisSizingMode = "AUTO"
+	frame_2_557.counterAxisSizingMode = "AUTO"
+	frame_2_557.name = "input"
+	frame_2_557.relativeTransform = [[1,0,204],[0,1,236]]
+	frame_2_557.x = 204
+	frame_2_557.y = 236
+	frame_2_557.fills = []
+	frame_2_557.strokeTopWeight = 1
+	frame_2_557.strokeBottomWeight = 1
+	frame_2_557.strokeLeftWeight = 1
+	frame_2_557.strokeRightWeight = 1
+	frame_2_557.clipsContent = false
+	frame_2_557.expanded = false
+	frame_2_557.layoutMode = "VERTICAL"
+	frame_2_557.counterAxisSizingMode = "AUTO"
+	frame_2_557.itemSpacing = 6
 	
 
 	// Create TEXT
-	var text_7_317 = figma.createText()
-	component_7_316.appendChild(text_7_317)
-	text_7_317.resize(36.0000000000, 20.0000000000)
-	text_7_317.name = "Email"
-	text_7_317.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
+	var text_2_558 = figma.createText()
+	frame_2_557.appendChild(text_2_558)
+	text_2_558.resize(36.0000000000, 20.0000000000)
+	text_2_558.name = "Email"
+	text_2_558.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
+	text_2_558.autoRename = false
 	
 	// Font properties
-	text_7_317.fontName = {
+	text_2_558.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_7_317.characters = "Email"
-	text_7_317.fontSize = 14
-	text_7_317.listSpacing = 0
-	text_7_317.lineHeight = {"unit":"PIXELS","value":20}
-	text_7_317.fontName = {"family":"Inter","style":"Medium"}
-	text_7_317.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_2_558.characters = "Email"
+	text_2_558.fontSize = 14
+	text_2_558.listSpacing = 0
+	text_2_558.lineHeight = {"unit":"PIXELS","value":20}
+	text_2_558.fontName = {"family":"Inter","style":"Medium"}
+	text_2_558.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create FRAME
-	var frame_7_318 = figma.createFrame()
-	component_7_316.appendChild(frame_7_318)
-	frame_7_318.resize(384.0000000000, 40.0000000000)
-	frame_7_318.counterAxisSizingMode = "AUTO"
-	frame_7_318.name = "input/with button"
-	frame_7_318.relativeTransform = [[1,0,0],[0,1,26]]
-	frame_7_318.y = 26
-	frame_7_318.fills = []
-	frame_7_318.primaryAxisSizingMode = "FIXED"
-	frame_7_318.strokeTopWeight = 1
-	frame_7_318.strokeBottomWeight = 1
-	frame_7_318.strokeLeftWeight = 1
-	frame_7_318.strokeRightWeight = 1
-	frame_7_318.clipsContent = false
-	frame_7_318.expanded = false
-	frame_7_318.layoutMode = "HORIZONTAL"
-	frame_7_318.counterAxisSizingMode = "AUTO"
-	frame_7_318.itemSpacing = 8
+	var frame_2_559 = figma.createFrame()
+	frame_2_557.appendChild(frame_2_559)
+	frame_2_559.resize(384.0000000000, 31.0000000000)
+	frame_2_559.counterAxisSizingMode = "AUTO"
+	frame_2_559.name = "input/with button"
+	frame_2_559.relativeTransform = [[1,0,0],[0,1,26]]
+	frame_2_559.y = 26
+	frame_2_559.fills = []
+	frame_2_559.primaryAxisSizingMode = "FIXED"
+	frame_2_559.strokeTopWeight = 1
+	frame_2_559.strokeBottomWeight = 1
+	frame_2_559.strokeLeftWeight = 1
+	frame_2_559.strokeRightWeight = 1
+	frame_2_559.clipsContent = false
+	frame_2_559.expanded = false
+	frame_2_559.layoutMode = "HORIZONTAL"
+	frame_2_559.counterAxisSizingMode = "AUTO"
+	frame_2_559.itemSpacing = 8
 	
 
 	// Create FRAME
-	var frame_7_319 = figma.createFrame()
-	frame_7_318.appendChild(frame_7_319)
-	frame_7_319.resize(276.0000000000, 40.0000000000)
-	frame_7_319.primaryAxisSizingMode = "AUTO"
-	frame_7_319.name = "default"
-	frame_7_319.layoutGrow = 1
-	frame_7_319.fills = []
-	frame_7_319.strokeTopWeight = 1
-	frame_7_319.strokeBottomWeight = 1
-	frame_7_319.strokeLeftWeight = 1
-	frame_7_319.strokeRightWeight = 1
-	frame_7_319.clipsContent = false
-	frame_7_319.expanded = false
-	frame_7_319.layoutMode = "VERTICAL"
-	frame_7_319.itemSpacing = 6
+	var frame_2_560 = figma.createFrame()
+	frame_2_559.appendChild(frame_2_560)
+	frame_2_560.resize(286.0000000000, 31.0000000000)
+	frame_2_560.primaryAxisSizingMode = "AUTO"
+	frame_2_560.name = "default"
+	frame_2_560.layoutGrow = 1
+	frame_2_560.fills = []
+	frame_2_560.strokeTopWeight = 1
+	frame_2_560.strokeBottomWeight = 1
+	frame_2_560.strokeLeftWeight = 1
+	frame_2_560.strokeRightWeight = 1
+	frame_2_560.clipsContent = false
+	frame_2_560.expanded = false
+	frame_2_560.layoutMode = "VERTICAL"
+	frame_2_560.itemSpacing = 6
 	
 
 	// Create FRAME
-	var frame_7_320 = figma.createFrame()
-	frame_7_319.appendChild(frame_7_320)
-	frame_7_320.resize(276.0000000000, 40.0000000000)
-	frame_7_320.counterAxisSizingMode = "AUTO"
-	frame_7_320.name = "field"
-	frame_7_320.layoutAlign = "STRETCH"
-	frame_7_320.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	frame_7_320.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.7960784435272217,"g":0.8352941274642944,"b":0.8823529481887817},"boundVariables":{}}]
-	frame_7_320.strokeAlign = "OUTSIDE"
-	frame_7_320.cornerRadius = 6
-	frame_7_320.paddingLeft = 12
-	frame_7_320.paddingRight = 56
-	frame_7_320.paddingTop = 8
-	frame_7_320.paddingBottom = 8
-	frame_7_320.counterAxisAlignItems = "CENTER"
-	frame_7_320.primaryAxisSizingMode = "FIXED"
-	frame_7_320.strokeTopWeight = 1
-	frame_7_320.strokeBottomWeight = 1
-	frame_7_320.strokeLeftWeight = 1
-	frame_7_320.strokeRightWeight = 1
-	frame_7_320.clipsContent = false
-	frame_7_320.expanded = false
-	frame_7_320.layoutMode = "HORIZONTAL"
-	frame_7_320.counterAxisSizingMode = "AUTO"
+	var frame_2_561 = figma.createFrame()
+	frame_2_560.appendChild(frame_2_561)
+	frame_2_561.resize(286.0000000000, 31.0000000000)
+	frame_2_561.counterAxisSizingMode = "AUTO"
+	frame_2_561.name = "field"
+	frame_2_561.layoutAlign = "STRETCH"
+	frame_2_561.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	frame_2_561.strokes = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.7960784435272217,"g":0.8352941274642944,"b":0.8823529481887817},"boundVariables":{}}]
+	frame_2_561.strokeAlign = "OUTSIDE"
+	frame_2_561.cornerRadius = 6
+	frame_2_561.paddingLeft = 12
+	frame_2_561.paddingRight = 56
+	frame_2_561.paddingTop = 8
+	frame_2_561.paddingBottom = 8
+	frame_2_561.counterAxisAlignItems = "CENTER"
+	frame_2_561.primaryAxisSizingMode = "FIXED"
+	frame_2_561.strokeTopWeight = 1
+	frame_2_561.strokeBottomWeight = 1
+	frame_2_561.strokeLeftWeight = 1
+	frame_2_561.strokeRightWeight = 1
+	frame_2_561.clipsContent = false
+	frame_2_561.expanded = false
+	frame_2_561.layoutMode = "HORIZONTAL"
+	frame_2_561.counterAxisSizingMode = "AUTO"
 	
 
 	// Create TEXT
-	var text_7_321 = figma.createText()
-	frame_7_320.appendChild(text_7_321)
-	text_7_321.fillStyleId = slate_400_a845.id
-	text_7_321.resize(41.0000000000, 24.0000000000)
-	text_7_321.name = "Email"
-	text_7_321.relativeTransform = [[1,0,12],[0,1,8]]
-	text_7_321.x = 12
-	text_7_321.y = 8
+	var text_2_562 = figma.createText()
+	frame_2_561.appendChild(text_2_562)
+	text_2_562.fillStyleId = slate_400_e594.id
+	text_2_562.resize(31.0000000000, 15.0000000000)
+	text_2_562.name = "Email"
+	text_2_562.relativeTransform = [[1,0,12],[0,1,8]]
+	text_2_562.x = 12
+	text_2_562.y = 8
+	text_2_562.autoRename = false
 	
 	// Font properties
-	text_7_321.fontName = {
+	text_2_562.fontName = {
 		family: "Inter",
 		style: "Regular"
 	}
-		text_7_321.characters = "Email"
-	text_7_321.listSpacing = 0
-	text_7_321.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_2_562.characters = "Email"
+	text_2_562.listSpacing = 0
+	text_2_562.fontName = {"family":"Inter","style":"Regular"}
+	text_2_562.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create FRAME
-	var frame_7_322 = figma.createFrame()
-	frame_7_318.appendChild(frame_7_322)
-	frame_7_322.resize(100.0000000000, 40.0000000000)
-	frame_7_322.primaryAxisSizingMode = "AUTO"
-	frame_7_322.counterAxisSizingMode = "AUTO"
-	frame_7_322.name = "button"
-	frame_7_322.relativeTransform = [[1,0,284],[0,1,0]]
-	frame_7_322.x = 284
-	frame_7_322.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
-	frame_7_322.cornerRadius = 6
-	frame_7_322.paddingLeft = 16
-	frame_7_322.paddingRight = 16
-	frame_7_322.paddingTop = 8
-	frame_7_322.paddingBottom = 8
-	frame_7_322.primaryAxisAlignItems = "CENTER"
-	frame_7_322.counterAxisAlignItems = "CENTER"
-	frame_7_322.strokeTopWeight = 1
-	frame_7_322.strokeBottomWeight = 1
-	frame_7_322.strokeLeftWeight = 1
-	frame_7_322.strokeRightWeight = 1
-	frame_7_322.clipsContent = false
-	frame_7_322.expanded = false
-	frame_7_322.layoutMode = "HORIZONTAL"
-	frame_7_322.counterAxisSizingMode = "AUTO"
-	frame_7_322.itemSpacing = 10
+	var frame_2_563 = figma.createFrame()
+	frame_2_559.appendChild(frame_2_563)
+	frame_2_563.resize(90.0000000000, 31.0000000000)
+	frame_2_563.primaryAxisSizingMode = "AUTO"
+	frame_2_563.counterAxisSizingMode = "AUTO"
+	frame_2_563.name = "button"
+	frame_2_563.relativeTransform = [[1,0,294],[0,1,0]]
+	frame_2_563.x = 294
+	frame_2_563.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":0.05882352963089943,"g":0.09019608050584793,"b":0.16470588743686676},"boundVariables":{}}]
+	frame_2_563.cornerRadius = 6
+	frame_2_563.paddingLeft = 16
+	frame_2_563.paddingRight = 16
+	frame_2_563.paddingTop = 8
+	frame_2_563.paddingBottom = 8
+	frame_2_563.primaryAxisAlignItems = "CENTER"
+	frame_2_563.counterAxisAlignItems = "CENTER"
+	frame_2_563.strokeTopWeight = 1
+	frame_2_563.strokeBottomWeight = 1
+	frame_2_563.strokeLeftWeight = 1
+	frame_2_563.strokeRightWeight = 1
+	frame_2_563.clipsContent = false
+	frame_2_563.expanded = false
+	frame_2_563.layoutMode = "HORIZONTAL"
+	frame_2_563.counterAxisSizingMode = "AUTO"
+	frame_2_563.itemSpacing = 10
 	
 
 	// Create TEXT
-	var text_7_323 = figma.createText()
-	frame_7_322.appendChild(text_7_323)
-	text_7_323.resize(68.0000000000, 24.0000000000)
-	text_7_323.name = "Continue"
-	text_7_323.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
-	text_7_323.relativeTransform = [[1,0,16],[0,1,8]]
-	text_7_323.x = 16
-	text_7_323.y = 8
+	var text_2_564 = figma.createText()
+	frame_2_563.appendChild(text_2_564)
+	text_2_564.resize(58.0000000000, 15.0000000000)
+	text_2_564.name = "Continue"
+	text_2_564.fills = [{"type":"SOLID","visible":true,"opacity":1,"blendMode":"NORMAL","color":{"r":1,"g":1,"b":1},"boundVariables":{}}]
+	text_2_564.relativeTransform = [[1,0,16],[0,1,8]]
+	text_2_564.x = 16
+	text_2_564.y = 8
+	text_2_564.autoRename = false
 	
 	// Font properties
-	text_7_323.fontName = {
+	text_2_564.fontName = {
 		family: "Inter",
 		style: "Medium"
 	}
-		text_7_323.characters = "Subscribe"
-	text_7_323.listSpacing = 0
-	text_7_323.textAutoResize = "WIDTH_AND_HEIGHT"
+		text_2_564.characters = "Subscribe"
+	text_2_564.listSpacing = 0
+	text_2_564.fontName = {"family":"Inter","style":"Medium"}
+	text_2_564.textAutoResize = "WIDTH_AND_HEIGHT"
 
 
 	// Create TEXT
-	var text_7_324 = figma.createText()
-	component_7_316.appendChild(text_7_324)
-	text_7_324.fillStyleId = slate_500_8775.id
-	text_7_324.resize(164.0000000000, 20.0000000000)
-	text_7_324.name = "Enter your email address"
-	text_7_324.relativeTransform = [[1,0,0],[0,1,72]]
-	text_7_324.y = 72
+	var text_2_565 = figma.createText()
+	frame_2_557.appendChild(text_2_565)
+	text_2_565.fillStyleId = slate_500_547b.id
+	text_2_565.resize(141.0000000000, 15.0000000000)
+	text_2_565.name = "Enter your email address"
+	text_2_565.relativeTransform = [[1,0,0],[0,1,63]]
+	text_2_565.y = 63
+	text_2_565.autoRename = false
 	
 	// Font properties
-	text_7_324.fontName = {
+	text_2_565.fontName = {
 		family: "Inter",
 		style: "Regular"
 	}
-		text_7_324.characters = "Enter your email address"
-	text_7_324.listSpacing = 0
-	text_7_324.textAutoResize = "WIDTH_AND_HEIGHT"
-
-
-	// Create INSTANCE
-	var instance_7_436 = component_7_316.createInstance()
-	frame_7_427.appendChild(instance_7_436)
-	instance_7_436.name = "input"
-	instance_7_436.relativeTransform = [[1,0,204],[0,1,236]]
-	instance_7_436.x = 204
-	instance_7_436.y = 236
-	
-
-				// Swap COMPONENT
-				instance_7_436.swapComponent(component_7_316)
-
-	// Ref to SUB NODE
-	var text_I7_436_2_270 = figma.getNodeById("I" + instance_7_436.id + ";" + text_7_317.id)
-	
-	// Ref to SUB NODE
-	var frame_I7_436_6_262 = figma.getNodeById("I" + instance_7_436.id + ";" + frame_7_318.id)
-	
-	// Ref to SUB NODE
-	var frame_I7_436_6_263 = figma.getNodeById("I" + instance_7_436.id + ";" + frame_7_319.id)
-	
-	// Ref to SUB NODE
-	var frame_I7_436_6_264 = figma.getNodeById("I" + instance_7_436.id + ";" + frame_7_320.id)
-	
-	// Ref to SUB NODE
-	var text_I7_436_6_265 = figma.getNodeById("I" + instance_7_436.id + ";" + text_7_321.id)
-	
-	// Ref to SUB NODE
-	var frame_I7_436_6_268 = figma.getNodeById("I" + instance_7_436.id + ";" + frame_7_322.id)
-	
-	// Ref to SUB NODE
-	var text_I7_436_6_269 = figma.getNodeById("I" + instance_7_436.id + ";" + text_7_323.id)
-	
-	// Ref to SUB NODE
-	var text_I7_436_2_273 = figma.getNodeById("I" + instance_7_436.id + ";" + text_7_324.id)
-	
+		text_2_565.characters = "Enter your email address"
+	text_2_565.listSpacing = 0
+	text_2_565.fontName = {"family":"Inter","style":"Regular"}
+	text_2_565.textAutoResize = "WIDTH_AND_HEIGHT"
 }
 
 main()
