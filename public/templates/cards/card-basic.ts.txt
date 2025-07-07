@@ -1,70 +1,20 @@
 async function main() {
-  // Create FRAME
-  const frame_1_2 = figma.createFrame();
-  figma.currentPage.appendChild(frame_1_2);
-  frame_1_2.resize(595, 595);
-  frame_1_2.primaryAxisSizingMode = "AUTO";
-  frame_1_2.name = "Insole_3_view_1 1 1";
-  frame_1_2.relativeTransform = [[1, 0, -150], [0, 1, -122]];
-  frame_1_2.x = -150;
-  frame_1_2.y = -122;
-  frame_1_2.fills = [{ type: "SOLID", visible: false, opacity: 1, blendMode: "NORMAL", color: { r: 1, g: 1, b: 1 }, boundVariables: {} }];
-  frame_1_2.strokeTopWeight = 1;
-  frame_1_2.strokeBottomWeight = 1;
-  frame_1_2.strokeLeftWeight = 1;
-  frame_1_2.strokeRightWeight = 1;
 
-  // Create VECTOR
-  const vector_1_3 = figma.createVector();
-  frame_1_2.appendChild(vector_1_3);
-  vector_1_3.resize(595, 595);
-  
-  // URL da imagem
-  const imageUrl = "https://adjust-form-88601821.figma.site/_assets/v10/2c442eba75b7af048dddded262ee21170f446307.png?h=2560"; // Exemplo de URL
 
-  // Buscar a imagem da URL
-  const response = await fetch(imageUrl);
-  if (!response.ok) {
-    console.error("Erro ao carregar a imagem.");
-    return;
-  }
-  
-  const imageBuffer = await response.arrayBuffer();
-  const imageBytes = new Uint8Array(imageBuffer);
-  
-  // Criar a imagem no Figma a partir do conteúdo da URL
-  const image = figma.createImage(imageBytes);
-  
-  // Aplicar a imagem no vector
-  vector_1_3.fills = [{
-    type: "IMAGE",
-    imageHash: image.hash,  // Usando o hash gerado automaticamente
-    scaleMode: "CROP",
-    visible: true,
-    opacity: 1,
-    blendMode: "NORMAL",
-    imageTransform: [[1, 0, 0], [0, 1, 0]],
-    scalingFactor: 0.5,
-    rotation: 0,
-    filters: {
-      exposure: 0,
-      contrast: 0,
-      saturation: 0,
-      temperature: 0,
-      tint: 0,
-      highlights: 0,
-      shadows: 0
-    }
-  }];
-
-  vector_1_3.relativeTransform = [[1, 0, 223], [0, 1, 29]];
-  vector_1_3.x = 223;
-  vector_1_3.y = 29;
-  vector_1_3.constrainProportions = true;
-  vector_1_3.strokeTopWeight = 1;
-  vector_1_3.strokeBottomWeight = 1;
-  vector_1_3.strokeLeftWeight = 1;
-  vector_1_3.strokeRightWeight = 1;
+	// Create RECTANGLE
+	var rectangle_4_4 = figma.createRectangle()
+	figma.currentPage.appendChild(rectangle_4_4)
+	rectangle_4_4.resize(497.0000000000, 749.0000000000)
+	rectangle_4_4.name = "Unsplash Image"
+	rectangle_4_4.fills = [{"type":"IMAGE","visible":true,"opacity":1,"blendMode":"NORMAL","scaleMode":"FILL","imageTransform":[[1,0,0],[0,1,0]],"scalingFactor":0.5,"rotation":0,"filters":{"exposure":0,"contrast":0,"saturation":0,"temperature":0,"tint":0,"highlights":0,"shadows":0},"imageHash":"a6a74630c15473f90c000e0ff06c45fe0d20d115"}]
+	rectangle_4_4.relativeTransform = [[1,0,1830],[0,1,-141]]
+	rectangle_4_4.x = 1830
+	rectangle_4_4.y = -141
+	rectangle_4_4.strokeTopWeight = 1
+	rectangle_4_4.strokeBottomWeight = 1
+	rectangle_4_4.strokeLeftWeight = 1
+	rectangle_4_4.strokeRightWeight = 1
+	
 }
 
-main();
+main()
